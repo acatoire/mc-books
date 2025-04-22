@@ -1,0 +1,130 @@
+title:
+  en: Black Bear
+  fr: Ours Noir
+
+last_updated:
+  en: April 22, 2025 8:47 PM
+  fr: 22 avril 2025 20h47
+
+return_link:
+  en: Naturalist Add-On Wiki
+  fr: Wiki de l'extension Naturalist
+return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
+
+description:
+  en: Black bears have a very good sense of smell which helps them find food sources within dense forests. They will eat large amounts of food in preparation for hibernation during the winter season where they live in caves and survive based on stored body fat. Mother bears will wake up during hibernation to take care of their cubs. These bears can run up to 30 miles per hour, so keep your distance if you're ever near one!
+  fr: Les ours noirs ont un excellent odorat qui les aide à trouver des sources de nourriture dans les forêts denses. Ils mangent de grandes quantités de nourriture en préparation pour l'hibernation pendant la saison hivernale où ils vivent dans des grottes et survivent grâce aux réserves de graisse corporelle. Les ourses se réveillent pendant l'hibernation pour s'occuper de leurs oursons. Ces ours peuvent courir jusqu'à 48 kilomètres par heure, alors gardez vos distances si vous en croisez un !
+
+stats:
+  health: 30
+  classification:
+    en: Animal
+    fr: Animal
+  classification_urls:
+    animal: /minecraft.fandom.com/wiki/Animal
+  behavior:
+    en: Neutral
+    fr: Neutre
+  spawn:
+    en: Forest, Flower Forest, Taiga, Mega Taiga, & Grove
+    fr: Forêt, Forêt fleurie, Taïga, Méga Taïga, et Bosquet
+  spawn_url:
+    forest: /minecraft.wiki/w/Forest
+    flower_forest: /minecraft.wiki/w/Flower_Forest
+    taiga: /minecraft.wiki/w/Taiga
+    mega_taiga: /minecraft.wiki/w/Old_Growth_Pine_Taiga
+    grove: /minecraft.wiki/w/Grove
+
+images:
+  main: black_bear2.gif
+  items:
+    - fur.png
+  gallery:
+    - black_bear2.gif
+    - bear_family.png
+    - bear_napping.png
+    - bears_eating_honey.png
+
+spawning:
+  title:
+    en: Spawning
+    fr: Apparition
+  description:
+    en: A group of 1-2 black bears will spawn in the forest, flower forest, taiga, mega taiga, and grove biomes. They will spawn in the daytime with light levels between 7-15. Make sure to check near berry bushes that grow on grass, as you might find a black bear nearby!
+    fr: Un groupe de 1 à 2 ours noirs apparaîtra dans les biomes de forêt, forêt fleurie, taïga, méga taïga et bosquet. Ils apparaissent pendant la journée avec des niveaux de lumière entre 7 et 15. N'oubliez pas de vérifier près des buissons de baies qui poussent sur l'herbe, car vous pourriez y trouver un ours noir !
+
+drops:
+  title:
+    en: Drops
+    fr: Butin
+  description:
+    en: Adult black bear drops upon death
+    fr: L'ours noir adulte laisse tomber à sa mort
+  items:
+    - name:
+        en: Fur
+        fr: Fourrure
+      amount: 1-2
+      looting: true
+      condition:
+        en: Maximum amount increased by 1 per level of Looting, for a maximum of 1-4 with Looting III
+        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 1-4 avec Butin III
+    - name:
+        en: Experience Orbs
+        fr: Orbes d'expérience
+      amount: 1-3
+      condition:
+        en: if killed by Player
+        fr: si tué par un joueur
+    - name:
+        en: Experience Orbs
+        fr: Orbes d'expérience
+      amount: 1-7
+      condition:
+        en: upon breeding
+        fr: lors de la reproduction
+  note:
+    en: Cubs yield no items nor experience
+    fr: Les oursons ne donnent ni objets ni expérience
+
+behavior:
+  title:
+    en: Behavior
+    fr: Comportement
+  description:
+    en: Black bears can exist in a passive or hostile state. The cubs are passive; adults are hostile when provoked with cubs (unless killed in one hit). If a cub is attacked, unless killed in one hit, all adults within the area become hostile toward the player or mob, regardless of difficulty. Players are not a black bear's only target, they will occasionally attack salmon, cod, bass, and deer. They are animals that roam forests in search of food sources. You will spot them pulling berries off berry bushes and munching on honeycomb from nearby bee hives. When eating, they will sit down and chew on the food while it's in their hand. Some items will give the bear special textures, like jelly on their paws while eating sweet berries or honey while eating honeycombs. Bears sleep between the ticks of 6000-12000 and 18000-23000. While sleeping, they snore similar to foxes. If hit while sleeping, they will wake up in an aggressive state and will go back to sleep once they either kill their target or lose sight of them.
+    fr: Les ours noirs peuvent être passifs ou hostiles. Les oursons sont passifs ; les adultes deviennent hostiles quand ils sont provoqués avec leurs oursons (sauf s'ils sont tués en un coup). Si un ourson est attaqué, à moins qu'il ne soit tué en un coup, tous les adultes dans la zone deviennent hostiles envers le joueur ou le mob, quelle que soit la difficulté. Les joueurs ne sont pas la seule cible des ours noirs, ils attaquent occasionnellement les saumons, les morues, les bars et les cerfs. Ce sont des animaux qui parcourent les forêts à la recherche de nourriture. Vous les verrez cueillir des baies sur les buissons et manger du rayon de miel des ruches voisines. En mangeant, ils s'assoient et mâchent la nourriture qu'ils tiennent dans leur patte. Certains aliments donnent à l'ours des textures spéciales, comme de la confiture sur leurs pattes en mangeant des baies sucrées ou du miel en mangeant des rayons de miel. Les ours dorment entre les ticks 6000-12000 et 18000-23000. En dormant, ils ronflent comme les renards. Si on les frappe pendant leur sommeil, ils se réveillent dans un état agressif et retournent dormir une fois qu'ils ont soit tué leur cible, soit perdu sa trace.
+
+breeding:
+  title:
+    en: Breeding
+    fr: Reproduction
+  description:
+    en: Adult black bears with full health can be bred with honeycomb, sweet berries, raw salmon, cooked salmon, and raw venison. There is a 5-minute cooldown for breeding, during which the black bear will not accept any items for breeding.
+    fr: Les ours noirs adultes en pleine santé peuvent se reproduire avec du rayon de miel, des baies sucrées, du saumon cru, du saumon cuit et du cerf cru. Il y a un temps de recharge de 5 minutes pour la reproduction, pendant lequel l'ours noir n'acceptera aucun objet pour se reproduire.
+  growth:
+    en: The growth of cubs can be slowly accelerated by feeding them honeycomb, sweet berries, raw salmon, cooked salmon, and raw venison. You will need to be careful, though, as soon as a cub is spawned, the adults will immediately become hostile.
+    fr: La croissance des oursons peut être lentement accélérée en leur donnant du rayon de miel, des baies sucrées, du saumon cru, du saumon cuit et du cerf cru. Vous devrez être prudent, car dès qu'un ourson apparaît, les adultes deviennent immédiatement hostiles.
+
+gallery:
+  title:
+    en: Gallery
+    fr: Galerie
+
+community:
+  title:
+    en: Have additional questions? Want to be a part of our community?
+    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté ?
+  join:
+    en: Join our Discord!
+    fr: Rejoignez notre Discord !
+  discord_url: /discord.com/invite/starfishstudios
+
+social_links:
+  marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
+  curseforge: /www.curseforge.com/members/starfish_studios/projects
+  tiktok: /www.tiktok.com/@starfishstudios
+  instagram: /www.instagram.com/starfishstudiosinc/
+  twitter: /twitter.com/starfishstudios
+  youtube: /www.youtube.com/@starfishstudios
+  website: /starfish-studios.com/ 
