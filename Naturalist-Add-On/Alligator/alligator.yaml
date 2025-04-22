@@ -1,0 +1,127 @@
+title:
+  en: Alligator
+  fr: Alligator
+
+last_updated:
+  en: April 22, 2025 8:47 PM
+  fr: 22 avril 2025 20h47
+
+return_link:
+  en: Naturalist Add-On Wiki
+  fr: Wiki de l'extension Naturalist
+return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
+
+description:
+  en: The alligator is a large, semi-aquatic carnivorous reptile found in swamps and other swamp-like biomes. It is a predator of other swamp animals.
+  fr: L'alligator est un grand reptile carnivore semi-aquatique que l'on trouve dans les marais et autres biomes similaires aux marais. C'est un prédateur d'autres animaux des marais.
+
+stats:
+  health: 40
+  classification:
+    en: Animal / Aquatic
+    fr: Animal / Aquatique
+  classification_urls:
+    animal: /minecraft.fandom.com/wiki/Animal
+    aquatic: /minecraft.fandom.com/wiki/Aquatic
+  behavior:
+    en: Neutral
+    fr: Neutre
+  spawn:
+    en: Swamps & Variants
+    fr: Marais et variantes
+  spawn_url: /minecraft.fandom.com/wiki/Swamp
+
+images:
+  small_alligator: Small_Alligator.gif
+  egg: alligator_egg.png
+  tooth: tooth.png
+  gallery:
+    - Small_Alligator.gif
+    - alligator_egg.png
+    - tooth.png
+    - image.png
+    - image_(1).png
+
+spawning:
+  title:
+    en: Spawning
+    fr: Apparition
+  description:
+    en: Alligators spawn in groups of 1-2 in the swamp and mangrove swamp biomes. They will spawn if there are grass blocks, mud, mangrove roots, and muddy mangrove roots.
+    fr: Les alligators apparaissent en groupes de 1 à 2 dans les biomes de marais et de marais de mangroves. Ils apparaîtront s'il y a des blocs d'herbe, de la boue, des racines de mangroves et des racines de mangroves boueuses.
+
+drops:
+  title:
+    en: Drops
+    fr: Butin
+  description:
+    en: Adult alligator drops upon death
+    fr: L'alligator adulte laisse tomber à sa mort
+  items:
+    - name:
+        en: Tooth
+        fr: Dents
+      amount: 1-3
+      looting: true
+    - name:
+        en: Experience Orbs
+        fr: Orbes d'expérience
+      amount: 1-3
+      condition:
+        en: if killed by Player or Tamed Wolf
+        fr: si tué par un joueur ou un loup apprivoisé
+    - name:
+        en: Experience Orbs
+        fr: Orbes d'expérience
+      amount: 1-7
+      condition:
+        en: upon breeding
+        fr: lors de la reproduction
+  note:
+    en: Hatchlings yield no items nor experience.
+    fr: Les bébés ne donnent ni objets ni expérience.
+
+behavior:
+  title:
+    en: Behavior
+    fr: Comportement
+  description:
+    en: Alligators can exist in a passive or hostile state. The hatchlings are passive; adults are hostile when you are near alligator eggs or provoked (unless they're killed in one hit).
+    fr: Les alligators peuvent être passifs ou hostiles. Les bébés sont passifs ; les adultes deviennent hostiles lorsque vous êtes près des œufs d'alligator ou provoqués (sauf s'ils sont tués en un coup).
+  prey:
+    en: pigs, cows, sheep, deer, and catfish
+    fr: cochons, vaches, moutons, cerfs et poissons-chats
+
+breeding:
+  title:
+    en: Breeding
+    fr: Reproduction
+  description:
+    en: Adult alligators with full health can be bred with raw beef, raw porkchops, raw chicken, and raw rabbit, raw venison, and raw catfish. There is a 5-minute cooldown for breeding, during which the alligators do not accept raw meat for breeding.
+    fr: Les alligators adultes en pleine santé peuvent se reproduire avec du bœuf cru, des côtelettes de porc crues, du poulet cru, du lapin cru, du cerf cru et du poisson-chat cru. Il y a un temps de recharge de 5 minutes pour la reproduction, pendant lequel les alligators n'acceptent pas de viande crue pour se reproduire.
+  egg_behavior:
+    en: Upon successful breeding, one alligator will find sand, grass, dirt, or mud to lay their egg on. If in survival mode, the egg can be broken with 1 hit, and it will drop as an item. Once the egg is placed in the world, the egg hatch timer will restart. There are visuals for the egg hatching, and a cracking sound will be emitted when the egg hatches and a hatchling appears.
+    fr: Après une reproduction réussie, un alligator trouvera du sable, de l'herbe, de la terre ou de la boue pour y pondre son œuf. Si en mode survie, l'œuf peut être cassé en un coup, et il tombera comme un objet. Une fois l'œuf placé dans le monde, le minuteur d'éclosion de l'œuf redémarrera. Il y a des visuels pour l'éclosion de l'œuf, et un son de craquement sera émis lorsque l'œuf éclot et qu'un bébé apparaît.
+
+gallery:
+  title:
+    en: Gallery
+    fr: Galerie
+
+community:
+  title:
+    en: Have additional questions? Want to be a part of our community?
+    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté ?
+  join:
+    en: Join our Discord!
+    fr: Rejoignez notre Discord !
+  discord_url: /discord.com/invite/starfishstudios
+
+social_links:
+  marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
+  curseforge: /www.curseforge.com/members/starfish_studios/projects
+  tiktok: /www.tiktok.com/@starfishstudios
+  instagram: /www.instagram.com/starfishstudiosinc/
+  twitter: /twitter.com/starfishstudios
+  youtube: /www.youtube.com/@starfishstudios
+  website: /starfish-studios.com/ 

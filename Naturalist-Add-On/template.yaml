@@ -1,0 +1,120 @@
+# Template for Naturalist Add-On animal documentation
+# Replace all values with appropriate content for each animal
+
+title:
+  en: Animal Name
+  fr: Nom de l'animal
+
+last_updated:
+  en: Month Day, Year Time
+  fr: Jour Mois, Année Heure
+
+return_link:
+  en: Naturalist Add-On Wiki
+  fr: Wiki de l'extension Naturalist
+return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
+
+description:
+  en: Description of the animal in English
+  fr: Description de l'animal en français
+
+stats:
+  health: 0  # Health points
+  classification:
+    en: Category1 / Category2
+    fr: Catégorie1 / Catégorie2
+  classification_urls:
+    category1: /minecraft.fandom.com/wiki/Category1
+    category2: /minecraft.fandom.com/wiki/Category2
+  behavior:
+    en: Behavior Type
+    fr: Type de comportement
+  spawn:
+    en: Spawn Location
+    fr: Lieu d'apparition
+  spawn_url: /minecraft.fandom.com/wiki/SpawnLocation
+
+images:
+  main: main_image.gif  # Main animated image
+  items:  # Item images
+    - item1.png
+    - item2.png
+  gallery:  # Gallery images
+    - main_image.gif
+    - item1.png
+    - item2.png
+    - image1.png
+    - image2.png
+
+spawning:
+  title:
+    en: Spawning
+    fr: Apparition
+  description:
+    en: Description of spawning conditions and locations
+    fr: Description des conditions et lieux d'apparition
+
+drops:
+  title:
+    en: Drops
+    fr: Butin
+  description:
+    en: Description of drops
+    fr: Description du butin
+  items:
+    - name:
+        en: Item Name
+        fr: Nom de l'objet
+      amount: 1-3
+      looting: true  # Set to false if not affected by looting
+      condition:  # Optional condition for drops
+        en: Condition description
+        fr: Description de la condition
+  note:  # Optional note about drops
+    en: Additional information about drops
+    fr: Informations supplémentaires sur le butin
+
+behavior:
+  title:
+    en: Behavior
+    fr: Comportement
+  description:
+    en: Description of animal behavior
+    fr: Description du comportement de l'animal
+  prey:  # Optional list of prey
+    en: prey1, prey2, prey3
+    fr: proie1, proie2, proie3
+
+breeding:
+  title:
+    en: Breeding
+    fr: Reproduction
+  description:
+    en: Description of breeding conditions and requirements
+    fr: Description des conditions et exigences de reproduction
+  egg_behavior:  # Only if the animal lays eggs
+    en: Description of egg behavior
+    fr: Description du comportement des œufs
+
+gallery:
+  title:
+    en: Gallery
+    fr: Galerie
+
+community:
+  title:
+    en: Have additional questions? Want to be a part of our community?
+    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté ?
+  join:
+    en: Join our Discord!
+    fr: Rejoignez notre Discord !
+  discord_url: /discord.com/invite/starfishstudios
+
+social_links:
+  marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
+  curseforge: /www.curseforge.com/members/starfish_studios/projects
+  tiktok: /www.tiktok.com/@starfishstudios
+  instagram: /www.instagram.com/starfishstudiosinc/
+  twitter: /twitter.com/starfishstudios
+  youtube: /www.youtube.com/@starfishstudios
+  website: /starfish-studios.com/ 
