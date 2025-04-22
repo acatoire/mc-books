@@ -6,7 +6,7 @@ Last Updated: April 22, 2025 8:47 PM
 
 **Return**
 
-🐻 [Naturalist Add-On Wiki](https://www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21)
+🐻 [Naturalist Add-On Wiki](/www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21)
 
 ---
 
@@ -16,7 +16,7 @@ Piranhas are native to South American rivers, and their name quite literally mea
 
 ### **Piranha**
 
-![piranha.gif](Piranha%201dd816019a9f81b49374de55a530b663/piranha.gif)
+![piranha.gif](piranha.gif)
 
 ---
 
@@ -24,7 +24,7 @@ Piranhas are native to South American rivers, and their name quite literally mea
 
 ---
 
-**Classification:** [Animal](https://minecraft.fandom.com/wiki/Animal) / [Aquatic](https://minecraft.fandom.com/wiki/Aquatic)
+**Classification:** [Animal](/minecraft.fandom.com/wiki/Animal) / [Aquatic](/minecraft.fandom.com/wiki/Aquatic)
 
 ---
 
@@ -32,15 +32,15 @@ Piranhas are native to South American rivers, and their name quite literally mea
 
 ---
 
-**Spawn:** [Jungle](https://minecraft.wiki/w/Jungle) & [Lush Caves](https://minecraft.wiki/w/Lush_Caves)
+**Spawn:** [Jungle](/minecraft.wiki/w/Jungle) & [Lush Caves](/minecraft.wiki/w/Lush_Caves)
 
 ---
 
-![bucket_piranha.png](Piranha%201dd816019a9f81b49374de55a530b663/bucket_piranha.png)
+![bucket_piranha.png](bucket_piranha.png)
 
-![piranha_raw.png](Piranha%201dd816019a9f81b49374de55a530b663/piranha_raw.png)
+![piranha_raw.png](piranha_raw.png)
 
-![piranha_cooked.png](Piranha%201dd816019a9f81b49374de55a530b663/piranha_cooked.png)
+![piranha_cooked.png](piranha_cooked.png)
 
 </aside>
 
@@ -48,19 +48,19 @@ Piranhas are native to South American rivers, and their name quite literally mea
 
 ### 🌎 Spawning
 
-A shoal of 3-8 piranhas will spawn in the [jungle](https://minecraft.wiki/w/Jungle) and [lush cave](https://minecraft.wiki/w/Lush_Caves) biomes. They will be found in the [water](https://minecraft.wiki/w/Water) of these biomes and spawn between Y coordinates Y -64 and Y 64.
+A shoal of 3-8 piranhas will spawn in the [jungle](/minecraft.wiki/w/Jungle) and [lush cave](/minecraft.wiki/w/Lush_Caves) biomes. They will be found in the [water](/minecraft.wiki/w/Water) of these biomes and spawn between Y coordinates Y -64 and Y 64.
 
 ---
 
 ### ⚔️ Drops
 
-Piranha [drops](https://minecraft.fandom.com/wiki/Drops) upon death:
+Piranha [drops](/minecraft.fandom.com/wiki/Drops) upon death:
 
 - 0 - 1 Raw Piranha
-    - ⚔️ The maximum amount is increased by 1 per level of [Looting](https://minecraft.fandom.com/wiki/Looting), for a maximum of 0-3 with Looting III.
+    - ⚔️ The maximum amount is increased by 1 per level of [Looting](/minecraft.fandom.com/wiki/Looting), for a maximum of 0-3 with Looting III.
 - 0 - 1 Cooked Piranha
-    - ⚔️ Cooked Piranha can be dropped when killed on land with [Smelting](https://minecraft.fandom.com/wiki/Fire_Aspect) or [Flame](https://minecraft.fandom.com/wiki/Flame) enchantment. This will not work when the piranha is killed underwater.
-- 🟢 1 - 3 [Experience](https://minecraft.fandom.com/wiki/Experience) Orbs if killed by Player.
+    - ⚔️ Cooked Piranha can be dropped when killed on land with [Smelting](/minecraft.fandom.com/wiki/Fire_Aspect) or [Flame](/minecraft.fandom.com/wiki/Flame) enchantment. This will not work when the piranha is killed underwater.
+- 🟢 1 - 3 [Experience](/minecraft.fandom.com/wiki/Experience) Orbs if killed by Player.
 
 ---
 
@@ -68,11 +68,11 @@ Piranha [drops](https://minecraft.fandom.com/wiki/Drops) upon death:
 
 Piranhas are hostile aquatic fish that tend to swim in schools, with a maximum of eight per school. When a player gets too close to a piranha, they will attack the player with a fierce bite.
 
-The player may collect piranhas by using a [water bucket](https://minecraft.fandom.com/wiki/Water_bucket) on it, which gives the player a bucket of piranha. Piranhas placed with buckets do not despawn naturally. When that fish bucket is used against a block, it empties the bucket, placing water with the piranha swimming in it.
+The player may collect piranhas by using a [water bucket](/minecraft.fandom.com/wiki/Water_bucket) on it, which gives the player a bucket of piranha. Piranhas placed with buckets do not despawn naturally. When that fish bucket is used against a block, it empties the bucket, placing water with the piranha swimming in it.
 
 **Weakness:**
 
-Piranhas are unable to survive out of water. Outside of water, they flop around for a while until, eventually, they start to suffocate and die. Piranhas cannot be put in a [cauldron](https://minecraft.fandom.com/wiki/Cauldron).
+Piranhas are unable to survive out of water. Outside of water, they flop around for a while until, eventually, they start to suffocate and die. Piranhas cannot be put in a [cauldron](/minecraft.fandom.com/wiki/Cauldron).
 
 Piranhas are vulnerable to weapons that have the [Impaling](Bass%201dd816019a9f81379eecf7c25ed7e23f.md) enchantment.
 
@@ -80,20 +80,20 @@ Piranhas are vulnerable to weapons that have the [Impaling](Bass%201dd816019a9f8
 
 ### 🖼️ Gallery
 
-![feesh.PNG](Piranha%201dd816019a9f81b49374de55a530b663/feesh.png)
+![feesh.PNG](feesh.png)
 
-![school.PNG](Piranha%201dd816019a9f81b49374de55a530b663/school.png)
+![school.PNG](school.png)
 
 ---
 
 <aside>
-<img src="https://www.notion.so/icons/headset_red.svg" alt="https://www.notion.so/icons/headset_red.svg" width="40px" /> Have additional questions? Want to be a part of our community? → [Join our Discord!](https://discord.com/invite/starfishstudios)
+<img src="https://www.notion.so/icons/headset_red.svg" alt="https://www.notion.so/icons/headset_red.svg" width="40px" /> Have additional questions? Want to be a part of our community? → [Join our Discord!](/discord.com/invite/starfishstudios)
 
 </aside>
 
 <aside>
 <img src="https://www.notion.so/icons/star_red.svg" alt="https://www.notion.so/icons/star_red.svg" width="40px" />
 
-[**Marketplace](https://www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios)      [CurseForge](https://www.curseforge.com/members/starfish_studios/projects)      [TikTok](https://www.tiktok.com/@starfishstudios)      [Instagram](https://www.instagram.com/starfishstudiosinc/)      [Twitter](https://twitter.com/starfishstudios)      [YouTube](https://www.youtube.com/@starfishstudios)      [Website](https://starfish-studios.com/)**
+[**Marketplace](/www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios)      [CurseForge](/www.curseforge.com/members/starfish_studios/projects)      [TikTok](/www.tiktok.com/@starfishstudios)      [Instagram](/www.instagram.com/starfishstudiosinc/)      [Twitter](/twitter.com/starfishstudios)      [YouTube](/www.youtube.com/@starfishstudios)      [Website](/starfish-studios.com/)**
 
 </aside>

@@ -6,7 +6,7 @@ Last Updated: April 22, 2025 8:47 PM
 
 **Return**
 
-🐻 [Naturalist Add-On Wiki](https://www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21)
+🐻 [Naturalist Add-On Wiki](/www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21)
 
 ---
 
@@ -16,7 +16,7 @@ Vultures reside in most continents worldwide except for Antartica and Australia.
 
 ### **Vulture**
 
-![vulture.gif](Vulture%201dd816019a9f811abc26da55a4270c3e/vulture.gif)
+![vulture.gif](vulture.gif)
 
 ---
 
@@ -24,7 +24,7 @@ Vultures reside in most continents worldwide except for Antartica and Australia.
 
 ---
 
-**Classification:** [Animal](https://minecraft.fandom.com/wiki/Animal)
+**Classification:** [Animal](/minecraft.fandom.com/wiki/Animal)
 
 ---
 
@@ -32,7 +32,7 @@ Vultures reside in most continents worldwide except for Antartica and Australia.
 
 ---
 
-**Spawn:** [Desert](https://minecraft.wiki/w/Desert), [Mesa](https://minecraft.wiki/w/Badlands), & [Savanna](https://minecraft.wiki/w/Savanna)
+**Spawn:** [Desert](/minecraft.wiki/w/Desert), [Mesa](/minecraft.wiki/w/Badlands), & [Savanna](/minecraft.wiki/w/Savanna)
 
 </aside>
 
@@ -40,19 +40,19 @@ Vultures reside in most continents worldwide except for Antartica and Australia.
 
 ### 🌎 Spawning
 
-A flock of 1-2 vultures spawn in the desert, mesa, and savanna biomes. They will spawn during the day with [light levels](https://minecraft.fandom.com/wiki/Light) of 9-15. You will find them near [grass](https://minecraft.fandom.com/wiki/Grass_Block), [sand](https://minecraft.wiki/w/Sand), and [leaves](https://minecraft.wiki/w/Leaves)!
+A flock of 1-2 vultures spawn in the desert, mesa, and savanna biomes. They will spawn during the day with [light levels](/minecraft.fandom.com/wiki/Light) of 9-15. You will find them near [grass](/minecraft.fandom.com/wiki/Grass_Block), [sand](/minecraft.wiki/w/Sand), and [leaves](/minecraft.wiki/w/Leaves)!
 
 ---
 
 ### ⚔️ Drops
 
-Vulture [drops](https://minecraft.fandom.com/wiki/Drops) upon death:
+Vulture [drops](/minecraft.fandom.com/wiki/Drops) upon death:
 
-- 0 - 2 [Feather](https://minecraft.wiki/w/Feather)
-    - ⚔️ The maximum amount is increased by 1 per level of [Looting](https://minecraft.fandom.com/wiki/Looting), for a maximum of 0-4 with Looting III
-- 0 - 2 [Rotten Flesh](https://minecraft.wiki/w/Rotten_Flesh)
-    - ⚔️ The maximum amount is increased by 1 per level of [Looting](https://minecraft.fandom.com/wiki/Looting), for a maximum of 0-4 with Looting III
-- 🟢 1 - 3 [Experience](https://minecraft.fandom.com/wiki/Experience) Orbs if killed by Player.
+- 0 - 2 [Feather](/minecraft.wiki/w/Feather)
+    - ⚔️ The maximum amount is increased by 1 per level of [Looting](/minecraft.fandom.com/wiki/Looting), for a maximum of 0-4 with Looting III
+- 0 - 2 [Rotten Flesh](/minecraft.wiki/w/Rotten_Flesh)
+    - ⚔️ The maximum amount is increased by 1 per level of [Looting](/minecraft.fandom.com/wiki/Looting), for a maximum of 0-4 with Looting III
+- 🟢 1 - 3 [Experience](/minecraft.fandom.com/wiki/Experience) Orbs if killed by Player.
 
 ---
 
@@ -64,18 +64,18 @@ Vultures are large birds that soar the skies of deserts and savanna biomes. They
 
 ### 🖼️ Gallery
 
-![vulture.PNG](Vulture%201dd816019a9f811abc26da55a4270c3e/vulture.png)
+![vulture.PNG](vulture.png)
 
 ---
 
 <aside>
-<img src="https://www.notion.so/icons/headset_red.svg" alt="https://www.notion.so/icons/headset_red.svg" width="40px" /> Have additional questions? Want to be a part of our community? → [Join our Discord!](https://discord.com/invite/starfishstudios)
+<img src="https://www.notion.so/icons/headset_red.svg" alt="https://www.notion.so/icons/headset_red.svg" width="40px" /> Have additional questions? Want to be a part of our community? → [Join our Discord!](/discord.com/invite/starfishstudios)
 
 </aside>
 
 <aside>
 <img src="https://www.notion.so/icons/star_red.svg" alt="https://www.notion.so/icons/star_red.svg" width="40px" />
 
-[**Marketplace](https://www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios)      [CurseForge](https://www.curseforge.com/members/starfish_studios/projects)      [TikTok](https://www.tiktok.com/@starfishstudios)      [Instagram](https://www.instagram.com/starfishstudiosinc/)      [Twitter](https://twitter.com/starfishstudios)      [YouTube](https://www.youtube.com/@starfishstudios)      [Website](https://starfish-studios.com/)**
+[**Marketplace](/www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios)      [CurseForge](/www.curseforge.com/members/starfish_studios/projects)      [TikTok](/www.tiktok.com/@starfishstudios)      [Instagram](/www.instagram.com/starfishstudiosinc/)      [Twitter](/twitter.com/starfishstudios)      [YouTube](/www.youtube.com/@starfishstudios)      [Website](/starfish-studios.com/)**
 
 </aside>

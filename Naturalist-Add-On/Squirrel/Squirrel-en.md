@@ -6,7 +6,7 @@ Last Updated: April 22, 2025 8:47 PM
 
 **Return**
 
-🐻 [Naturalist Add-On Wiki](https://www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21)
+🐻 [Naturalist Add-On Wiki](/www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21)
 
 ---
 
@@ -16,7 +16,7 @@ Squirrels are playful animals found everywhere except for Antartica and Australi
 
 ### **Squirrel**
 
-![squirrel_variations.gif](Squirrel%201dd816019a9f8122839bcc246f62b707/squirrel_variations.gif)
+![squirrel_variations.gif](squirrel_variations.gif)
 
 ---
 
@@ -24,7 +24,7 @@ Squirrels are playful animals found everywhere except for Antartica and Australi
 
 ---
 
-**Classification:** [Animal](https://minecraft.fandom.com/wiki/Animal)
+**Classification:** [Animal](/minecraft.fandom.com/wiki/Animal)
 
 ---
 
@@ -32,15 +32,15 @@ Squirrels are playful animals found everywhere except for Antartica and Australi
 
 ---
 
-**Spawn:** [Birch Forest](https://minecraft.wiki/w/Birch_Forest), [Cherry Grove](https://minecraft.wiki/w/Cherry_Grove), [Flower Forest](https://minecraft.wiki/w/Flower_Forest), & [Forest](https://minecraft.wiki/w/Forest)
+**Spawn:** [Birch Forest](/minecraft.wiki/w/Birch_Forest), [Cherry Grove](/minecraft.wiki/w/Cherry_Grove), [Flower Forest](/minecraft.wiki/w/Flower_Forest), & [Forest](/minecraft.wiki/w/Forest)
 
 ---
 
-![acorn.png](Squirrel%201dd816019a9f8122839bcc246f62b707/acorn.png)
+![acorn.png](acorn.png)
 
-![morsel.png](Squirrel%201dd816019a9f8122839bcc246f62b707/morsel.png)
+![morsel.png](morsel.png)
 
-![fur.png](Squirrel%201dd816019a9f8122839bcc246f62b707/fur.png)
+![fur.png](fur.png)
 
 </aside>
 
@@ -48,19 +48,19 @@ Squirrels are playful animals found everywhere except for Antartica and Australi
 
 ### 🌎 Spawning
 
-A scurry of 1-2 squirrels will spawn in the [birch forest](https://minecraft.wiki/w/Birch_Forest), [cherry grove](https://minecraft.wiki/w/Cherry_Grove), [flower forest](https://minecraft.wiki/w/Flower_Forest), and [forest](https://minecraft.wiki/w/Forest) biomes. They will spawn during the daytime with [light levels](https://minecraft.fandom.com/wiki/Light) between 9-15.
+A scurry of 1-2 squirrels will spawn in the [birch forest](/minecraft.wiki/w/Birch_Forest), [cherry grove](/minecraft.wiki/w/Cherry_Grove), [flower forest](/minecraft.wiki/w/Flower_Forest), and [forest](/minecraft.wiki/w/Forest) biomes. They will spawn during the daytime with [light levels](/minecraft.fandom.com/wiki/Light) between 9-15.
 
 ---
 
 ### ⚔️ Drops
 
-Squirrel [drops](https://minecraft.fandom.com/wiki/Drops) upon death:
+Squirrel [drops](/minecraft.fandom.com/wiki/Drops) upon death:
 
 - 0 - 1 Acorn
 - 0 - 1 Morsel
 - 0 - 1 Fur
-- 🟢 3 [Experience](https://minecraft.fandom.com/wiki/Experience) Orbs if killed by Player.
-- 🟢 1 - 7 Experience Orbs upon [breeding](https://minecraft.fandom.com/wiki/Breeding).
+- 🟢 3 [Experience](/minecraft.fandom.com/wiki/Experience) Orbs if killed by Player.
+- 🟢 1 - 7 Experience Orbs upon [breeding](/minecraft.fandom.com/wiki/Breeding).
 
 *Pups yield no items nor experience.*
 
@@ -80,7 +80,7 @@ Baby squirrels will follow the parents until they are mature adults.
 
 ### 🥚Breeding
 
-Adult squirrels can be [bred](https://minecraft.fandom.com/wiki/Breeding) with [glow berries](https://minecraft.wiki/w/Glow_Berries) and [sweet berries](https://minecraft.wiki/w/Sweet_Berries). There is a 5-minute cooldown for breeding, during which the squirrel will not accept berries for breeding.
+Adult squirrels can be [bred](/minecraft.fandom.com/wiki/Breeding) with [glow berries](/minecraft.wiki/w/Glow_Berries) and [sweet berries](/minecraft.wiki/w/Sweet_Berries). There is a 5-minute cooldown for breeding, during which the squirrel will not accept berries for breeding.
 
 Upon successful breeding, a pup will be born. The growth of pups can be slowly accelerated by using glow berries and sweet berries.
 
@@ -88,40 +88,40 @@ Upon successful breeding, a pup will be born. The growth of pups can be slowly a
 
 ### 🖼️ Gallery
 
-![black_squirrels.PNG](Squirrel%201dd816019a9f8122839bcc246f62b707/black_squirrels.png)
+![black_squirrels.PNG](black_squirrels.png)
 
-![brown_squirrel.PNG](Squirrel%201dd816019a9f8122839bcc246f62b707/brown_squirrel.png)
+![brown_squirrel.PNG](brown_squirrel.png)
 
-![squirrel.PNG](Squirrel%201dd816019a9f8122839bcc246f62b707/squirrel.png)
+![squirrel.PNG](squirrel.png)
 
-![white_squirrel.PNG](Squirrel%201dd816019a9f8122839bcc246f62b707/white_squirrel.png)
+![white_squirrel.PNG](white_squirrel.png)
 
 ---
 
 ### 🎨 Variants
 
-![             Black Squirrel](Squirrel%201dd816019a9f8122839bcc246f62b707/black_squirrel.gif)
+![             Black Squirrel](black_squirrel.gif)
 
              Black Squirrel
 
-![            Brown Squirrel](Squirrel%201dd816019a9f8122839bcc246f62b707/brown_squirrel.gif)
+![            Brown Squirrel](brown_squirrel.gif)
 
             Brown Squirrel
 
-![             White Squirrel](Squirrel%201dd816019a9f8122839bcc246f62b707/white_squirrel.gif)
+![             White Squirrel](white_squirrel.gif)
 
              White Squirrel
 
 ---
 
 <aside>
-<img src="https://www.notion.so/icons/headset_red.svg" alt="https://www.notion.so/icons/headset_red.svg" width="40px" /> Have additional questions? Want to be a part of our community? → [Join our Discord!](https://discord.com/invite/starfishstudios)
+<img src="https://www.notion.so/icons/headset_red.svg" alt="https://www.notion.so/icons/headset_red.svg" width="40px" /> Have additional questions? Want to be a part of our community? → [Join our Discord!](/discord.com/invite/starfishstudios)
 
 </aside>
 
 <aside>
 <img src="https://www.notion.so/icons/star_red.svg" alt="https://www.notion.so/icons/star_red.svg" width="40px" />
 
-[**Marketplace](https://www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios)      [CurseForge](https://www.curseforge.com/members/starfish_studios/projects)      [TikTok](https://www.tiktok.com/@starfishstudios)      [Instagram](https://www.instagram.com/starfishstudiosinc/)      [Twitter](https://twitter.com/starfishstudios)      [YouTube](https://www.youtube.com/@starfishstudios)      [Website](https://starfish-studios.com/)**
+[**Marketplace](/www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios)      [CurseForge](/www.curseforge.com/members/starfish_studios/projects)      [TikTok](/www.tiktok.com/@starfishstudios)      [Instagram](/www.instagram.com/starfishstudiosinc/)      [Twitter](/twitter.com/starfishstudios)      [YouTube](/www.youtube.com/@starfishstudios)      [Website](/starfish-studios.com/)**
 
 </aside>

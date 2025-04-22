@@ -6,7 +6,7 @@ Last Updated: April 22, 2025 8:47 PM
 
 **Return**
 
-🐻 [Naturalist Add-On Wiki](https://www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21)
+🐻 [Naturalist Add-On Wiki](/www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21)
 
 ---
 
@@ -16,7 +16,7 @@ Fennec foxes are dominant in the deserts of North Africa and the Arabian Peninsu
 
 ### **Fennec Fox**
 
-![fennec_fox_variations.gif](Fennec%20Fox%201dd816019a9f81b6b482eae932739288/fennec_fox_variations.gif)
+![fennec_fox_variations.gif](fennec_fox_variations.gif)
 
 ---
 
@@ -24,7 +24,7 @@ Fennec foxes are dominant in the deserts of North Africa and the Arabian Peninsu
 
 ---
 
-**Classification:** [Animal](https://minecraft.fandom.com/wiki/Animal) 
+**Classification:** [Animal](/minecraft.fandom.com/wiki/Animal) 
 
 ---
 
@@ -32,13 +32,13 @@ Fennec foxes are dominant in the deserts of North Africa and the Arabian Peninsu
 
 ---
 
-**Spawn:** [Desert](https://minecraft.wiki/w/Desert) & [Mesa](https://minecraft.wiki/w/Badlands)
+**Spawn:** [Desert](/minecraft.wiki/w/Desert) & [Mesa](/minecraft.wiki/w/Badlands)
 
 ---
 
-![morsel.png](Fennec%20Fox%201dd816019a9f81b6b482eae932739288/morsel.png)
+![morsel.png](morsel.png)
 
-![fur.png](Fennec%20Fox%201dd816019a9f81b6b482eae932739288/fur.png)
+![fur.png](fur.png)
 
 </aside>
 
@@ -46,18 +46,18 @@ Fennec foxes are dominant in the deserts of North Africa and the Arabian Peninsu
 
 ### 🌎 Spawning
 
-Fennec foxes will spawn by themselves as a random variant in [deserts](https://minecraft.wiki/w/Desert) and [mesas](https://minecraft.wiki/w/Badlands). You will not find these foxes anywhere near the cold, so if you go looking, stay in the warmer climates! They will spawn during the daytime with [light levels](https://minecraft.fandom.com/wiki/Light) between 9-15. They will spawn on [sand](https://minecraft.wiki/w/Sand), [grass](https://minecraft.fandom.com/wiki/Grass_Block), [mud](https://minecraft.fandom.com/wiki/Mud), [mangrove roots](https://minecraft.fandom.com/wiki/Mangrove_Roots), and [muddy mangrove roots](https://minecraft.fandom.com/wiki/Muddy_Mangrove_Roots). 
+Fennec foxes will spawn by themselves as a random variant in [deserts](/minecraft.wiki/w/Desert) and [mesas](/minecraft.wiki/w/Badlands). You will not find these foxes anywhere near the cold, so if you go looking, stay in the warmer climates! They will spawn during the daytime with [light levels](/minecraft.fandom.com/wiki/Light) between 9-15. They will spawn on [sand](/minecraft.wiki/w/Sand), [grass](/minecraft.fandom.com/wiki/Grass_Block), [mud](/minecraft.fandom.com/wiki/Mud), [mangrove roots](/minecraft.fandom.com/wiki/Mangrove_Roots), and [muddy mangrove roots](/minecraft.fandom.com/wiki/Muddy_Mangrove_Roots). 
 
 ---
 
 ### ⚔️ Drops
 
-Fennec Fox [drops](https://minecraft.fandom.com/wiki/Drops) upon death:
+Fennec Fox [drops](/minecraft.fandom.com/wiki/Drops) upon death:
 
 - 0 - 2 Morsel
 - 0 - 1 Fur
-- 🟢 1 - 3 [Experience](https://minecraft.fandom.com/wiki/Experience) Orbs if killed by Player
-- 🟢 1 - 7 Experience Orbs upon [breeding](https://minecraft.fandom.com/wiki/Breeding).
+- 🟢 1 - 3 [Experience](/minecraft.fandom.com/wiki/Experience) Orbs if killed by Player
+- 🟢 1 - 7 Experience Orbs upon [breeding](/minecraft.fandom.com/wiki/Breeding).
 
 *Kits yield no items or experience.*
 
@@ -79,20 +79,20 @@ Wild fennec foxes will sit down during the day if they are unable to find a shad
 
 ### ❤️ Taming, Healing, & Feeding
 
-Fennec foxes can be tamed with [sweet berries](https://minecraft.wiki/w/Sweet_Berries) and [glow berries](https://minecraft.wiki/w/Glow_Berries). There is a 50% chance of successful taming. Once they are tamed, you will see hearts appear and a collar around their neck signifying you have tamed the fennec fox. You can [dye](https://minecraft.fandom.com/wiki/Dye) the collar to your color of choice or use shears to cut off the collar. If you [shear](https://minecraft.fandom.com/wiki/Shears) off the collar, it can be reapplied by using a dye color of your choice. 
+Fennec foxes can be tamed with [sweet berries](/minecraft.wiki/w/Sweet_Berries) and [glow berries](/minecraft.wiki/w/Glow_Berries). There is a 50% chance of successful taming. Once they are tamed, you will see hearts appear and a collar around their neck signifying you have tamed the fennec fox. You can [dye](/minecraft.fandom.com/wiki/Dye) the collar to your color of choice or use shears to cut off the collar. If you [shear](/minecraft.fandom.com/wiki/Shears) off the collar, it can be reapplied by using a dye color of your choice. 
 
 Tamed fennec foxes can be commanded to sit or follow.
 
 - Fennec foxes will teleport to the player if the player is further than 10 blocks away.
 - Fennec foxes will not teleport to the player if they are commanded to sit.
 
-If a fennec fox you have tamed gets injured, you can feed it sweet berries and glow berries to increase its [health](https://minecraft.fandom.com/wiki/Health) until it is maxed. 1 sweet berry increases the fennec fox’s health points by 2 and glow berries increase the health points by 3. An injured fennec fox will be unable to breed until it is healed.
+If a fennec fox you have tamed gets injured, you can feed it sweet berries and glow berries to increase its [health](/minecraft.fandom.com/wiki/Health) until it is maxed. 1 sweet berry increases the fennec fox’s health points by 2 and glow berries increase the health points by 3. An injured fennec fox will be unable to breed until it is healed.
 
 ---
 
 ### 🥚Breeding
 
-Fennec foxes with full health can be [bred](https://minecraft.fandom.com/wiki/Breeding) with [sweet berries](https://minecraft.wiki/w/Sweet_Berries) and [glow berries](https://minecraft.wiki/w/Glow_Berries). There is a 5-minute cooldown for breeding, during which the fennec foxes will not accept any berries but will if they get injured and need to heal.
+Fennec foxes with full health can be [bred](/minecraft.fandom.com/wiki/Breeding) with [sweet berries](/minecraft.wiki/w/Sweet_Berries) and [glow berries](/minecraft.wiki/w/Glow_Berries). There is a 5-minute cooldown for breeding, during which the fennec foxes will not accept any berries but will if they get injured and need to heal.
 
 Upon successful breeding, a kit will be born. The growth of kits can be slowly accelerated by using berries.
 
@@ -100,44 +100,44 @@ Upon successful breeding, a kit will be born. The growth of kits can be slowly a
 
 ### 🖼️ Gallery
 
-![white_fox.PNG](Fennec%20Fox%201dd816019a9f81b6b482eae932739288/white_fox.png)
+![white_fox.PNG](white_fox.png)
 
-![fennec_foxy.PNG](Fennec%20Fox%201dd816019a9f81b6b482eae932739288/fennec_foxy.png)
+![fennec_foxy.PNG](fennec_foxy.png)
 
-![fox.PNG](Fennec%20Fox%201dd816019a9f81b6b482eae932739288/fox.png)
+![fox.PNG](fox.png)
 
-![beige_foxy.PNG](Fennec%20Fox%201dd816019a9f81b6b482eae932739288/beige_foxy.png)
+![beige_foxy.PNG](beige_foxy.png)
 
 ---
 
 ### 🎨 Variants
 
-![                   Beige Fennec Fox](Fennec%20Fox%201dd816019a9f81b6b482eae932739288/fennec_fox_beige.gif)
+![                   Beige Fennec Fox](fennec_fox_beige.gif)
 
                    Beige Fennec Fox
 
-![                    Pale Fennec Fox](Fennec%20Fox%201dd816019a9f81b6b482eae932739288/fennec_fox_pale.gif)
+![                    Pale Fennec Fox](fennec_fox_pale.gif)
 
                     Pale Fennec Fox
 
-![                 Creamy Fennec Fox](Fennec%20Fox%201dd816019a9f81b6b482eae932739288/fennec_fox_creamy.gif)
+![                 Creamy Fennec Fox](fennec_fox_creamy.gif)
 
                  Creamy Fennec Fox
 
-![                      Red Fennec Fox](Fennec%20Fox%201dd816019a9f81b6b482eae932739288/fennec_fox_red.gif)
+![                      Red Fennec Fox](fennec_fox_red.gif)
 
                       Red Fennec Fox
 
 ---
 
 <aside>
-<img src="https://www.notion.so/icons/headset_red.svg" alt="https://www.notion.so/icons/headset_red.svg" width="40px" /> Have additional questions? Want to be a part of our community? → [Join our Discord!](https://discord.com/invite/starfishstudios)
+<img src="https://www.notion.so/icons/headset_red.svg" alt="https://www.notion.so/icons/headset_red.svg" width="40px" /> Have additional questions? Want to be a part of our community? → [Join our Discord!](/discord.com/invite/starfishstudios)
 
 </aside>
 
 <aside>
 <img src="https://www.notion.so/icons/star_red.svg" alt="https://www.notion.so/icons/star_red.svg" width="40px" />
 
-[**Marketplace](https://www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios)      [CurseForge](https://www.curseforge.com/members/starfish_studios/projects)      [TikTok](https://www.tiktok.com/@starfishstudios)      [Instagram](https://www.instagram.com/starfishstudiosinc/)      [Twitter](https://twitter.com/starfishstudios)      [YouTube](https://www.youtube.com/@starfishstudios)      [Website](https://starfish-studios.com/)**
+[**Marketplace](/www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios)      [CurseForge](/www.curseforge.com/members/starfish_studios/projects)      [TikTok](/www.tiktok.com/@starfishstudios)      [Instagram](/www.instagram.com/starfishstudiosinc/)      [Twitter](/twitter.com/starfishstudios)      [YouTube](/www.youtube.com/@starfishstudios)      [Website](/starfish-studios.com/)**
 
 </aside>

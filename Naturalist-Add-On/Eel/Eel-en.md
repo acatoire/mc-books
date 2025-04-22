@@ -6,7 +6,7 @@ Last Updated: April 22, 2025 8:47 PM
 
 **Return**
 
-🐻 [Naturalist Add-On Wiki](https://www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21)
+🐻 [Naturalist Add-On Wiki](/www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21)
 
 ---
 
@@ -16,7 +16,7 @@ Eels are not technically classified as fish; they belong to a group called angui
 
 ### **Eel**
 
-![eel_variants.gif](Eel%201dd816019a9f819bb463c7e786a01187/eel_variants.gif)
+![eel_variants.gif](eel_variants.gif)
 
 ---
 
@@ -24,7 +24,7 @@ Eels are not technically classified as fish; they belong to a group called angui
 
 ---
 
-**Classification:** [Animal](https://minecraft.fandom.com/wiki/Animal) / [Aquatic](https://minecraft.fandom.com/wiki/Aquatic)
+**Classification:** [Animal](/minecraft.fandom.com/wiki/Animal) / [Aquatic](/minecraft.fandom.com/wiki/Aquatic)
 
 ---
 
@@ -32,17 +32,17 @@ Eels are not technically classified as fish; they belong to a group called angui
 
 ---
 
-**Spawn:** [Overworld Biomes](https://minecraft.wiki/w/Overworld)
+**Spawn:** [Overworld Biomes](/minecraft.wiki/w/Overworld)
 
 *(See breakdown below)*
 
 ---
 
-![bucket_eletric_eel.png](Eel%201dd816019a9f819bb463c7e786a01187/bucket_eletric_eel.png)
+![bucket_eletric_eel.png](bucket_eletric_eel.png)
 
-![eel_raw.png](Eel%201dd816019a9f819bb463c7e786a01187/eel_raw.png)
+![eel_raw.png](eel_raw.png)
 
-![eel_cooked.png](Eel%201dd816019a9f819bb463c7e786a01187/eel_cooked.png)
+![eel_cooked.png](eel_cooked.png)
 
 </aside>
 
@@ -54,23 +54,23 @@ There are 3 variations of the eel with their own unique set of spawn conditions.
 
 | Eel Variation | Spawn Biomes | Will Not Spawn | Spawn Group | Y Level |
 | --- | --- | --- | --- | --- |
-| Electric Eel | [Deep Ocean](https://minecraft.wiki/w/Deep_Ocean) |  | 1-2 | 0 - 50 |
-| Moray | [Ocean](https://minecraft.wiki/w/Ocean) | [Deep Ocean](https://minecraft.wiki/w/Deep_Ocean)
-[Frozen Ocean](https://minecraft.wiki/w/Frozen_Ocean)
-[Warm Ocean](https://minecraft.wiki/w/Warm_Ocean) | 1-4 | 0 - 64 |
-| Spotted Moray | [Warm Ocean](https://minecraft.wiki/w/Warm_Ocean) |  | 1-3 | 0 - 64 |
+| Electric Eel | [Deep Ocean](/minecraft.wiki/w/Deep_Ocean) |  | 1-2 | 0 - 50 |
+| Moray | [Ocean](/minecraft.wiki/w/Ocean) | [Deep Ocean](/minecraft.wiki/w/Deep_Ocean)
+[Frozen Ocean](/minecraft.wiki/w/Frozen_Ocean)
+[Warm Ocean](/minecraft.wiki/w/Warm_Ocean) | 1-4 | 0 - 64 |
+| Spotted Moray | [Warm Ocean](/minecraft.wiki/w/Warm_Ocean) |  | 1-3 | 0 - 64 |
 
 ---
 
 ### ⚔️ Drops
 
-Eel [drops](https://minecraft.fandom.com/wiki/Drops) upon death:
+Eel [drops](/minecraft.fandom.com/wiki/Drops) upon death:
 
 - 1 Raw Eel
-    - ⚔️ The maximum amount is increased by 1 per level of [Looting](https://minecraft.fandom.com/wiki/Looting), for a maximum of 1-3 with Looting III.
+    - ⚔️ The maximum amount is increased by 1 per level of [Looting](/minecraft.fandom.com/wiki/Looting), for a maximum of 1-3 with Looting III.
 - 1 Cooked Eel
-    - ⚔️ Cooked Eel can be dropped when killed on land with [Smelting](https://minecraft.fandom.com/wiki/Fire_Aspect) or [Flame](https://minecraft.fandom.com/wiki/Flame) enchantment. This will not work when the Eel is killed underwater.
-- 🟢 3 [Experience](https://minecraft.fandom.com/wiki/Experience) Orbs if killed by Player.
+    - ⚔️ Cooked Eel can be dropped when killed on land with [Smelting](/minecraft.fandom.com/wiki/Fire_Aspect) or [Flame](/minecraft.fandom.com/wiki/Flame) enchantment. This will not work when the Eel is killed underwater.
+- 🟢 3 [Experience](/minecraft.fandom.com/wiki/Experience) Orbs if killed by Player.
 
 ---
 
@@ -78,46 +78,46 @@ Eel [drops](https://minecraft.fandom.com/wiki/Drops) upon death:
 
 Eels are neutral mobs that swim around ocean biomes. Eels will bite if the player gets too close, and the Electric Eel variant will sting the player (much like a pufferfish) when it is brushed up against. 
 
-The player may collect eels by using a [water bucket](https://minecraft.fandom.com/wiki/Water_bucket) on it, which gives the player a bucket of electric eel/bucket of moray/bucket of spotted moray. Eels placed with buckets do not despawn naturally. When that fish bucket is used against a block, it empties the bucket, placing water with the eel swimming in it.
+The player may collect eels by using a [water bucket](/minecraft.fandom.com/wiki/Water_bucket) on it, which gives the player a bucket of electric eel/bucket of moray/bucket of spotted moray. Eels placed with buckets do not despawn naturally. When that fish bucket is used against a block, it empties the bucket, placing water with the eel swimming in it.
 
 **Weakness:**
 
-Eels are unable to survive out of water. Outside of water, they flop around for a while until, eventually, they start to suffocate and die. Eels will flop on their sides. Eels cannot be put in a [cauldron](https://minecraft.fandom.com/wiki/Cauldron).
+Eels are unable to survive out of water. Outside of water, they flop around for a while until, eventually, they start to suffocate and die. Eels will flop on their sides. Eels cannot be put in a [cauldron](/minecraft.fandom.com/wiki/Cauldron).
 
 ---
 
 ### 🖼️ Gallery
 
-![spotted_eel.PNG](Eel%201dd816019a9f819bb463c7e786a01187/spotted_eel.png)
+![spotted_eel.PNG](spotted_eel.png)
 
-![electric_eel.PNG](Eel%201dd816019a9f819bb463c7e786a01187/electric_eel.png)
+![electric_eel.PNG](electric_eel.png)
 
 ---
 
 ### 🎨 Variants
 
-![             Electric Eel](Eel%201dd816019a9f819bb463c7e786a01187/eel.gif)
+![             Electric Eel](eel.gif)
 
              Electric Eel
 
-![               Moray](Eel%201dd816019a9f819bb463c7e786a01187/eel_m.gif)
+![               Moray](eel_m.gif)
 
                Moray
 
-![           Spotted Moray](Eel%201dd816019a9f819bb463c7e786a01187/eel_s.gif)
+![           Spotted Moray](eel_s.gif)
 
            Spotted Moray
 
 ---
 
 <aside>
-<img src="https://www.notion.so/icons/headset_red.svg" alt="https://www.notion.so/icons/headset_red.svg" width="40px" /> Have additional questions? Want to be a part of our community? → [Join our Discord!](https://discord.com/invite/starfishstudios)
+<img src="https://www.notion.so/icons/headset_red.svg" alt="https://www.notion.so/icons/headset_red.svg" width="40px" /> Have additional questions? Want to be a part of our community? → [Join our Discord!](/discord.com/invite/starfishstudios)
 
 </aside>
 
 <aside>
 <img src="https://www.notion.so/icons/star_red.svg" alt="https://www.notion.so/icons/star_red.svg" width="40px" />
 
-[**Marketplace](https://www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios)      [CurseForge](https://www.curseforge.com/members/starfish_studios/projects)      [TikTok](https://www.tiktok.com/@starfishstudios)      [Instagram](https://www.instagram.com/starfishstudiosinc/)      [Twitter](https://twitter.com/starfishstudios)      [YouTube](https://www.youtube.com/@starfishstudios)      [Website](https://starfish-studios.com/)**
+[**Marketplace](/www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios)      [CurseForge](/www.curseforge.com/members/starfish_studios/projects)      [TikTok](/www.tiktok.com/@starfishstudios)      [Instagram](/www.instagram.com/starfishstudiosinc/)      [Twitter](/twitter.com/starfishstudios)      [YouTube](/www.youtube.com/@starfishstudios)      [Website](/starfish-studios.com/)**
 
 </aside>

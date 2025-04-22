@@ -6,7 +6,7 @@ Last Updated: April 22, 2025 8:47 PM
 
 **Return**
 
-🐻 [Naturalist Add-On Wiki](https://www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21)
+🐻 [Naturalist Add-On Wiki](/www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21)
 
 ---
 
@@ -16,7 +16,7 @@ Moles have poor eyesight and rely on their sense of touch and smell to navigate 
 
 ### **Mole**
 
-![mole.gif](Mole%201dd816019a9f81e29448fc4a04d1c82f/mole.gif)
+![mole.gif](mole.gif)
 
 ---
 
@@ -24,7 +24,7 @@ Moles have poor eyesight and rely on their sense of touch and smell to navigate 
 
 ---
 
-**Classification:** [Animal](https://minecraft.fandom.com/wiki/Animal)
+**Classification:** [Animal](/minecraft.fandom.com/wiki/Animal)
 
 ---
 
@@ -32,11 +32,11 @@ Moles have poor eyesight and rely on their sense of touch and smell to navigate 
 
 ---
 
-**Spawn:** [Forest](https://minecraft.wiki/w/Forest) & [Plains](https://minecraft.wiki/w/Plains)
+**Spawn:** [Forest](/minecraft.wiki/w/Forest) & [Plains](/minecraft.wiki/w/Plains)
 
 ---
 
-![fur.png](Mole%201dd816019a9f81e29448fc4a04d1c82f/fur.png)
+![fur.png](fur.png)
 
 </aside>
 
@@ -44,18 +44,18 @@ Moles have poor eyesight and rely on their sense of touch and smell to navigate 
 
 ### 🌎 Spawning
 
-A labour of 1-2 moles will spawn in the [forest](https://minecraft.wiki/w/Forest) and [plains](https://minecraft.wiki/w/Plains) biome. If these biomes are frozen over, they will not spawn. Moles will spawn in the daytime with [light levels](https://minecraft.fandom.com/wiki/Light) of 6-15. They will spawn on [grass](https://minecraft.fandom.com/wiki/Grass_Block) and [dirt](https://minecraft.wiki/w/Dirt).
+A labour of 1-2 moles will spawn in the [forest](/minecraft.wiki/w/Forest) and [plains](/minecraft.wiki/w/Plains) biome. If these biomes are frozen over, they will not spawn. Moles will spawn in the daytime with [light levels](/minecraft.fandom.com/wiki/Light) of 6-15. They will spawn on [grass](/minecraft.fandom.com/wiki/Grass_Block) and [dirt](/minecraft.wiki/w/Dirt).
 
 ---
 
 ### ⚔️ Drops
 
-Mole [drops](https://minecraft.fandom.com/wiki/Drops) upon death:
+Mole [drops](/minecraft.fandom.com/wiki/Drops) upon death:
 
-- 1 - 2 [Dirt](https://minecraft.wiki/w/Dirt)
+- 1 - 2 [Dirt](/minecraft.wiki/w/Dirt)
 - 1 - 2 Fur
-- 🟢 1 - 3 [Experience](https://minecraft.fandom.com/wiki/Experience) Orbs if killed by Player.
-- 🟢 1 - 7 Experience Orbs upon [breeding](https://minecraft.fandom.com/wiki/Breeding).
+- 🟢 1 - 3 [Experience](/minecraft.fandom.com/wiki/Experience) Orbs if killed by Player.
+- 🟢 1 - 7 Experience Orbs upon [breeding](/minecraft.fandom.com/wiki/Breeding).
 
 *Pups yield no items nor experience.*
 
@@ -77,22 +77,22 @@ Upon successful breeding, a pup will be born. The growth of pups can be slowly a
 
 ### 🖼️ Gallery
 
-![mole_digging.PNG](Mole%201dd816019a9f81e29448fc4a04d1c82f/mole_digging.png)
+![mole_digging.PNG](mole_digging.png)
 
-![mole.PNG](Mole%201dd816019a9f81e29448fc4a04d1c82f/mole.png)
+![mole.PNG](mole.png)
 
-![meandering_mole.PNG](Mole%201dd816019a9f81e29448fc4a04d1c82f/meandering_mole.png)
+![meandering_mole.PNG](meandering_mole.png)
 
 ---
 
 <aside>
-<img src="https://www.notion.so/icons/headset_red.svg" alt="https://www.notion.so/icons/headset_red.svg" width="40px" /> Have additional questions? Want to be a part of our community? → [Join our Discord!](https://discord.com/invite/starfishstudios)
+<img src="https://www.notion.so/icons/headset_red.svg" alt="https://www.notion.so/icons/headset_red.svg" width="40px" /> Have additional questions? Want to be a part of our community? → [Join our Discord!](/discord.com/invite/starfishstudios)
 
 </aside>
 
 <aside>
 <img src="https://www.notion.so/icons/star_red.svg" alt="https://www.notion.so/icons/star_red.svg" width="40px" />
 
-[**Marketplace](https://www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios)      [CurseForge](https://www.curseforge.com/members/starfish_studios/projects)      [TikTok](https://www.tiktok.com/@starfishstudios)      [Instagram](https://www.instagram.com/starfishstudiosinc/)      [Twitter](https://twitter.com/starfishstudios)      [YouTube](https://www.youtube.com/@starfishstudios)      [Website](https://starfish-studios.com/)**
+[**Marketplace](/www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios)      [CurseForge](/www.curseforge.com/members/starfish_studios/projects)      [TikTok](/www.tiktok.com/@starfishstudios)      [Instagram](/www.instagram.com/starfishstudiosinc/)      [Twitter](/twitter.com/starfishstudios)      [YouTube](/www.youtube.com/@starfishstudios)      [Website](/starfish-studios.com/)**
 
 </aside>

@@ -6,7 +6,7 @@ Last Updated: April 22, 2025 8:47 PM
 
 **Return**
 
-🐻 [Naturalist Add-On Wiki](https://www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21)
+🐻 [Naturalist Add-On Wiki](/www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21)
 
 ---
 
@@ -16,7 +16,7 @@ Tigers are the largest cat species worldwide, primarily located in Asia. Tigers 
 
 ### **Tiger**
 
-![tiger_variations.gif](Tiger%201dd816019a9f81739bd6e4fcbcd3d5d8/tiger_variations.gif)
+![tiger_variations.gif](tiger_variations.gif)
 
 ---
 
@@ -24,7 +24,7 @@ Tigers are the largest cat species worldwide, primarily located in Asia. Tigers 
 
 ---
 
-**Classification:** [Animal](https://minecraft.fandom.com/wiki/Animal)
+**Classification:** [Animal](/minecraft.fandom.com/wiki/Animal)
 
 ---
 
@@ -32,13 +32,13 @@ Tigers are the largest cat species worldwide, primarily located in Asia. Tigers 
 
 ---
 
-**Spawn:** [Cherry Grove](https://minecraft.wiki/w/Cherry_Grove), [Desert](https://minecraft.wiki/w/Desert), [Jungle](https://minecraft.wiki/w/Jungle), [Mangrove Swamp](https://minecraft.wiki/w/Swamp), & [Mountains](https://minecraft.wiki/w/Mountains)
+**Spawn:** [Cherry Grove](/minecraft.wiki/w/Cherry_Grove), [Desert](/minecraft.wiki/w/Desert), [Jungle](/minecraft.wiki/w/Jungle), [Mangrove Swamp](/minecraft.wiki/w/Swamp), & [Mountains](/minecraft.wiki/w/Mountains)
 
 ---
 
-![tooth.png](Tiger%201dd816019a9f81739bd6e4fcbcd3d5d8/tooth.png)
+![tooth.png](tooth.png)
 
-![fur.png](Tiger%201dd816019a9f81739bd6e4fcbcd3d5d8/fur.png)
+![fur.png](fur.png)
 
 </aside>
 
@@ -46,18 +46,18 @@ Tigers are the largest cat species worldwide, primarily located in Asia. Tigers 
 
 ### 🌎 Spawning
 
-A streak of 1-2 tigers will spawn in the [cherry grove](https://minecraft.wiki/w/Cherry_Grove), [desert,](https://minecraft.wiki/w/Desert) [jungle](https://minecraft.wiki/w/Jungle), [mangrove swamp](https://minecraft.wiki/w/Swamp), and [mountain](https://minecraft.wiki/w/Mountains) biomes. Tigers will spawn all day so better hope the hunter doesn’t become the prey!
+A streak of 1-2 tigers will spawn in the [cherry grove](/minecraft.wiki/w/Cherry_Grove), [desert,](/minecraft.wiki/w/Desert) [jungle](/minecraft.wiki/w/Jungle), [mangrove swamp](/minecraft.wiki/w/Swamp), and [mountain](/minecraft.wiki/w/Mountains) biomes. Tigers will spawn all day so better hope the hunter doesn’t become the prey!
 
 ---
 
 ### ⚔️ Drops
 
-Tiger [drops](https://minecraft.fandom.com/wiki/Drops) upon death:
+Tiger [drops](/minecraft.fandom.com/wiki/Drops) upon death:
 
 - 1 - 2 Tooth
 - 1 - 2 Fur
-- 🟢 1 - 3 [Experience](https://minecraft.fandom.com/wiki/Experience) Orbs if killed by Player
-- 🟢 1 - 7 Experience Orbs upon [breeding](https://minecraft.fandom.com/wiki/Breeding)
+- 🟢 1 - 3 [Experience](/minecraft.fandom.com/wiki/Experience) Orbs if killed by Player
+- 🟢 1 - 7 Experience Orbs upon [breeding](/minecraft.fandom.com/wiki/Breeding)
 
 *Cubs yield no items nor experience.* 
 
@@ -77,58 +77,58 @@ Tigers will take long naps between the ticks of 6000 and 13000. They will not sl
 
 ### 🥚Breeding
 
-Tigers can be [bred](https://minecraft.fandom.com/wiki/Breeding) with a variety of raw meats and fish. There is a 5-minute cooldown for breeding, during which the tiger will not accept items for breeding.
+Tigers can be [bred](/minecraft.fandom.com/wiki/Breeding) with a variety of raw meats and fish. There is a 5-minute cooldown for breeding, during which the tiger will not accept items for breeding.
 
 Upon successful breeding, a cub will be born. It takes a full Minecraft day for the cub to grow up to be an adult, and you cannot feed the cub any items to accelerate their growth.
 
 **List of items for breeding:**
 
-**Fish:** [Raw Cod](https://minecraft.wiki/w/Raw_Cod), [Raw Salmon](https://minecraft.wiki/w/Raw_Salmon), Raw Bass, Raw Catfish, Raw Blobfish, Raw Clam, Raw Crab Meat, Raw Piranha, and [Tropical Fish](https://minecraft.fandom.com/wiki/Tropical_Fish).
+**Fish:** [Raw Cod](/minecraft.wiki/w/Raw_Cod), [Raw Salmon](/minecraft.wiki/w/Raw_Salmon), Raw Bass, Raw Catfish, Raw Blobfish, Raw Clam, Raw Crab Meat, Raw Piranha, and [Tropical Fish](/minecraft.fandom.com/wiki/Tropical_Fish).
 
-**Raw Meat:** [Raw Chicken](https://minecraft.wiki/w/Raw_Chicken), [Raw Porkchop](https://minecraft.wiki/w/Raw_Porkchop), [Raw Beef](https://minecraft.wiki/w/Raw_Beef), [Raw Mutton](https://minecraft.wiki/w/Raw_Mutton), [Raw Rabbit](https://minecraft.wiki/w/Raw_Rabbit), Raw Drumstick, Raw Duck, Raw Goose, Raw Moose Meat, and Raw Reptile Tail.
+**Raw Meat:** [Raw Chicken](/minecraft.wiki/w/Raw_Chicken), [Raw Porkchop](/minecraft.wiki/w/Raw_Porkchop), [Raw Beef](/minecraft.wiki/w/Raw_Beef), [Raw Mutton](/minecraft.wiki/w/Raw_Mutton), [Raw Rabbit](/minecraft.wiki/w/Raw_Rabbit), Raw Drumstick, Raw Duck, Raw Goose, Raw Moose Meat, and Raw Reptile Tail.
 
 ---
 
 ### 🖼️ Gallery
 
-![orange tiger.PNG](Tiger%201dd816019a9f81739bd6e4fcbcd3d5d8/orange_tiger.png)
+![orange tiger.PNG](orange_tiger.png)
 
-![black_panther.PNG](Tiger%201dd816019a9f81739bd6e4fcbcd3d5d8/black_panther.png)
+![black_panther.PNG](black_panther.png)
 
-![leopard.PNG](Tiger%201dd816019a9f81739bd6e4fcbcd3d5d8/leopard.png)
+![leopard.PNG](leopard.png)
 
-![white_tiger_lurk.PNG](Tiger%201dd816019a9f81739bd6e4fcbcd3d5d8/white_tiger_lurk.png)
+![white_tiger_lurk.PNG](white_tiger_lurk.png)
 
 ---
 
 ### 🎨 Variants
 
-![       Black Panther](Tiger%201dd816019a9f81739bd6e4fcbcd3d5d8/black_tiger.gif)
+![       Black Panther](black_tiger.gif)
 
        Black Panther
 
-![            Leopard](Tiger%201dd816019a9f81739bd6e4fcbcd3d5d8/spotted_tiger.gif)
+![            Leopard](spotted_tiger.gif)
 
             Leopard
 
-![           Tiger](Tiger%201dd816019a9f81739bd6e4fcbcd3d5d8/tiger.gif)
+![           Tiger](tiger.gif)
 
            Tiger
 
-![        White Tiger](Tiger%201dd816019a9f81739bd6e4fcbcd3d5d8/white_tiger.gif)
+![        White Tiger](white_tiger.gif)
 
         White Tiger
 
 ---
 
 <aside>
-<img src="https://www.notion.so/icons/headset_red.svg" alt="https://www.notion.so/icons/headset_red.svg" width="40px" /> Have additional questions? Want to be a part of our community? → [Join our Discord!](https://discord.com/invite/starfishstudios)
+<img src="https://www.notion.so/icons/headset_red.svg" alt="https://www.notion.so/icons/headset_red.svg" width="40px" /> Have additional questions? Want to be a part of our community? → [Join our Discord!](/discord.com/invite/starfishstudios)
 
 </aside>
 
 <aside>
 <img src="https://www.notion.so/icons/star_red.svg" alt="https://www.notion.so/icons/star_red.svg" width="40px" />
 
-[**Marketplace](https://www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios)      [CurseForge](https://www.curseforge.com/members/starfish_studios/projects)      [TikTok](https://www.tiktok.com/@starfishstudios)      [Instagram](https://www.instagram.com/starfishstudiosinc/)      [Twitter](https://twitter.com/starfishstudios)      [YouTube](https://www.youtube.com/@starfishstudios)      [Website](https://starfish-studios.com/)**
+[**Marketplace](/www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios)      [CurseForge](/www.curseforge.com/members/starfish_studios/projects)      [TikTok](/www.tiktok.com/@starfishstudios)      [Instagram](/www.instagram.com/starfishstudiosinc/)      [Twitter](/twitter.com/starfishstudios)      [YouTube](/www.youtube.com/@starfishstudios)      [Website](/starfish-studios.com/)**
 
 </aside>

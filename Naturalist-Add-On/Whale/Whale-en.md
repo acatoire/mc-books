@@ -6,7 +6,7 @@ Last Updated: April 22, 2025 8:47 PM
 
 **Return**
 
-🐻 [Naturalist Add-On Wiki](https://www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21)
+🐻 [Naturalist Add-On Wiki](/www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21)
 
 ---
 
@@ -16,7 +16,7 @@ Whales are large marine mammals that are found in oceans worldwide. Whales are c
 
 ### **Whale**
 
-![whale.gif](Whale%201dd816019a9f81c5a421ee7b8669a5a1/whale.gif)
+![whale.gif](whale.gif)
 
 ---
 
@@ -24,7 +24,7 @@ Whales are large marine mammals that are found in oceans worldwide. Whales are c
 
 ---
 
-**Classification:** [Animal](https://minecraft.fandom.com/wiki/Animal) / [Aquatic](https://minecraft.fandom.com/wiki/Aquatic)
+**Classification:** [Animal](/minecraft.fandom.com/wiki/Animal) / [Aquatic](/minecraft.fandom.com/wiki/Aquatic)
 
 ---
 
@@ -32,11 +32,11 @@ Whales are large marine mammals that are found in oceans worldwide. Whales are c
 
 ---
 
-**Spawn:** [Ocean](https://minecraft.wiki/w/Ocean)
+**Spawn:** [Ocean](/minecraft.wiki/w/Ocean)
 
 ---
 
-![fat.png](Whale%201dd816019a9f81c5a421ee7b8669a5a1/fat.png)
+![fat.png](fat.png)
 
 </aside>
 
@@ -44,19 +44,19 @@ Whales are large marine mammals that are found in oceans worldwide. Whales are c
 
 ### 🌎 Spawning
 
-A pod of 1-3 whales will spawn in the [ocean](https://minecraft.wiki/w/Ocean) biome. While they have blubber, you will not find them in frozen variations of oceans due to a low food source. You can find these giant creatures between Y coordinates Y -50 and Y 64.
+A pod of 1-3 whales will spawn in the [ocean](/minecraft.wiki/w/Ocean) biome. While they have blubber, you will not find them in frozen variations of oceans due to a low food source. You can find these giant creatures between Y coordinates Y -50 and Y 64.
 
 ---
 
 ### ⚔️ Drops
 
-Whale [drops](https://minecraft.fandom.com/wiki/Drops) upon death:
+Whale [drops](/minecraft.fandom.com/wiki/Drops) upon death:
 
-- 0 - 2 [Raw Cod](https://minecraft.wiki/w/Raw_Cod) or [Raw Salmon](https://minecraft.wiki/w/Raw_Salmon), or 0-1 [Tropical Fish](https://minecraft.fandom.com/wiki/Tropical_Fish)
-    - ⚔️ The maximum amount is increased by 1 per level of [Looting](https://minecraft.fandom.com/wiki/Looting), for a maximum of 0-4 (Cod/Salmon) or 0-3 (Tropical Fish) with Looting III.
+- 0 - 2 [Raw Cod](/minecraft.wiki/w/Raw_Cod) or [Raw Salmon](/minecraft.wiki/w/Raw_Salmon), or 0-1 [Tropical Fish](/minecraft.fandom.com/wiki/Tropical_Fish)
+    - ⚔️ The maximum amount is increased by 1 per level of [Looting](/minecraft.fandom.com/wiki/Looting), for a maximum of 0-4 (Cod/Salmon) or 0-3 (Tropical Fish) with Looting III.
 - 2 - 5 Fat
-    - ⚔️ The maximum amount is increased by 1 per level of [Looting](https://minecraft.fandom.com/wiki/Looting), for a maximum of 2-10 with Looting III
-- 🟢 1 - 3 [Experience](https://minecraft.fandom.com/wiki/Experience) Orbs if killed by Player
+    - ⚔️ The maximum amount is increased by 1 per level of [Looting](/minecraft.fandom.com/wiki/Looting), for a maximum of 2-10 with Looting III
+- 🟢 1 - 3 [Experience](/minecraft.fandom.com/wiki/Experience) Orbs if killed by Player
 
 ---
 
@@ -72,20 +72,20 @@ Whales are unable to survive out of water. Outside of water, they will attempt t
 
 ### 🖼️ Gallery
 
-![whale.PNG](Whale%201dd816019a9f81c5a421ee7b8669a5a1/whale.png)
+![whale.PNG](whale.png)
 
-![whalee.PNG](Whale%201dd816019a9f81c5a421ee7b8669a5a1/whalee.png)
+![whalee.PNG](whalee.png)
 
 ---
 
 <aside>
-<img src="https://www.notion.so/icons/headset_red.svg" alt="https://www.notion.so/icons/headset_red.svg" width="40px" /> Have additional questions? Want to be a part of our community? → [Join our Discord!](https://discord.com/invite/starfishstudios)
+<img src="https://www.notion.so/icons/headset_red.svg" alt="https://www.notion.so/icons/headset_red.svg" width="40px" /> Have additional questions? Want to be a part of our community? → [Join our Discord!](/discord.com/invite/starfishstudios)
 
 </aside>
 
 <aside>
 <img src="https://www.notion.so/icons/star_red.svg" alt="https://www.notion.so/icons/star_red.svg" width="40px" />
 
-[**Marketplace](https://www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios)      [CurseForge](https://www.curseforge.com/members/starfish_studios/projects)      [TikTok](https://www.tiktok.com/@starfishstudios)      [Instagram](https://www.instagram.com/starfishstudiosinc/)      [Twitter](https://twitter.com/starfishstudios)      [YouTube](https://www.youtube.com/@starfishstudios)      [Website](https://starfish-studios.com/)**
+[**Marketplace](/www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios)      [CurseForge](/www.curseforge.com/members/starfish_studios/projects)      [TikTok](/www.tiktok.com/@starfishstudios)      [Instagram](/www.instagram.com/starfishstudiosinc/)      [Twitter](/twitter.com/starfishstudios)      [YouTube](/www.youtube.com/@starfishstudios)      [Website](/starfish-studios.com/)**
 
 </aside>

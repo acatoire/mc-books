@@ -6,7 +6,7 @@ Last Updated: April 22, 2025 8:47 PM
 
 **Return**
 
-🐻 [Naturalist Add-On Wiki](https://www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21)
+🐻 [Naturalist Add-On Wiki](/www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21)
 
 ---
 
@@ -16,7 +16,7 @@ Desert scorpions are the largest scorpions in North America. They are equipped w
 
 ### **Desert Scorpion**
 
-![desert_scorpion.gif](Desert%20Scorpion%201dd816019a9f81ee91eec9373da13146/desert_scorpion.gif)
+![desert_scorpion.gif](desert_scorpion.gif)
 
 ---
 
@@ -24,7 +24,7 @@ Desert scorpions are the largest scorpions in North America. They are equipped w
 
 ---
 
-**Classification:** [Arthropod](https://minecraft.wiki/w/Arthropod)
+**Classification:** [Arthropod](/minecraft.wiki/w/Arthropod)
 
 ---
 
@@ -32,13 +32,13 @@ Desert scorpions are the largest scorpions in North America. They are equipped w
 
 ---
 
-**Spawn:** [Desert](https://minecraft.wiki/w/Desert) & [Mesa Plateau Stone](https://minecraft.wiki/w/Wooded_Badlands)
+**Spawn:** [Desert](/minecraft.wiki/w/Desert) & [Mesa Plateau Stone](/minecraft.wiki/w/Wooded_Badlands)
 
 ---
 
-![scorpion.png](Desert%20Scorpion%201dd816019a9f81ee91eec9373da13146/scorpion.png)
+![scorpion.png](scorpion.png)
 
-![scorpion_poison_gland.png](Desert%20Scorpion%201dd816019a9f81ee91eec9373da13146/scorpion_poison_gland.png)
+![scorpion_poison_gland.png](scorpion_poison_gland.png)
 
 </aside>
 
@@ -46,17 +46,17 @@ Desert scorpions are the largest scorpions in North America. They are equipped w
 
 ### 🌎 Spawning
 
-A bed of 1-4 desert scorpions will spawn in the [desert](https://minecraft.wiki/w/Desert) and [mesa plateau stone](https://minecraft.wiki/w/Wooded_Badlands) biomes. They will spawn during the daytime with [light levels](https://minecraft.fandom.com/wiki/Light) between 7-15.
+A bed of 1-4 desert scorpions will spawn in the [desert](/minecraft.wiki/w/Desert) and [mesa plateau stone](/minecraft.wiki/w/Wooded_Badlands) biomes. They will spawn during the daytime with [light levels](/minecraft.fandom.com/wiki/Light) between 7-15.
 
 ---
 
 ### ⚔️ Drops
 
-Desert Scorpion [drops](https://minecraft.fandom.com/wiki/Drops) upon death:
+Desert Scorpion [drops](/minecraft.fandom.com/wiki/Drops) upon death:
 
 - 1 Scorpion Poison Gland
-    - ⚔️ The maximum amount is increased by 1 per level of [Looting](https://minecraft.fandom.com/wiki/Looting), for a maximum of 1-3 with Looting III
-- 🟢 3 [Experience](https://minecraft.fandom.com/wiki/Experience) Orbs if killed by Player
+    - ⚔️ The maximum amount is increased by 1 per level of [Looting](/minecraft.fandom.com/wiki/Looting), for a maximum of 1-3 with Looting III
+- 🟢 3 [Experience](/minecraft.fandom.com/wiki/Experience) Orbs if killed by Player
 
 ---
 
@@ -72,24 +72,24 @@ Antivenom potions can be crafted with the poison gland that a scorpion drops upo
 
 Desert scorpions can be caught in capture nets. If a desert scorpion is caught, it will enter a player’s inventory as an item. If the inventory is full, the desert scorpion will drop to the ground in front of the player.
 
-- A desert scorpion is used by pressing ”use” on any surface (top, bottom, or side) of a block. When used on a top surface, the desert scorpion appears with its feet immediately adjacent to the surface. This interaction is much like a [spawn egg](https://minecraft.fandom.com/wiki/Spawn_Egg). The surfaces of blocks are prioritized for spawning; if none are within reach, mobs can also be spawned in [water](https://minecraft.fandom.com/wiki/Water).
+- A desert scorpion is used by pressing ”use” on any surface (top, bottom, or side) of a block. When used on a top surface, the desert scorpion appears with its feet immediately adjacent to the surface. This interaction is much like a [spawn egg](/minecraft.fandom.com/wiki/Spawn_Egg). The surfaces of blocks are prioritized for spawning; if none are within reach, mobs can also be spawned in [water](/minecraft.fandom.com/wiki/Water).
 
 ---
 
 ### 🖼️ Gallery
 
-![scorp.PNG](Desert%20Scorpion%201dd816019a9f81ee91eec9373da13146/scorp.png)
+![scorp.PNG](scorp.png)
 
 ---
 
 <aside>
-<img src="https://www.notion.so/icons/headset_red.svg" alt="https://www.notion.so/icons/headset_red.svg" width="40px" /> Have additional questions? Want to be a part of our community? → [Join our Discord!](https://discord.com/invite/starfishstudios)
+<img src="https://www.notion.so/icons/headset_red.svg" alt="https://www.notion.so/icons/headset_red.svg" width="40px" /> Have additional questions? Want to be a part of our community? → [Join our Discord!](/discord.com/invite/starfishstudios)
 
 </aside>
 
 <aside>
 <img src="https://www.notion.so/icons/star_red.svg" alt="https://www.notion.so/icons/star_red.svg" width="40px" />
 
-[**Marketplace](https://www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios)      [CurseForge](https://www.curseforge.com/members/starfish_studios/projects)      [TikTok](https://www.tiktok.com/@starfishstudios)      [Instagram](https://www.instagram.com/starfishstudiosinc/)      [Twitter](https://twitter.com/starfishstudios)      [YouTube](https://www.youtube.com/@starfishstudios)      [Website](https://starfish-studios.com/)**
+[**Marketplace](/www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios)      [CurseForge](/www.curseforge.com/members/starfish_studios/projects)      [TikTok](/www.tiktok.com/@starfishstudios)      [Instagram](/www.instagram.com/starfishstudiosinc/)      [Twitter](/twitter.com/starfishstudios)      [YouTube](/www.youtube.com/@starfishstudios)      [Website](/starfish-studios.com/)**
 
 </aside>

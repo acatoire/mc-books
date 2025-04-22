@@ -6,7 +6,7 @@ Last Updated: April 22, 2025 8:47 PM
 
 **Return**
 
-🐻 [Naturalist Add-On Wiki](https://www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21)
+🐻 [Naturalist Add-On Wiki](/www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21)
 
 ---
 
@@ -16,7 +16,7 @@ Kiwi birds are the smallest bird of flightless bird groups. They are half blind 
 
 ### **Kiwi**
 
-![kiwi.gif](Kiwi%201dd816019a9f81689edcd3031be006b8/kiwi.gif)
+![kiwi.gif](kiwi.gif)
 
 ---
 
@@ -24,7 +24,7 @@ Kiwi birds are the smallest bird of flightless bird groups. They are half blind 
 
 ---
 
-**Classification:** [Animal](https://minecraft.fandom.com/wiki/Animal) / [Aquatic](https://minecraft.fandom.com/wiki/Aquatic)
+**Classification:** [Animal](/minecraft.fandom.com/wiki/Animal) / [Aquatic](/minecraft.fandom.com/wiki/Aquatic)
 
 ---
 
@@ -32,7 +32,7 @@ Kiwi birds are the smallest bird of flightless bird groups. They are half blind 
 
 ---
 
-**Spawn:** [Jungle](https://minecraft.wiki/w/Jungle)
+**Spawn:** [Jungle](/minecraft.wiki/w/Jungle)
 
 </aside>
 
@@ -46,12 +46,12 @@ Kiwis will spawn in a tribe of 1-3 birds in the jungle biome. These birds love t
 
 ### ⚔️ Drops
 
-Adult kiwi [drops](https://minecraft.fandom.com/wiki/Drops) upon death:
+Adult kiwi [drops](/minecraft.fandom.com/wiki/Drops) upon death:
 
-- 1 - 2 [Wheat Seeds](https://minecraft.wiki/w/Wheat_Seeds)
-    - ⚔️ The maximum amount is increased by 1 per level of [Looting](https://minecraft.fandom.com/wiki/Looting), for a maximum of 1-6 with Looting III
-- 🟢 1 - 3 [Experience](https://minecraft.fandom.com/wiki/Experience) Orbs if killed by Player
-- 🟢 1 - 7 Experience Orbs upon [breeding](https://minecraft.fandom.com/wiki/Breeding).
+- 1 - 2 [Wheat Seeds](/minecraft.wiki/w/Wheat_Seeds)
+    - ⚔️ The maximum amount is increased by 1 per level of [Looting](/minecraft.fandom.com/wiki/Looting), for a maximum of 1-6 with Looting III
+- 🟢 1 - 3 [Experience](/minecraft.fandom.com/wiki/Experience) Orbs if killed by Player
+- 🟢 1 - 7 Experience Orbs upon [breeding](/minecraft.fandom.com/wiki/Breeding).
 
 *Chicks yield no items nor experience.*
 
@@ -65,41 +65,41 @@ Kiwis are passive flightless birds found in jungle biomes. They can be found on 
 
 ### ❤️ Taming, Healing, & Feeding
 
-Kiwis can be tamed with [wheat seeds](https://minecraft.wiki/w/Wheat_Seeds). There is a 50% chance of successful taming. Once they are tamed, you will see hearts appear and a ribbon on their left leg signifying you have tamed the bird. You can [dye](https://minecraft.fandom.com/wiki/Dye) the ribbon to your color of choice or use [shears](https://minecraft.fandom.com/wiki/Shears) to cut off the ribbon. If you shear the ribbon, it can be reapplied by using a dye color of your choice. 
+Kiwis can be tamed with [wheat seeds](/minecraft.wiki/w/Wheat_Seeds). There is a 50% chance of successful taming. Once they are tamed, you will see hearts appear and a ribbon on their left leg signifying you have tamed the bird. You can [dye](/minecraft.fandom.com/wiki/Dye) the ribbon to your color of choice or use [shears](/minecraft.fandom.com/wiki/Shears) to cut off the ribbon. If you shear the ribbon, it can be reapplied by using a dye color of your choice. 
 
 Tamed kiwis can be commanded to sit or to follow.
 
 - Kiwis will teleport to the player if the player is further than 10 blocks away.
 - Kiwis will not teleport to the player if they are commanded to sit.
 
-If a kiwi you have tamed gets injured, you can feed it wheat seeds to increase its [health](https://minecraft.fandom.com/wiki/Health) until it is maxed. 1 seed increased the kiwi’s health points by 1. An injured kiwi will be unable to breed until it is healed. 
+If a kiwi you have tamed gets injured, you can feed it wheat seeds to increase its [health](/minecraft.fandom.com/wiki/Health) until it is maxed. 1 seed increased the kiwi’s health points by 1. An injured kiwi will be unable to breed until it is healed. 
 
 ---
 
 ### 🥚Breeding
 
-Kiwi birds are required to be tamed before they can be [bred](https://minecraft.fandom.com/wiki/Breeding). Kiwis can be bred with [wheat seeds](https://minecraft.wiki/w/Wheat_Seeds), [pumpkin seeds](https://minecraft.wiki/w/Pumpkin_Seeds), [melon seeds](https://minecraft.wiki/w/Melon_Seeds), and [beetroot seeds](https://minecraft.wiki/w/Beetroot_Seeds). There is a 5-minute cooldown for breeding, during which the kiwi does not accept any seeds for breeding but will accept wheat seeds if they get injured and need to heal.
+Kiwi birds are required to be tamed before they can be [bred](/minecraft.fandom.com/wiki/Breeding). Kiwis can be bred with [wheat seeds](/minecraft.wiki/w/Wheat_Seeds), [pumpkin seeds](/minecraft.wiki/w/Pumpkin_Seeds), [melon seeds](/minecraft.wiki/w/Melon_Seeds), and [beetroot seeds](/minecraft.wiki/w/Beetroot_Seeds). There is a 5-minute cooldown for breeding, during which the kiwi does not accept any seeds for breeding but will accept wheat seeds if they get injured and need to heal.
 
-Upon successful breeding, a chick will be born. The growth of chicks can be slowly accelerated with [wheat seeds](https://minecraft.wiki/w/Wheat_Seeds), [pumpkin seeds](https://minecraft.wiki/w/Pumpkin_Seeds), [melon seeds](https://minecraft.wiki/w/Melon_Seeds), and [beetroot seeds](https://minecraft.wiki/w/Beetroot_Seeds).
+Upon successful breeding, a chick will be born. The growth of chicks can be slowly accelerated with [wheat seeds](/minecraft.wiki/w/Wheat_Seeds), [pumpkin seeds](/minecraft.wiki/w/Pumpkin_Seeds), [melon seeds](/minecraft.wiki/w/Melon_Seeds), and [beetroot seeds](/minecraft.wiki/w/Beetroot_Seeds).
 
 ---
 
 ### 🖼️ Gallery
 
-![gazing_kiwi.PNG](Kiwi%201dd816019a9f81689edcd3031be006b8/gazing_kiwi.png)
+![gazing_kiwi.PNG](gazing_kiwi.png)
 
-![lonely_kiwi.PNG](Kiwi%201dd816019a9f81689edcd3031be006b8/lonely_kiwi.png)
+![lonely_kiwi.PNG](lonely_kiwi.png)
 
 ---
 
 <aside>
-<img src="https://www.notion.so/icons/headset_red.svg" alt="https://www.notion.so/icons/headset_red.svg" width="40px" /> Have additional questions? Want to be a part of our community? → [Join our Discord!](https://discord.com/invite/starfishstudios)
+<img src="https://www.notion.so/icons/headset_red.svg" alt="https://www.notion.so/icons/headset_red.svg" width="40px" /> Have additional questions? Want to be a part of our community? → [Join our Discord!](/discord.com/invite/starfishstudios)
 
 </aside>
 
 <aside>
 <img src="https://www.notion.so/icons/star_red.svg" alt="https://www.notion.so/icons/star_red.svg" width="40px" />
 
-[**Marketplace](https://www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios)      [CurseForge](https://www.curseforge.com/members/starfish_studios/projects)      [TikTok](https://www.tiktok.com/@starfishstudios)      [Instagram](https://www.instagram.com/starfishstudiosinc/)      [Twitter](https://twitter.com/starfishstudios)      [YouTube](https://www.youtube.com/@starfishstudios)      [Website](https://starfish-studios.com/)**
+[**Marketplace](/www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios)      [CurseForge](/www.curseforge.com/members/starfish_studios/projects)      [TikTok](/www.tiktok.com/@starfishstudios)      [Instagram](/www.instagram.com/starfishstudiosinc/)      [Twitter](/twitter.com/starfishstudios)      [YouTube](/www.youtube.com/@starfishstudios)      [Website](/starfish-studios.com/)**
 
 </aside>

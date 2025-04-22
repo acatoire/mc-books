@@ -6,7 +6,7 @@ Last Updated: April 22, 2025 8:47 PM
 
 **Return**
 
-🐻 [Naturalist Add-On Wiki](https://www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21)
+🐻 [Naturalist Add-On Wiki](/www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21)
 
 ---
 
@@ -16,7 +16,7 @@ Sharks are large fish known for their sharp teeth, powerful swimming abilities, 
 
 ### **Shark**
 
-![shark_variants.gif](Shark%201dd816019a9f810bb9a2d3337293455c/shark_variants.gif)
+![shark_variants.gif](shark_variants.gif)
 
 ---
 
@@ -24,7 +24,7 @@ Sharks are large fish known for their sharp teeth, powerful swimming abilities, 
 
 ---
 
-**Classification:** [Animal](https://minecraft.fandom.com/wiki/Animal) / [Aquatic](https://minecraft.fandom.com/wiki/Aquatic)
+**Classification:** [Animal](/minecraft.fandom.com/wiki/Animal) / [Aquatic](/minecraft.fandom.com/wiki/Aquatic)
 
 ---
 
@@ -32,11 +32,11 @@ Sharks are large fish known for their sharp teeth, powerful swimming abilities, 
 
 ---
 
-**Spawn:** [Warm Ocean](https://minecraft.wiki/w/Warm_Ocean) & [Lukewarm Ocean](https://minecraft.wiki/w/Lukewarm_Ocean)
+**Spawn:** [Warm Ocean](/minecraft.wiki/w/Warm_Ocean) & [Lukewarm Ocean](/minecraft.wiki/w/Lukewarm_Ocean)
 
 ---
 
-![tooth.png](Shark%201dd816019a9f810bb9a2d3337293455c/tooth.png)
+![tooth.png](tooth.png)
 
 </aside>
 
@@ -44,16 +44,16 @@ Sharks are large fish known for their sharp teeth, powerful swimming abilities, 
 
 ### 🌎 Spawning
 
-A school of 1-3 sharks will spawn in [warm ocean](https://minecraft.wiki/w/Warm_Ocean) and [lukewarm ocean](https://minecraft.wiki/w/Lukewarm_Ocean) biomes. They can be found between Y coordinates Y -20 and Y 64.
+A school of 1-3 sharks will spawn in [warm ocean](/minecraft.wiki/w/Warm_Ocean) and [lukewarm ocean](/minecraft.wiki/w/Lukewarm_Ocean) biomes. They can be found between Y coordinates Y -20 and Y 64.
 
 ---
 
 ### ⚔️ Drops
 
-Shark [drops](https://minecraft.fandom.com/wiki/Drops) upon death:
+Shark [drops](/minecraft.fandom.com/wiki/Drops) upon death:
 
 - 2 - 5 Tooth
-- 🟢 1 - 3 [Experience](https://minecraft.fandom.com/wiki/Experience) Orbs if killed by Player
+- 🟢 1 - 3 [Experience](/minecraft.fandom.com/wiki/Experience) Orbs if killed by Player
 
 ---
 
@@ -67,32 +67,32 @@ Sharks are unable to survive out of water. Outside of water, they flop around fo
 
 ### 🖼️ Gallery
 
-![great_white.PNG](Shark%201dd816019a9f810bb9a2d3337293455c/great_white.png)
+![great_white.PNG](great_white.png)
 
-![hammerhead_shark.PNG](Shark%201dd816019a9f810bb9a2d3337293455c/hammerhead_shark.png)
+![hammerhead_shark.PNG](hammerhead_shark.png)
 
 ---
 
 ### 🎨 Variants
 
-![                      Great White Shark](Shark%201dd816019a9f810bb9a2d3337293455c/shark1.gif)
+![                      Great White Shark](shark1.gif)
 
                       Great White Shark
 
-![                     Hammer Head Shark](Shark%201dd816019a9f810bb9a2d3337293455c/shark2.gif)
+![                     Hammer Head Shark](shark2.gif)
 
                      Hammer Head Shark
 
 ---
 
 <aside>
-<img src="https://www.notion.so/icons/headset_red.svg" alt="https://www.notion.so/icons/headset_red.svg" width="40px" /> Have additional questions? Want to be a part of our community? → [Join our Discord!](https://discord.com/invite/starfishstudios)
+<img src="https://www.notion.so/icons/headset_red.svg" alt="https://www.notion.so/icons/headset_red.svg" width="40px" /> Have additional questions? Want to be a part of our community? → [Join our Discord!](/discord.com/invite/starfishstudios)
 
 </aside>
 
 <aside>
 <img src="https://www.notion.so/icons/star_red.svg" alt="https://www.notion.so/icons/star_red.svg" width="40px" />
 
-[**Marketplace](https://www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios)      [CurseForge](https://www.curseforge.com/members/starfish_studios/projects)      [TikTok](https://www.tiktok.com/@starfishstudios)      [Instagram](https://www.instagram.com/starfishstudiosinc/)      [Twitter](https://twitter.com/starfishstudios)      [YouTube](https://www.youtube.com/@starfishstudios)      [Website](https://starfish-studios.com/)**
+[**Marketplace](/www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios)      [CurseForge](/www.curseforge.com/members/starfish_studios/projects)      [TikTok](/www.tiktok.com/@starfishstudios)      [Instagram](/www.instagram.com/starfishstudiosinc/)      [Twitter](/twitter.com/starfishstudios)      [YouTube](/www.youtube.com/@starfishstudios)      [Website](/starfish-studios.com/)**
 
 </aside>
