@@ -1,0 +1,122 @@
+title:
+  en: Duck
+  fr: Canard
+
+last_updated:
+  en: April 22, 2025 8:47 PM
+  fr: 22 avril 2025 20h47
+
+return_link:
+  en: Naturalist Add-On Wiki
+  fr: Wiki de l'extension Naturalist
+return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
+
+description:
+  en: Ducks are waterfowl that can be found in various aquatic environments. They are known for their webbed feet, waterproof feathers, and ability to swim and dive. They are omnivorous and will eat both plants and small aquatic creatures.
+  fr: Les canards sont des oiseaux aquatiques que l'on peut trouver dans divers environnements aquatiques. Ils sont connus pour leurs pieds palmés, leurs plumes imperméables et leur capacité à nager et plonger. Ils sont omnivores et mangent à la fois des plantes et de petites créatures aquatiques.
+
+stats:
+  health: 4
+  classification:
+    en: Animal / Bird
+    fr: Animal / Oiseau
+  classification_urls:
+    animal: /minecraft.fandom.com/wiki/Animal
+    bird: /minecraft.fandom.com/wiki/Bird
+  behavior:
+    en: Passive
+    fr: Passif
+  spawn:
+    en: Lakes and Rivers
+    fr: Lacs et Rivières
+  spawn_url:
+    water: /minecraft.wiki/w/Water
+
+images:
+  main: duck.gif
+  items:
+    - duck_feather.png
+    - duck_meat.png
+  gallery:
+    - duck.gif
+    - duck_swimming.png
+    - duck_flying.png
+
+spawning:
+  title:
+    en: Spawning
+    fr: Apparition
+  description:
+    en: Ducks spawn in groups of 2-4 near bodies of water, such as lakes, rivers, and ponds. They prefer areas with plenty of vegetation and will often be seen swimming or floating on the water's surface.
+    fr: Les canards apparaissent en groupes de 2 à 4 près des plans d'eau, comme les lacs, les rivières et les étangs. Ils préfèrent les zones avec beaucoup de végétation et sont souvent vus nager ou flotter à la surface de l'eau.
+
+drops:
+  title:
+    en: Drops
+    fr: Butin
+  description:
+    en: Duck drops upon death
+    fr: Le canard laisse tomber à sa mort
+  items:
+    - name:
+        en: Duck Feather
+        fr: Plume de canard
+      amount: 1-2
+      looting: true
+      condition:
+        en: Maximum amount increased by 1 per level of Looting, for a maximum of 1-4 with Looting III
+        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 1-4 avec Butin III
+    - name:
+        en: Duck Meat
+        fr: Viande de canard
+      amount: 1-2
+      looting: true
+      condition:
+        en: Maximum amount increased by 1 per level of Looting, for a maximum of 1-4 with Looting III
+        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 1-4 avec Butin III
+    - name:
+        en: Experience Orbs
+        fr: Orbes d'expérience
+      amount: 1-3
+      condition:
+        en: if killed by Player
+        fr: si tué par un joueur
+
+behavior:
+  title:
+    en: Behavior
+    fr: Comportement
+  description:
+    en: Ducks are peaceful creatures that spend most of their time in or near water. They can swim, dive, and fly short distances. They will often be seen dabbling in the water for food or preening their feathers. They can be bred using seeds and will produce ducklings when bred.
+    fr: Les canards sont des créatures paisibles qui passent la plupart de leur temps dans ou près de l'eau. Ils peuvent nager, plonger et voler sur de courtes distances. On les voit souvent barboter dans l'eau pour chercher de la nourriture ou lisser leurs plumes. Ils peuvent être reproduits en utilisant des graines et produiront des canetons lorsqu'ils se reproduisent.
+
+breeding:
+  title:
+    en: Breeding
+    fr: Reproduction
+  description:
+    en: Ducks can be bred using seeds. When bred, they will produce a duckling that will grow into an adult duck. Ducklings are smaller and more vulnerable than adults, and will stay close to their parents until they grow up.
+    fr: Les canards peuvent se reproduire en utilisant des graines. Lorsqu'ils se reproduisent, ils produiront un caneton qui grandira pour devenir un canard adulte. Les canetons sont plus petits et plus vulnérables que les adultes, et resteront près de leurs parents jusqu'à ce qu'ils grandissent.
+
+gallery:
+  title:
+    en: Gallery
+    fr: Galerie
+
+community:
+  title:
+    en: Have additional questions? Want to be a part of our community?
+    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté ?
+  join:
+    en: Join our Discord!
+    fr: Rejoignez notre Discord !
+  discord_url: /discord.com/invite/starfishstudios
+
+social_links:
+  marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
+  curseforge: /www.curseforge.com/members/starfish_studios/projects
+  tiktok: /www.tiktok.com/@starfishstudios
+  instagram: /www.instagram.com/starfishstudiosinc/
+  twitter: /twitter.com/starfishstudios
+  youtube: /www.youtube.com/@starfishstudios
+  website: /starfish-studios.com/ 
