@@ -1,0 +1,144 @@
+title:
+  en: Anteater
+  fr: Fourmilier
+
+last_updated:
+  en: April 22, 2025 8:47 PM
+  fr: 22 avril 2025 20h47
+
+return_link:
+  en: Naturalist Add-On Wiki
+  fr: Wiki de l'extension Naturalist
+return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
+
+description:
+  en: Anteaters are native to Central and South America. They have no teeth, but they utilize their long tongue (longer than any other mammal) to eat. Their sense of smell is 40 times greater than humans, which helps them identify food sources.
+  fr: Les fourmiliers sont originaires d'Amérique centrale et du Sud. Ils n'ont pas de dents, mais utilisent leur longue langue (plus longue que celle de tout autre mammifère) pour manger. Leur odorat est 40 fois plus développé que celui des humains, ce qui les aide à identifier les sources de nourriture.
+
+stats:
+  health: 20
+  classification:
+    en: Animal
+    fr: Animal
+  classification_urls:
+    animal: /minecraft.fandom.com/wiki/Animal
+  behavior:
+    en: Neutral
+    fr: Neutre
+  spawn:
+    en: Jungle & Savanna
+    fr: Jungle et Savane
+  spawn_url:
+    jungle: /minecraft.wiki/w/Jungle
+    savanna: /minecraft.wiki/w/Savanna
+
+images:
+  main: anteater.gif
+  items:
+    - bushmeat.png
+    - cooked_bushmeat.png
+  gallery:
+    - anteater.gif
+    - bushmeat.png
+    - cooked_bushmeat.png
+    - anteater_feast.png
+    - anteater1.png
+    - anteater_ant_hill.png
+
+spawning:
+  title:
+    en: Spawning
+    fr: Apparition
+  description:
+    en: A parade of 1-2 anteaters in the jungle and savanna biomes. They will spawn on grass blocks during the daytime with light levels of 7-15.
+    fr: Un groupe de 1 à 2 fourmiliers dans les biomes de jungle et de savane. Ils apparaîtront sur des blocs d'herbe pendant la journée avec des niveaux de lumière de 7 à 15.
+
+drops:
+  title:
+    en: Drops
+    fr: Butin
+  description:
+    en: Anteaters drops upon death
+    fr: Le fourmilier laisse tomber à sa mort
+  items:
+    - name:
+        en: Bushmeat
+        fr: Viande de brousse
+      amount: 1-2
+      looting: true
+      condition:
+        en: Maximum amount increased by 1 per level of Looting, for a maximum of 1-6 with Looting III
+        fr: Le montant maximum est augmenté de 1 par niveau de Pillage, pour un maximum de 1-6 avec Pillage III
+    - name:
+        en: Experience Orbs
+        fr: Orbes d'expérience
+      amount: 1-3
+      condition:
+        en: if killed by Player
+        fr: si tué par un joueur
+    - name:
+        en: Experience Orbs
+        fr: Orbes d'expérience
+      amount: 1-7
+      condition:
+        en: upon breeding
+        fr: lors de la reproduction
+  note:
+    en: Pups yield no items nor experience.
+    fr: Les petits ne donnent ni objets ni expérience.
+
+behavior:
+  title:
+    en: Behavior
+    fr: Comportement
+  description:
+    en: Anteaters are neutral mobs that spawn near ant hills. They wander around aimlessly while sniffing the ground or the air. When they get hungry, they will dig into ant hills to draw out a crunchy snack.
+    fr: Les fourmiliers sont des créatures neutres qui apparaissent près des fourmilières. Ils errent sans but tout en reniflant le sol ou l'air. Quand ils ont faim, ils creuseront dans les fourmilières pour en extraire une collation croustillante.
+  taming:
+    en: Anteaters, when tamed, will occasionally dig in the ground for random items and can pop up items such as beetles, ants, golden nuggets, hanging roots, bones, or even live moles!
+    fr: Les fourmiliers, une fois apprivoisés, creuseront occasionnellement le sol pour trouver des objets aléatoires et peuvent faire apparaître des objets tels que des scarabées, des fourmis, des pépites d'or, des racines suspendues, des os, ou même des taupes vivantes !
+
+taming:
+  title:
+    en: Taming, Healing, & Feeding
+    fr: Apprivoisement, Soins et Nourriture
+  description:
+    en: An anteater can be tamed with termites and ants. There is a 75% chance of successful taming. Once they are tamed, you will see hearts appear, and a shirt will appear on their body, signifying you have tamed the anteater. You can dye the shirt to your color of choice or use shears to cut off the shirt. If you shear off the shirt, it can be reapplied by using a dye color of your choice.
+    fr: Un fourmilier peut être apprivoisé avec des termites et des fourmis. Il y a 75% de chances de réussir l'apprivoisement. Une fois apprivoisé, vous verrez des cœurs apparaître, et une chemise apparaîtra sur son corps, indiquant que vous avez apprivoisé le fourmilier. Vous pouvez teindre la chemise à la couleur de votre choix ou utiliser des cisailles pour la retirer. Si vous retirez la chemise, elle peut être réappliquée en utilisant une couleur de teinture de votre choix.
+  behavior:
+    en: Tamed anteaters cannot be commanded, nor will they follow a player at any time. To keep your anteaters within a certain area, you can put a lead on them and tie them to a fence or build a corral around them.
+    fr: Les fourmiliers apprivoisés ne peuvent pas être commandés et ne suivront jamais un joueur. Pour garder vos fourmiliers dans une zone spécifique, vous pouvez leur mettre une laisse et les attacher à une clôture ou construire un enclos autour d'eux.
+
+breeding:
+  title:
+    en: Breeding
+    fr: Reproduction
+  description:
+    en: Adult anteaters with full health can be bred with honeycomb. There is a 5-minute cooldown for breeding, during which the anteaters do not accept honeycomb for breeding.
+    fr: Les fourmiliers adultes en pleine santé peuvent se reproduire avec des rayons de miel. Il y a un temps de recharge de 5 minutes pour la reproduction, pendant lequel les fourmiliers n'acceptent pas les rayons de miel pour la reproduction.
+  behavior:
+    en: Baby anteaters will ride on their parents until they grow up, upon which they will immediately dismount. The growth of pups can be slowly accelerated by using ants and queen ants.
+    fr: Les bébés fourmiliers monteront sur leurs parents jusqu'à ce qu'ils grandissent, moment auquel ils descendront immédiatement. La croissance des petits peut être légèrement accélérée en utilisant des fourmis et des reines fourmis.
+
+gallery:
+  title:
+    en: Gallery
+    fr: Galerie
+
+community:
+  title:
+    en: Have additional questions? Want to be a part of our community?
+    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté ?
+  join:
+    en: Join our Discord!
+    fr: Rejoignez notre Discord !
+  discord_url: /discord.com/invite/starfishstudios
+
+social_links:
+  marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
+  curseforge: /www.curseforge.com/members/starfish_studios/projects
+  tiktok: /www.tiktok.com/@starfishstudios
+  instagram: /www.instagram.com/starfishstudiosinc/
+  twitter: /twitter.com/starfishstudios
+  youtube: /www.youtube.com/@starfishstudios
+  website: /starfish-studios.com/ 
