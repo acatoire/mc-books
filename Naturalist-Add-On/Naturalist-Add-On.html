@@ -26,6 +26,7 @@
         .controls {
             display: flex;
             gap: 20px;
+            align-items: center;
         }
         select, button {
             padding: 8px 16px;
@@ -33,6 +34,56 @@
             border-radius: 4px;
             background-color: #fff;
             cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        button:hover {
+            background-color: #f0f0f0;
+            transform: translateY(-1px);
+        }
+        button.active {
+            background-color: #007bff;
+            color: white;
+            border-color: #0056b3;
+        }
+        .animal-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .animal-button {
+            position: relative;
+            padding: 8px 16px 8px 35px;  /* Added left padding for the ID */
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background-color: #fff;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .animal-id {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 0.8em;
+            color: #666;
+            font-weight: bold;
+        }
+        .animal-button:hover {
+            background-color: #f0f0f0;
+            transform: translateY(-1px);
+        }
+        .animal-button.active {
+            background-color: #007bff;
+            color: white;
+            border-color: #0056b3;
+        }
+        .animal-button.active .animal-id {
+            color: white;
         }
         .content {
             background-color: #fff;
@@ -95,9 +146,6 @@
     <div class="header">
         <h1>Naturalist Add-On</h1>
         <div class="controls">
-            <select id="animal-select">
-                <option value="">Select an animal...</option>
-            </select>
             <select id="language-select">
                 <option value="en">English</option>
                 <option value="fr">Français</option>
@@ -105,8 +153,12 @@
         </div>
     </div>
 
+    <div class="animal-buttons" id="animal-buttons">
+        <!-- Buttons will be dynamically added here -->
+    </div>
+
     <div class="content" id="content">
-        <p>Select an animal from the dropdown menu to view its information.</p>
+        <p>Select an animal to view its information.</p>
     </div>
 
     <script>
@@ -114,17 +166,44 @@
         let currentLanguage = 'en';
         let currentAnimal = '';
         let animalList = [];
+        let animalTranslations = new Map(); // Store translations for all animals
 
-        // Function to scan for YAML files
+        // Function to load animal translation
+        async function loadAnimalTranslation(animal) {
+            try {
+                const response = await fetch(`${animal}/${animal}.yaml`);
+                const yamlText = await response.text();
+                const animalData = jsyaml.load(yamlText);
+                animalTranslations.set(animal, animalData);
+                return animalData;
+            } catch (error) {
+                console.error(`Error loading translation for ${animal}:`, error);
+                return null;
+            }
+        }
+
+        // Function to update button text
+        function updateButtonText(button, animal) {
+            const animalData = animalTranslations.get(animal);
+            if (animalData && animalData.title && animalData.title[currentLanguage]) {
+                const nameSpan = button.querySelector('span:not(.animal-id)');
+                nameSpan.textContent = animalData.title[currentLanguage];
+            }
+        }
+
+        // Function to update all button texts
+        function updateAllButtonTexts() {
+            const buttons = document.querySelectorAll('#animal-buttons .animal-button');
+            buttons.forEach(button => {
+                updateButtonText(button, button.value);
+            });
+        }
+
+        // Function to scan for animals
         async function scanForAnimals() {
-            const animalSelect = document.getElementById('animal-select');
+            const animalButtonsContainer = document.getElementById('animal-buttons');
             const knownAnimals = [];
             
-            // Clear existing options except the first one
-            while (animalSelect.options.length > 1) {
-                animalSelect.remove(1);
-            }
-
             // Load potential animals from config.yaml
             let potentialAnimals = [];
             try {
@@ -142,6 +221,8 @@
                 try {
                     const response = await fetch(`${animalName}/${animalName}.yaml`);
                     if (response.ok) {
+                        // Load the translation immediately when we find the animal
+                        await loadAnimalTranslation(animalName);
                         return true;
                     }
                     return false;
@@ -160,49 +241,80 @@
             // Sort animals alphabetically
             knownAnimals.sort();
 
-            // Add animals to the select element
-            knownAnimals.forEach(animal => {
-                const option = document.createElement('option');
-                option.value = animal;
-                option.textContent = animal.split('_').map(word => 
+            // Clear existing buttons
+            animalButtonsContainer.innerHTML = '';
+
+            // Create buttons for each animal
+            knownAnimals.forEach((animal, index) => {
+                const button = document.createElement('button');
+                button.className = 'animal-button';
+                
+                // Create ID span
+                const idSpan = document.createElement('span');
+                idSpan.className = 'animal-id';
+                idSpan.textContent = `#${(index + 1).toString().padStart(2, '0')}`;
+                
+                // Create name span
+                const nameSpan = document.createElement('span');
+                nameSpan.className = 'animal-name';
+                // Set initial name (will be updated with translation)
+                nameSpan.textContent = animal.split('_').map(word => 
                     word.charAt(0).toUpperCase() + word.slice(1)
                 ).join(' ');
-                animalSelect.appendChild(option);
+                
+                button.appendChild(idSpan);
+                button.appendChild(nameSpan);
+                button.value = animal;
+                button.dataset.id = index + 1;
+                
+                button.addEventListener('click', function() {
+                    // Remove active class from all buttons
+                    document.querySelectorAll('#animal-buttons button').forEach(btn => {
+                        btn.classList.remove('active');
+                    });
+                    // Add active class to clicked button
+                    this.classList.add('active');
+                    currentAnimal = this.value;
+                    loadAnimalData(currentAnimal);
+                });
+                animalButtonsContainer.appendChild(button);
+                
+                // Update button text with translation if available
+                updateButtonText(button, animal);
             });
 
             return knownAnimals;
         }
 
-        // Load animal data when selected
-        document.getElementById('animal-select').addEventListener('change', function(e) {
-            currentAnimal = e.target.value;
-            if (currentAnimal) {
-                loadAnimalData(currentAnimal);
-            } else {
-                document.getElementById('content').innerHTML = '<p>Select an animal from the dropdown menu to view its information.</p>';
-            }
-        });
-
         // Switch language
         document.getElementById('language-select').addEventListener('change', function(e) {
             currentLanguage = e.target.value;
+            // Update all button texts with new language
+            updateAllButtonTexts();
+            // Update content if an animal is selected
             if (currentAnimal) {
                 loadAnimalData(currentAnimal);
             }
         });
 
         function loadAnimalData(animal) {
-            fetch(`${animal}/${animal}.yaml`)
-                .then(response => response.text())
-                .then(yaml => {
-                    translations = jsyaml.load(yaml);
-                    document.getElementById('language-select').value = currentLanguage;
-                    updateContent();
-                })
-                .catch(error => {
-                    console.error('Error loading animal data:', error);
-                    document.getElementById('content').innerHTML = '<p>Error loading animal data. Please try again.</p>';
-                });
+            if (animalTranslations.has(animal)) {
+                translations = animalTranslations.get(animal);
+                updateContent();
+            } else {
+                fetch(`${animal}/${animal}.yaml`)
+                    .then(response => response.text())
+                    .then(yaml => {
+                        translations = jsyaml.load(yaml);
+                        animalTranslations.set(animal, translations);
+                        document.getElementById('language-select').value = currentLanguage;
+                        updateContent();
+                    })
+                    .catch(error => {
+                        console.error('Error loading animal data:', error);
+                        document.getElementById('content').innerHTML = '<p>Error loading animal data. Please try again.</p>';
+                    });
+            }
         }
 
         function updateContent() {
