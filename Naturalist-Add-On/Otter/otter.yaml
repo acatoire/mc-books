@@ -1,0 +1,123 @@
+title:
+  en: Otter
+  fr: Loutre
+
+last_updated:
+  en: April 22, 2025 8:47 PM
+  fr: 22 avril 2025 20h47
+
+return_link:
+  en: Naturalist Add-On Wiki
+  fr: Wiki de l'extension Naturalist
+return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
+
+description:
+  en: Otters are playful, aquatic mammals known for their sleek bodies and webbed feet. They are carnivorous creatures that feed on fish, crustaceans, and other small aquatic animals. They are highly social and are often found in family groups near rivers, lakes, and coastal areas.
+  fr: Les loutres sont des mammifères aquatiques joueurs connus pour leur corps élancé et leurs pieds palmés. Ce sont des créatures carnivores qui se nourrissent de poissons, de crustacés et d'autres petits animaux aquatiques. Elles sont très sociales et se trouvent souvent en groupes familiaux près des rivières, des lacs et des zones côtières.
+
+stats:
+  health: 15
+  classification:
+    en: Animal / Mammal
+    fr: Animal / Mammifère
+  classification_urls:
+    animal: /minecraft.fandom.com/wiki/Animal
+    mammal: /minecraft.fandom.com/wiki/Mammal
+  behavior:
+    en: Passive
+    fr: Passif
+  spawn:
+    en: Rivers and Oceans
+    fr: Rivières et Océans
+  spawn_urls:
+    river: /minecraft.wiki/w/River
+    ocean: /minecraft.wiki/w/Ocean
+
+images:
+  main: otter.gif
+  items:
+    - otter_fur.png
+    - otter_meat.png
+  gallery:
+    - otter.gif
+    - otter_swimming.png
+    - otter_fur.png
+
+spawning:
+  title:
+    en: Spawning
+    fr: Apparition
+  description:
+    en: Otters spawn in river and ocean biomes, typically in areas with plenty of water and fish. They prefer areas with access to both water and land, and are most active during the day. They can be found in various sizes and colors.
+    fr: Les loutres apparaissent dans les biomes de rivière et d'océan, généralement dans des zones avec beaucoup d'eau et de poissons. Elles préfèrent les zones avec accès à la fois à l'eau et à la terre, et sont plus actives pendant la journée. Elles peuvent être trouvées dans diverses tailles et couleurs.
+
+drops:
+  title:
+    en: Drops
+    fr: Butin
+  description:
+    en: Otter drops upon death
+    fr: La loutre laisse tomber à sa mort
+  items:
+    - name:
+        en: Otter Fur
+        fr: Fourrure de loutre
+      amount: 1
+      looting: true
+      condition:
+        en: Maximum amount increased by 1 per level of Looting, for a maximum of 2 with Looting III
+        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 2 avec Butin III
+    - name:
+        en: Otter Meat
+        fr: Viande de loutre
+      amount: 1
+      looting: true
+      condition:
+        en: Maximum amount increased by 1 per level of Looting, for a maximum of 2 with Looting III
+        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 2 avec Butin III
+    - name:
+        en: Experience Orbs
+        fr: Orbes d'expérience
+      amount: 1-2
+      condition:
+        en: if killed by Player
+        fr: si tué par un joueur
+
+behavior:
+  title:
+    en: Behavior
+    fr: Comportement
+  description:
+    en: Otters are passive creatures that are known for their playful nature. They are excellent swimmers and can hold their breath for extended periods. They are diurnal and will hunt for fish. They can be tamed using fish.
+    fr: Les loutres sont des créatures passives connues pour leur nature joueuse. Ce sont d'excellentes nageuses et peuvent retenir leur souffle pendant de longues périodes. Elles sont diurnes et chasseront les poissons. Elles peuvent être apprivoisées en utilisant des poissons.
+
+breeding:
+  title:
+    en: Breeding
+    fr: Reproduction
+  description:
+    en: Otters can be bred using fish. When bred, they will produce a baby otter that stays close to its parents. The baby will grow into an adult over time.
+    fr: Les loutres peuvent se reproduire en utilisant des poissons. Lorsqu'elles se reproduisent, elles produiront un bébé loutre qui reste près de ses parents. Le bébé grandira pour devenir un adulte avec le temps.
+
+gallery:
+  title:
+    en: Gallery
+    fr: Galerie
+
+community:
+  title:
+    en: Have additional questions? Want to be a part of our community?
+    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté ?
+  join:
+    en: Join our Discord!
+    fr: Rejoignez notre Discord !
+  discord_url: /discord.com/invite/starfishstudios
+
+social_links:
+  marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
+  curseforge: /www.curseforge.com/members/starfish_studios/projects
+  tiktok: /www.tiktok.com/@starfishstudios
+  instagram: /www.instagram.com/starfishstudiosinc/
+  twitter: /twitter.com/starfishstudios
+  youtube: /www.youtube.com/@starfishstudios
+  website: /starfish-studios.com/ 

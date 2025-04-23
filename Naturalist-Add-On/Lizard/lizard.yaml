@@ -1,0 +1,123 @@
+title:
+  en: Lizard
+  fr: Lézard
+
+last_updated:
+  en: April 22, 2025 8:47 PM
+  fr: 22 avril 2025 20h47
+
+return_link:
+  en: Naturalist Add-On Wiki
+  fr: Wiki de l'extension Naturalist
+return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
+
+description:
+  en: Lizards are small, agile reptiles known for their ability to climb walls and their quick movements. They are found in various habitats and are known for their ability to detach their tails when threatened. They are insectivorous, feeding on small insects and spiders.
+  fr: Les lézards sont de petits reptiles agiles connus pour leur capacité à grimper aux murs et leurs mouvements rapides. Ils se trouvent dans divers habitats et sont connus pour leur capacité à détacher leur queue lorsqu'ils sont menacés. Ils sont insectivores, se nourrissant de petits insectes et d'araignées.
+
+stats:
+  health: 5
+  classification:
+    en: Animal / Reptile
+    fr: Animal / Reptile
+  classification_urls:
+    animal: /minecraft.fandom.com/wiki/Animal
+    reptile: /minecraft.fandom.com/wiki/Reptile
+  behavior:
+    en: Passive
+    fr: Passif
+  spawn:
+    en: Deserts and Jungles
+    fr: Déserts et Jungles
+  spawn_urls:
+    desert: /minecraft.wiki/w/Desert
+    jungle: /minecraft.wiki/w/Jungle
+
+images:
+  main: lizard.gif
+  items:
+    - lizard_scale.png
+    - lizard_tail.png
+  gallery:
+    - lizard.gif
+    - lizard_climbing.png
+    - lizard_scale.png
+
+spawning:
+  title:
+    en: Spawning
+    fr: Apparition
+  description:
+    en: Lizards spawn in desert and jungle biomes, typically in areas with plenty of rocks and vegetation. They prefer areas with access to both open spaces and cover, and are most active during the day. They can be found in various sizes and colors.
+    fr: Les lézards apparaissent dans les biomes de désert et de jungle, généralement dans des zones avec beaucoup de rochers et de végétation. Ils préfèrent les zones avec accès à la fois aux espaces ouverts et à la couverture, et sont plus actifs pendant la journée. Ils peuvent être trouvés dans diverses tailles et couleurs.
+
+drops:
+  title:
+    en: Drops
+    fr: Butin
+  description:
+    en: Lizard drops upon death
+    fr: Le lézard laisse tomber à sa mort
+  items:
+    - name:
+        en: Lizard Scale
+        fr: Écaille de lézard
+      amount: 1
+      looting: true
+      condition:
+        en: Maximum amount increased by 1 per level of Looting, for a maximum of 2 with Looting III
+        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 2 avec Butin III
+    - name:
+        en: Lizard Tail
+        fr: Queue de lézard
+      amount: 1
+      looting: true
+      condition:
+        en: Maximum amount increased by 1 per level of Looting, for a maximum of 2 with Looting III
+        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 2 avec Butin III
+    - name:
+        en: Experience Orbs
+        fr: Orbes d'expérience
+      amount: 1
+      condition:
+        en: if killed by Player
+        fr: si tué par un joueur
+
+behavior:
+  title:
+    en: Behavior
+    fr: Comportement
+  description:
+    en: Lizards are passive creatures that will flee when threatened. They are known for their climbing abilities and quick movements. They are diurnal and will often be found basking in the sun or hiding in crevices. They can be tamed using insects.
+    fr: Les lézards sont des créatures passives qui fuiront lorsqu'elles sont menacées. Ils sont connus pour leurs capacités d'escalade et leurs mouvements rapides. Ils sont diurnes et se trouvent souvent en train de se prélasser au soleil ou de se cacher dans les crevasses. Ils peuvent être apprivoisés en utilisant des insectes.
+
+breeding:
+  title:
+    en: Breeding
+    fr: Reproduction
+  description:
+    en: Lizards can be bred using insects. When bred, they will produce a baby lizard that stays close to its parents. The baby will grow into an adult over time.
+    fr: Les lézards peuvent se reproduire en utilisant des insectes. Lorsqu'ils se reproduisent, ils produiront un bébé lézard qui reste près de ses parents. Le bébé grandira pour devenir un adulte avec le temps.
+
+gallery:
+  title:
+    en: Gallery
+    fr: Galerie
+
+community:
+  title:
+    en: Have additional questions? Want to be a part of our community?
+    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté ?
+  join:
+    en: Join our Discord!
+    fr: Rejoignez notre Discord !
+  discord_url: /discord.com/invite/starfishstudios
+
+social_links:
+  marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
+  curseforge: /www.curseforge.com/members/starfish_studios/projects
+  tiktok: /www.tiktok.com/@starfishstudios
+  instagram: /www.instagram.com/starfishstudiosinc/
+  twitter: /twitter.com/starfishstudios
+  youtube: /www.youtube.com/@starfishstudios
+  website: /starfish-studios.com/ 

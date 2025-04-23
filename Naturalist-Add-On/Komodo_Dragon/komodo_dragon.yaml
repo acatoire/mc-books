@@ -1,0 +1,123 @@
+title:
+  en: Komodo Dragon
+  fr: Dragon de Komodo
+
+last_updated:
+  en: April 22, 2025 8:47 PM
+  fr: 22 avril 2025 20h47
+
+return_link:
+  en: Naturalist Add-On Wiki
+  fr: Wiki de l'extension Naturalist
+return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
+
+description:
+  en: Komodo dragons are the largest living lizards, known for their massive size, powerful jaws, and venomous bite. They are apex predators in their environment and are capable of taking down large prey. They are excellent swimmers and can move surprisingly quickly despite their size.
+  fr: Les dragons de Komodo sont les plus grands lézards vivants, connus pour leur taille massive, leurs puissantes mâchoires et leur morsure venimeuse. Ce sont des prédateurs au sommet de leur chaîne alimentaire et sont capables de s'attaquer à de grandes proies. Ce sont d'excellents nageurs et peuvent se déplacer étonnamment rapidement malgré leur taille.
+
+stats:
+  health: 35
+  classification:
+    en: Animal / Reptile
+    fr: Animal / Reptile
+  classification_urls:
+    animal: /minecraft.fandom.com/wiki/Animal
+    reptile: /minecraft.fandom.com/wiki/Reptile
+  behavior:
+    en: Hostile
+    fr: Hostile
+  spawn:
+    en: Jungles and Swamps
+    fr: Jungles et Marais
+  spawn_urls:
+    jungle: /minecraft.wiki/w/Jungle
+    swamp: /minecraft.wiki/w/Swamp
+
+images:
+  main: komodo_dragon.gif
+  items:
+    - komodo_hide.png
+    - komodo_meat.png
+  gallery:
+    - komodo_dragon.gif
+    - komodo_hunting.png
+    - komodo_swimming.png
+
+spawning:
+  title:
+    en: Spawning
+    fr: Apparition
+  description:
+    en: Komodo dragons spawn in jungle and swamp biomes, typically as solitary animals. They prefer areas with dense vegetation and access to water. They are diurnal creatures and are most active during the day.
+    fr: Les dragons de Komodo apparaissent dans les biomes de jungle et de marais, généralement en tant qu'animaux solitaires. Ils préfèrent les zones avec une végétation dense et un accès à l'eau. Ce sont des créatures diurnes et sont plus actives pendant la journée.
+
+drops:
+  title:
+    en: Drops
+    fr: Butin
+  description:
+    en: Komodo dragon drops upon death
+    fr: Le dragon de Komodo laisse tomber à sa mort
+  items:
+    - name:
+        en: Komodo Hide
+        fr: Peau de dragon de Komodo
+      amount: 1-2
+      looting: true
+      condition:
+        en: Maximum amount increased by 1 per level of Looting, for a maximum of 1-4 with Looting III
+        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 1-4 avec Butin III
+    - name:
+        en: Komodo Meat
+        fr: Viande de dragon de Komodo
+      amount: 1-2
+      looting: true
+      condition:
+        en: Maximum amount increased by 1 per level of Looting, for a maximum of 1-4 with Looting III
+        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 1-4 avec Butin III
+    - name:
+        en: Experience Orbs
+        fr: Orbes d'expérience
+      amount: 1-2
+      condition:
+        en: if killed by Player
+        fr: si tué par un joueur
+
+behavior:
+  title:
+    en: Behavior
+    fr: Comportement
+  description:
+    en: Komodo dragons are hostile creatures that will attack players and other animals. They are solitary hunters and are most active during the day. They are excellent swimmers and often hunt near water sources. They are stealthy predators that will stalk their prey before attacking.
+    fr: Les dragons de Komodo sont des créatures hostiles qui attaqueront les joueurs et les autres animaux. Ce sont des chasseurs solitaires et sont plus actifs pendant la journée. Ce sont d'excellents nageurs et chassent souvent près des sources d'eau. Ce sont des prédateurs furtifs qui traqueront leur proie avant d'attaquer.
+
+breeding:
+  title:
+    en: Breeding
+    fr: Reproduction
+  description:
+    en: Komodo dragons cannot be bred but will naturally spawn in their respective biomes.
+    fr: Les dragons de Komodo ne peuvent pas se reproduire mais apparaîtront naturellement dans leurs biomes respectifs.
+
+gallery:
+  title:
+    en: Gallery
+    fr: Galerie
+
+community:
+  title:
+    en: Have additional questions? Want to be a part of our community?
+    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté ?
+  join:
+    en: Join our Discord!
+    fr: Rejoignez notre Discord !
+  discord_url: /discord.com/invite/starfishstudios
+
+social_links:
+  marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
+  curseforge: /www.curseforge.com/members/starfish_studios/projects
+  tiktok: /www.tiktok.com/@starfishstudios
+  instagram: /www.instagram.com/starfishstudiosinc/
+  twitter: /twitter.com/starfishstudios
+  youtube: /www.youtube.com/@starfishstudios
+  website: /starfish-studios.com/ 

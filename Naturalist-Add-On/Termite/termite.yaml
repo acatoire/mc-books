@@ -1,0 +1,114 @@
+title:
+  en: Termite
+  fr: Termite
+
+last_updated:
+  en: April 22, 2025 8:47 PM
+  fr: 22 avril 2025 20h47
+
+return_link:
+  en: Naturalist Add-On Wiki
+  fr: Wiki de l'extension Naturalist
+return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
+
+description:
+  en: Termites are social insects known for their ability to break down wood and other plant material. They live in large colonies with a complex social structure, including workers, soldiers, and a queen. They are important decomposers in their ecosystems and can cause significant damage to wooden structures. They are most active in warm, humid environments.
+  fr: Les termites sont des insectes sociaux connus pour leur capacité à décomposer le bois et d'autres matières végétales. Ils vivent dans de grandes colonies avec une structure sociale complexe, comprenant des ouvriers, des soldats et une reine. Ce sont des décomposeurs importants dans leurs écosystèmes et peuvent causer des dommages importants aux structures en bois. Ils sont plus actifs dans les environnements chauds et humides.
+
+stats:
+  health: 5
+  classification:
+    en: Animal / Insect
+    fr: Animal / Insecte
+  classification_urls:
+    animal: /minecraft.fandom.com/wiki/Animal
+    insect: /minecraft.fandom.com/wiki/Insect
+  behavior:
+    en: Passive
+    fr: Passif
+  spawn:
+    en: Jungles and Forests
+    fr: Jungles et Forêts
+  spawn_urls:
+    jungle: /minecraft.wiki/w/Jungle
+    forest: /minecraft.wiki/w/Forest
+
+images:
+  main: termite.gif
+  items:
+    - termite_wing.png
+  gallery:
+    - termite.gif
+    - termite_colony.png
+    - termite_wing.png
+
+spawning:
+  title:
+    en: Spawning
+    fr: Apparition
+  description:
+    en: Termites spawn in jungle and forest biomes, typically near wood or plant material. They prefer areas with high humidity and plenty of food sources. They are most active during the day and can be found in large colonies.
+    fr: Les termites apparaissent dans les biomes de jungle et de forêt, généralement près du bois ou des matières végétales. Ils préfèrent les zones avec une humidité élevée et beaucoup de sources de nourriture. Ils sont plus actifs pendant la journée et peuvent être trouvés en grandes colonies.
+
+drops:
+  title:
+    en: Drops
+    fr: Butin
+  description:
+    en: Termite drops upon death
+    fr: Le termite laisse tomber à sa mort
+  items:
+    - name:
+        en: Termite Wing
+        fr: Aile de termite
+      amount: 1
+      looting: true
+      condition:
+        en: Maximum amount increased by 1 per level of Looting, for a maximum of 2 with Looting III
+        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 2 avec Butin III
+    - name:
+        en: Experience Orbs
+        fr: Orbes d'expérience
+      amount: 1
+      condition:
+        en: if killed by Player
+        fr: si tué par un joueur
+
+behavior:
+  title:
+    en: Behavior
+    fr: Comportement
+  description:
+    en: Termites are passive creatures that live in large colonies. They are known for their ability to break down wood and other plant material. They are most active during the day and can be found in various roles within their colony, including workers, soldiers, and a queen. They cannot be tamed.
+    fr: Les termites sont des créatures passives qui vivent en grandes colonies. Ils sont connus pour leur capacité à décomposer le bois et d'autres matières végétales. Ils sont plus actifs pendant la journée et peuvent être trouvés dans divers rôles au sein de leur colonie, y compris des ouvriers, des soldats et une reine. Ils ne peuvent pas être apprivoisés.
+
+breeding:
+  title:
+    en: Breeding
+    fr: Reproduction
+  description:
+    en: Termites cannot be bred but will naturally spawn in their respective biomes.
+    fr: Les termites ne peuvent pas se reproduire mais apparaîtront naturellement dans leurs biomes respectifs.
+
+gallery:
+  title:
+    en: Gallery
+    fr: Galerie
+
+community:
+  title:
+    en: Have additional questions? Want to be a part of our community?
+    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté ?
+  join:
+    en: Join our Discord!
+    fr: Rejoignez notre Discord !
+  discord_url: /discord.com/invite/starfishstudios
+
+social_links:
+  marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
+  curseforge: /www.curseforge.com/members/starfish_studios/projects
+  tiktok: /www.tiktok.com/@starfishstudios
+  instagram: /www.instagram.com/starfishstudiosinc/
+  twitter: /twitter.com/starfishstudios
+  youtube: /www.youtube.com/@starfishstudios
+  website: /starfish-studios.com/ 

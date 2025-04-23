@@ -1,0 +1,123 @@
+title:
+  en: Shark
+  fr: Requin
+
+last_updated:
+  en: April 22, 2025 8:47 PM
+  fr: 22 avril 2025 20h47
+
+return_link:
+  en: Naturalist Add-On Wiki
+  fr: Wiki de l'extension Naturalist
+return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
+
+description:
+  en: Sharks are large, powerful marine predators known for their streamlined bodies and sharp teeth. They are apex predators in their ecosystems and play a crucial role in maintaining the balance of marine life. They are found in various ocean biomes and come in different sizes and species.
+  fr: Les requins sont de grands prédateurs marins puissants connus pour leurs corps profilés et leurs dents acérées. Ce sont des prédateurs au sommet de leur écosystème et jouent un rôle crucial dans le maintien de l'équilibre de la vie marine. On les trouve dans divers biomes océaniques et ils existent en différentes tailles et espèces.
+
+stats:
+  health: 30
+  classification:
+    en: Animal / Aquatic
+    fr: Animal / Aquatique
+  classification_urls:
+    animal: /minecraft.fandom.com/wiki/Animal
+    aquatic: /minecraft.fandom.com/wiki/Aquatic
+  behavior:
+    en: Hostile
+    fr: Hostile
+  spawn:
+    en: Oceans and Deep Oceans
+    fr: Océans et Océans profonds
+  spawn_urls:
+    ocean: /minecraft.wiki/w/Ocean
+    deep_ocean: /minecraft.wiki/w/Deep_Ocean
+
+images:
+  main: shark.gif
+  items:
+    - shark_fin.png
+    - shark_meat.png
+  gallery:
+    - shark.gif
+    - shark_swimming.png
+    - shark_fin.png
+
+spawning:
+  title:
+    en: Spawning
+    fr: Apparition
+  description:
+    en: Sharks spawn in ocean and deep ocean biomes, typically in deeper waters. They prefer areas with plenty of fish and are most active during the day. They can be found in various sizes and species.
+    fr: Les requins apparaissent dans les biomes d'océan et d'océan profond, généralement dans les eaux plus profondes. Ils préfèrent les zones avec beaucoup de poissons et sont plus actifs pendant la journée. Ils peuvent être trouvés dans diverses tailles et espèces.
+
+drops:
+  title:
+    en: Drops
+    fr: Butin
+  description:
+    en: Shark drops upon death
+    fr: Le requin laisse tomber à sa mort
+  items:
+    - name:
+        en: Shark Fin
+        fr: Aileron de requin
+      amount: 1-2
+      looting: true
+      condition:
+        en: Maximum amount increased by 1 per level of Looting, for a maximum of 3 with Looting III
+        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 3 avec Butin III
+    - name:
+        en: Shark Meat
+        fr: Viande de requin
+      amount: 2-3
+      looting: true
+      condition:
+        en: Maximum amount increased by 1 per level of Looting, for a maximum of 4 with Looting III
+        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 4 avec Butin III
+    - name:
+        en: Experience Orbs
+        fr: Orbes d'expérience
+      amount: 2-4
+      condition:
+        en: if killed by Player
+        fr: si tué par un joueur
+
+behavior:
+  title:
+    en: Behavior
+    fr: Comportement
+  description:
+    en: Sharks are hostile creatures that will attack players and other animals. They are known for their powerful attacks and ability to swim quickly. They are territorial and will defend their hunting grounds. They cannot be tamed.
+    fr: Les requins sont des créatures hostiles qui attaqueront les joueurs et autres animaux. Ils sont connus pour leurs attaques puissantes et leur capacité à nager rapidement. Ils sont territoriaux et défendront leurs zones de chasse. Ils ne peuvent pas être apprivoisés.
+
+breeding:
+  title:
+    en: Breeding
+    fr: Reproduction
+  description:
+    en: Sharks cannot be bred but will naturally spawn in their respective biomes.
+    fr: Les requins ne peuvent pas se reproduire mais apparaîtront naturellement dans leurs biomes respectifs.
+
+gallery:
+  title:
+    en: Gallery
+    fr: Galerie
+
+community:
+  title:
+    en: Have additional questions? Want to be a part of our community?
+    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté ?
+  join:
+    en: Join our Discord!
+    fr: Rejoignez notre Discord !
+  discord_url: /discord.com/invite/starfishstudios
+
+social_links:
+  marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
+  curseforge: /www.curseforge.com/members/starfish_studios/projects
+  tiktok: /www.tiktok.com/@starfishstudios
+  instagram: /www.instagram.com/starfishstudiosinc/
+  twitter: /twitter.com/starfishstudios
+  youtube: /www.youtube.com/@starfishstudios
+  website: /starfish-studios.com/ 

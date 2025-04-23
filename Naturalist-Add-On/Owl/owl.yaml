@@ -1,0 +1,123 @@
+title:
+  en: Owl
+  fr: Hibou
+
+last_updated:
+  en: April 22, 2025 8:47 PM
+  fr: 22 avril 2025 20h47
+
+return_link:
+  en: Naturalist Add-On Wiki
+  fr: Wiki de l'extension Naturalist
+return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
+
+description:
+  en: Owls are nocturnal birds of prey known for their silent flight and excellent night vision. They are carnivorous creatures that feed on small mammals, insects, and other birds. They are solitary hunters and are often found in forests and wooded areas.
+  fr: Les hiboux sont des oiseaux de proie nocturnes connus pour leur vol silencieux et leur excellente vision nocturne. Ce sont des créatures carnivores qui se nourrissent de petits mammifères, d'insectes et d'autres oiseaux. Ce sont des chasseurs solitaires et on les trouve souvent dans les forêts et les zones boisées.
+
+stats:
+  health: 10
+  classification:
+    en: Animal / Bird
+    fr: Animal / Oiseau
+  classification_urls:
+    animal: /minecraft.fandom.com/wiki/Animal
+    bird: /minecraft.fandom.com/wiki/Bird
+  behavior:
+    en: Neutral
+    fr: Neutre
+  spawn:
+    en: Forests and Taigas
+    fr: Forêts et Taïgas
+  spawn_urls:
+    forest: /minecraft.wiki/w/Forest
+    taiga: /minecraft.wiki/w/Taiga
+
+images:
+  main: owl.gif
+  items:
+    - owl_feather.png
+    - owl_meat.png
+  gallery:
+    - owl.gif
+    - owl_flying.png
+    - owl_feather.png
+
+spawning:
+  title:
+    en: Spawning
+    fr: Apparition
+  description:
+    en: Owls spawn in forest and taiga biomes, typically in areas with plenty of trees. They prefer areas with good visibility and are most active during the night. They can be found in various sizes and colors.
+    fr: Les hiboux apparaissent dans les biomes de forêt et de taïga, généralement dans des zones avec beaucoup d'arbres. Ils préfèrent les zones avec une bonne visibilité et sont plus actifs pendant la nuit. Ils peuvent être trouvés dans diverses tailles et couleurs.
+
+drops:
+  title:
+    en: Drops
+    fr: Butin
+  description:
+    en: Owl drops upon death
+    fr: Le hibou laisse tomber à sa mort
+  items:
+    - name:
+        en: Owl Feather
+        fr: Plume de hibou
+      amount: 1-2
+      looting: true
+      condition:
+        en: Maximum amount increased by 1 per level of Looting, for a maximum of 3 with Looting III
+        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 3 avec Butin III
+    - name:
+        en: Owl Meat
+        fr: Viande de hibou
+      amount: 1
+      looting: true
+      condition:
+        en: Maximum amount increased by 1 per level of Looting, for a maximum of 2 with Looting III
+        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 2 avec Butin III
+    - name:
+        en: Experience Orbs
+        fr: Orbes d'expérience
+      amount: 1-2
+      condition:
+        en: if killed by Player
+        fr: si tué par un joueur
+
+behavior:
+  title:
+    en: Behavior
+    fr: Comportement
+  description:
+    en: Owls are neutral creatures that will attack if threatened. They are known for their silent flight and excellent night vision. They are nocturnal and will hunt for small animals. They can be tamed using raw meat.
+    fr: Les hiboux sont des créatures neutres qui attaqueront si elles sont menacées. Ils sont connus pour leur vol silencieux et leur excellente vision nocturne. Ils sont nocturnes et chasseront les petits animaux. Ils peuvent être apprivoisés en utilisant de la viande crue.
+
+breeding:
+  title:
+    en: Breeding
+    fr: Reproduction
+  description:
+    en: Owls can be bred using raw meat. When bred, they will produce a baby owl that stays close to its parents. The baby will grow into an adult over time.
+    fr: Les hiboux peuvent se reproduire en utilisant de la viande crue. Lorsqu'ils se reproduisent, ils produiront un bébé hibou qui reste près de ses parents. Le bébé grandira pour devenir un adulte avec le temps.
+
+gallery:
+  title:
+    en: Gallery
+    fr: Galerie
+
+community:
+  title:
+    en: Have additional questions? Want to be a part of our community?
+    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté ?
+  join:
+    en: Join our Discord!
+    fr: Rejoignez notre Discord !
+  discord_url: /discord.com/invite/starfishstudios
+
+social_links:
+  marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
+  curseforge: /www.curseforge.com/members/starfish_studios/projects
+  tiktok: /www.tiktok.com/@starfishstudios
+  instagram: /www.instagram.com/starfishstudiosinc/
+  twitter: /twitter.com/starfishstudios
+  youtube: /www.youtube.com/@starfishstudios
+  website: /starfish-studios.com/ 

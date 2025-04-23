@@ -1,0 +1,123 @@
+title:
+  en: "Jellyfish & Small Jellyfish"
+
+description:
+  en: "Jellyfish are aquatic creatures but are not classified as fish. They are invertebrates that move gelatinously through the water. They come in many shapes and bright, vibrant colors. They utilize tentacles to catch their food along with their bodies that deliver stings to any creature that brushes against it."
+
+stats:
+  health: 10
+  classification:
+    en: "Animal / Aquatic"
+  classification_urls:
+    animal: "minecraft.fandom.com/wiki/Animal"
+    aquatic: "minecraft.fandom.com/wiki/Aquatic"
+  behavior:
+    en: "Passive"
+  spawn:
+    en: "Jellyfish: Ocean\nSmall Jellyfish: Warm Ocean & Lukewarm Ocean"
+  spawn_url: "minecraft.wiki/w/Ocean"
+
+spawning:
+  title:
+    en: "Spawning"
+  description:
+    en: "Jellyfish spawn between coordinates Y -20 & Y 64."
+  variants:
+    - type:
+        en: "Jellyfish"
+      group: "1"
+      biome:
+        en: "Ocean"
+    - type:
+        en: "Small Jellyfish"
+      group: "1 - 3"
+      biome:
+        en: "Warm Ocean & Lukewarm Ocean"
+
+drops:
+  title:
+    en: "Drops"
+  description:
+    en: "Jellyfish drops upon death:"
+  items:
+    - name:
+        en: "Slime Ball"
+      amount: "1"
+    - name:
+        en: "Experience Orbs"
+      amount: "1 - 2"
+      condition:
+        en: "if killed by Player"
+  note:
+    en: "The slime ball has a chance to drop but is not guaranteed upon death."
+
+behavior:
+  title:
+    en: "Behavior"
+  description:
+    en: "Jellyfish move in clusters across the ocean. Their bright colors make them easily identifiable, but they tend to blend in with coral reefs. Jellyfish are passive aquatic creatures; however, if a player brushes up against one, they will be stung. This damage mimics running into a cactus. The player may collect jellyfish and small jellyfish by using a water bucket on it, which gives the player a bucket of jellyfish/bucket of small jellyfish (with their variant color). Jellyfish placed with buckets do not despawn naturally. When that bucket is used against a block, it empties the bucket, placing water with the jellyfish swimming in it."
+  weakness:
+    en: "Jellyfish are unable to survive out of water. Outside of water, they lay with tentacles splayed around them until, eventually, they start to suffocate and die. Jellyfish cannot be put in a cauldron."
+
+gallery:
+  title:
+    en: "Gallery"
+
+variants:
+  title:
+    en: "Variants"
+  jellyfish:
+    - name:
+        en: "Blue Jellyfish"
+      image: "jellyfish_blue.gif"
+    - name:
+        en: "Green Jellyfish"
+      image: "jellyfish_green.gif"
+    - name:
+        en: "Pink Jellyfish"
+      image: "jellyfish_pink.gif"
+    - name:
+        en: "Yellow Jellyfish"
+      image: "jellyfish_yellow.gif"
+    - name:
+        en: "White Jellyfish"
+      image: "jellyfish_white.gif"
+  small_jellyfish:
+    - name:
+        en: "Small Blue Jellyfish"
+      image: "blue_small_jellyfish.gif"
+    - name:
+        en: "Small Green Jellyfish"
+      image: "green_small_jellyfish.gif"
+    - name:
+        en: "Small Pink Jellyfish"
+      image: "pink_small_jellyfish.gif"
+    - name:
+        en: "Small Yellow Jellyfish"
+      image: "yellow_small_jellyfish.gif"
+    - name:
+        en: "Small White Jellyfish"
+      image: "white_small_jellyfish.gif"
+
+images:
+  gallery:
+    - "jellyfish_variants.gif"
+    - "small_jellyfish_variations.gif"
+    - "green_small_jelly.png"
+    - "small_pink_jelly.png"
+
+community:
+  title:
+    en: "Have additional questions? Want to be a part of our community?"
+  join:
+    en: "Join our Discord!"
+  discord_url: "discord.com/invite/starfishstudios"
+
+social_links:
+  Marketplace: "www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios"
+  CurseForge: "www.curseforge.com/members/starfish_studios/projects"
+  TikTok: "www.tiktok.com/@starfishstudios"
+  Instagram: "www.instagram.com/starfishstudiosinc/"
+  Twitter: "twitter.com/starfishstudios"
+  YouTube: "www.youtube.com/@starfishstudios"
+  Website: "starfish-studios.com" 

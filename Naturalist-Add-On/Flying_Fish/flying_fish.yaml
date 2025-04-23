@@ -1,0 +1,122 @@
+title:
+  en: Flying Fish
+  fr: Poisson volant
+
+last_updated:
+  en: April 22, 2025 8:47 PM
+  fr: 22 avril 2025 20h47
+
+return_link:
+  en: Naturalist Add-On Wiki
+  fr: Wiki de l'extension Naturalist
+return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
+
+description:
+  en: Flying fish are unique aquatic creatures known for their ability to glide above the water's surface. They have large, wing-like fins that allow them to leap out of the water and glide for short distances to escape predators.
+  fr: Les poissons volants sont des créatures aquatiques uniques connues pour leur capacité à planer au-dessus de la surface de l'eau. Ils ont de grandes nageoires en forme d'ailes qui leur permettent de sauter hors de l'eau et de planer sur de courtes distances pour échapper aux prédateurs.
+
+stats:
+  health: 3
+  classification:
+    en: Animal / Aquatic
+    fr: Animal / Aquatique
+  classification_urls:
+    animal: /minecraft.fandom.com/wiki/Animal
+    aquatic: /minecraft.fandom.com/wiki/Aquatic
+  behavior:
+    en: Passive
+    fr: Passif
+  spawn:
+    en: Oceans
+    fr: Océans
+  spawn_url:
+    ocean: /minecraft.wiki/w/Ocean
+
+images:
+  main: flying_fish.gif
+  items:
+    - flying_fish_fin.png
+    - flying_fish_meat.png
+  gallery:
+    - flying_fish.gif
+    - flying_fish_gliding.png
+    - flying_fish_school.png
+
+spawning:
+  title:
+    en: Spawning
+    fr: Apparition
+  description:
+    en: Flying fish spawn in ocean biomes, typically in small schools. They prefer warmer waters and will often be found near the surface. They are more active during the day and will often be seen gliding above the water.
+    fr: Les poissons volants apparaissent dans les biomes océaniques, généralement en petits bancs. Ils préfèrent les eaux plus chaudes et se trouvent souvent près de la surface. Ils sont plus actifs pendant la journée et sont souvent vus planer au-dessus de l'eau.
+
+drops:
+  title:
+    en: Drops
+    fr: Butin
+  description:
+    en: Flying fish drops upon death
+    fr: Le poisson volant laisse tomber à sa mort
+  items:
+    - name:
+        en: Flying Fish Fin
+        fr: Nageoire de poisson volant
+      amount: 1-2
+      looting: true
+      condition:
+        en: Maximum amount increased by 1 per level of Looting, for a maximum of 1-4 with Looting III
+        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 1-4 avec Butin III
+    - name:
+        en: Flying Fish Meat
+        fr: Viande de poisson volant
+      amount: 0-1
+      looting: true
+      condition:
+        en: Maximum amount increased by 1 per level of Looting, for a maximum of 0-3 with Looting III
+        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 0-3 avec Butin III
+    - name:
+        en: Experience Orbs
+        fr: Orbes d'expérience
+      amount: 1-2
+      condition:
+        en: if killed by Player
+        fr: si tué par un joueur
+
+behavior:
+  title:
+    en: Behavior
+    fr: Comportement
+  description:
+    en: Flying fish are passive creatures that will swim in schools and occasionally leap out of the water to glide above the surface. They will do this to escape predators or when startled. They can be caught with a bucket and kept as pets.
+    fr: Les poissons volants sont des créatures passives qui nageront en bancs et sauteront occasionnellement hors de l'eau pour planer au-dessus de la surface. Ils le feront pour échapper aux prédateurs ou lorsqu'ils sont effrayés. Ils peuvent être attrapés avec un seau et gardés comme animaux de compagnie.
+
+breeding:
+  title:
+    en: Breeding
+    fr: Reproduction
+  description:
+    en: Flying fish cannot be bred, but they will naturally spawn in ocean biomes. They reproduce by laying eggs in the water, which hatch into larvae that eventually develop into adult flying fish.
+    fr: Les poissons volants ne peuvent pas être reproduits, mais ils apparaissent naturellement dans les biomes océaniques. Ils se reproduisent en pondant des œufs dans l'eau, qui éclosent en larves qui se développent finalement en poissons volants adultes.
+
+gallery:
+  title:
+    en: Gallery
+    fr: Galerie
+
+community:
+  title:
+    en: Have additional questions? Want to be a part of our community?
+    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté ?
+  join:
+    en: Join our Discord!
+    fr: Rejoignez notre Discord !
+  discord_url: /discord.com/invite/starfishstudios
+
+social_links:
+  marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
+  curseforge: /www.curseforge.com/members/starfish_studios/projects
+  tiktok: /www.tiktok.com/@starfishstudios
+  instagram: /www.instagram.com/starfishstudiosinc/
+  twitter: /twitter.com/starfishstudios
+  youtube: /www.youtube.com/@starfishstudios
+  website: /starfish-studios.com/ 

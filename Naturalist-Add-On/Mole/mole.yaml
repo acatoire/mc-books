@@ -1,0 +1,123 @@
+title:
+  en: Mole
+  fr: Taupe
+
+last_updated:
+  en: April 22, 2025 8:47 PM
+  fr: 22 avril 2025 20h47
+
+return_link:
+  en: Naturalist Add-On Wiki
+  fr: Wiki de l'extension Naturalist
+return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
+
+description:
+  en: Moles are small, burrowing mammals known for their velvety fur and powerful digging claws. They are insectivorous creatures that spend most of their lives underground, creating complex tunnel systems. They are solitary animals with poor eyesight but excellent sense of touch and smell.
+  fr: Les taupes sont de petits mammifères fouisseurs connus pour leur fourrure veloutée et leurs griffes puissantes. Ce sont des créatures insectivores qui passent la plupart de leur vie sous terre, créant des systèmes de tunnels complexes. Ce sont des animaux solitaires avec une mauvaise vue mais un excellent sens du toucher et de l'odorat.
+
+stats:
+  health: 5
+  classification:
+    en: Animal / Mammal
+    fr: Animal / Mammifère
+  classification_urls:
+    animal: /minecraft.fandom.com/wiki/Animal
+    mammal: /minecraft.fandom.com/wiki/Mammal
+  behavior:
+    en: Passive
+    fr: Passif
+  spawn:
+    en: Plains and Forests
+    fr: Plaines et Forêts
+  spawn_urls:
+    plains: /minecraft.wiki/w/Plains
+    forest: /minecraft.wiki/w/Forest
+
+images:
+  main: mole.gif
+  items:
+    - mole_claw.png
+    - mole_fur.png
+  gallery:
+    - mole.gif
+    - mole_burrowing.png
+    - mole_claw.png
+
+spawning:
+  title:
+    en: Spawning
+    fr: Apparition
+  description:
+    en: Moles spawn in plains and forest biomes, typically underground or near the surface. They prefer areas with soft soil and plenty of insects. They are most active during the night and can be found in various sizes, with some being slightly larger than others.
+    fr: Les taupes apparaissent dans les biomes de plaines et de forêts, généralement sous terre ou près de la surface. Elles préfèrent les zones avec un sol meuble et beaucoup d'insectes. Elles sont plus actives pendant la nuit et peuvent être trouvées dans diverses tailles, certaines étant légèrement plus grandes que d'autres.
+
+drops:
+  title:
+    en: Drops
+    fr: Butin
+  description:
+    en: Mole drops upon death
+    fr: La taupe laisse tomber à sa mort
+  items:
+    - name:
+        en: Mole Claw
+        fr: Griffe de taupe
+      amount: 1
+      looting: true
+      condition:
+        en: Maximum amount increased by 1 per level of Looting, for a maximum of 2 with Looting III
+        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 2 avec Butin III
+    - name:
+        en: Mole Fur
+        fr: Fourrure de taupe
+      amount: 1-2
+      looting: true
+      condition:
+        en: Maximum amount increased by 1 per level of Looting, for a maximum of 3 with Looting III
+        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 3 avec Butin III
+    - name:
+        en: Experience Orbs
+        fr: Orbes d'expérience
+      amount: 1
+      condition:
+        en: if killed by Player
+        fr: si tué par un joueur
+
+behavior:
+  title:
+    en: Behavior
+    fr: Comportement
+  description:
+    en: Moles are passive creatures that will burrow underground when threatened. They are solitary animals that spend most of their time digging tunnels and searching for food. They are nocturnal and will often be found near the surface during the night. They can be tamed using insects.
+    fr: Les taupes sont des créatures passives qui creuseront sous terre lorsqu'elles sont menacées. Ce sont des animaux solitaires qui passent la plupart de leur temps à creuser des tunnels et à chercher de la nourriture. Elles sont nocturnes et se trouvent souvent près de la surface pendant la nuit. Elles peuvent être apprivoisées en utilisant des insectes.
+
+breeding:
+  title:
+    en: Breeding
+    fr: Reproduction
+  description:
+    en: Moles can be bred using insects. When bred, they will produce a baby mole that stays close to its parents. The baby will grow into an adult over time.
+    fr: Les taupes peuvent se reproduire en utilisant des insectes. Lorsqu'elles se reproduisent, elles produiront un bébé taupe qui reste près de ses parents. Le bébé grandira pour devenir un adulte avec le temps.
+
+gallery:
+  title:
+    en: Gallery
+    fr: Galerie
+
+community:
+  title:
+    en: Have additional questions? Want to be a part of our community?
+    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté ?
+  join:
+    en: Join our Discord!
+    fr: Rejoignez notre Discord !
+  discord_url: /discord.com/invite/starfishstudios
+
+social_links:
+  marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
+  curseforge: /www.curseforge.com/members/starfish_studios/projects
+  tiktok: /www.tiktok.com/@starfishstudios
+  instagram: /www.instagram.com/starfishstudiosinc/
+  twitter: /twitter.com/starfishstudios
+  youtube: /www.youtube.com/@starfishstudios
+  website: /starfish-studios.com/ 

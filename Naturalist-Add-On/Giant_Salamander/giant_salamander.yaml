@@ -1,0 +1,123 @@
+title:
+  en: Giant Salamander
+  fr: Salamandre géante
+
+last_updated:
+  en: April 22, 2025 8:47 PM
+  fr: 22 avril 2025 20h47
+
+return_link:
+  en: Naturalist Add-On Wiki
+  fr: Wiki de l'extension Naturalist
+return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
+
+description:
+  en: Giant salamanders are large, aquatic amphibians known for their impressive size and unique appearance. They are nocturnal predators that live in freshwater environments and are excellent swimmers.
+  fr: Les salamandres géantes sont de grands amphibiens aquatiques connus pour leur taille impressionnante et leur apparence unique. Ce sont des prédateurs nocturnes qui vivent dans les environnements d'eau douce et sont d'excellents nageurs.
+
+stats:
+  health: 10
+  classification:
+    en: Animal / Amphibian
+    fr: Animal / Amphibien
+  classification_urls:
+    animal: /minecraft.fandom.com/wiki/Animal
+    amphibian: /minecraft.fandom.com/wiki/Amphibian
+  behavior:
+    en: Neutral
+    fr: Neutre
+  spawn:
+    en: Rivers and Swamps
+    fr: Rivières et Marais
+  spawn_url:
+    river: /minecraft.wiki/w/River
+    swamp: /minecraft.wiki/w/Swamp
+
+images:
+  main: giant_salamander.gif
+  items:
+    - salamander_skin.png
+    - salamander_meat.png
+  gallery:
+    - giant_salamander.gif
+    - giant_salamander_swimming.png
+    - giant_salamander_hunting.png
+
+spawning:
+  title:
+    en: Spawning
+    fr: Apparition
+  description:
+    en: Giant salamanders spawn in river and swamp biomes, typically in small groups. They prefer areas with plenty of water and will often be found near the bottom of rivers and lakes. They are more active during the night and will often be seen hunting for food.
+    fr: Les salamandres géantes apparaissent dans les biomes de rivière et de marais, généralement en petits groupes. Elles préfèrent les zones avec beaucoup d'eau et se trouvent souvent près du fond des rivières et des lacs. Elles sont plus actives pendant la nuit et sont souvent vues en train de chasser pour se nourrir.
+
+drops:
+  title:
+    en: Drops
+    fr: Butin
+  description:
+    en: Giant salamander drops upon death
+    fr: La salamandre géante laisse tomber à sa mort
+  items:
+    - name:
+        en: Salamander Skin
+        fr: Peau de salamandre
+      amount: 1-2
+      looting: true
+      condition:
+        en: Maximum amount increased by 1 per level of Looting, for a maximum of 1-4 with Looting III
+        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 1-4 avec Butin III
+    - name:
+        en: Salamander Meat
+        fr: Viande de salamandre
+      amount: 1-2
+      looting: true
+      condition:
+        en: Maximum amount increased by 1 per level of Looting, for a maximum of 1-4 with Looting III
+        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 1-4 avec Butin III
+    - name:
+        en: Experience Orbs
+        fr: Orbes d'expérience
+      amount: 1-2
+      condition:
+        en: if killed by Player
+        fr: si tué par un joueur
+
+behavior:
+  title:
+    en: Behavior
+    fr: Comportement
+  description:
+    en: Giant salamanders are neutral creatures that will defend themselves if attacked. They are nocturnal predators and will hunt for fish and other small aquatic creatures. They are excellent swimmers and can move quickly through water. They are more active during the night and will often be seen hunting for food.
+    fr: Les salamandres géantes sont des créatures neutres qui se défendront si elles sont attaquées. Ce sont des prédateurs nocturnes et chasseront les poissons et autres petites créatures aquatiques. Ce sont d'excellents nageurs et peuvent se déplacer rapidement dans l'eau. Elles sont plus actives pendant la nuit et sont souvent vues en train de chasser pour se nourrir.
+
+breeding:
+  title:
+    en: Breeding
+    fr: Reproduction
+  description:
+    en: Giant salamanders can be bred using raw fish. When bred, they will produce a baby giant salamander that will stay close to its parents. Baby giant salamanders are smaller and less powerful than adults, and will grow up over time.
+    fr: Les salamandres géantes peuvent se reproduire en utilisant du poisson cru. Lorsqu'elles se reproduisent, elles produiront un bébé salamandre géante qui restera près de ses parents. Les bébés salamandres géantes sont plus petits et moins puissants que les adultes, et grandiront avec le temps.
+
+gallery:
+  title:
+    en: Gallery
+    fr: Galerie
+
+community:
+  title:
+    en: Have additional questions? Want to be a part of our community?
+    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté ?
+  join:
+    en: Join our Discord!
+    fr: Rejoignez notre Discord !
+  discord_url: /discord.com/invite/starfishstudios
+
+social_links:
+  marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
+  curseforge: /www.curseforge.com/members/starfish_studios/projects
+  tiktok: /www.tiktok.com/@starfishstudios
+  instagram: /www.instagram.com/starfishstudiosinc/
+  twitter: /twitter.com/starfishstudios
+  youtube: /www.youtube.com/@starfishstudios
+  website: /starfish-studios.com/ 
