@@ -1,0 +1,2 @@
+AddType text/yaml .yaml
+AddType text/yaml .yml 
