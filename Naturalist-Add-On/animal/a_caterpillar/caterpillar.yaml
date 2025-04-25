@@ -34,13 +34,15 @@ stats:
     jungle: /minecraft.wiki/w/Jungle
 
 images:
-  main: caterpillar.gif
+  main: caterpillar2.gif
   items:
     - silk.png
   gallery:
-    - caterpillar.gif
-    - caterpillar_eating.png
+    - caterpillar2.gif
+    - caterpillar.png
     - caterpillar_cocoon.png
+    - caterpillar_stage_1.png
+    - caterpillars.png
 
 spawning:
   title:
