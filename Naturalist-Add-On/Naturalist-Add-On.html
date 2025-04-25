@@ -284,10 +284,12 @@
         // Initialize by scanning for animals
         initialize();
 
+        // Replace the existing loadAnimalData function with this one:
         function loadAnimalData(animal) {
             if (animalTranslations.has(animal)) {
                 translations = animalTranslations.get(animal);
                 updateContent();
+                updateFooter(); // Add this line
             } else {
                 fetch(`${animalFolder}${animalPrefix}${animal}/${animal}.yaml`)
                     .then(response => response.text())
@@ -296,6 +298,7 @@
                         animalTranslations.set(animal, translations);
                         document.getElementById('language-select').value = currentLanguage;
                         updateContent();
+                        updateFooter(); // Add this line
                     })
                     .catch(error => {
                         console.error('Error loading animal data:', error);
@@ -406,25 +409,33 @@
                 </div>`;
             }
 
-            if (translations.community) {
+            content.innerHTML = html;
+            updateFooter(); // Add this call to update the footer
+        }
+
+        function updateFooter() {
+            const footer = document.getElementById('footer');
+            let html = '';
+
+            if (translations && translations.community) {
                 html += `
                 <div class="community">
                     <p>${translations.community.title[currentLanguage]}</p>
-                    <a href="${translations.community.discord_url}">${translations.community.join[currentLanguage]}</a>
                 </div>`;
             }
 
-            if (translations.social_links) {
+            if (translations && translations.social_links) {
                 html += `
                 <div class="social-links">
+                <a href="${translations.community.discord_url}">${translations.community.join[currentLanguage]}</a>
                     ${Object.entries(translations.social_links).map(([platform, url]) => `
                         <a href="${url}" target="_blank">${platform}</a>
                     `).join('')}
                 </div>`;
             }
 
-            content.innerHTML = html;
+            footer.innerHTML = html;
         }
     </script>
 </body>
-</html> 
+</html>
