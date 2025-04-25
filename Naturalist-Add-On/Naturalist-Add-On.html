@@ -168,6 +168,13 @@
             return knownAnimals;
         }
 
+        // Function to get a random animal from the list
+        function getRandomAnimal() {
+            if (animalList.length === 0) return null;
+            const randomIndex = Math.floor(Math.random() * animalList.length);
+            return animalList[randomIndex];
+        }
+
         // Function to handle URL changes
         function handleUrlChange() {
             const animalFromUrl = getUrlParameter('animal');
@@ -179,9 +186,15 @@
                 document.getElementById('language-select').value = currentLanguage;
             }
             
-            // Load animal from URL if valid
+            // Load animal from URL if valid, otherwise select random
             if (animalFromUrl && animalList.includes(animalFromUrl)) {
                 const button = document.querySelector(`.animal-button[value="${animalFromUrl}"]`);
+                if (button) {
+                    button.click();
+                }
+            } else if (animalList.length > 0) {
+                const randomAnimal = getRandomAnimal();
+                const button = document.querySelector(`.animal-button[value="${randomAnimal}"]`);
                 if (button) {
                     button.click();
                 }
