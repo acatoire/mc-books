@@ -29,7 +29,7 @@ stats:
   spawn:
     en: Forests and Jungles
     fr: Forêts et Jungles
-  spawn_urls:
+  spawn_url:
     forest: /minecraft.wiki/w/Forest
     jungle: /minecraft.wiki/w/Jungle
 

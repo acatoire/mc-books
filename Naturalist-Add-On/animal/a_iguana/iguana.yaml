@@ -1,20 +1,22 @@
 title:
   en: Iguana
   fr: Iguane
-
 last_updated:
   en: April 22, 2025 8:47 PM
   fr: 22 avril 2025 20h47
-
 return_link:
   en: Naturalist Add-On Wiki
   fr: Wiki de l'extension Naturalist
 return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
-
 description:
-  en: Iguanas are large, herbivorous lizards known for their distinctive dewlap and spiny crest. They are excellent climbers and swimmers, often found basking in the sun on rocks or tree branches. They are primarily herbivorous, feeding on leaves, flowers, and fruits.
-  fr: Les iguanes sont de grands lézards herbivores connus pour leur fanon distinctif et leur crête épineuse. Ce sont d'excellents grimpeurs et nageurs, souvent trouvés se prélassant au soleil sur des rochers ou des branches d'arbres. Ils sont principalement herbivores, se nourrissant de feuilles, de fleurs et de fruits.
-
+  en: Iguanas are large, herbivorous lizards known for their distinctive dewlap and
+    spiny crest. They are excellent climbers and swimmers, often found basking in
+    the sun on rocks or tree branches. They are primarily herbivorous, feeding on
+    leaves, flowers, and fruits.
+  fr: Les iguanes sont de grands lézards herbivores connus pour leur fanon distinctif
+    et leur crête épineuse. Ce sont d'excellents grimpeurs et nageurs, souvent trouvés
+    se prélassant au soleil sur des rochers ou des branches d'arbres. Ils sont principalement
+    herbivores, se nourrissant de feuilles, de fleurs et de fruits.
 stats:
   health: 15
   classification:
@@ -29,28 +31,37 @@ stats:
   spawn:
     en: Jungles and Deserts
     fr: Jungles et Déserts
-  spawn_urls:
+  spawn_url:
     jungle: /minecraft.wiki/w/Jungle
     desert: /minecraft.wiki/w/Desert
-
 images:
-  main: iguana.gif
+  main: iguana_variations.gif
   items:
-    - iguana_scale.png
-    - iguana_meat.png
+  - cooked_lizard_tail.png
+  - lizard_tail.png
   gallery:
-    - iguana.gif
-    - iguana_basking.png
-    - iguana_scale.png
-
+  - iguana.gif
+  - iguana_blue.gif
+  - iguana_green.gif
+  - iguana_variations.gif
+  - iguana_yellow.gif
+  - blue_iguana.png
+  - bright_iguanas.png
+  - green_iguanas.png
+  - red_iguana.png
 spawning:
   title:
     en: Spawning
     fr: Apparition
   description:
-    en: Iguanas spawn in jungle and desert biomes, typically in areas with plenty of vegetation and sunlight. They prefer areas with access to both trees and open spaces, and are most active during the day. They can be found in various sizes and colors.
-    fr: Les iguanes apparaissent dans les biomes de jungle et de désert, généralement dans des zones avec beaucoup de végétation et de soleil. Ils préfèrent les zones avec accès à la fois aux arbres et aux espaces ouverts, et sont plus actifs pendant la journée. Ils peuvent être trouvés dans diverses tailles et couleurs.
-
+    en: Iguanas spawn in jungle and desert biomes, typically in areas with plenty
+      of vegetation and sunlight. They prefer areas with access to both trees and
+      open spaces, and are most active during the day. They can be found in various
+      sizes and colors.
+    fr: Les iguanes apparaissent dans les biomes de jungle et de désert, généralement
+      dans des zones avec beaucoup de végétation et de soleil. Ils préfèrent les zones
+      avec accès à la fois aux arbres et aux espaces ouverts, et sont plus actifs
+      pendant la journée. Ils peuvent être trouvés dans diverses tailles et couleurs.
 drops:
   title:
     en: Drops
@@ -59,60 +70,70 @@ drops:
     en: Iguana drops upon death
     fr: L'iguane laisse tomber à sa mort
   items:
-    - name:
-        en: Iguana Scale
-        fr: Écaille d'iguane
-      amount: 1-2
-      looting: true
-      condition:
-        en: Maximum amount increased by 1 per level of Looting, for a maximum of 3 with Looting III
-        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 3 avec Butin III
-    - name:
-        en: Iguana Meat
-        fr: Viande d'iguane
-      amount: 1-2
-      looting: true
-      condition:
-        en: Maximum amount increased by 1 per level of Looting, for a maximum of 3 with Looting III
-        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 3 avec Butin III
-    - name:
-        en: Experience Orbs
-        fr: Orbes d'expérience
-      amount: 1-2
-      condition:
-        en: if killed by Player
-        fr: si tué par un joueur
-
+  - name:
+      en: Iguana Scale
+      fr: Écaille d'iguane
+    amount: 1-2
+    looting: true
+    condition:
+      en: Maximum amount increased by 1 per level of Looting, for a maximum of 3 with
+        Looting III
+      fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum
+        de 3 avec Butin III
+  - name:
+      en: Iguana Meat
+      fr: Viande d'iguane
+    amount: 1-2
+    looting: true
+    condition:
+      en: Maximum amount increased by 1 per level of Looting, for a maximum of 3 with
+        Looting III
+      fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum
+        de 3 avec Butin III
+  - name:
+      en: Experience Orbs
+      fr: Orbes d'expérience
+    amount: 1-2
+    condition:
+      en: if killed by Player
+      fr: si tué par un joueur
 behavior:
   title:
     en: Behavior
     fr: Comportement
   description:
-    en: Iguanas are passive creatures that will flee when threatened. They are known for their climbing abilities and sun-basking behavior. They are diurnal and will often be found resting on tree branches or rocks. They can be tamed using fruits.
-    fr: Les iguanes sont des créatures passives qui fuiront lorsqu'elles sont menacées. Ils sont connus pour leurs capacités d'escalade et leur comportement de bain de soleil. Ils sont diurnes et se trouvent souvent en train de se reposer sur des branches d'arbres ou des rochers. Ils peuvent être apprivoisés en utilisant des fruits.
-
+    en: Iguanas are passive creatures that will flee when threatened. They are known
+      for their climbing abilities and sun-basking behavior. They are diurnal and
+      will often be found resting on tree branches or rocks. They can be tamed using
+      fruits.
+    fr: Les iguanes sont des créatures passives qui fuiront lorsqu'elles sont menacées.
+      Ils sont connus pour leurs capacités d'escalade et leur comportement de bain
+      de soleil. Ils sont diurnes et se trouvent souvent en train de se reposer sur
+      des branches d'arbres ou des rochers. Ils peuvent être apprivoisés en utilisant
+      des fruits.
 breeding:
   title:
     en: Breeding
     fr: Reproduction
   description:
-    en: Iguanas can be bred using fruits. When bred, they will produce a baby iguana that stays close to its parents. The baby will grow into an adult over time.
-    fr: Les iguanes peuvent se reproduire en utilisant des fruits. Lorsqu'ils se reproduisent, ils produiront un bébé iguane qui reste près de ses parents. Le bébé grandira pour devenir un adulte avec le temps.
-
+    en: Iguanas can be bred using fruits. When bred, they will produce a baby iguana
+      that stays close to its parents. The baby will grow into an adult over time.
+    fr: Les iguanes peuvent se reproduire en utilisant des fruits. Lorsqu'ils se reproduisent,
+      ils produiront un bébé iguane qui reste près de ses parents. Le bébé grandira
+      pour devenir un adulte avec le temps.
 gallery:
   title:
     en: Gallery
     fr: Galerie
-
 community:
   title:
     en: Have additional questions? Want to be a part of our community?
-    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté ?
+    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté
+      ?
   join:
     en: Join our Discord!
     fr: Rejoignez notre Discord !
   discord_url: /discord.com/invite/starfishstudios
-
 social_links:
   marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
   curseforge: /www.curseforge.com/members/starfish_studios/projects
@@ -120,4 +141,4 @@ social_links:
   instagram: /www.instagram.com/starfishstudiosinc/
   twitter: /twitter.com/starfishstudios
   youtube: /www.youtube.com/@starfishstudios
-  website: /starfish-studios.com/ 
+  website: /starfish-studios.com/

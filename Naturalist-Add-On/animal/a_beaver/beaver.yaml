@@ -1,20 +1,21 @@
 title:
   en: Beaver
   fr: Castor
-
 last_updated:
   en: April 22, 2025 8:47 PM
   fr: 22 avril 2025 20h47
-
 return_link:
   en: Naturalist Add-On Wiki
   fr: Wiki de l'extension Naturalist
 return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
-
 description:
-  en: Beavers are the second largest rodents in the world! They are known for their large front teeth that never stop growing which helps them carve away wooden materials for their dams. Average beavers can swim up to 15 minutes underwater.
-  fr: Les castors sont les deuxièmes plus grands rongeurs du monde ! Ils sont connus pour leurs grandes dents de devant qui ne cessent jamais de pousser, ce qui les aide à tailler des matériaux en bois pour leurs barrages. Un castor moyen peut nager jusqu'à 15 minutes sous l'eau.
-
+  en: Beavers are the second largest rodents in the world! They are known for their
+    large front teeth that never stop growing which helps them carve away wooden materials
+    for their dams. Average beavers can swim up to 15 minutes underwater.
+  fr: Les castors sont les deuxièmes plus grands rongeurs du monde ! Ils sont connus
+    pour leurs grandes dents de devant qui ne cessent jamais de pousser, ce qui les
+    aide à tailler des matériaux en bois pour leurs barrages. Un castor moyen peut
+    nager jusqu'à 15 minutes sous l'eau.
 stats:
   health: 7
   classification:
@@ -30,26 +31,26 @@ stats:
     fr: Rivières et variantes
   spawn_url:
     river: /minecraft.fandom.com/wiki/River
-
 images:
   main: beaver.gif
   items:
-    - beaver_pelt.png
+  - beaver_pelt.png
   gallery:
-    - beaver.gif
-    - beaver_pelt.png
-    - beaver_breed.png
-    - beaver_munch.png
-    - dyable_beaver_bows.png
-
+  - beaver.gif
+  - beaver_breed.png
+  - beaver_munch.png
+  - dyable_beaver_bows.png
 spawning:
   title:
     en: Spawning
     fr: Apparition
   description:
-    en: Beavers will spawn in a colony of 1-3 during the daytime with light levels between 7-15. These rodents enjoy rivers & their variants but will avoid frozen rivers.
-    fr: Les castors apparaîtront en colonie de 1 à 3 pendant la journée avec des niveaux de lumière entre 7 et 15. Ces rongeurs apprécient les rivières et leurs variantes mais éviteront les rivières gelées.
-
+    en: Beavers will spawn in a colony of 1-3 during the daytime with light levels
+      between 7-15. These rodents enjoy rivers & their variants but will avoid frozen
+      rivers.
+    fr: Les castors apparaîtront en colonie de 1 à 3 pendant la journée avec des niveaux
+      de lumière entre 7 et 15. Ces rongeurs apprécient les rivières et leurs variantes
+      mais éviteront les rivières gelées.
 drops:
   title:
     en: Drops
@@ -58,80 +59,111 @@ drops:
     en: Beaver drops upon death
     fr: Le castor laisse tomber à sa mort
   items:
-    - name:
-        en: Hide
-        fr: Peau
-      amount: 0-1
-    - name:
-        en: Stick
-        fr: Bâton
-      amount: 0-2
-      looting: true
-      condition:
-        en: Maximum amount increased by 1 per level of Looting, for a maximum of 0-4 with Looting III
-        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 0-4 avec Butin III
-    - name:
-        en: Experience Orbs
-        fr: Orbes d'expérience
-      amount: 1-3
-      condition:
-        en: if killed by Player
-        fr: si tué par un joueur
-    - name:
-        en: Experience Orbs
-        fr: Orbes d'expérience
-      amount: 1-7
-      condition:
-        en: upon breeding
-        fr: lors de la reproduction
+  - name:
+      en: Hide
+      fr: Peau
+    amount: 0-1
+  - name:
+      en: Stick
+      fr: Bâton
+    amount: 0-2
+    looting: true
+    condition:
+      en: Maximum amount increased by 1 per level of Looting, for a maximum of 0-4
+        with Looting III
+      fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum
+        de 0-4 avec Butin III
+  - name:
+      en: Experience Orbs
+      fr: Orbes d'expérience
+    amount: 1-3
+    condition:
+      en: if killed by Player
+      fr: si tué par un joueur
+  - name:
+      en: Experience Orbs
+      fr: Orbes d'expérience
+    amount: 1-7
+    condition:
+      en: upon breeding
+      fr: lors de la reproduction
   note:
     en: Kits will not drop experience orbs when killed.
     fr: Les bébés ne donnent pas d'orbes d'expérience lorsqu'ils sont tués.
-
 behavior:
   title:
     en: Behavior
     fr: Comportement
   description:
-    en: Beavers randomly stroll around in a passive state, sticking near water or nearby logs. If you're in a forest with trees and find stripped logs, a beaver is likely nearby! Beavers will occasionally strip wooden logs with their front teeth.
-    fr: Les castors se promènent aléatoirement dans un état passif, restant près de l'eau ou des bûches à proximité. Si vous êtes dans une forêt avec des arbres et que vous trouvez des bûches écorcées, un castor est probablement à proximité ! Les castors écorceront occasionnellement les bûches en bois avec leurs dents de devant.
-
+    en: Beavers randomly stroll around in a passive state, sticking near water or
+      nearby logs. If you're in a forest with trees and find stripped logs, a beaver
+      is likely nearby! Beavers will occasionally strip wooden logs with their front
+      teeth.
+    fr: Les castors se promènent aléatoirement dans un état passif, restant près de
+      l'eau ou des bûches à proximité. Si vous êtes dans une forêt avec des arbres
+      et que vous trouvez des bûches écorcées, un castor est probablement à proximité
+      ! Les castors écorceront occasionnellement les bûches en bois avec leurs dents
+      de devant.
 taming:
   title:
     en: Taming, Healing, & Feeding
     fr: Apprivoisement, Soins et Nourriture
   description:
-    en: Adult beavers can be tamed with sticks. There is a 50% chance of successful taming. Once they are tamed, you will see hearts appear and a bow on their tail signifying you have tamed the rodent. You can dye the bow to your color of choice or use shears to cut off the bow. If you shear off a bow, it can be reapplied by using a dye color of your choice.
-    fr: Les castors adultes peuvent être apprivoisés avec des bâtons. Il y a 50% de chances de réussir l'apprivoisement. Une fois apprivoisés, vous verrez des cœurs apparaître et un nœud sur leur queue, signifiant que vous avez apprivoisé le rongeur. Vous pouvez teindre le nœud à la couleur de votre choix ou utiliser des cisailles pour couper le nœud. Si vous coupez un nœud, il peut être réappliqué en utilisant une couleur de teinture de votre choix.
+    en: Adult beavers can be tamed with sticks. There is a 50% chance of successful
+      taming. Once they are tamed, you will see hearts appear and a bow on their tail
+      signifying you have tamed the rodent. You can dye the bow to your color of choice
+      or use shears to cut off the bow. If you shear off a bow, it can be reapplied
+      by using a dye color of your choice.
+    fr: Les castors adultes peuvent être apprivoisés avec des bâtons. Il y a 50% de
+      chances de réussir l'apprivoisement. Une fois apprivoisés, vous verrez des cœurs
+      apparaître et un nœud sur leur queue, signifiant que vous avez apprivoisé le
+      rongeur. Vous pouvez teindre le nœud à la couleur de votre choix ou utiliser
+      des cisailles pour couper le nœud. Si vous coupez un nœud, il peut être réappliqué
+      en utilisant une couleur de teinture de votre choix.
   behavior:
-    en: Tamed beavers can be commanded to sit or to follow. Beavers will teleport to the player if the player is further than 10 blocks away. Beavers will not teleport to the player if they are commanded to sit. If the beaver you have tamed gets injured, you can feed the beaver sticks to increase its health until it is maxed. 1 stick increases the beaver's health points by 2. An injured beaver will be unable to breed until healed. Tamed beavers will deliver sticks to their owner!
-    fr: Les castors apprivoisés peuvent être commandés pour s'asseoir ou suivre. Les castors se téléporteront vers le joueur si celui-ci est à plus de 10 blocs de distance. Les castors ne se téléporteront pas vers le joueur s'ils sont commandés pour s'asseoir. Si le castor que vous avez apprivoisé est blessé, vous pouvez le nourrir de bâtons pour augmenter sa santé jusqu'à son maximum. 1 bâton augmente les points de santé du castor de 2. Un castor blessé ne pourra pas se reproduire jusqu'à ce qu'il soit guéri. Les castors apprivoisés apporteront des bâtons à leur propriétaire !
-
+    en: Tamed beavers can be commanded to sit or to follow. Beavers will teleport
+      to the player if the player is further than 10 blocks away. Beavers will not
+      teleport to the player if they are commanded to sit. If the beaver you have
+      tamed gets injured, you can feed the beaver sticks to increase its health until
+      it is maxed. 1 stick increases the beaver's health points by 2. An injured beaver
+      will be unable to breed until healed. Tamed beavers will deliver sticks to their
+      owner!
+    fr: Les castors apprivoisés peuvent être commandés pour s'asseoir ou suivre. Les
+      castors se téléporteront vers le joueur si celui-ci est à plus de 10 blocs de
+      distance. Les castors ne se téléporteront pas vers le joueur s'ils sont commandés
+      pour s'asseoir. Si le castor que vous avez apprivoisé est blessé, vous pouvez
+      le nourrir de bâtons pour augmenter sa santé jusqu'à son maximum. 1 bâton augmente
+      les points de santé du castor de 2. Un castor blessé ne pourra pas se reproduire
+      jusqu'à ce qu'il soit guéri. Les castors apprivoisés apporteront des bâtons
+      à leur propriétaire !
 breeding:
   title:
     en: Breeding
     fr: Reproduction
   description:
-    en: Adult beavers with full health can be bred with sticks. There is a 5-minute cooldown for breeding, during which the beaver does not accept sticks for breeding but will if they get injured and need to heal.
-    fr: Les castors adultes en pleine santé peuvent se reproduire avec des bâtons. Il y a un temps de recharge de 5 minutes pour la reproduction, pendant lequel le castor n'acceptera pas les bâtons pour se reproduire mais le fera s'il est blessé et a besoin de guérir.
+    en: Adult beavers with full health can be bred with sticks. There is a 5-minute
+      cooldown for breeding, during which the beaver does not accept sticks for breeding
+      but will if they get injured and need to heal.
+    fr: Les castors adultes en pleine santé peuvent se reproduire avec des bâtons.
+      Il y a un temps de recharge de 5 minutes pour la reproduction, pendant lequel
+      le castor n'acceptera pas les bâtons pour se reproduire mais le fera s'il est
+      blessé et a besoin de guérir.
   behavior:
     en: The growth of kits can be slowly accelerated by using sticks.
     fr: La croissance des bébés peut être lentement accélérée en utilisant des bâtons.
-
 gallery:
   title:
     en: Gallery
     fr: Galerie
-
 community:
   title:
     en: Have additional questions? Want to be a part of our community?
-    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté ?
+    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté
+      ?
   join:
     en: Join our Discord!
     fr: Rejoignez notre Discord !
   discord_url: /discord.com/invite/starfishstudios
-
 social_links:
   marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
   curseforge: /www.curseforge.com/members/starfish_studios/projects
@@ -139,4 +171,4 @@ social_links:
   instagram: /www.instagram.com/starfishstudiosinc/
   twitter: /twitter.com/starfishstudios
   youtube: /www.youtube.com/@starfishstudios
-  website: /starfish-studios.com/ 
+  website: /starfish-studios.com/

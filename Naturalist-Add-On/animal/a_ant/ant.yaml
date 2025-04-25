@@ -1,20 +1,23 @@
 title:
   en: Ant
   fr: Fourmi
-
 last_updated:
   en: April 22, 2025 8:47 PM
   fr: 22 avril 2025 20h47
-
 return_link:
   en: Naturalist Add-On Wiki
   fr: Wiki de l'extension Naturalist
 return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
-
 description:
-  en: Ants are fascinating arthropods with the longest lifespans. They can carry objects 50 times their body weight and communicate using chemicals called pheromones. Ant colonies are run by a single queen ant, and these ants build complex nests to protect their queen.
-  fr: Les fourmis sont des arthropodes fascinants avec les durées de vie les plus longues. Elles peuvent porter des objets 50 fois leur poids corporel et communiquer en utilisant des produits chimiques appelés phéromones. Les colonies de fourmis sont dirigées par une seule reine, et ces fourmis construisent des nids complexes pour protéger leur reine.
-
+  en: Ants are fascinating arthropods with the longest lifespans. They can carry objects
+    50 times their body weight and communicate using chemicals called pheromones.
+    Ant colonies are run by a single queen ant, and these ants build complex nests
+    to protect their queen.
+  fr: Les fourmis sont des arthropodes fascinants avec les durées de vie les plus
+    longues. Elles peuvent porter des objets 50 fois leur poids corporel et communiquer
+    en utilisant des produits chimiques appelés phéromones. Les colonies de fourmis
+    sont dirigées par une seule reine, et ces fourmis construisent des nids complexes
+    pour protéger leur reine.
 stats:
   health: 5
   classification:
@@ -28,53 +31,80 @@ stats:
   spawn:
     en: N/A
     fr: N/A
-
 images:
   main: ant.gif
   items:
-    - ant_item.png
-    - queen_ant.png
+  - ant_item.png
+  - queen_ant.png
   gallery:
-    - ant.gif
-    - ant_item.png
-    - queen_ant.png
-    - ant_meander.png
-    - anthill.png
-    - ant_ant.png
-
+  - ant.gif
+  - anthill.png
+  - ant_ant.png
+  - ant_meander.png
 spawning:
   title:
     en: Spawning
     fr: Apparition
   description:
-    en: Ants do not spawn naturally in the overworld; however, their ant hills can be commonly found within the savanna and jungle biomes. If an ant hill block is broken, an ant will pop out! If the player is lucky, they'll spot a queen ant, which can be used to make more ant hills.
-    fr: Les fourmis n'apparaissent pas naturellement dans le monde normal ; cependant, leurs fourmilières peuvent être couramment trouvées dans les biomes de savane et de jungle. Si un bloc de fourmilière est cassé, une fourmi en sortira ! Si le joueur a de la chance, il repérera une reine fourmi, qui peut être utilisée pour faire plus de fourmilières.
-
+    en: Ants do not spawn naturally in the overworld; however, their ant hills can
+      be commonly found within the savanna and jungle biomes. If an ant hill block
+      is broken, an ant will pop out! If the player is lucky, they'll spot a queen
+      ant, which can be used to make more ant hills.
+    fr: Les fourmis n'apparaissent pas naturellement dans le monde normal ; cependant,
+      leurs fourmilières peuvent être couramment trouvées dans les biomes de savane
+      et de jungle. Si un bloc de fourmilière est cassé, une fourmi en sortira ! Si
+      le joueur a de la chance, il repérera une reine fourmi, qui peut être utilisée
+      pour faire plus de fourmilières.
 behavior:
   title:
     en: Behavior
     fr: Comportement
   description:
-    en: Ants are found in new structures that spawn in the world, Ant Hills. They are small hills built from blocks that the Ants can go in and out of, like Bee Nests. If there are not Ants outside of the Ant Hills, Anteaters will approach the blocks and dig at them, forcing Ants out of them before eating them. Each Ant Hill has 1 single "Queen Ant" block that when broken will drop a Queen Ant item.
-    fr: Les fourmis se trouvent dans de nouvelles structures qui apparaissent dans le monde, les Fourmilières. Ce sont de petites collines construites à partir de blocs que les fourmis peuvent traverser, comme les nids d'abeilles. S'il n'y a pas de fourmis à l'extérieur des fourmilières, les fourmiliers s'approcheront des blocs et creuseront dedans, forçant les fourmis à en sortir avant de les manger. Chaque fourmilière a 1 seul bloc "Reine Fourmi" qui, lorsqu'il est cassé, laissera tomber un objet Reine Fourmi.
+    en: Ants are found in new structures that spawn in the world, Ant Hills. They
+      are small hills built from blocks that the Ants can go in and out of, like Bee
+      Nests. If there are not Ants outside of the Ant Hills, Anteaters will approach
+      the blocks and dig at them, forcing Ants out of them before eating them. Each
+      Ant Hill has 1 single "Queen Ant" block that when broken will drop a Queen Ant
+      item.
+    fr: Les fourmis se trouvent dans de nouvelles structures qui apparaissent dans
+      le monde, les Fourmilières. Ce sont de petites collines construites à partir
+      de blocs que les fourmis peuvent traverser, comme les nids d'abeilles. S'il
+      n'y a pas de fourmis à l'extérieur des fourmilières, les fourmiliers s'approcheront
+      des blocs et creuseront dedans, forçant les fourmis à en sortir avant de les
+      manger. Chaque fourmilière a 1 seul bloc "Reine Fourmi" qui, lorsqu'il est cassé,
+      laissera tomber un objet Reine Fourmi.
   capture_net:
-    en: Ants can be caught in capture nets. If an ant is caught, the ant will enter a player's inventory as an item. If the inventory is full, the ant will drop to the ground in front of the player. An ant is used by pressing "use" on any surface (top, bottom, or side) of a block. When used on a top surface, the ant appears with its feet immediately adjacent to the surface. This interaction is much like a spawn egg. The surfaces of blocks are prioritized for spawning; if none are within reach, mobs can also be spawned in water. Ants can be fed to other animals for taming/breeding.
-    fr: Les fourmis peuvent être attrapées dans des filets de capture. Si une fourmi est attrapée, la fourmi entrera dans l'inventaire du joueur comme un objet. Si l'inventaire est plein, la fourmi tombera au sol devant le joueur. Une fourmi est utilisée en appuyant sur "utiliser" sur n'importe quelle surface (haut, bas ou côté) d'un bloc. Lorsqu'elle est utilisée sur une surface supérieure, la fourmi apparaît avec ses pieds immédiatement adjacents à la surface. Cette interaction est similaire à un œuf d'apparition. Les surfaces des blocs sont prioritaires pour l'apparition ; si aucune n'est à portée, les créatures peuvent également apparaître dans l'eau. Les fourmis peuvent être nourries à d'autres animaux pour l'apprivoisement/la reproduction.
-
+    en: Ants can be caught in capture nets. If an ant is caught, the ant will enter
+      a player's inventory as an item. If the inventory is full, the ant will drop
+      to the ground in front of the player. An ant is used by pressing "use" on any
+      surface (top, bottom, or side) of a block. When used on a top surface, the ant
+      appears with its feet immediately adjacent to the surface. This interaction
+      is much like a spawn egg. The surfaces of blocks are prioritized for spawning;
+      if none are within reach, mobs can also be spawned in water. Ants can be fed
+      to other animals for taming/breeding.
+    fr: Les fourmis peuvent être attrapées dans des filets de capture. Si une fourmi
+      est attrapée, la fourmi entrera dans l'inventaire du joueur comme un objet.
+      Si l'inventaire est plein, la fourmi tombera au sol devant le joueur. Une fourmi
+      est utilisée en appuyant sur "utiliser" sur n'importe quelle surface (haut,
+      bas ou côté) d'un bloc. Lorsqu'elle est utilisée sur une surface supérieure,
+      la fourmi apparaît avec ses pieds immédiatement adjacents à la surface. Cette
+      interaction est similaire à un œuf d'apparition. Les surfaces des blocs sont
+      prioritaires pour l'apparition ; si aucune n'est à portée, les créatures peuvent
+      également apparaître dans l'eau. Les fourmis peuvent être nourries à d'autres
+      animaux pour l'apprivoisement/la reproduction.
 gallery:
   title:
     en: Gallery
     fr: Galerie
-
 community:
   title:
     en: Have additional questions? Want to be a part of our community?
-    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté ?
+    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté
+      ?
   join:
     en: Join our Discord!
     fr: Rejoignez notre Discord !
   discord_url: /discord.com/invite/starfishstudios
-
 social_links:
   marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
   curseforge: /www.curseforge.com/members/starfish_studios/projects
@@ -82,4 +112,4 @@ social_links:
   instagram: /www.instagram.com/starfishstudiosinc/
   twitter: /twitter.com/starfishstudios
   youtube: /www.youtube.com/@starfishstudios
-  website: /starfish-studios.com/ 
+  website: /starfish-studios.com/

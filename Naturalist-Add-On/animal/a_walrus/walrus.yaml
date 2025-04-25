@@ -1,20 +1,25 @@
 title:
   en: Walrus
   fr: Morse
-
 last_updated:
   en: April 22, 2025 8:47 PM
   fr: 22 avril 2025 20h47
-
 return_link:
   en: Naturalist Add-On Wiki
   fr: Wiki de l'extension Naturalist
 return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
-
 description:
-  en: Walruses are large marine mammals known for their distinctive tusks and whiskers. They are social animals that live in large herds and are well-adapted to cold Arctic environments. They use their tusks for defense, cutting through ice, and helping them climb out of the water. They are excellent swimmers and can dive to great depths in search of food.
-  fr: Les morses sont de grands mammifères marins connus pour leurs défenses distinctives et leurs moustaches. Ce sont des animaux sociaux qui vivent en grands troupeaux et sont bien adaptés aux environnements arctiques froids. Ils utilisent leurs défenses pour se défendre, couper la glace et les aider à sortir de l'eau. Ce sont d'excellents nageurs et peuvent plonger à de grandes profondeurs à la recherche de nourriture.
-
+  en: Walruses are large marine mammals known for their distinctive tusks and whiskers.
+    They are social animals that live in large herds and are well-adapted to cold
+    Arctic environments. They use their tusks for defense, cutting through ice, and
+    helping them climb out of the water. They are excellent swimmers and can dive
+    to great depths in search of food.
+  fr: Les morses sont de grands mammifères marins connus pour leurs défenses distinctives
+    et leurs moustaches. Ce sont des animaux sociaux qui vivent en grands troupeaux
+    et sont bien adaptés aux environnements arctiques froids. Ils utilisent leurs
+    défenses pour se défendre, couper la glace et les aider à sortir de l'eau. Ce
+    sont d'excellents nageurs et peuvent plonger à de grandes profondeurs à la recherche
+    de nourriture.
 stats:
   health: 35
   classification:
@@ -29,29 +34,31 @@ stats:
   spawn:
     en: Frozen Oceans and Ice Spikes
     fr: Océans Gelés et Pics de Glace
-  spawn_urls:
+  spawn_url:
     frozen_ocean: /minecraft.wiki/w/Frozen_Ocean
     ice_spikes: /minecraft.wiki/w/Ice_Spikes
-
 images:
   main: walrus.gif
   items:
-    - walrus_tusk.png
-    - walrus_blubber.png
-    - walrus_meat.png
+  - fat.png
   gallery:
-    - walrus.gif
-    - walrus_herd.png
-    - walrus_swimming.png
-
+  - walrus.gif
+  - two_walrus.png
+  - walrus.png
 spawning:
   title:
     en: Spawning
     fr: Apparition
   description:
-    en: Walruses spawn in frozen ocean and ice spikes biomes, typically in small herds. They prefer areas with ice floes and will often be found resting on them. They are diurnal creatures and are most active during the day, especially during feeding times.
-    fr: Les morses apparaissent dans les biomes d'océan gelé et de pics de glace, généralement en petits troupeaux. Ils préfèrent les zones avec des banquises et se trouvent souvent en train de se reposer dessus. Ce sont des créatures diurnes et sont plus actives pendant la journée, surtout pendant les périodes d'alimentation.
-
+    en: Walruses spawn in frozen ocean and ice spikes biomes, typically in small herds.
+      They prefer areas with ice floes and will often be found resting on them. They
+      are diurnal creatures and are most active during the day, especially during
+      feeding times.
+    fr: Les morses apparaissent dans les biomes d'océan gelé et de pics de glace,
+      généralement en petits troupeaux. Ils préfèrent les zones avec des banquises
+      et se trouvent souvent en train de se reposer dessus. Ce sont des créatures
+      diurnes et sont plus actives pendant la journée, surtout pendant les périodes
+      d'alimentation.
 drops:
   title:
     en: Drops
@@ -60,68 +67,82 @@ drops:
     en: Walrus drops upon death
     fr: Le morse laisse tomber à sa mort
   items:
-    - name:
-        en: Walrus Tusk
-        fr: Défense de morse
-      amount: 1-2
-      looting: true
-      condition:
-        en: Maximum amount increased by 1 per level of Looting, for a maximum of 1-4 with Looting III
-        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 1-4 avec Butin III
-    - name:
-        en: Walrus Blubber
-        fr: Graisse de morse
-      amount: 2-3
-      looting: true
-      condition:
-        en: Maximum amount increased by 1 per level of Looting, for a maximum of 2-5 with Looting III
-        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 2-5 avec Butin III
-    - name:
-        en: Walrus Meat
-        fr: Viande de morse
-      amount: 2-3
-      looting: true
-      condition:
-        en: Maximum amount increased by 1 per level of Looting, for a maximum of 2-5 with Looting III
-        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 2-5 avec Butin III
-    - name:
-        en: Experience Orbs
-        fr: Orbes d'expérience
-      amount: 1-3
-      condition:
-        en: if killed by Player
-        fr: si tué par un joueur
-
+  - name:
+      en: Walrus Tusk
+      fr: Défense de morse
+    amount: 1-2
+    looting: true
+    condition:
+      en: Maximum amount increased by 1 per level of Looting, for a maximum of 1-4
+        with Looting III
+      fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum
+        de 1-4 avec Butin III
+  - name:
+      en: Walrus Blubber
+      fr: Graisse de morse
+    amount: 2-3
+    looting: true
+    condition:
+      en: Maximum amount increased by 1 per level of Looting, for a maximum of 2-5
+        with Looting III
+      fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum
+        de 2-5 avec Butin III
+  - name:
+      en: Walrus Meat
+      fr: Viande de morse
+    amount: 2-3
+    looting: true
+    condition:
+      en: Maximum amount increased by 1 per level of Looting, for a maximum of 2-5
+        with Looting III
+      fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum
+        de 2-5 avec Butin III
+  - name:
+      en: Experience Orbs
+      fr: Orbes d'expérience
+    amount: 1-3
+    condition:
+      en: if killed by Player
+      fr: si tué par un joueur
 behavior:
   title:
     en: Behavior
     fr: Comportement
   description:
-    en: Walruses are neutral creatures that will defend themselves if threatened. They are social animals that live in herds and are most active during the day. They are excellent swimmers and will often be found diving for food. They are known for their aggressive behavior when protecting their young or territory. They can be tamed using fish.
-    fr: Les morses sont des créatures neutres qui se défendront si elles sont menacées. Ce sont des animaux sociaux qui vivent en troupeaux et sont plus actifs pendant la journée. Ce sont d'excellents nageurs et se trouvent souvent en train de plonger pour chercher de la nourriture. Ils sont connus pour leur comportement agressif lorsqu'ils protègent leurs petits ou leur territoire. Ils peuvent être apprivoisés en utilisant du poisson.
-
+    en: Walruses are neutral creatures that will defend themselves if threatened.
+      They are social animals that live in herds and are most active during the day.
+      They are excellent swimmers and will often be found diving for food. They are
+      known for their aggressive behavior when protecting their young or territory.
+      They can be tamed using fish.
+    fr: Les morses sont des créatures neutres qui se défendront si elles sont menacées.
+      Ce sont des animaux sociaux qui vivent en troupeaux et sont plus actifs pendant
+      la journée. Ce sont d'excellents nageurs et se trouvent souvent en train de
+      plonger pour chercher de la nourriture. Ils sont connus pour leur comportement
+      agressif lorsqu'ils protègent leurs petits ou leur territoire. Ils peuvent être
+      apprivoisés en utilisant du poisson.
 breeding:
   title:
     en: Breeding
     fr: Reproduction
   description:
-    en: Walruses can be bred using fish. When bred, they will produce a baby walrus that stays close to its parents. The baby will grow into an adult over time.
-    fr: Les morses peuvent se reproduire en utilisant du poisson. Lorsqu'ils se reproduisent, ils produiront un bébé morse qui reste près de ses parents. Le bébé grandira pour devenir un adulte avec le temps.
-
+    en: Walruses can be bred using fish. When bred, they will produce a baby walrus
+      that stays close to its parents. The baby will grow into an adult over time.
+    fr: Les morses peuvent se reproduire en utilisant du poisson. Lorsqu'ils se reproduisent,
+      ils produiront un bébé morse qui reste près de ses parents. Le bébé grandira
+      pour devenir un adulte avec le temps.
 gallery:
   title:
     en: Gallery
     fr: Galerie
-
 community:
   title:
     en: Have additional questions? Want to be a part of our community?
-    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté ?
+    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté
+      ?
   join:
     en: Join our Discord!
     fr: Rejoignez notre Discord !
   discord_url: /discord.com/invite/starfishstudios
-
 social_links:
   marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
   curseforge: /www.curseforge.com/members/starfish_studios/projects
@@ -129,4 +150,4 @@ social_links:
   instagram: /www.instagram.com/starfishstudiosinc/
   twitter: /twitter.com/starfishstudios
   youtube: /www.youtube.com/@starfishstudios
-  website: /starfish-studios.com/ 
+  website: /starfish-studios.com/

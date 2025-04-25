@@ -1,20 +1,22 @@
 title:
   en: Cavefish
   fr: Poisson des cavernes
-
 last_updated:
   en: April 22, 2025 8:47 PM
   fr: 22 avril 2025 20h47
-
 return_link:
   en: Naturalist Add-On Wiki
   fr: Wiki de l'extension Naturalist
 return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
-
 description:
-  en: Cavefish are unique fish that have adapted to life in complete darkness. They have lost their pigmentation and eyesight over generations, developing enhanced senses to navigate their dark environment. They are found in underground water systems and caves.
-  fr: Les poissons des cavernes sont des poissons uniques qui se sont adaptés à la vie dans l'obscurité totale. Ils ont perdu leur pigmentation et leur vue au fil des générations, développant des sens améliorés pour naviguer dans leur environnement sombre. On les trouve dans les systèmes d'eau souterrains et les grottes.
-
+  en: Cavefish are unique fish that have adapted to life in complete darkness. They
+    have lost their pigmentation and eyesight over generations, developing enhanced
+    senses to navigate their dark environment. They are found in underground water
+    systems and caves.
+  fr: Les poissons des cavernes sont des poissons uniques qui se sont adaptés à la
+    vie dans l'obscurité totale. Ils ont perdu leur pigmentation et leur vue au fil
+    des générations, développant des sens améliorés pour naviguer dans leur environnement
+    sombre. On les trouve dans les systèmes d'eau souterrains et les grottes.
 stats:
   health: 4
   classification:
@@ -32,25 +34,29 @@ stats:
   spawn_url:
     cave: /minecraft.wiki/w/Cave
     underground: /minecraft.wiki/w/Underground
-
 images:
-  main: cavefish.gif
+  main: cavefish2.gif
   items:
-    - raw_cavefish.png
-    - cooked_cavefish.png
+  - bucket_cavefish.png
+  - cavefish_cooked.png
+  - cavefish_raw.png
   gallery:
-    - cavefish.gif
-    - cavefish_swimming.png
-    - cavefish_group.png
-
+  - cavefish2.gif
+  - cavefish.png
+  - cavefishies.png
 spawning:
   title:
     en: Spawning
     fr: Apparition
   description:
-    en: Cavefish spawn in groups of 1-3 in underground lakes and cave water systems. They prefer to spawn in complete darkness and will avoid well-lit areas. They are more active during the night and will hide in underwater structures during the day.
-    fr: Les poissons des cavernes apparaissent en groupes de 1 à 3 dans les lacs souterrains et les systèmes d'eau des grottes. Ils préfèrent apparaître dans l'obscurité totale et éviteront les zones bien éclairées. Ils sont plus actifs pendant la nuit et se cachent dans des structures sous-marines pendant la journée.
-
+    en: Cavefish spawn in groups of 1-3 in underground lakes and cave water systems.
+      They prefer to spawn in complete darkness and will avoid well-lit areas. They
+      are more active during the night and will hide in underwater structures during
+      the day.
+    fr: Les poissons des cavernes apparaissent en groupes de 1 à 3 dans les lacs souterrains
+      et les systèmes d'eau des grottes. Ils préfèrent apparaître dans l'obscurité
+      totale et éviteront les zones bien éclairées. Ils sont plus actifs pendant la
+      nuit et se cachent dans des structures sous-marines pendant la journée.
 drops:
   title:
     en: Drops
@@ -59,60 +65,70 @@ drops:
     en: Cavefish drops upon death
     fr: Le poisson des cavernes laisse tomber à sa mort
   items:
-    - name:
-        en: Raw Cavefish
-        fr: Poisson des cavernes cru
-      amount: 1
-      looting: true
-      condition:
-        en: Maximum amount increased by 1 per level of Looting, for a maximum of 1-3 with Looting III
-        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 1-3 avec Butin III
-    - name:
-        en: Cooked Cavefish
-        fr: Poisson des cavernes cuit
-      amount: 1
-      looting: true
-      condition:
-        en: if killed while on fire
-        fr: si tué en feu
-    - name:
-        en: Experience Orbs
-        fr: Orbes d'expérience
-      amount: 1-3
-      condition:
-        en: if killed by Player
-        fr: si tué par un joueur
-
+  - name:
+      en: Raw Cavefish
+      fr: Poisson des cavernes cru
+    amount: 1
+    looting: true
+    condition:
+      en: Maximum amount increased by 1 per level of Looting, for a maximum of 1-3
+        with Looting III
+      fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum
+        de 1-3 avec Butin III
+  - name:
+      en: Cooked Cavefish
+      fr: Poisson des cavernes cuit
+    amount: 1
+    looting: true
+    condition:
+      en: if killed while on fire
+      fr: si tué en feu
+  - name:
+      en: Experience Orbs
+      fr: Orbes d'expérience
+    amount: 1-3
+    condition:
+      en: if killed by Player
+      fr: si tué par un joueur
 behavior:
   title:
     en: Behavior
     fr: Comportement
   description:
-    en: Cavefish are adapted to life in darkness and have enhanced senses to navigate their environment. They are sensitive to light and will avoid well-lit areas. They can be caught with a fishing rod and are attracted to various types of bait. When threatened, they will quickly swim away to darker areas.
-    fr: Les poissons des cavernes sont adaptés à la vie dans l'obscurité et ont des sens améliorés pour naviguer dans leur environnement. Ils sont sensibles à la lumière et éviteront les zones bien éclairées. Ils peuvent être attrapés avec une canne à pêche et sont attirés par divers types d'appâts. Lorsqu'ils sont menacés, ils nagent rapidement vers des zones plus sombres.
-
+    en: Cavefish are adapted to life in darkness and have enhanced senses to navigate
+      their environment. They are sensitive to light and will avoid well-lit areas.
+      They can be caught with a fishing rod and are attracted to various types of
+      bait. When threatened, they will quickly swim away to darker areas.
+    fr: Les poissons des cavernes sont adaptés à la vie dans l'obscurité et ont des
+      sens améliorés pour naviguer dans leur environnement. Ils sont sensibles à la
+      lumière et éviteront les zones bien éclairées. Ils peuvent être attrapés avec
+      une canne à pêche et sont attirés par divers types d'appâts. Lorsqu'ils sont
+      menacés, ils nagent rapidement vers des zones plus sombres.
 breeding:
   title:
     en: Breeding
     fr: Reproduction
   description:
-    en: Cavefish can be bred using various types of fish food in complete darkness. When bred, they will lay eggs in underwater structures or vegetation. The eggs will hatch into fry after a short incubation period.
-    fr: Les poissons des cavernes peuvent se reproduire en utilisant divers types de nourriture pour poissons dans l'obscurité totale. Lorsqu'ils se reproduisent, ils pondent des œufs dans des structures sous-marines ou de la végétation. Les œufs éclosent en alevins après une courte période d'incubation.
-
+    en: Cavefish can be bred using various types of fish food in complete darkness.
+      When bred, they will lay eggs in underwater structures or vegetation. The eggs
+      will hatch into fry after a short incubation period.
+    fr: Les poissons des cavernes peuvent se reproduire en utilisant divers types
+      de nourriture pour poissons dans l'obscurité totale. Lorsqu'ils se reproduisent,
+      ils pondent des œufs dans des structures sous-marines ou de la végétation. Les
+      œufs éclosent en alevins après une courte période d'incubation.
 gallery:
   title:
     en: Gallery
     fr: Galerie
-
 community:
   title:
     en: Have additional questions? Want to be a part of our community?
-    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté ?
+    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté
+      ?
   join:
     en: Join our Discord!
     fr: Rejoignez notre Discord !
   discord_url: /discord.com/invite/starfishstudios
-
 social_links:
   marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
   curseforge: /www.curseforge.com/members/starfish_studios/projects
@@ -120,4 +136,4 @@ social_links:
   instagram: /www.instagram.com/starfishstudiosinc/
   twitter: /twitter.com/starfishstudios
   youtube: /www.youtube.com/@starfishstudios
-  website: /starfish-studios.com/ 
+  website: /starfish-studios.com/

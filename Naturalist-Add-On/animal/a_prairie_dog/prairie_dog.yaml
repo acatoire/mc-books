@@ -29,7 +29,7 @@ stats:
   spawn:
     en: Plains and Savannas
     fr: Plaines et Savanes
-  spawn_urls:
+  spawn_url:
     plains: /minecraft.wiki/w/Plains
     savanna: /minecraft.wiki/w/Savanna
 

@@ -133,6 +133,24 @@
             height: auto;
             border-radius: 4px;
         }
+        .items-section {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .items-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            align-items: center;
+        }
+        img.items-gallery {
+            max-width: 64px;
+            max-height: 64px;
+            border-radius: 4px;
+        }
         .social-links {
             display: flex;
             gap: 15px;
@@ -351,11 +369,11 @@
                     <div class="main-image">
                         <img src="${animalFolder}${animalPrefix}${currentAnimal}/${translations.images.main}" alt="${translations.title[currentLanguage]}">
                     </div>
-                    <div class="stats">
-                        <div class="stat-item">
+                <div class="stats">
+                    <div class="stat-item">
                             <h3>Classification: <a href="${translations.stats.classification_urls.animal}" target="_blank">${translations.stats.classification[currentLanguage]}</a></h3>
-                            <p>Health: ${translations.stats.health} ❤️</p>
-                            <p>Behavior: ${translations.stats.behavior[currentLanguage]}</p>
+                        <p>Health: ${translations.stats.health} ❤️</p>
+                        <p>Behavior: ${translations.stats.behavior[currentLanguage]}</p>
                             <p>Spawn: <a href="${translations.stats.spawn_url.overworld}" target="_blank">${translations.stats.spawn[currentLanguage]}</a></p>
                         </div>
                     </div>
@@ -412,6 +430,20 @@
                             ${img.endsWith('.gif') ? '<div class="gif-label">GIF</div>' : ''}
                         </div>
                     `).join('')}
+                </div>`;
+            }
+
+            if (translations.images && translations.images.items) {
+                html += `
+                <div class="items-section">
+                    <h3>Items</h3>
+                    <div class="items-container">
+                        ${translations.images.items.map(img => `
+                            <div class="gallery-item">
+                                <img class="items-gallery" src="${animalFolder}${animalPrefix}${currentAnimal}/${img}" alt="${translations.title[currentLanguage]}">
+                            </div>
+                        `).join('')}
+                    </div>
                 </div>`;
             }
 

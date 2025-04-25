@@ -1,20 +1,20 @@
 title:
   en: Crab
   fr: Crabe
-
 last_updated:
   en: April 22, 2025 8:47 PM
   fr: 22 avril 2025 20h47
-
 return_link:
   en: Naturalist Add-On Wiki
   fr: Wiki de l'extension Naturalist
 return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
-
 description:
-  en: Crabs are crustaceans that live in coastal areas and beaches. They are known for their sideways walking and strong pincers. They are scavengers and will eat both plant and animal matter.
-  fr: Les crabes sont des crustacés qui vivent dans les zones côtières et sur les plages. Ils sont connus pour leur marche latérale et leurs pinces puissantes. Ce sont des charognards qui mangent à la fois des matières végétales et animales.
-
+  en: Crabs are crustaceans that live in coastal areas and beaches. They are known
+    for their sideways walking and strong pincers. They are scavengers and will eat
+    both plant and animal matter.
+  fr: Les crabes sont des crustacés qui vivent dans les zones côtières et sur les
+    plages. Ils sont connus pour leur marche latérale et leurs pinces puissantes.
+    Ce sont des charognards qui mangent à la fois des matières végétales et animales.
 stats:
   health: 6
   classification:
@@ -31,25 +31,32 @@ stats:
     fr: Plages et Zones Côtières
   spawn_url:
     beach: /minecraft.wiki/w/Beach
-
 images:
-  main: crab.gif
+  main: blue_crab.gif
   items:
-    - crab_meat.png
-    - crab_shell.png
+  - bucket_red_crab.png
+  - cooked_crab_meat.png
+  - crab_meat.png
   gallery:
-    - crab.gif
-    - crab_walking.png
-    - crab_swimming.png
-
+  - blue_crab.gif
+  - brown_crab.gif
+  - crab_variant.gif
+  - orange_crab.gif
+  - red_crab.gif
+  - yellow_crab.gif
+  - blue_crab.png
+  - more_crab.png
+  - yellow_crab.png
 spawning:
   title:
     en: Spawning
     fr: Apparition
   description:
-    en: Crabs spawn in groups of 1-3 on beaches and coastal areas. They prefer to spawn near water and will often hide in the sand or under rocks when threatened.
-    fr: Les crabes apparaissent en groupes de 1 à 3 sur les plages et les zones côtières. Ils préfèrent apparaître près de l'eau et se cachent souvent dans le sable ou sous les rochers lorsqu'ils sont menacés.
-
+    en: Crabs spawn in groups of 1-3 on beaches and coastal areas. They prefer to
+      spawn near water and will often hide in the sand or under rocks when threatened.
+    fr: Les crabes apparaissent en groupes de 1 à 3 sur les plages et les zones côtières.
+      Ils préfèrent apparaître près de l'eau et se cachent souvent dans le sable ou
+      sous les rochers lorsqu'ils sont menacés.
 drops:
   title:
     en: Drops
@@ -58,60 +65,69 @@ drops:
     en: Crab drops upon death
     fr: Le crabe laisse tomber à sa mort
   items:
-    - name:
-        en: Crab Meat
-        fr: Viande de crabe
-      amount: 1-2
-      looting: true
-      condition:
-        en: Maximum amount increased by 1 per level of Looting, for a maximum of 1-4 with Looting III
-        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 1-4 avec Butin III
-    - name:
-        en: Crab Shell
-        fr: Carapace de crabe
-      amount: 0-1
-      looting: true
-      condition:
-        en: Maximum amount increased by 1 per level of Looting, for a maximum of 0-3 with Looting III
-        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 0-3 avec Butin III
-    - name:
-        en: Experience Orbs
-        fr: Orbes d'expérience
-      amount: 1-3
-      condition:
-        en: if killed by Player
-        fr: si tué par un joueur
-
+  - name:
+      en: Crab Meat
+      fr: Viande de crabe
+    amount: 1-2
+    looting: true
+    condition:
+      en: Maximum amount increased by 1 per level of Looting, for a maximum of 1-4
+        with Looting III
+      fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum
+        de 1-4 avec Butin III
+  - name:
+      en: Crab Shell
+      fr: Carapace de crabe
+    amount: 0-1
+    looting: true
+    condition:
+      en: Maximum amount increased by 1 per level of Looting, for a maximum of 0-3
+        with Looting III
+      fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum
+        de 0-3 avec Butin III
+  - name:
+      en: Experience Orbs
+      fr: Orbes d'expérience
+    amount: 1-3
+    condition:
+      en: if killed by Player
+      fr: si tué par un joueur
 behavior:
   title:
     en: Behavior
     fr: Comportement
   description:
-    en: Crabs are neutral mobs that will defend themselves if attacked. They walk sideways and can swim in water. They will hide in the sand or under rocks when threatened. They can be caught with a bucket and kept as pets.
-    fr: Les crabes sont des créatures neutres qui se défendront si elles sont attaquées. Ils marchent de côté et peuvent nager dans l'eau. Ils se cachent dans le sable ou sous les rochers lorsqu'ils sont menacés. Ils peuvent être attrapés avec un seau et gardés comme animaux de compagnie.
-
+    en: Crabs are neutral mobs that will defend themselves if attacked. They walk
+      sideways and can swim in water. They will hide in the sand or under rocks when
+      threatened. They can be caught with a bucket and kept as pets.
+    fr: Les crabes sont des créatures neutres qui se défendront si elles sont attaquées.
+      Ils marchent de côté et peuvent nager dans l'eau. Ils se cachent dans le sable
+      ou sous les rochers lorsqu'ils sont menacés. Ils peuvent être attrapés avec
+      un seau et gardés comme animaux de compagnie.
 breeding:
   title:
     en: Breeding
     fr: Reproduction
   description:
-    en: Crabs can be bred using fish or kelp. When bred, they will lay eggs in the sand near water. The eggs will hatch into baby crabs after a short incubation period.
-    fr: Les crabes peuvent se reproduire en utilisant du poisson ou des algues. Lorsqu'ils se reproduisent, ils pondent des œufs dans le sable près de l'eau. Les œufs éclosent en bébés crabes après une courte période d'incubation.
-
+    en: Crabs can be bred using fish or kelp. When bred, they will lay eggs in the
+      sand near water. The eggs will hatch into baby crabs after a short incubation
+      period.
+    fr: Les crabes peuvent se reproduire en utilisant du poisson ou des algues. Lorsqu'ils
+      se reproduisent, ils pondent des œufs dans le sable près de l'eau. Les œufs
+      éclosent en bébés crabes après une courte période d'incubation.
 gallery:
   title:
     en: Gallery
     fr: Galerie
-
 community:
   title:
     en: Have additional questions? Want to be a part of our community?
-    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté ?
+    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté
+      ?
   join:
     en: Join our Discord!
     fr: Rejoignez notre Discord !
   discord_url: /discord.com/invite/starfishstudios
-
 social_links:
   marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
   curseforge: /www.curseforge.com/members/starfish_studios/projects
@@ -119,4 +135,4 @@ social_links:
   instagram: /www.instagram.com/starfishstudiosinc/
   twitter: /twitter.com/starfishstudios
   youtube: /www.youtube.com/@starfishstudios
-  website: /starfish-studios.com/ 
+  website: /starfish-studios.com/

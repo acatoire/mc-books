@@ -1,20 +1,21 @@
 title:
   en: Giant Isopod
   fr: Isopode géant
-
 last_updated:
   en: April 22, 2025 8:47 PM
   fr: 22 avril 2025 20h47
-
 return_link:
   en: Naturalist Add-On Wiki
   fr: Wiki de l'extension Naturalist
 return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
-
 description:
-  en: Giant isopods are deep-sea crustaceans known for their armored exoskeleton and ability to survive in extreme conditions. They are scavengers that feed on dead animals and organic matter that falls to the ocean floor.
-  fr: Les isopodes géants sont des crustacés des profondeurs connus pour leur exosquelette blindé et leur capacité à survivre dans des conditions extrêmes. Ce sont des charognards qui se nourrissent d'animaux morts et de matière organique qui tombe au fond de l'océan.
-
+  en: Giant isopods are deep-sea crustaceans known for their armored exoskeleton and
+    ability to survive in extreme conditions. They are scavengers that feed on dead
+    animals and organic matter that falls to the ocean floor.
+  fr: Les isopodes géants sont des crustacés des profondeurs connus pour leur exosquelette
+    blindé et leur capacité à survivre dans des conditions extrêmes. Ce sont des charognards
+    qui se nourrissent d'animaux morts et de matière organique qui tombe au fond de
+    l'océan.
 stats:
   health: 8
   classification:
@@ -31,25 +32,29 @@ stats:
     fr: Océans profonds
   spawn_url:
     ocean: /minecraft.wiki/w/Ocean
-
 images:
   main: giant_isopod.gif
   items:
-    - isopod_shell.png
-    - isopod_meat.png
+  - bucket_blue_giant_isopod.png
+  - bucket_giant_isopod.png
   gallery:
-    - giant_isopod.gif
-    - giant_isopod_feeding.png
-    - giant_isopod_defense.png
-
+  - giant_isopod.gif
+  - giant_isopod_blue.gif
+  - giant_isopod_variants.gif
+  - isopod_family.png
+  - isopod_variations.png
 spawning:
   title:
     en: Spawning
     fr: Apparition
   description:
-    en: Giant isopods spawn in deep ocean biomes, typically in small groups. They prefer areas with low light and will often be found near the ocean floor. They are more active during the night and will often be seen scavenging for food.
-    fr: Les isopodes géants apparaissent dans les biomes océaniques profonds, généralement en petits groupes. Ils préfèrent les zones à faible luminosité et se trouvent souvent près du fond de l'océan. Ils sont plus actifs pendant la nuit et sont souvent vus en train de chercher de la nourriture.
-
+    en: Giant isopods spawn in deep ocean biomes, typically in small groups. They
+      prefer areas with low light and will often be found near the ocean floor. They
+      are more active during the night and will often be seen scavenging for food.
+    fr: Les isopodes géants apparaissent dans les biomes océaniques profonds, généralement
+      en petits groupes. Ils préfèrent les zones à faible luminosité et se trouvent
+      souvent près du fond de l'océan. Ils sont plus actifs pendant la nuit et sont
+      souvent vus en train de chercher de la nourriture.
 drops:
   title:
     en: Drops
@@ -58,60 +63,72 @@ drops:
     en: Giant isopod drops upon death
     fr: L'isopode géant laisse tomber à sa mort
   items:
-    - name:
-        en: Isopod Shell
-        fr: Carapace d'isopode
-      amount: 1-2
-      looting: true
-      condition:
-        en: Maximum amount increased by 1 per level of Looting, for a maximum of 1-4 with Looting III
-        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 1-4 avec Butin III
-    - name:
-        en: Isopod Meat
-        fr: Viande d'isopode
-      amount: 1-2
-      looting: true
-      condition:
-        en: Maximum amount increased by 1 per level of Looting, for a maximum of 1-4 with Looting III
-        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 1-4 avec Butin III
-    - name:
-        en: Experience Orbs
-        fr: Orbes d'expérience
-      amount: 1-2
-      condition:
-        en: if killed by Player
-        fr: si tué par un joueur
-
+  - name:
+      en: Isopod Shell
+      fr: Carapace d'isopode
+    amount: 1-2
+    looting: true
+    condition:
+      en: Maximum amount increased by 1 per level of Looting, for a maximum of 1-4
+        with Looting III
+      fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum
+        de 1-4 avec Butin III
+  - name:
+      en: Isopod Meat
+      fr: Viande d'isopode
+    amount: 1-2
+    looting: true
+    condition:
+      en: Maximum amount increased by 1 per level of Looting, for a maximum of 1-4
+        with Looting III
+      fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum
+        de 1-4 avec Butin III
+  - name:
+      en: Experience Orbs
+      fr: Orbes d'expérience
+    amount: 1-2
+    condition:
+      en: if killed by Player
+      fr: si tué par un joueur
 behavior:
   title:
     en: Behavior
     fr: Comportement
   description:
-    en: Giant isopods are neutral creatures that will defend themselves if attacked. They are scavengers and will feed on dead animals and organic matter. They can curl up into a ball for defense and will do so when threatened. They are more active during the night and will often be seen scavenging for food.
-    fr: Les isopodes géants sont des créatures neutres qui se défendront si elles sont attaquées. Ce sont des charognards et se nourrissent d'animaux morts et de matière organique. Ils peuvent se rouler en boule pour se défendre et le feront lorsqu'ils sont menacés. Ils sont plus actifs pendant la nuit et sont souvent vus en train de chercher de la nourriture.
-
+    en: Giant isopods are neutral creatures that will defend themselves if attacked.
+      They are scavengers and will feed on dead animals and organic matter. They can
+      curl up into a ball for defense and will do so when threatened. They are more
+      active during the night and will often be seen scavenging for food.
+    fr: Les isopodes géants sont des créatures neutres qui se défendront si elles
+      sont attaquées. Ce sont des charognards et se nourrissent d'animaux morts et
+      de matière organique. Ils peuvent se rouler en boule pour se défendre et le
+      feront lorsqu'ils sont menacés. Ils sont plus actifs pendant la nuit et sont
+      souvent vus en train de chercher de la nourriture.
 breeding:
   title:
     en: Breeding
     fr: Reproduction
   description:
-    en: Giant isopods cannot be bred, but they will naturally spawn in deep ocean biomes. They reproduce by laying eggs in the water, which hatch into larvae that eventually develop into adult giant isopods.
-    fr: Les isopodes géants ne peuvent pas être reproduits, mais ils apparaissent naturellement dans les biomes océaniques profonds. Ils se reproduisent en pondant des œufs dans l'eau, qui éclosent en larves qui se développent finalement en isopodes géants adultes.
-
+    en: Giant isopods cannot be bred, but they will naturally spawn in deep ocean
+      biomes. They reproduce by laying eggs in the water, which hatch into larvae
+      that eventually develop into adult giant isopods.
+    fr: Les isopodes géants ne peuvent pas être reproduits, mais ils apparaissent
+      naturellement dans les biomes océaniques profonds. Ils se reproduisent en pondant
+      des œufs dans l'eau, qui éclosent en larves qui se développent finalement en
+      isopodes géants adultes.
 gallery:
   title:
     en: Gallery
     fr: Galerie
-
 community:
   title:
     en: Have additional questions? Want to be a part of our community?
-    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté ?
+    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté
+      ?
   join:
     en: Join our Discord!
     fr: Rejoignez notre Discord !
   discord_url: /discord.com/invite/starfishstudios
-
 social_links:
   marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
   curseforge: /www.curseforge.com/members/starfish_studios/projects
@@ -119,4 +136,4 @@ social_links:
   instagram: /www.instagram.com/starfishstudiosinc/
   twitter: /twitter.com/starfishstudios
   youtube: /www.youtube.com/@starfishstudios
-  website: /starfish-studios.com/ 
+  website: /starfish-studios.com/

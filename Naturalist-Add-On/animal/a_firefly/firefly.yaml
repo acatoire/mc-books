@@ -1,20 +1,21 @@
 title:
   en: Firefly
   fr: Luciole
-
 last_updated:
   en: April 22, 2025 8:47 PM
   fr: 22 avril 2025 20h47
-
 return_link:
   en: Naturalist Add-On Wiki
   fr: Wiki de l'extension Naturalist
 return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
-
 description:
-  en: Fireflies are small, bioluminescent insects known for their ability to produce light. They are nocturnal creatures that create beautiful displays of light in the night sky, often found in forested areas and near water sources.
-  fr: Les lucioles sont de petits insectes bioluminescents connus pour leur capacité à produire de la lumière. Ce sont des créatures nocturnes qui créent de beaux spectacles de lumière dans le ciel nocturne, souvent trouvées dans les zones forestières et près des sources d'eau.
-
+  en: Fireflies are small, bioluminescent insects known for their ability to produce
+    light. They are nocturnal creatures that create beautiful displays of light in
+    the night sky, often found in forested areas and near water sources.
+  fr: Les lucioles sont de petits insectes bioluminescents connus pour leur capacité
+    à produire de la lumière. Ce sont des créatures nocturnes qui créent de beaux
+    spectacles de lumière dans le ciel nocturne, souvent trouvées dans les zones forestières
+    et près des sources d'eau.
 stats:
   health: 1
   classification:
@@ -32,24 +33,28 @@ stats:
   spawn_url:
     forest: /minecraft.wiki/w/Forest
     swamp: /minecraft.wiki/w/Swamp
-
 images:
   main: firefly.gif
   items:
-    - firefly_light.png
+  - firefly_item.png
+  - firefly_jar.png
   gallery:
-    - firefly.gif
-    - firefly_swarm.png
-    - firefly_night.png
-
+  - firefly.gif
+  - family_of_fireflies.png
+  - fireflies.png
+  - firefly.png
 spawning:
   title:
     en: Spawning
     fr: Apparition
   description:
-    en: Fireflies spawn in forest and swamp biomes, typically in small groups. They are nocturnal and will be more active during the night. They prefer areas with vegetation and will often be found near water sources.
-    fr: Les lucioles apparaissent dans les biomes forestiers et marécageux, généralement en petits groupes. Elles sont nocturnes et seront plus actives pendant la nuit. Elles préfèrent les zones avec de la végétation et se trouvent souvent près des sources d'eau.
-
+    en: Fireflies spawn in forest and swamp biomes, typically in small groups. They
+      are nocturnal and will be more active during the night. They prefer areas with
+      vegetation and will often be found near water sources.
+    fr: Les lucioles apparaissent dans les biomes forestiers et marécageux, généralement
+      en petits groupes. Elles sont nocturnes et seront plus actives pendant la nuit.
+      Elles préfèrent les zones avec de la végétation et se trouvent souvent près
+      des sources d'eau.
 drops:
   title:
     en: Drops
@@ -58,52 +63,62 @@ drops:
     en: Firefly drops upon death
     fr: La luciole laisse tomber à sa mort
   items:
-    - name:
-        en: Firefly Light
-        fr: Lumière de luciole
-      amount: 0-1
-      looting: true
-      condition:
-        en: Maximum amount increased by 1 per level of Looting, for a maximum of 0-3 with Looting III
-        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 0-3 avec Butin III
-    - name:
-        en: Experience Orbs
-        fr: Orbes d'expérience
-      amount: 1
-      condition:
-        en: if killed by Player
-        fr: si tué par un joueur
-
+  - name:
+      en: Firefly Light
+      fr: Lumière de luciole
+    amount: 0-1
+    looting: true
+    condition:
+      en: Maximum amount increased by 1 per level of Looting, for a maximum of 0-3
+        with Looting III
+      fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum
+        de 0-3 avec Butin III
+  - name:
+      en: Experience Orbs
+      fr: Orbes d'expérience
+    amount: 1
+    condition:
+      en: if killed by Player
+      fr: si tué par un joueur
 behavior:
   title:
     en: Behavior
     fr: Comportement
   description:
-    en: Fireflies are passive creatures that will fly around and produce light during the night. They are attracted to light sources and will often gather around them. They can be caught with a bottle and kept as pets, providing a natural light source.
-    fr: Les lucioles sont des créatures passives qui voleront et produiront de la lumière pendant la nuit. Elles sont attirées par les sources de lumière et se rassembleront souvent autour d'elles. Elles peuvent être attrapées avec une bouteille et gardées comme animaux de compagnie, fournissant une source de lumière naturelle.
-
+    en: Fireflies are passive creatures that will fly around and produce light during
+      the night. They are attracted to light sources and will often gather around
+      them. They can be caught with a bottle and kept as pets, providing a natural
+      light source.
+    fr: Les lucioles sont des créatures passives qui voleront et produiront de la
+      lumière pendant la nuit. Elles sont attirées par les sources de lumière et se
+      rassembleront souvent autour d'elles. Elles peuvent être attrapées avec une
+      bouteille et gardées comme animaux de compagnie, fournissant une source de lumière
+      naturelle.
 breeding:
   title:
     en: Breeding
     fr: Reproduction
   description:
-    en: Fireflies cannot be bred, but they will naturally spawn in forest and swamp biomes. They reproduce by laying eggs in moist soil, which hatch into larvae that eventually develop into adult fireflies.
-    fr: Les lucioles ne peuvent pas être reproduites, mais elles apparaissent naturellement dans les biomes forestiers et marécageux. Elles se reproduisent en pondant des œufs dans un sol humide, qui éclosent en larves qui se développent finalement en lucioles adultes.
-
+    en: Fireflies cannot be bred, but they will naturally spawn in forest and swamp
+      biomes. They reproduce by laying eggs in moist soil, which hatch into larvae
+      that eventually develop into adult fireflies.
+    fr: Les lucioles ne peuvent pas être reproduites, mais elles apparaissent naturellement
+      dans les biomes forestiers et marécageux. Elles se reproduisent en pondant des
+      œufs dans un sol humide, qui éclosent en larves qui se développent finalement
+      en lucioles adultes.
 gallery:
   title:
     en: Gallery
     fr: Galerie
-
 community:
   title:
     en: Have additional questions? Want to be a part of our community?
-    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté ?
+    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté
+      ?
   join:
     en: Join our Discord!
     fr: Rejoignez notre Discord !
   discord_url: /discord.com/invite/starfishstudios
-
 social_links:
   marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
   curseforge: /www.curseforge.com/members/starfish_studios/projects
@@ -111,4 +126,4 @@ social_links:
   instagram: /www.instagram.com/starfishstudiosinc/
   twitter: /twitter.com/starfishstudios
   youtube: /www.youtube.com/@starfishstudios
-  website: /starfish-studios.com/ 
+  website: /starfish-studios.com/

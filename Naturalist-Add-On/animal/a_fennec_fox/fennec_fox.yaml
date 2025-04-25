@@ -1,20 +1,21 @@
 title:
   en: Fennec Fox
   fr: Fennec
-
 last_updated:
   en: April 22, 2025 8:47 PM
   fr: 22 avril 2025 20h47
-
 return_link:
   en: Naturalist Add-On Wiki
   fr: Wiki de l'extension Naturalist
 return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
-
 description:
-  en: Fennec foxes are small, adorable desert-dwelling foxes known for their large ears and playful nature. They are nocturnal creatures that are well-adapted to desert life, using their large ears to dissipate heat and locate prey underground.
-  fr: Les fennecs sont de petits renards adorables vivant dans le désert, connus pour leurs grandes oreilles et leur nature joueuse. Ce sont des créatures nocturnes bien adaptées à la vie dans le désert, utilisant leurs grandes oreilles pour dissiper la chaleur et localiser leurs proies sous terre.
-
+  en: Fennec foxes are small, adorable desert-dwelling foxes known for their large
+    ears and playful nature. They are nocturnal creatures that are well-adapted to
+    desert life, using their large ears to dissipate heat and locate prey underground.
+  fr: Les fennecs sont de petits renards adorables vivant dans le désert, connus pour
+    leurs grandes oreilles et leur nature joueuse. Ce sont des créatures nocturnes
+    bien adaptées à la vie dans le désert, utilisant leurs grandes oreilles pour dissiper
+    la chaleur et localiser leurs proies sous terre.
 stats:
   health: 4
   classification:
@@ -31,25 +32,33 @@ stats:
     fr: Déserts
   spawn_url:
     desert: /minecraft.wiki/w/Desert
-
 images:
-  main: fennec_fox.gif
+  main: fennec_fox_variations.gif
   items:
-    - fennec_fox_fur.png
-    - fennec_fox_ear.png
+  - fur.png
+  - morsel.png
   gallery:
-    - fennec_fox.gif
-    - fennec_fox_sleeping.png
-    - fennec_fox_hunting.png
-
+  - fennec_fox_beige.gif
+  - fennec_fox_creamy.gif
+  - fennec_fox_pale.gif
+  - fennec_fox_red.gif
+  - fennec_fox_variations.gif
+  - beige_foxy.png
+  - fennec_foxy.png
+  - fox.png
+  - white_fox.png
 spawning:
   title:
     en: Spawning
     fr: Apparition
   description:
-    en: Fennec foxes spawn in desert biomes, typically in small groups. They prefer areas with sand and will often be found near desert villages or oases. They are nocturnal and will be more active during the night.
-    fr: Les fennecs apparaissent dans les biomes désertiques, généralement en petits groupes. Ils préfèrent les zones avec du sable et se trouvent souvent près des villages du désert ou des oasis. Ils sont nocturnes et seront plus actifs pendant la nuit.
-
+    en: Fennec foxes spawn in desert biomes, typically in small groups. They prefer
+      areas with sand and will often be found near desert villages or oases. They
+      are nocturnal and will be more active during the night.
+    fr: Les fennecs apparaissent dans les biomes désertiques, généralement en petits
+      groupes. Ils préfèrent les zones avec du sable et se trouvent souvent près des
+      villages du désert ou des oasis. Ils sont nocturnes et seront plus actifs pendant
+      la nuit.
 drops:
   title:
     en: Drops
@@ -58,60 +67,73 @@ drops:
     en: Fennec fox drops upon death
     fr: Le fennec laisse tomber à sa mort
   items:
-    - name:
-        en: Fennec Fox Fur
-        fr: Fourrure de fennec
-      amount: 1-2
-      looting: true
-      condition:
-        en: Maximum amount increased by 1 per level of Looting, for a maximum of 1-4 with Looting III
-        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 1-4 avec Butin III
-    - name:
-        en: Fennec Fox Ear
-        fr: Oreille de fennec
-      amount: 0-1
-      looting: true
-      condition:
-        en: Maximum amount increased by 1 per level of Looting, for a maximum of 0-3 with Looting III
-        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 0-3 avec Butin III
-    - name:
-        en: Experience Orbs
-        fr: Orbes d'expérience
-      amount: 1-2
-      condition:
-        en: if killed by Player
-        fr: si tué par un joueur
-
+  - name:
+      en: Fennec Fox Fur
+      fr: Fourrure de fennec
+    amount: 1-2
+    looting: true
+    condition:
+      en: Maximum amount increased by 1 per level of Looting, for a maximum of 1-4
+        with Looting III
+      fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum
+        de 1-4 avec Butin III
+  - name:
+      en: Fennec Fox Ear
+      fr: Oreille de fennec
+    amount: 0-1
+    looting: true
+    condition:
+      en: Maximum amount increased by 1 per level of Looting, for a maximum of 0-3
+        with Looting III
+      fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum
+        de 0-3 avec Butin III
+  - name:
+      en: Experience Orbs
+      fr: Orbes d'expérience
+    amount: 1-2
+    condition:
+      en: if killed by Player
+      fr: si tué par un joueur
 behavior:
   title:
     en: Behavior
     fr: Comportement
   description:
-    en: Fennec foxes are playful and curious creatures that will investigate nearby items and players. They are nocturnal and will be more active during the night. They can be tamed with sweet berries and will follow the player when tamed. When tamed, they will help locate buried treasure and can be trained to dig for items.
-    fr: Les fennecs sont des créatures joueuses et curieuses qui examineront les objets et les joueurs à proximité. Ils sont nocturnes et seront plus actifs pendant la nuit. Ils peuvent être apprivoisés avec des baies sucrées et suivront le joueur une fois apprivoisés. Une fois apprivoisés, ils aideront à localiser les trésors enterrés et peuvent être entraînés à creuser pour trouver des objets.
-
+    en: Fennec foxes are playful and curious creatures that will investigate nearby
+      items and players. They are nocturnal and will be more active during the night.
+      They can be tamed with sweet berries and will follow the player when tamed.
+      When tamed, they will help locate buried treasure and can be trained to dig
+      for items.
+    fr: Les fennecs sont des créatures joueuses et curieuses qui examineront les objets
+      et les joueurs à proximité. Ils sont nocturnes et seront plus actifs pendant
+      la nuit. Ils peuvent être apprivoisés avec des baies sucrées et suivront le
+      joueur une fois apprivoisés. Une fois apprivoisés, ils aideront à localiser
+      les trésors enterrés et peuvent être entraînés à creuser pour trouver des objets.
 breeding:
   title:
     en: Breeding
     fr: Reproduction
   description:
-    en: Fennec foxes can be bred using sweet berries. When bred, they will produce a baby fennec fox that will stay close to its parents. Baby fennec foxes are smaller and less powerful than adults, and will grow up over time.
-    fr: Les fennecs peuvent se reproduire en utilisant des baies sucrées. Lorsqu'ils se reproduisent, ils produiront un bébé fennec qui restera près de ses parents. Les bébés fennecs sont plus petits et moins puissants que les adultes, et grandiront avec le temps.
-
+    en: Fennec foxes can be bred using sweet berries. When bred, they will produce
+      a baby fennec fox that will stay close to its parents. Baby fennec foxes are
+      smaller and less powerful than adults, and will grow up over time.
+    fr: Les fennecs peuvent se reproduire en utilisant des baies sucrées. Lorsqu'ils
+      se reproduisent, ils produiront un bébé fennec qui restera près de ses parents.
+      Les bébés fennecs sont plus petits et moins puissants que les adultes, et grandiront
+      avec le temps.
 gallery:
   title:
     en: Gallery
     fr: Galerie
-
 community:
   title:
     en: Have additional questions? Want to be a part of our community?
-    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté ?
+    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté
+      ?
   join:
     en: Join our Discord!
     fr: Rejoignez notre Discord !
   discord_url: /discord.com/invite/starfishstudios
-
 social_links:
   marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
   curseforge: /www.curseforge.com/members/starfish_studios/projects
@@ -119,4 +141,4 @@ social_links:
   instagram: /www.instagram.com/starfishstudiosinc/
   twitter: /twitter.com/starfishstudios
   youtube: /www.youtube.com/@starfishstudios
-  website: /starfish-studios.com/ 
+  website: /starfish-studios.com/

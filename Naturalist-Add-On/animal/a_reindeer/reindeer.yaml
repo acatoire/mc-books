@@ -29,7 +29,7 @@ stats:
   spawn:
     en: Snowy Tundras and Taigas
     fr: Toundras Enneigées et Taïgas
-  spawn_urls:
+  spawn_url:
     snowy_tundra: /minecraft.wiki/w/Snowy_Tundra
     taiga: /minecraft.wiki/w/Taiga
 

@@ -1,27 +1,22 @@
 title:
   en: Bird
   fr: Oiseau
-
 last_updated:
   en: April 22, 2025 8:47 PM
   fr: 22 avril 2025 20h47
-
 return_link:
   en: Naturalist Add-On Wiki
   fr: Wiki de l'extension Naturalist
 return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
-
 description:
-  en: |
-    Small birds are lightweight, agile animals that have compact bodies,
-     small beaks, and a fast wingbeat. These birds flit between trees and the 
-     ground while singing their melodious songs. You can find them in various 
-     biomes and even befriend them!
-  fr: |
-    Les petits oiseaux sont des animaux légers et agiles qui ont des corps compacts, 
-    de petits becs et un battement d'ailes rapide. Ces oiseaux voltigent entre les arbres 
-    et le sol tout en chantant leurs mélodies. Vous pouvez les trouver dans divers biomes et même les apprivoiser !
-
+  en: "Small birds are lightweight, agile animals that have compact bodies,\n small\
+    \ beaks, and a fast wingbeat. These birds flit between trees and the \n ground\
+    \ while singing their melodious songs. You can find them in various \n biomes\
+    \ and even befriend them!\n"
+  fr: "Les petits oiseaux sont des animaux légers et agiles qui ont des corps compacts,\
+    \ \nde petits becs et un battement d'ailes rapide. Ces oiseaux voltigent entre\
+    \ les arbres \net le sol tout en chantant leurs mélodies. Vous pouvez les trouver\
+    \ dans divers biomes et même les apprivoiser !\n"
 stats:
   health: 6
   classification:
@@ -37,97 +32,98 @@ stats:
     fr: Biomes du monde normal
   spawn_url:
     overworld: /minecraft.wiki/w/Overworld
-
 images:
   main: all_birds.gif
   items:
-    - bird_egg.png
+  - bird_egg.png
   gallery:
-    - all_birds.gif
-    - bird_egg.png
-    - birb.png
-    - cardinal_swamp.png
-    - more_birbs.png
-    - bluejay.png
-    - finch.png
-    - sparrow..png
+  - all_birds.gif
+  - bluejay_bird.gif
+  - canary_bird.gif
+  - cardinal_bird.gif
+  - finch_bird.gif
+  - robin_bird.gif
+  - sparrow_bird.gif
+  - birb.png
+  - bluejay.png
+  - cardinal_swamp.png
+  - finch.png
+  - more_birbs.png
+  - sparrow..png
   variants:
-    - bluejay_bird.gif
-    - canary_bird.gif
-    - cardinal_bird.gif
-    - finch_bird.gif
-    - robin_bird.gif
-    - sparrow_bird.gif
-
+  - bluejay_bird.gif
+  - canary_bird.gif
+  - cardinal_bird.gif
+  - finch_bird.gif
+  - robin_bird.gif
+  - sparrow_bird.gif
 spawning:
   title:
     en: Spawning
     fr: Apparition
   description:
-    en: |
-      All bird variations will spawn in groups of 1-4 on grass, leaves, and logs.
-       They will spawn during the daytime with light levels between 7-15.
-    fr: |
-      Toutes les variations d'oiseaux apparaîtront en groupes de 1 à 4 sur l'herbe, les feuilles et les bûches.
-       Ils apparaîtront pendant la journée avec des niveaux de lumière entre 7 et 15.
+    en: "All bird variations will spawn in groups of 1-4 on grass, leaves, and logs.\n\
+      \ They will spawn during the daytime with light levels between 7-15.\n"
+    fr: "Toutes les variations d'oiseaux apparaîtront en groupes de 1 à 4 sur l'herbe,\
+      \ les feuilles et les bûches.\n Ils apparaîtront pendant la journée avec des\
+      \ niveaux de lumière entre 7 et 15.\n"
   variants:
-    - name:
-        en: Bluejay
-        fr: Geai bleu
-      spawn_biomes:
-        - /minecraft.wiki/w/Windswept_Hills
-        - /minecraft.wiki/w/Frozen_Peaks
-        - /minecraft.wiki/w/Snowy_Plains
-        - /minecraft.wiki/w/Snowy_Slopes
-        - /minecraft.fandom.com/wiki/Taiga
-    - name:
-        en: Canary
-        fr: Canari
-      spawn_biomes:
-        - /minecraft.wiki/w/Windswept_Hills
-        - /minecraft.wiki/w/Mountains
-      not_spawn:
-        - /minecraft.wiki/w/Grove
-    - name:
-        en: Cardinal
-        fr: Cardinal
-      spawn_biomes:
-        - /minecraft.wiki/w/Birch_Forest
-        - /minecraft.wiki/w/Desert
-        - /minecraft.wiki/w/Flower_Forest
-        - /minecraft.wiki/w/Forest
-        - /minecraft.wiki/w/Grove
-        - /minecraft.wiki/w/Mangrove_Swamp
-        - /minecraft.wiki/w/Savanna
-        - /minecraft.wiki/w/Swamp
-      not_spawn:
-        - Frozen Variants
-    - name:
-        en: Finch
-        fr: Pinson
-      spawn_biomes:
-        - /minecraft.wiki/w/Forest
-        - /minecraft.wiki/w/Savanna
-    - name:
-        en: Robin
-        fr: Rouge-gorge
-      spawn_biomes:
-        - /minecraft.wiki/w/Birch_Forest
-        - /minecraft.wiki/w/Flower_Forest
-        - /minecraft.wiki/w/Forest
-        - /minecraft.wiki/w/Old_Growth_Pine_Taiga
-        - /minecraft.wiki/w/Giant_Tree_Taiga_Hills
-        - /minecraft.wiki/w/Taiga_Hills
-        - /minecraft.wiki/w/Mountains
-      not_spawn:
-        - Frozen Variants
-    - name:
-        en: Sparrow
-        fr: Moineau
-      spawn_biomes:
-        - /minecraft.wiki/w/Cherry_Grove
-        - /minecraft.wiki/w/Plains
-
+  - name:
+      en: Bluejay
+      fr: Geai bleu
+    spawn_biomes:
+    - /minecraft.wiki/w/Windswept_Hills
+    - /minecraft.wiki/w/Frozen_Peaks
+    - /minecraft.wiki/w/Snowy_Plains
+    - /minecraft.wiki/w/Snowy_Slopes
+    - /minecraft.fandom.com/wiki/Taiga
+  - name:
+      en: Canary
+      fr: Canari
+    spawn_biomes:
+    - /minecraft.wiki/w/Windswept_Hills
+    - /minecraft.wiki/w/Mountains
+    not_spawn:
+    - /minecraft.wiki/w/Grove
+  - name:
+      en: Cardinal
+      fr: Cardinal
+    spawn_biomes:
+    - /minecraft.wiki/w/Birch_Forest
+    - /minecraft.wiki/w/Desert
+    - /minecraft.wiki/w/Flower_Forest
+    - /minecraft.wiki/w/Forest
+    - /minecraft.wiki/w/Grove
+    - /minecraft.wiki/w/Mangrove_Swamp
+    - /minecraft.wiki/w/Savanna
+    - /minecraft.wiki/w/Swamp
+    not_spawn:
+    - Frozen Variants
+  - name:
+      en: Finch
+      fr: Pinson
+    spawn_biomes:
+    - /minecraft.wiki/w/Forest
+    - /minecraft.wiki/w/Savanna
+  - name:
+      en: Robin
+      fr: Rouge-gorge
+    spawn_biomes:
+    - /minecraft.wiki/w/Birch_Forest
+    - /minecraft.wiki/w/Flower_Forest
+    - /minecraft.wiki/w/Forest
+    - /minecraft.wiki/w/Old_Growth_Pine_Taiga
+    - /minecraft.wiki/w/Giant_Tree_Taiga_Hills
+    - /minecraft.wiki/w/Taiga_Hills
+    - /minecraft.wiki/w/Mountains
+    not_spawn:
+    - Frozen Variants
+  - name:
+      en: Sparrow
+      fr: Moineau
+    spawn_biomes:
+    - /minecraft.wiki/w/Cherry_Grove
+    - /minecraft.wiki/w/Plains
 drops:
   title:
     en: Drops
@@ -136,147 +132,160 @@ drops:
     en: All bird variation drops upon death
     fr: Toutes les variations d'oiseaux laissent tomber à leur mort
   items:
-    - name:
-        en: Feather
-        fr: Plume
-      amount: 0-1
-      looting: true
-      condition:
-        en: Maximum amount increased by 1 per level of Looting, for a maximum of 0-3 with Looting III
-        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 0-3 avec Butin III
-    - name:
-        en: Experience Orbs
-        fr: Orbes d'expérience
-      amount: 1-3
-      condition:
-        en: if killed by Player or poisoned
-        fr: si tué par un joueur ou empoisonné
+  - name:
+      en: Feather
+      fr: Plume
+    amount: 0-1
+    looting: true
+    condition:
+      en: Maximum amount increased by 1 per level of Looting, for a maximum of 0-3
+        with Looting III
+      fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum
+        de 0-3 avec Butin III
+  - name:
+      en: Experience Orbs
+      fr: Orbes d'expérience
+    amount: 1-3
+    condition:
+      en: if killed by Player or poisoned
+      fr: si tué par un joueur ou empoisonné
   note:
     en: Hatchlings yield no items nor experience.
     fr: Les oisillons ne donnent ni objets ni expérience.
-
 behavior:
   title:
     en: Behavior
     fr: Comportement
   description:
-    en: |
-      Birds are passive animals found in the overworld. Each bird can be found in their specific biome 
-      and identified by their color. If you cannot find birds in the wild, listen for their chirps to 
-      indicate they are nearby! Birds fly around idly and land frequently to rest. 
-      They will flap their wings to swim and to mitigate fall damage.
-    fr: |
-      Les oiseaux sont des créatures passives qui volent entre les arbres et le sol.
-       Ils chantent occasionnellement, produisant des notes musicales qui peuvent 
-       être entendues à proximité.
+    en: "Birds are passive animals found in the overworld. Each bird can be found\
+      \ in their specific biome \nand identified by their color. If you cannot find\
+      \ birds in the wild, listen for their chirps to \nindicate they are nearby!\
+      \ Birds fly around idly and land frequently to rest. \nThey will flap their\
+      \ wings to swim and to mitigate fall damage.\n"
+    fr: "Les oiseaux sont des créatures passives qui volent entre les arbres et le\
+      \ sol.\n Ils chantent occasionnellement, produisant des notes musicales qui\
+      \ peuvent \n être entendues à proximité.\n"
   capture_net:
-    en: |
-      Birds can be caught in capture nets. If a bird is caught, 
-      the bird (in its variant) will enter the player's inventory as an item.
-      If the inventory is full, the bird will drop to the ground in front of the player. 
-      A bird is used by pressing "use" on any surface (top, bottom, or side) of a block. 
-      When used on a top surface, the bird appears with its feet immediately adjacent to the surface.
-      This interaction is similar to a spawn egg. The surfaces of blocks are prioritized for spawning;
-      if none are within reach, creatures can also spawn in water. 
-      Birds can be fed to other animals for taming/breeding.
-    fr: |
-      Les oiseaux peuvent être attrapés dans des filets de capture. Si un oiseau est attrapé, l'oiseau (dans sa variante)
-      entrera dans l'inventaire du joueur comme un objet. Si l'inventaire est plein, l'oiseau tombera au sol devant le joueur.
-      Un oiseau est utilisé en appuyant sur "utiliser" sur n'importe quelle surface (haut, bas ou côté) d'un bloc. 
-      Lorsqu'il est utilisé sur une surface supérieure, l'oiseau apparaît avec ses pattes immédiatement adjacentes à la surface.
-      Cette interaction est similaire à un œuf d'apparition. Les surfaces des blocs sont prioritaires pour l'apparition ; 
-      si aucune n'est à portée, les créatures peuvent également apparaître dans l'eau.
-      Les oiseaux peuvent être donnés à d'autres animaux pour l'apprivoisement/reproduction.
-
+    en: "Birds can be caught in capture nets. If a bird is caught, \nthe bird (in\
+      \ its variant) will enter the player's inventory as an item.\nIf the inventory\
+      \ is full, the bird will drop to the ground in front of the player. \nA bird\
+      \ is used by pressing \"use\" on any surface (top, bottom, or side) of a block.\
+      \ \nWhen used on a top surface, the bird appears with its feet immediately adjacent\
+      \ to the surface.\nThis interaction is similar to a spawn egg. The surfaces\
+      \ of blocks are prioritized for spawning;\nif none are within reach, creatures\
+      \ can also spawn in water. \nBirds can be fed to other animals for taming/breeding.\n"
+    fr: "Les oiseaux peuvent être attrapés dans des filets de capture. Si un oiseau\
+      \ est attrapé, l'oiseau (dans sa variante)\nentrera dans l'inventaire du joueur\
+      \ comme un objet. Si l'inventaire est plein, l'oiseau tombera au sol devant\
+      \ le joueur.\nUn oiseau est utilisé en appuyant sur \"utiliser\" sur n'importe\
+      \ quelle surface (haut, bas ou côté) d'un bloc. \nLorsqu'il est utilisé sur\
+      \ une surface supérieure, l'oiseau apparaît avec ses pattes immédiatement adjacentes\
+      \ à la surface.\nCette interaction est similaire à un œuf d'apparition. Les\
+      \ surfaces des blocs sont prioritaires pour l'apparition ; \nsi aucune n'est\
+      \ à portée, les créatures peuvent également apparaître dans l'eau.\nLes oiseaux\
+      \ peuvent être donnés à d'autres animaux pour l'apprivoisement/reproduction.\n"
 taming:
   title:
     en: Taming, Healing, & Feeding
     fr: Apprivoisement, Soins et Nourriture
   description:
-    en: |
-      Birds can be tamed with wheat seeds, pumpkin seeds, melon seeds, and beetroot seeds.
-      There is a 33% chance of successful taming. Once they are tamed,
-      you will see hearts appear and a ribbon on their left leg signifying you have tamed the bird. 
-      You can dye the ribbon to your color of choice or use shears to cut off the ribbon. If you shear off the ribbon,
-       it can be reapplied by using a dye color of your choice.
-    fr: |
-      Les oiseaux peuvent être apprivoisés avec des graines de blé, des graines de citrouille,
-      des graines de melon et des graines de betterave. Il y a 33% de chances de réussir l'apprivoisement. 
-      Une fois apprivoisés, vous verrez des cœurs apparaître et un ruban sur leur patte gauche, 
-      signifiant que vous avez apprivoisé l'oiseau. Vous pouvez teindre le ruban à la couleur de votre 
-      choix ou utiliser des cisailles pour couper le ruban. Si vous coupez le ruban, il peut être réappliqué 
-      en utilisant une couleur de teinture de votre choix.
+    en: "Birds can be tamed with wheat seeds, pumpkin seeds, melon seeds, and beetroot\
+      \ seeds.\nThere is a 33% chance of successful taming. Once they are tamed,\n\
+      you will see hearts appear and a ribbon on their left leg signifying you have\
+      \ tamed the bird. \nYou can dye the ribbon to your color of choice or use shears\
+      \ to cut off the ribbon. If you shear off the ribbon,\n it can be reapplied\
+      \ by using a dye color of your choice.\n"
+    fr: "Les oiseaux peuvent être apprivoisés avec des graines de blé, des graines\
+      \ de citrouille,\ndes graines de melon et des graines de betterave. Il y a 33%\
+      \ de chances de réussir l'apprivoisement. \nUne fois apprivoisés, vous verrez\
+      \ des cœurs apparaître et un ruban sur leur patte gauche, \nsignifiant que vous\
+      \ avez apprivoisé l'oiseau. Vous pouvez teindre le ruban à la couleur de votre\
+      \ \nchoix ou utiliser des cisailles pour couper le ruban. Si vous coupez le\
+      \ ruban, il peut être réappliqué \nen utilisant une couleur de teinture de votre\
+      \ choix.\n"
   behavior:
-    en: |
-      Tamed birds can be commanded to sit or to follow. Birds will teleport to 
-      the player if the player is further than 5 blocks away. Birds will not teleport to 
-      the player if they are commanded to sit. If a bird you have tamed gets injured, 
-      you can feed the bird wheat seeds, pumpkin seeds, melon seeds, or beetroot seeds 
-      to increase its health until it is maxed. 1 seed increases the bird's health points by 2.
-      An injured bird will be unable to breed until it is healed. Feeding these birds a cookie
-      will cause Fatal Poison particles to be emitted, and they will lose health points. Chocolate is toxic to birds. 
-      Note: Unlike Parrots, these birds do not dance to a jukebox when it is playing music.
-    fr: |
-      Les oiseaux apprivoisés peuvent être commandés pour s'asseoir ou suivre. 
-      Les oiseaux se téléporteront vers le joueur si celui-ci est à plus de 5 blocs de distance.
-      Les oiseaux ne se téléporteront pas vers le joueur s'ils sont commandés pour s'asseoir.
-      Si un oiseau que vous avez apprivoisé est blessé, vous pouvez le nourrir de graines de blé,
-      de graines de citrouille, de graines de melon ou de graines de betterave pour augmenter sa santé jusqu'à son maximum.
-      1 graine augmente les points de santé de l'oiseau de 2. Un oiseau blessé ne pourra pas se reproduire jusqu'à ce qu'il soit guéri.
-      Nourrir ces oiseaux d'un cookie fera apparaître des particules d'empoisonnement fatal,
-      et ils perdront des points de santé. Le chocolat est toxique pour les oiseaux.
-      Note : Contrairement aux perroquets, ces oiseaux ne dansent pas lorsqu'un jukebox joue de la musique.
-
+    en: "Tamed birds can be commanded to sit or to follow. Birds will teleport to\
+      \ \nthe player if the player is further than 5 blocks away. Birds will not teleport\
+      \ to \nthe player if they are commanded to sit. If a bird you have tamed gets\
+      \ injured, \nyou can feed the bird wheat seeds, pumpkin seeds, melon seeds,\
+      \ or beetroot seeds \nto increase its health until it is maxed. 1 seed increases\
+      \ the bird's health points by 2.\nAn injured bird will be unable to breed until\
+      \ it is healed. Feeding these birds a cookie\nwill cause Fatal Poison particles\
+      \ to be emitted, and they will lose health points. Chocolate is toxic to birds.\
+      \ \nNote: Unlike Parrots, these birds do not dance to a jukebox when it is playing\
+      \ music.\n"
+    fr: "Les oiseaux apprivoisés peuvent être commandés pour s'asseoir ou suivre.\
+      \ \nLes oiseaux se téléporteront vers le joueur si celui-ci est à plus de 5\
+      \ blocs de distance.\nLes oiseaux ne se téléporteront pas vers le joueur s'ils\
+      \ sont commandés pour s'asseoir.\nSi un oiseau que vous avez apprivoisé est\
+      \ blessé, vous pouvez le nourrir de graines de blé,\nde graines de citrouille,\
+      \ de graines de melon ou de graines de betterave pour augmenter sa santé jusqu'à\
+      \ son maximum.\n1 graine augmente les points de santé de l'oiseau de 2. Un oiseau\
+      \ blessé ne pourra pas se reproduire jusqu'à ce qu'il soit guéri.\nNourrir ces\
+      \ oiseaux d'un cookie fera apparaître des particules d'empoisonnement fatal,\n\
+      et ils perdront des points de santé. Le chocolat est toxique pour les oiseaux.\n\
+      Note : Contrairement aux perroquets, ces oiseaux ne dansent pas lorsqu'un jukebox\
+      \ joue de la musique.\n"
 breeding:
   title:
     en: Breeding
     fr: Reproduction
   description:
-    en: |
-      Birds with full health can be bred with wheat seeds, 
-      pumpkin seeds, melon seeds, and beetroot seeds. Birds require the following leaves to be 
-      within a 5-block radius for breeding to initiate: Acacia leaves, azalea leaves, flowering azalea leaves, 
-      birch leaves, cherry leaves, dark oak leaves, jungle leaves, mangrove leaves, oak leaves, and spruce leaves. 
-      There is a 5-minute cooldown for breeding, during which the birds do not accept any seeds for breeding 
-      but will if they get injured and need to heal.
-    fr: |
-      Les oiseaux en pleine santé peuvent se reproduire avec des graines de blé, 
-      des graines de citrouille, des graines de melon et des graines de betterave. 
-      Les oiseaux nécessitent que les feuilles suivantes soient dans un rayon de 5 blocs pour 
-      initier la reproduction : feuilles d'acacia, feuilles d'azalée, feuilles d'azalée fleurie, 
-      feuilles de bouleau, feuilles de cerisier, feuilles de chêne foncé, feuilles de jungle, 
-      feuilles de mangrove, feuilles de chêne et feuilles d'épicéa. Il y a un temps de recharge 
-      de 5 minutes pour la reproduction, pendant lequel les oiseaux n'acceptent aucune graine 
-      pour la reproduction mais le feront s'ils sont blessés et ont besoin de guérir.
+    en: "Birds with full health can be bred with wheat seeds, \npumpkin seeds, melon\
+      \ seeds, and beetroot seeds. Birds require the following leaves to be \nwithin\
+      \ a 5-block radius for breeding to initiate: Acacia leaves, azalea leaves, flowering\
+      \ azalea leaves, \nbirch leaves, cherry leaves, dark oak leaves, jungle leaves,\
+      \ mangrove leaves, oak leaves, and spruce leaves. \nThere is a 5-minute cooldown\
+      \ for breeding, during which the birds do not accept any seeds for breeding\
+      \ \nbut will if they get injured and need to heal.\n"
+    fr: "Les oiseaux en pleine santé peuvent se reproduire avec des graines de blé,\
+      \ \ndes graines de citrouille, des graines de melon et des graines de betterave.\
+      \ \nLes oiseaux nécessitent que les feuilles suivantes soient dans un rayon\
+      \ de 5 blocs pour \ninitier la reproduction : feuilles d'acacia, feuilles d'azalée,\
+      \ feuilles d'azalée fleurie, \nfeuilles de bouleau, feuilles de cerisier, feuilles\
+      \ de chêne foncé, feuilles de jungle, \nfeuilles de mangrove, feuilles de chêne\
+      \ et feuilles d'épicéa. Il y a un temps de recharge \nde 5 minutes pour la reproduction,\
+      \ pendant lequel les oiseaux n'acceptent aucune graine \npour la reproduction\
+      \ mais le feront s'ils sont blessés et ont besoin de guérir.\n"
   behavior:
-    en: |
-      Upon successful breeding, the two birds will create a bird nest containing an egg.
-      If in survival mode, the nest & egg can be broken with 1 hit, and it will drop as an item. 
-      Once the egg is placed in the world, the egg hatch timer will restart. There are no visuals 
-      for the egg hatching, however, a cracking sound will emit when the egg hatches and a hatchling appears.
-      Note: When breeding, the birds must be of the same variant. Crossbreeding birds of different variations will not work.
-    fr: |
-      Après une reproduction réussie, les deux oiseaux créeront un nid d'oiseau contenant un œuf.
-      Si en mode survie, le nid et l'œuf peuvent être cassés en 1 coup, et il tombera comme un objet.
-      Une fois l'œuf placé dans le monde, le minuteur d'éclosion de l'œuf redémarrera.
-      Il n'y a pas de visuels pour l'éclosion de l'œuf, cependant, un son de craquement sera émis lorsque
-      l'œuf éclot et qu'un oisillon apparaît. Note : Lors de la reproduction, les oiseaux doivent être de
-      la même variante. Le croisement d'oiseaux de différentes variations ne fonctionnera pas.
+    en: "Upon successful breeding, the two birds will create a bird nest containing\
+      \ an egg.\nIf in survival mode, the nest & egg can be broken with 1 hit, and\
+      \ it will drop as an item. \nOnce the egg is placed in the world, the egg hatch\
+      \ timer will restart. There are no visuals \nfor the egg hatching, however,\
+      \ a cracking sound will emit when the egg hatches and a hatchling appears.\n\
+      Note: When breeding, the birds must be of the same variant. Crossbreeding birds\
+      \ of different variations will not work.\n"
+    fr: 'Après une reproduction réussie, les deux oiseaux créeront un nid d''oiseau
+      contenant un œuf.
 
+      Si en mode survie, le nid et l''œuf peuvent être cassés en 1 coup, et il tombera
+      comme un objet.
+
+      Une fois l''œuf placé dans le monde, le minuteur d''éclosion de l''œuf redémarrera.
+
+      Il n''y a pas de visuels pour l''éclosion de l''œuf, cependant, un son de craquement
+      sera émis lorsque
+
+      l''œuf éclot et qu''un oisillon apparaît. Note : Lors de la reproduction, les
+      oiseaux doivent être de
+
+      la même variante. Le croisement d''oiseaux de différentes variations ne fonctionnera
+      pas.
+
+      '
 gallery:
   title:
     en: Gallery
     fr: Galerie
-
 community:
   title:
     en: Have additional questions? Want to be a part of our community?
-    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté ?
+    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté
+      ?
   join:
     en: Join our Discord!
     fr: Rejoignez notre Discord !
   discord_url: /discord.com/invite/starfishstudios
-
 social_links:
   marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
   curseforge: /www.curseforge.com/members/starfish_studios/projects
@@ -284,4 +293,4 @@ social_links:
   instagram: /www.instagram.com/starfishstudiosinc/
   twitter: /twitter.com/starfishstudios
   youtube: /www.youtube.com/@starfishstudios
-  website: /starfish-studios.com/ 
+  website: /starfish-studios.com/

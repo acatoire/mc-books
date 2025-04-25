@@ -1,20 +1,24 @@
 title:
   en: Platypus
   fr: Ornithorynque
-
 last_updated:
   en: April 22, 2025 8:47 PM
   fr: 22 avril 2025 20h47
-
 return_link:
   en: Naturalist Add-On Wiki
   fr: Wiki de l'extension Naturalist
 return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
-
 description:
-  en: Platypuses are unique egg-laying mammals known for their duck-like bill, webbed feet, and beaver-like tail. They are semi-aquatic creatures that are excellent swimmers and can detect prey through electroreception. They are one of the few venomous mammals, with males having spurs on their hind legs.
-  fr: Les ornithorynques sont des mammifères uniques qui pondent des œufs, connus pour leur bec semblable à celui d'un canard, leurs pieds palmés et leur queue semblable à celle d'un castor. Ce sont des créatures semi-aquatiques qui sont d'excellents nageurs et peuvent détecter leurs proies par électroréception. Ils sont l'un des rares mammifères venimeux, les mâles ayant des éperons sur leurs pattes arrière.
-
+  en: Platypuses are unique egg-laying mammals known for their duck-like bill, webbed
+    feet, and beaver-like tail. They are semi-aquatic creatures that are excellent
+    swimmers and can detect prey through electroreception. They are one of the few
+    venomous mammals, with males having spurs on their hind legs.
+  fr: Les ornithorynques sont des mammifères uniques qui pondent des œufs, connus
+    pour leur bec semblable à celui d'un canard, leurs pieds palmés et leur queue
+    semblable à celle d'un castor. Ce sont des créatures semi-aquatiques qui sont
+    d'excellents nageurs et peuvent détecter leurs proies par électroréception. Ils
+    sont l'un des rares mammifères venimeux, les mâles ayant des éperons sur leurs
+    pattes arrière.
 stats:
   health: 20
   classification:
@@ -29,28 +33,35 @@ stats:
   spawn:
     en: Rivers and Swamps
     fr: Rivières et Marais
-  spawn_urls:
+  spawn_url:
     river: /minecraft.wiki/w/River
     swamp: /minecraft.wiki/w/Swamp
-
 images:
-  main: platypus.gif
+  main: blue_platypus.gif
   items:
-    - platypus_fur.png
-    - platypus_meat.png
+  - bucket_blue_platypus.png
+  - bucket_platypus.png
   gallery:
-    - platypus.gif
-    - platypus_swimming.png
-    - platypus_burrow.png
-
+  - blue_platypus.gif
+  - platypus.gif
+  - platypus_variants.gif
+  - blue_brown_platy.png
+  - blue_platty.png
+  - brown_platy.png
+  - brown_solo.png
 spawning:
   title:
     en: Spawning
     fr: Apparition
   description:
-    en: Platypuses spawn in river and swamp biomes, typically as solitary animals. They prefer areas with fresh water and will often be found swimming or in their burrows. They are crepuscular creatures and are most active during dawn and dusk.
-    fr: Les ornithorynques apparaissent dans les biomes de rivière et de marais, généralement en tant qu'animaux solitaires. Ils préfèrent les zones avec de l'eau douce et se trouvent souvent en train de nager ou dans leurs terriers. Ce sont des créatures crépusculaires et sont plus actives à l'aube et au crépuscule.
-
+    en: Platypuses spawn in river and swamp biomes, typically as solitary animals.
+      They prefer areas with fresh water and will often be found swimming or in their
+      burrows. They are crepuscular creatures and are most active during dawn and
+      dusk.
+    fr: Les ornithorynques apparaissent dans les biomes de rivière et de marais, généralement
+      en tant qu'animaux solitaires. Ils préfèrent les zones avec de l'eau douce et
+      se trouvent souvent en train de nager ou dans leurs terriers. Ce sont des créatures
+      crépusculaires et sont plus actives à l'aube et au crépuscule.
 drops:
   title:
     en: Drops
@@ -59,60 +70,72 @@ drops:
     en: Platypus drops upon death
     fr: L'ornithorynque laisse tomber à sa mort
   items:
-    - name:
-        en: Platypus Fur
-        fr: Fourrure d'ornithorynque
-      amount: 1-2
-      looting: true
-      condition:
-        en: Maximum amount increased by 1 per level of Looting, for a maximum of 1-4 with Looting III
-        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 1-4 avec Butin III
-    - name:
-        en: Platypus Meat
-        fr: Viande d'ornithorynque
-      amount: 1-2
-      looting: true
-      condition:
-        en: Maximum amount increased by 1 per level of Looting, for a maximum of 1-4 with Looting III
-        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 1-4 avec Butin III
-    - name:
-        en: Experience Orbs
-        fr: Orbes d'expérience
-      amount: 1-2
-      condition:
-        en: if killed by Player
-        fr: si tué par un joueur
-
+  - name:
+      en: Platypus Fur
+      fr: Fourrure d'ornithorynque
+    amount: 1-2
+    looting: true
+    condition:
+      en: Maximum amount increased by 1 per level of Looting, for a maximum of 1-4
+        with Looting III
+      fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum
+        de 1-4 avec Butin III
+  - name:
+      en: Platypus Meat
+      fr: Viande d'ornithorynque
+    amount: 1-2
+    looting: true
+    condition:
+      en: Maximum amount increased by 1 per level of Looting, for a maximum of 1-4
+        with Looting III
+      fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum
+        de 1-4 avec Butin III
+  - name:
+      en: Experience Orbs
+      fr: Orbes d'expérience
+    amount: 1-2
+    condition:
+      en: if killed by Player
+      fr: si tué par un joueur
 behavior:
   title:
     en: Behavior
     fr: Comportement
   description:
-    en: Platypuses are neutral creatures that will defend themselves if threatened. They are solitary animals and are most active during dawn and dusk. They are excellent swimmers and can stay underwater for extended periods. They use their sensitive bills to detect prey through electroreception. Male platypuses have venomous spurs on their hind legs.
-    fr: Les ornithorynques sont des créatures neutres qui se défendront si elles sont menacées. Ce sont des animaux solitaires et sont plus actifs à l'aube et au crépuscule. Ce sont d'excellents nageurs et peuvent rester sous l'eau pendant de longues périodes. Ils utilisent leur bec sensible pour détecter leurs proies par électroréception. Les ornithorynques mâles ont des éperons venimeux sur leurs pattes arrière.
-
+    en: Platypuses are neutral creatures that will defend themselves if threatened.
+      They are solitary animals and are most active during dawn and dusk. They are
+      excellent swimmers and can stay underwater for extended periods. They use their
+      sensitive bills to detect prey through electroreception. Male platypuses have
+      venomous spurs on their hind legs.
+    fr: Les ornithorynques sont des créatures neutres qui se défendront si elles sont
+      menacées. Ce sont des animaux solitaires et sont plus actifs à l'aube et au
+      crépuscule. Ce sont d'excellents nageurs et peuvent rester sous l'eau pendant
+      de longues périodes. Ils utilisent leur bec sensible pour détecter leurs proies
+      par électroréception. Les ornithorynques mâles ont des éperons venimeux sur
+      leurs pattes arrière.
 breeding:
   title:
     en: Breeding
     fr: Reproduction
   description:
-    en: Platypuses can be bred using fish. When bred, they will produce a baby platypus that stays close to its parents.
-    fr: Les ornithorynques peuvent se reproduire en utilisant du poisson. Lorsqu'ils se reproduisent, ils produiront un bébé ornithorynque qui reste près de ses parents.
-
+    en: Platypuses can be bred using fish. When bred, they will produce a baby platypus
+      that stays close to its parents.
+    fr: Les ornithorynques peuvent se reproduire en utilisant du poisson. Lorsqu'ils
+      se reproduisent, ils produiront un bébé ornithorynque qui reste près de ses
+      parents.
 gallery:
   title:
     en: Gallery
     fr: Galerie
-
 community:
   title:
     en: Have additional questions? Want to be a part of our community?
-    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté ?
+    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté
+      ?
   join:
     en: Join our Discord!
     fr: Rejoignez notre Discord !
   discord_url: /discord.com/invite/starfishstudios
-
 social_links:
   marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
   curseforge: /www.curseforge.com/members/starfish_studios/projects
@@ -120,4 +143,4 @@ social_links:
   instagram: /www.instagram.com/starfishstudiosinc/
   twitter: /twitter.com/starfishstudios
   youtube: /www.youtube.com/@starfishstudios
-  website: /starfish-studios.com/ 
+  website: /starfish-studios.com/

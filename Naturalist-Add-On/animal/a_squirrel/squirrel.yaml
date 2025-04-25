@@ -1,20 +1,25 @@
 title:
   en: Squirrel
   fr: Écureuil
-
 last_updated:
   en: April 22, 2025 8:47 PM
   fr: 22 avril 2025 20h47
-
 return_link:
   en: Naturalist Add-On Wiki
   fr: Wiki de l'extension Naturalist
 return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
-
 description:
-  en: Squirrels are small rodents known for their bushy tails and agile climbing abilities. They are omnivorous creatures that feed on nuts, seeds, fruits, and sometimes insects. They are most active during the day and are known for their habit of storing food for the winter. They are social animals that live in trees and build nests called dreys.
-  fr: Les écureuils sont de petits rongeurs connus pour leurs queues touffues et leurs capacités d'escalade agiles. Ce sont des créatures omnivores qui se nourrissent de noix, de graines, de fruits et parfois d'insectes. Ils sont plus actifs pendant la journée et sont connus pour leur habitude de stocker de la nourriture pour l'hiver. Ce sont des animaux sociaux qui vivent dans les arbres et construisent des nids appelés dreys.
-
+  en: Squirrels are small rodents known for their bushy tails and agile climbing abilities.
+    They are omnivorous creatures that feed on nuts, seeds, fruits, and sometimes
+    insects. They are most active during the day and are known for their habit of
+    storing food for the winter. They are social animals that live in trees and build
+    nests called dreys.
+  fr: Les écureuils sont de petits rongeurs connus pour leurs queues touffues et leurs
+    capacités d'escalade agiles. Ce sont des créatures omnivores qui se nourrissent
+    de noix, de graines, de fruits et parfois d'insectes. Ils sont plus actifs pendant
+    la journée et sont connus pour leur habitude de stocker de la nourriture pour
+    l'hiver. Ce sont des animaux sociaux qui vivent dans les arbres et construisent
+    des nids appelés dreys.
 stats:
   health: 10
   classification:
@@ -29,28 +34,36 @@ stats:
   spawn:
     en: Forests and Plains
     fr: Forêts et Plaines
-  spawn_urls:
+  spawn_url:
     forest: /minecraft.wiki/w/Forest
     plains: /minecraft.wiki/w/Plains
-
 images:
-  main: squirrel.gif
+  main: squirrel_variations.gif
   items:
-    - squirrel_fur.png
-    - squirrel_meat.png
+  - acorn.png
+  - fur.png
+  - morsel.png
   gallery:
-    - squirrel.gif
-    - squirrel_climbing.png
-    - squirrel_fur.png
-
+  - black_squirrel.gif
+  - brown_squirrel.gif
+  - squirrel_variations.gif
+  - white_squirrel.gif
+  - black_squirrels.png
+  - brown_squirrel.png
+  - squirrel.png
+  - white_squirrel.png
 spawning:
   title:
     en: Spawning
     fr: Apparition
   description:
-    en: Squirrels spawn in forest and plains biomes, typically in areas with plenty of trees. They prefer areas with access to food sources and are most active during the day. They can be found in various colors and patterns.
-    fr: Les écureuils apparaissent dans les biomes de forêt et de plaines, généralement dans des zones avec beaucoup d'arbres. Ils préfèrent les zones avec accès à des sources de nourriture et sont plus actifs pendant la journée. Ils peuvent être trouvés dans diverses couleurs et motifs.
-
+    en: Squirrels spawn in forest and plains biomes, typically in areas with plenty
+      of trees. They prefer areas with access to food sources and are most active
+      during the day. They can be found in various colors and patterns.
+    fr: Les écureuils apparaissent dans les biomes de forêt et de plaines, généralement
+      dans des zones avec beaucoup d'arbres. Ils préfèrent les zones avec accès à
+      des sources de nourriture et sont plus actifs pendant la journée. Ils peuvent
+      être trouvés dans diverses couleurs et motifs.
 drops:
   title:
     en: Drops
@@ -59,60 +72,69 @@ drops:
     en: Squirrel drops upon death
     fr: L'écureuil laisse tomber à sa mort
   items:
-    - name:
-        en: Squirrel Fur
-        fr: Fourrure d'écureuil
-      amount: 1
-      looting: true
-      condition:
-        en: Maximum amount increased by 1 per level of Looting, for a maximum of 2 with Looting III
-        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 2 avec Butin III
-    - name:
-        en: Squirrel Meat
-        fr: Viande d'écureuil
-      amount: 1
-      looting: true
-      condition:
-        en: Maximum amount increased by 1 per level of Looting, for a maximum of 2 with Looting III
-        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 2 avec Butin III
-    - name:
-        en: Experience Orbs
-        fr: Orbes d'expérience
-      amount: 1-2
-      condition:
-        en: if killed by Player
-        fr: si tué par un joueur
-
+  - name:
+      en: Squirrel Fur
+      fr: Fourrure d'écureuil
+    amount: 1
+    looting: true
+    condition:
+      en: Maximum amount increased by 1 per level of Looting, for a maximum of 2 with
+        Looting III
+      fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum
+        de 2 avec Butin III
+  - name:
+      en: Squirrel Meat
+      fr: Viande d'écureuil
+    amount: 1
+    looting: true
+    condition:
+      en: Maximum amount increased by 1 per level of Looting, for a maximum of 2 with
+        Looting III
+      fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum
+        de 2 avec Butin III
+  - name:
+      en: Experience Orbs
+      fr: Orbes d'expérience
+    amount: 1-2
+    condition:
+      en: if killed by Player
+      fr: si tué par un joueur
 behavior:
   title:
     en: Behavior
     fr: Comportement
   description:
-    en: Squirrels are passive creatures that are known for their agility and climbing abilities. They are social animals that live in trees and build nests. They are known for their habit of storing food for the winter. They can be tamed using nuts.
-    fr: Les écureuils sont des créatures passives connues pour leur agilité et leurs capacités d'escalade. Ce sont des animaux sociaux qui vivent dans les arbres et construisent des nids. Ils sont connus pour leur habitude de stocker de la nourriture pour l'hiver. Ils peuvent être apprivoisés en utilisant des noix.
-
+    en: Squirrels are passive creatures that are known for their agility and climbing
+      abilities. They are social animals that live in trees and build nests. They
+      are known for their habit of storing food for the winter. They can be tamed
+      using nuts.
+    fr: Les écureuils sont des créatures passives connues pour leur agilité et leurs
+      capacités d'escalade. Ce sont des animaux sociaux qui vivent dans les arbres
+      et construisent des nids. Ils sont connus pour leur habitude de stocker de la
+      nourriture pour l'hiver. Ils peuvent être apprivoisés en utilisant des noix.
 breeding:
   title:
     en: Breeding
     fr: Reproduction
   description:
-    en: Squirrels can be bred using nuts. When bred, they will produce a baby squirrel that stays close to its parents. The baby will grow into an adult over time.
-    fr: Les écureuils peuvent se reproduire en utilisant des noix. Lorsqu'ils se reproduisent, ils produiront un bébé écureuil qui reste près de ses parents. Le bébé grandira pour devenir un adulte avec le temps.
-
+    en: Squirrels can be bred using nuts. When bred, they will produce a baby squirrel
+      that stays close to its parents. The baby will grow into an adult over time.
+    fr: Les écureuils peuvent se reproduire en utilisant des noix. Lorsqu'ils se reproduisent,
+      ils produiront un bébé écureuil qui reste près de ses parents. Le bébé grandira
+      pour devenir un adulte avec le temps.
 gallery:
   title:
     en: Gallery
     fr: Galerie
-
 community:
   title:
     en: Have additional questions? Want to be a part of our community?
-    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté ?
+    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté
+      ?
   join:
     en: Join our Discord!
     fr: Rejoignez notre Discord !
   discord_url: /discord.com/invite/starfishstudios
-
 social_links:
   marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
   curseforge: /www.curseforge.com/members/starfish_studios/projects
@@ -120,4 +142,4 @@ social_links:
   instagram: /www.instagram.com/starfishstudiosinc/
   twitter: /twitter.com/starfishstudios
   youtube: /www.youtube.com/@starfishstudios
-  website: /starfish-studios.com/ 
+  website: /starfish-studios.com/

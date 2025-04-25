@@ -29,7 +29,7 @@ stats:
   spawn:
     en: Frozen Oceans and Ice Spikes
     fr: Océans gelés et Pics de glace
-  spawn_urls:
+  spawn_url:
     frozen_ocean: /minecraft.wiki/w/Frozen_Ocean
     ice_spikes: /minecraft.wiki/w/Ice_Spikes
 

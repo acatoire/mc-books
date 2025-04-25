@@ -1,20 +1,22 @@
 title:
   en: Hedgehog
   fr: Hérisson
-
 last_updated:
   en: April 22, 2025 8:47 PM
   fr: 22 avril 2025 20h47
-
 return_link:
   en: Naturalist Add-On Wiki
   fr: Wiki de l'extension Naturalist
 return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
-
 description:
-  en: Hedgehogs are small, spiny mammals known for their protective quills. They are omnivorous creatures that feed on insects, worms, and small plants. They are nocturnal and are often found in forests and grasslands, where they curl into a ball for protection.
-  fr: Les hérissons sont de petits mammifères épineux connus pour leurs piquants protecteurs. Ce sont des créatures omnivores qui se nourrissent d'insectes, de vers et de petites plantes. Ils sont nocturnes et se trouvent souvent dans les forêts et les prairies, où ils se roulent en boule pour se protéger.
-
+  en: Hedgehogs are small, spiny mammals known for their protective quills. They are
+    omnivorous creatures that feed on insects, worms, and small plants. They are nocturnal
+    and are often found in forests and grasslands, where they curl into a ball for
+    protection.
+  fr: Les hérissons sont de petits mammifères épineux connus pour leurs piquants protecteurs.
+    Ce sont des créatures omnivores qui se nourrissent d'insectes, de vers et de petites
+    plantes. Ils sont nocturnes et se trouvent souvent dans les forêts et les prairies,
+    où ils se roulent en boule pour se protéger.
 stats:
   health: 5
   classification:
@@ -29,28 +31,33 @@ stats:
   spawn:
     en: Forests and Plains
     fr: Forêts et Plaines
-  spawn_urls:
+  spawn_url:
     forest: /minecraft.wiki/w/Forest
     plains: /minecraft.wiki/w/Plains
-
 images:
-  main: hedgehog.gif
+  main: brown_hedgehog.gif
   items:
-    - hedgehog_quill.png
-    - hedgehog_meat.png
+  - hedgehog_brown.png
+  - hedgehog_dark.png
+  - hedgehog_white.png
   gallery:
-    - hedgehog.gif
-    - hedgehog_curled.png
-    - hedgehog_quill.png
-
+  - brown_hedgehog.gif
+  - dark_hedgehog.gif
+  - hedgehog.gif
+  - white_hedgehog.gif
 spawning:
   title:
     en: Spawning
     fr: Apparition
   description:
-    en: Hedgehogs spawn in forest and plains biomes, typically in areas with plenty of cover. They prefer areas with access to both open spaces and vegetation, and are most active during the night. They can be found in various sizes and colors.
-    fr: Les hérissons apparaissent dans les biomes de forêt et de plaines, généralement dans des zones avec beaucoup de couverture. Ils préfèrent les zones avec accès à la fois aux espaces ouverts et à la végétation, et sont plus actifs pendant la nuit. Ils peuvent être trouvés dans diverses tailles et couleurs.
-
+    en: Hedgehogs spawn in forest and plains biomes, typically in areas with plenty
+      of cover. They prefer areas with access to both open spaces and vegetation,
+      and are most active during the night. They can be found in various sizes and
+      colors.
+    fr: Les hérissons apparaissent dans les biomes de forêt et de plaines, généralement
+      dans des zones avec beaucoup de couverture. Ils préfèrent les zones avec accès
+      à la fois aux espaces ouverts et à la végétation, et sont plus actifs pendant
+      la nuit. Ils peuvent être trouvés dans diverses tailles et couleurs.
 drops:
   title:
     en: Drops
@@ -59,60 +66,68 @@ drops:
     en: Hedgehog drops upon death
     fr: Le hérisson laisse tomber à sa mort
   items:
-    - name:
-        en: Hedgehog Quill
-        fr: Piquant de hérisson
-      amount: 1-2
-      looting: true
-      condition:
-        en: Maximum amount increased by 1 per level of Looting, for a maximum of 3 with Looting III
-        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 3 avec Butin III
-    - name:
-        en: Hedgehog Meat
-        fr: Viande de hérisson
-      amount: 1
-      looting: true
-      condition:
-        en: Maximum amount increased by 1 per level of Looting, for a maximum of 2 with Looting III
-        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 2 avec Butin III
-    - name:
-        en: Experience Orbs
-        fr: Orbes d'expérience
-      amount: 1
-      condition:
-        en: if killed by Player
-        fr: si tué par un joueur
-
+  - name:
+      en: Hedgehog Quill
+      fr: Piquant de hérisson
+    amount: 1-2
+    looting: true
+    condition:
+      en: Maximum amount increased by 1 per level of Looting, for a maximum of 3 with
+        Looting III
+      fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum
+        de 3 avec Butin III
+  - name:
+      en: Hedgehog Meat
+      fr: Viande de hérisson
+    amount: 1
+    looting: true
+    condition:
+      en: Maximum amount increased by 1 per level of Looting, for a maximum of 2 with
+        Looting III
+      fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum
+        de 2 avec Butin III
+  - name:
+      en: Experience Orbs
+      fr: Orbes d'expérience
+    amount: 1
+    condition:
+      en: if killed by Player
+      fr: si tué par un joueur
 behavior:
   title:
     en: Behavior
     fr: Comportement
   description:
-    en: Hedgehogs are passive creatures that will curl into a ball when threatened. They are known for their nocturnal habits and insect-eating behavior. They are solitary and will forage for food at night. They can be tamed using insects.
-    fr: Les hérissons sont des créatures passives qui se rouleront en boule lorsqu'ils sont menacés. Ils sont connus pour leurs habitudes nocturnes et leur comportement insectivore. Ils sont solitaires et chercheront de la nourriture la nuit. Ils peuvent être apprivoisés en utilisant des insectes.
-
+    en: Hedgehogs are passive creatures that will curl into a ball when threatened.
+      They are known for their nocturnal habits and insect-eating behavior. They are
+      solitary and will forage for food at night. They can be tamed using insects.
+    fr: Les hérissons sont des créatures passives qui se rouleront en boule lorsqu'ils
+      sont menacés. Ils sont connus pour leurs habitudes nocturnes et leur comportement
+      insectivore. Ils sont solitaires et chercheront de la nourriture la nuit. Ils
+      peuvent être apprivoisés en utilisant des insectes.
 breeding:
   title:
     en: Breeding
     fr: Reproduction
   description:
-    en: Hedgehogs can be bred using insects. When bred, they will produce a baby hedgehog that stays close to its parents. The baby will grow into an adult over time.
-    fr: Les hérissons peuvent se reproduire en utilisant des insectes. Lorsqu'ils se reproduisent, ils produiront un bébé hérisson qui reste près de ses parents. Le bébé grandira pour devenir un adulte avec le temps.
-
+    en: Hedgehogs can be bred using insects. When bred, they will produce a baby hedgehog
+      that stays close to its parents. The baby will grow into an adult over time.
+    fr: Les hérissons peuvent se reproduire en utilisant des insectes. Lorsqu'ils
+      se reproduisent, ils produiront un bébé hérisson qui reste près de ses parents.
+      Le bébé grandira pour devenir un adulte avec le temps.
 gallery:
   title:
     en: Gallery
     fr: Galerie
-
 community:
   title:
     en: Have additional questions? Want to be a part of our community?
-    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté ?
+    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté
+      ?
   join:
     en: Join our Discord!
     fr: Rejoignez notre Discord !
   discord_url: /discord.com/invite/starfishstudios
-
 social_links:
   marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
   curseforge: /www.curseforge.com/members/starfish_studios/projects
@@ -120,4 +135,4 @@ social_links:
   instagram: /www.instagram.com/starfishstudiosinc/
   twitter: /twitter.com/starfishstudios
   youtube: /www.youtube.com/@starfishstudios
-  website: /starfish-studios.com/ 
+  website: /starfish-studios.com/

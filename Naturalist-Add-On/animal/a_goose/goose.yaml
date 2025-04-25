@@ -1,20 +1,24 @@
 title:
   en: Goose
   fr: Oie
-
 last_updated:
   en: April 22, 2025 8:47 PM
   fr: 22 avril 2025 20h47
-
 return_link:
   en: Naturalist Add-On Wiki
   fr: Wiki de l'extension Naturalist
 return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
-
 description:
-  en: Geese are large waterfowl known for their distinctive honking calls and V-shaped flight formations. They are social birds that live in flocks and are known for their strong family bonds. They are excellent swimmers and can be quite territorial, especially during nesting season. They are herbivorous and feed on grasses, grains, and aquatic plants.
-  fr: Les oies sont de grands oiseaux aquatiques connus pour leurs cris caractéristiques et leurs formations de vol en V. Ce sont des oiseaux sociaux qui vivent en troupeaux et sont connus pour leurs liens familiaux forts. Ce sont d'excellentes nageuses et peuvent être assez territoriales, surtout pendant la saison de nidification. Elles sont herbivores et se nourrissent d'herbes, de céréales et de plantes aquatiques.
-
+  en: Geese are large waterfowl known for their distinctive honking calls and V-shaped
+    flight formations. They are social birds that live in flocks and are known for
+    their strong family bonds. They are excellent swimmers and can be quite territorial,
+    especially during nesting season. They are herbivorous and feed on grasses, grains,
+    and aquatic plants.
+  fr: Les oies sont de grands oiseaux aquatiques connus pour leurs cris caractéristiques
+    et leurs formations de vol en V. Ce sont des oiseaux sociaux qui vivent en troupeaux
+    et sont connus pour leurs liens familiaux forts. Ce sont d'excellentes nageuses
+    et peuvent être assez territoriales, surtout pendant la saison de nidification.
+    Elles sont herbivores et se nourrissent d'herbes, de céréales et de plantes aquatiques.
 stats:
   health: 20
   classification:
@@ -29,29 +33,36 @@ stats:
   spawn:
     en: Rivers, Lakes, and Plains
     fr: Rivières, Lacs et Plaines
-  spawn_urls:
+  spawn_url:
     river: /minecraft.wiki/w/River
     lake: /minecraft.wiki/w/Lake
     plains: /minecraft.wiki/w/Plains
-
 images:
-  main: goose.gif
+  main: baby_goose.gif
   items:
-    - goose_feather.png
-    - goose_meat.png
+  - gooseducken.png
+  - goose_egg.png
+  - goose_raw.png
   gallery:
-    - goose.gif
-    - goose_flock.png
-    - goose_swimming.png
-
+  - baby_goose.gif
+  - goose.gif
+  - goose_variants.gif
+  - goose_white.gif
+  - goose_family.png
+  - white_goose.jpeg
 spawning:
   title:
     en: Spawning
     fr: Apparition
   description:
-    en: Geese spawn near bodies of water in river, lake, and plains biomes, typically in small flocks. They prefer areas with plenty of grass and open water. They are diurnal creatures and are most active during the day, especially during feeding times.
-    fr: Les oies apparaissent près des plans d'eau dans les biomes de rivière, de lac et de plaine, généralement en petits troupeaux. Elles préfèrent les zones avec beaucoup d'herbe et d'eau libre. Ce sont des créatures diurnes et sont plus actives pendant la journée, surtout pendant les périodes d'alimentation.
-
+    en: Geese spawn near bodies of water in river, lake, and plains biomes, typically
+      in small flocks. They prefer areas with plenty of grass and open water. They
+      are diurnal creatures and are most active during the day, especially during
+      feeding times.
+    fr: Les oies apparaissent près des plans d'eau dans les biomes de rivière, de
+      lac et de plaine, généralement en petits troupeaux. Elles préfèrent les zones
+      avec beaucoup d'herbe et d'eau libre. Ce sont des créatures diurnes et sont
+      plus actives pendant la journée, surtout pendant les périodes d'alimentation.
 drops:
   title:
     en: Drops
@@ -60,60 +71,71 @@ drops:
     en: Goose drops upon death
     fr: L'oie laisse tomber à sa mort
   items:
-    - name:
-        en: Goose Feather
-        fr: Plume d'oie
-      amount: 1-2
-      looting: true
-      condition:
-        en: Maximum amount increased by 1 per level of Looting, for a maximum of 1-4 with Looting III
-        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 1-4 avec Butin III
-    - name:
-        en: Goose Meat
-        fr: Viande d'oie
-      amount: 1-2
-      looting: true
-      condition:
-        en: Maximum amount increased by 1 per level of Looting, for a maximum of 1-4 with Looting III
-        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 1-4 avec Butin III
-    - name:
-        en: Experience Orbs
-        fr: Orbes d'expérience
-      amount: 1-3
-      condition:
-        en: if killed by Player
-        fr: si tué par un joueur
-
+  - name:
+      en: Goose Feather
+      fr: Plume d'oie
+    amount: 1-2
+    looting: true
+    condition:
+      en: Maximum amount increased by 1 per level of Looting, for a maximum of 1-4
+        with Looting III
+      fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum
+        de 1-4 avec Butin III
+  - name:
+      en: Goose Meat
+      fr: Viande d'oie
+    amount: 1-2
+    looting: true
+    condition:
+      en: Maximum amount increased by 1 per level of Looting, for a maximum of 1-4
+        with Looting III
+      fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum
+        de 1-4 avec Butin III
+  - name:
+      en: Experience Orbs
+      fr: Orbes d'expérience
+    amount: 1-3
+    condition:
+      en: if killed by Player
+      fr: si tué par un joueur
 behavior:
   title:
     en: Behavior
     fr: Comportement
   description:
-    en: Geese are neutral creatures that will defend themselves and their young if threatened. They are social birds that live in flocks and are most active during the day. They are excellent swimmers and can fly in V-shaped formations. They are known for their territorial behavior, especially during nesting season. They can be tamed using wheat.
-    fr: Les oies sont des créatures neutres qui défendront leurs petits si elles sont menacées. Ce sont des oiseaux sociaux qui vivent en troupeaux et sont plus actifs pendant la journée. Ce sont d'excellentes nageuses et peuvent voler en formations en V. Elles sont connues pour leur comportement territorial, surtout pendant la saison de nidification. Elles peuvent être apprivoisées en utilisant du blé.
-
+    en: Geese are neutral creatures that will defend themselves and their young if
+      threatened. They are social birds that live in flocks and are most active during
+      the day. They are excellent swimmers and can fly in V-shaped formations. They
+      are known for their territorial behavior, especially during nesting season.
+      They can be tamed using wheat.
+    fr: Les oies sont des créatures neutres qui défendront leurs petits si elles sont
+      menacées. Ce sont des oiseaux sociaux qui vivent en troupeaux et sont plus actifs
+      pendant la journée. Ce sont d'excellentes nageuses et peuvent voler en formations
+      en V. Elles sont connues pour leur comportement territorial, surtout pendant
+      la saison de nidification. Elles peuvent être apprivoisées en utilisant du blé.
 breeding:
   title:
     en: Breeding
     fr: Reproduction
   description:
-    en: Geese can be bred using wheat. When bred, they will produce a baby goose that stays close to its parents. The baby will grow into an adult over time.
-    fr: Les oies peuvent se reproduire en utilisant du blé. Lorsqu'elles se reproduisent, elles produiront un bébé oie qui reste près de ses parents. Le bébé grandira pour devenir un adulte avec le temps.
-
+    en: Geese can be bred using wheat. When bred, they will produce a baby goose that
+      stays close to its parents. The baby will grow into an adult over time.
+    fr: Les oies peuvent se reproduire en utilisant du blé. Lorsqu'elles se reproduisent,
+      elles produiront un bébé oie qui reste près de ses parents. Le bébé grandira
+      pour devenir un adulte avec le temps.
 gallery:
   title:
     en: Gallery
     fr: Galerie
-
 community:
   title:
     en: Have additional questions? Want to be a part of our community?
-    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté ?
+    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté
+      ?
   join:
     en: Join our Discord!
     fr: Rejoignez notre Discord !
   discord_url: /discord.com/invite/starfishstudios
-
 social_links:
   marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
   curseforge: /www.curseforge.com/members/starfish_studios/projects
@@ -121,4 +143,4 @@ social_links:
   instagram: /www.instagram.com/starfishstudiosinc/
   twitter: /twitter.com/starfishstudios
   youtube: /www.youtube.com/@starfishstudios
-  website: /starfish-studios.com/ 
+  website: /starfish-studios.com/

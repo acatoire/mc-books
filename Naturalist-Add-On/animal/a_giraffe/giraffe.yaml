@@ -1,20 +1,21 @@
 title:
   en: Giraffe
   fr: Girafe
-
 last_updated:
   en: April 22, 2025 8:47 PM
   fr: 22 avril 2025 20h47
-
 return_link:
   en: Naturalist Add-On Wiki
   fr: Wiki de l'extension Naturalist
 return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
-
 description:
-  en: Giraffes are tall, majestic mammals known for their long necks and distinctive spotted patterns. They are gentle herbivores that live in savannas and grasslands, using their height to reach leaves from tall trees.
-  fr: Les girafes sont de grands mammifères majestueux connus pour leur long cou et leurs motifs tachetés distinctifs. Ce sont des herbivores doux qui vivent dans les savanes et les prairies, utilisant leur hauteur pour atteindre les feuilles des arbres hauts.
-
+  en: Giraffes are tall, majestic mammals known for their long necks and distinctive
+    spotted patterns. They are gentle herbivores that live in savannas and grasslands,
+    using their height to reach leaves from tall trees.
+  fr: Les girafes sont de grands mammifères majestueux connus pour leur long cou et
+    leurs motifs tachetés distinctifs. Ce sont des herbivores doux qui vivent dans
+    les savanes et les prairies, utilisant leur hauteur pour atteindre les feuilles
+    des arbres hauts.
 stats:
   health: 20
   classification:
@@ -32,25 +33,26 @@ stats:
   spawn_url:
     savanna: /minecraft.wiki/w/Savanna
     plains: /minecraft.wiki/w/Plains
-
 images:
   main: giraffe.gif
   items:
-    - giraffe_hide.png
-    - giraffe_meat.png
+  - bushmeat.png
   gallery:
-    - giraffe.gif
-    - giraffe_feeding.png
-    - giraffe_herd.png
-
+  - giraffe.gif
+  - giraffe.png
+  - giraffe_size.png
 spawning:
   title:
     en: Spawning
     fr: Apparition
   description:
-    en: Giraffes spawn in savanna and plains biomes, typically in small herds. They prefer open areas with scattered trees and will often be found grazing on leaves. They are diurnal creatures and are most active during the day.
-    fr: Les girafes apparaissent dans les biomes de savane et de plaine, généralement en petits troupeaux. Elles préfèrent les zones ouvertes avec des arbres dispersés et se trouvent souvent en train de brouter des feuilles. Ce sont des créatures diurnes et sont plus actives pendant la journée.
-
+    en: Giraffes spawn in savanna and plains biomes, typically in small herds. They
+      prefer open areas with scattered trees and will often be found grazing on leaves.
+      They are diurnal creatures and are most active during the day.
+    fr: Les girafes apparaissent dans les biomes de savane et de plaine, généralement
+      en petits troupeaux. Elles préfèrent les zones ouvertes avec des arbres dispersés
+      et se trouvent souvent en train de brouter des feuilles. Ce sont des créatures
+      diurnes et sont plus actives pendant la journée.
 drops:
   title:
     en: Drops
@@ -59,60 +61,72 @@ drops:
     en: Giraffe drops upon death
     fr: La girafe laisse tomber à sa mort
   items:
-    - name:
-        en: Giraffe Hide
-        fr: Peau de girafe
-      amount: 1-2
-      looting: true
-      condition:
-        en: Maximum amount increased by 1 per level of Looting, for a maximum of 1-4 with Looting III
-        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 1-4 avec Butin III
-    - name:
-        en: Giraffe Meat
-        fr: Viande de girafe
-      amount: 1-2
-      looting: true
-      condition:
-        en: Maximum amount increased by 1 per level of Looting, for a maximum of 1-4 with Looting III
-        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 1-4 avec Butin III
-    - name:
-        en: Experience Orbs
-        fr: Orbes d'expérience
-      amount: 1-2
-      condition:
-        en: if killed by Player
-        fr: si tué par un joueur
-
+  - name:
+      en: Giraffe Hide
+      fr: Peau de girafe
+    amount: 1-2
+    looting: true
+    condition:
+      en: Maximum amount increased by 1 per level of Looting, for a maximum of 1-4
+        with Looting III
+      fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum
+        de 1-4 avec Butin III
+  - name:
+      en: Giraffe Meat
+      fr: Viande de girafe
+    amount: 1-2
+    looting: true
+    condition:
+      en: Maximum amount increased by 1 per level of Looting, for a maximum of 1-4
+        with Looting III
+      fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum
+        de 1-4 avec Butin III
+  - name:
+      en: Experience Orbs
+      fr: Orbes d'expérience
+    amount: 1-2
+    condition:
+      en: if killed by Player
+      fr: si tué par un joueur
 behavior:
   title:
     en: Behavior
     fr: Comportement
   description:
-    en: Giraffes are passive creatures that will not attack players. They are social animals and will often be found in small herds. They spend most of their time grazing on leaves from tall trees and will occasionally drink water. They are diurnal creatures and are most active during the day.
-    fr: Les girafes sont des créatures passives qui n'attaqueront pas les joueurs. Ce sont des animaux sociaux et se trouvent souvent en petits troupeaux. Elles passent la plupart de leur temps à brouter des feuilles des arbres hauts et boiront occasionnellement de l'eau. Ce sont des créatures diurnes et sont plus actives pendant la journée.
-
+    en: Giraffes are passive creatures that will not attack players. They are social
+      animals and will often be found in small herds. They spend most of their time
+      grazing on leaves from tall trees and will occasionally drink water. They are
+      diurnal creatures and are most active during the day.
+    fr: Les girafes sont des créatures passives qui n'attaqueront pas les joueurs.
+      Ce sont des animaux sociaux et se trouvent souvent en petits troupeaux. Elles
+      passent la plupart de leur temps à brouter des feuilles des arbres hauts et
+      boiront occasionnellement de l'eau. Ce sont des créatures diurnes et sont plus
+      actives pendant la journée.
 breeding:
   title:
     en: Breeding
     fr: Reproduction
   description:
-    en: Giraffes can be bred using acacia leaves. When bred, they will produce a baby giraffe that will stay close to its parents. Baby giraffes are smaller and less powerful than adults, and will grow up over time.
-    fr: Les girafes peuvent se reproduire en utilisant des feuilles d'acacia. Lorsqu'elles se reproduisent, elles produiront un bébé girafe qui restera près de ses parents. Les bébés girafes sont plus petits et moins puissants que les adultes, et grandiront avec le temps.
-
+    en: Giraffes can be bred using acacia leaves. When bred, they will produce a baby
+      giraffe that will stay close to its parents. Baby giraffes are smaller and less
+      powerful than adults, and will grow up over time.
+    fr: Les girafes peuvent se reproduire en utilisant des feuilles d'acacia. Lorsqu'elles
+      se reproduisent, elles produiront un bébé girafe qui restera près de ses parents.
+      Les bébés girafes sont plus petits et moins puissants que les adultes, et grandiront
+      avec le temps.
 gallery:
   title:
     en: Gallery
     fr: Galerie
-
 community:
   title:
     en: Have additional questions? Want to be a part of our community?
-    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté ?
+    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté
+      ?
   join:
     en: Join our Discord!
     fr: Rejoignez notre Discord !
   discord_url: /discord.com/invite/starfishstudios
-
 social_links:
   marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
   curseforge: /www.curseforge.com/members/starfish_studios/projects
@@ -120,4 +134,4 @@ social_links:
   instagram: /www.instagram.com/starfishstudiosinc/
   twitter: /twitter.com/starfishstudios
   youtube: /www.youtube.com/@starfishstudios
-  website: /starfish-studios.com/ 
+  website: /starfish-studios.com/

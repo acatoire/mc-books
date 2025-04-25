@@ -1,20 +1,24 @@
 title:
   en: Whale
   fr: Baleine
-
 last_updated:
   en: April 22, 2025 8:47 PM
   fr: 22 avril 2025 20h47
-
 return_link:
   en: Naturalist Add-On Wiki
   fr: Wiki de l'extension Naturalist
 return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
-
 description:
-  en: Whales are massive marine mammals known for their intelligence and complex social behaviors. They are gentle giants that feed on krill and small fish, using baleen plates to filter their food from the water. They are highly social animals that communicate through complex songs and are known for their impressive breaches and tail slaps.
-  fr: Les baleines sont d'immenses mammifères marins connus pour leur intelligence et leurs comportements sociaux complexes. Ce sont des géants doux qui se nourrissent de krill et de petits poissons, utilisant des fanons pour filtrer leur nourriture de l'eau. Ce sont des animaux très sociaux qui communiquent par des chants complexes et sont connus pour leurs impressionnants sauts et claquements de queue.
-
+  en: Whales are massive marine mammals known for their intelligence and complex social
+    behaviors. They are gentle giants that feed on krill and small fish, using baleen
+    plates to filter their food from the water. They are highly social animals that
+    communicate through complex songs and are known for their impressive breaches
+    and tail slaps.
+  fr: Les baleines sont d'immenses mammifères marins connus pour leur intelligence
+    et leurs comportements sociaux complexes. Ce sont des géants doux qui se nourrissent
+    de krill et de petits poissons, utilisant des fanons pour filtrer leur nourriture
+    de l'eau. Ce sont des animaux très sociaux qui communiquent par des chants complexes
+    et sont connus pour leurs impressionnants sauts et claquements de queue.
 stats:
   health: 100
   classification:
@@ -29,27 +33,28 @@ stats:
   spawn:
     en: Deep Oceans
     fr: Océans Profonds
-  spawn_urls:
+  spawn_url:
     deep_ocean: /minecraft.wiki/w/Deep_Ocean
-
 images:
   main: whale.gif
   items:
-    - whale_blubber.png
-    - whale_meat.png
+  - fat.png
   gallery:
-    - whale.gif
-    - whale_breaching.png
-    - whale_social.png
-
+  - whale.gif
+  - whale.png
+  - whalee.png
 spawning:
   title:
     en: Spawning
     fr: Apparition
   description:
-    en: Whales spawn in deep ocean biomes, typically in small pods. They prefer deep waters and will often be found near the surface, especially during feeding times. They are diurnal creatures and are most active during the day.
-    fr: Les baleines apparaissent dans les biomes d'océan profond, généralement en petits groupes. Elles préfèrent les eaux profondes et se trouvent souvent près de la surface, surtout pendant les périodes d'alimentation. Ce sont des créatures diurnes et sont plus actives pendant la journée.
-
+    en: Whales spawn in deep ocean biomes, typically in small pods. They prefer deep
+      waters and will often be found near the surface, especially during feeding times.
+      They are diurnal creatures and are most active during the day.
+    fr: Les baleines apparaissent dans les biomes d'océan profond, généralement en
+      petits groupes. Elles préfèrent les eaux profondes et se trouvent souvent près
+      de la surface, surtout pendant les périodes d'alimentation. Ce sont des créatures
+      diurnes et sont plus actives pendant la journée.
 drops:
   title:
     en: Drops
@@ -58,60 +63,72 @@ drops:
     en: Whale drops upon death
     fr: La baleine laisse tomber à sa mort
   items:
-    - name:
-        en: Whale Blubber
-        fr: Graisse de baleine
-      amount: 3-5
-      looting: true
-      condition:
-        en: Maximum amount increased by 1 per level of Looting, for a maximum of 3-7 with Looting III
-        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 3-7 avec Butin III
-    - name:
-        en: Whale Meat
-        fr: Viande de baleine
-      amount: 4-6
-      looting: true
-      condition:
-        en: Maximum amount increased by 1 per level of Looting, for a maximum of 4-8 with Looting III
-        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 4-8 avec Butin III
-    - name:
-        en: Experience Orbs
-        fr: Orbes d'expérience
-      amount: 3-5
-      condition:
-        en: if killed by Player
-        fr: si tué par un joueur
-
+  - name:
+      en: Whale Blubber
+      fr: Graisse de baleine
+    amount: 3-5
+    looting: true
+    condition:
+      en: Maximum amount increased by 1 per level of Looting, for a maximum of 3-7
+        with Looting III
+      fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum
+        de 3-7 avec Butin III
+  - name:
+      en: Whale Meat
+      fr: Viande de baleine
+    amount: 4-6
+    looting: true
+    condition:
+      en: Maximum amount increased by 1 per level of Looting, for a maximum of 4-8
+        with Looting III
+      fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum
+        de 4-8 avec Butin III
+  - name:
+      en: Experience Orbs
+      fr: Orbes d'expérience
+    amount: 3-5
+    condition:
+      en: if killed by Player
+      fr: si tué par un joueur
 behavior:
   title:
     en: Behavior
     fr: Comportement
   description:
-    en: Whales are passive creatures that will not attack players or other animals. They are social animals that live in pods and are most active during the day. They are known for their impressive breaches and tail slaps, which they use for communication and play. They are excellent swimmers and can dive to great depths. They can be tamed using fish.
-    fr: Les baleines sont des créatures passives qui n'attaqueront pas les joueurs ou les autres animaux. Ce sont des animaux sociaux qui vivent en groupes et sont plus actifs pendant la journée. Elles sont connues pour leurs impressionnants sauts et claquements de queue, qu'elles utilisent pour communiquer et jouer. Ce sont d'excellentes nageuses et peuvent plonger à de grandes profondeurs. Elles peuvent être apprivoisées en utilisant du poisson.
-
+    en: Whales are passive creatures that will not attack players or other animals.
+      They are social animals that live in pods and are most active during the day.
+      They are known for their impressive breaches and tail slaps, which they use
+      for communication and play. They are excellent swimmers and can dive to great
+      depths. They can be tamed using fish.
+    fr: Les baleines sont des créatures passives qui n'attaqueront pas les joueurs
+      ou les autres animaux. Ce sont des animaux sociaux qui vivent en groupes et
+      sont plus actifs pendant la journée. Elles sont connues pour leurs impressionnants
+      sauts et claquements de queue, qu'elles utilisent pour communiquer et jouer.
+      Ce sont d'excellentes nageuses et peuvent plonger à de grandes profondeurs.
+      Elles peuvent être apprivoisées en utilisant du poisson.
 breeding:
   title:
     en: Breeding
     fr: Reproduction
   description:
-    en: Whales cannot be bred but will naturally spawn in their respective biomes. They are long-lived creatures that take many years to reach maturity.
-    fr: Les baleines ne peuvent pas se reproduire mais apparaîtront naturellement dans leurs biomes respectifs. Ce sont des créatures à longue durée de vie qui mettent de nombreuses années à atteindre la maturité.
-
+    en: Whales cannot be bred but will naturally spawn in their respective biomes.
+      They are long-lived creatures that take many years to reach maturity.
+    fr: Les baleines ne peuvent pas se reproduire mais apparaîtront naturellement
+      dans leurs biomes respectifs. Ce sont des créatures à longue durée de vie qui
+      mettent de nombreuses années à atteindre la maturité.
 gallery:
   title:
     en: Gallery
     fr: Galerie
-
 community:
   title:
     en: Have additional questions? Want to be a part of our community?
-    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté ?
+    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté
+      ?
   join:
     en: Join our Discord!
     fr: Rejoignez notre Discord !
   discord_url: /discord.com/invite/starfishstudios
-
 social_links:
   marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
   curseforge: /www.curseforge.com/members/starfish_studios/projects
@@ -119,4 +136,4 @@ social_links:
   instagram: /www.instagram.com/starfishstudiosinc/
   twitter: /twitter.com/starfishstudios
   youtube: /www.youtube.com/@starfishstudios
-  website: /starfish-studios.com/ 
+  website: /starfish-studios.com/

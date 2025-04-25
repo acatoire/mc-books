@@ -29,7 +29,7 @@ stats:
   spawn:
     en: Forests and Taigas
     fr: Forêts et Taïgas
-  spawn_urls:
+  spawn_url:
     forest: /minecraft.wiki/w/Forest
     taiga: /minecraft.wiki/w/Taiga
 
