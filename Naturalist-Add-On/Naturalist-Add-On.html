@@ -31,9 +31,25 @@
         let currentLanguage = 'en';
         let currentAnimal = '';
         let animalList = [];
-        let animalTranslations = new Map(); // Store translations for all animals
-        const animalPrefix = 'a_'; // Add prefix variable
-        const animalFolder = 'animal/'; // Add folder variable
+        let animalTranslations = new Map();
+        const animalPrefix = 'a_';
+        const animalFolder = 'animal/';
+
+        // Function to get URL parameters
+        function getUrlParameter(name) {
+            name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+            const regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+            const results = regex.exec(location.search);
+            return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+        }
+
+        // Function to update URL with current animal and language
+        function updateUrl(animal, language) {
+            const url = new URL(window.location.href);
+            if (animal) url.searchParams.set('animal', animal);
+            if (language) url.searchParams.set('lang', language);
+            window.history.pushState({}, '', url);
+        }
 
         // Function to load animal translation
         async function loadAnimalTranslation(animal) {
@@ -88,7 +104,6 @@
                 try {
                     const response = await fetch(`${animalFolder}${animalPrefix}${animalName}/${animalName}.yaml`);
                     if (response.ok) {
-                        // Load the translation immediately when we find the animal
                         await loadAnimalTranslation(animalName);
                         return true;
                     }
@@ -124,7 +139,6 @@
                 // Create name span
                 const nameSpan = document.createElement('span');
                 nameSpan.className = 'animal-name';
-                // Set initial name (will be updated with translation)
                 nameSpan.textContent = animal.split('_').map(word => 
                     word.charAt(0).toUpperCase() + word.slice(1)
                 ).join(' ');
@@ -142,6 +156,7 @@
                     // Add active class to clicked button
                     this.classList.add('active');
                     currentAnimal = this.value;
+                    updateUrl(currentAnimal, currentLanguage);
                     loadAnimalData(currentAnimal);
                 });
                 animalButtonsContainer.appendChild(button);
@@ -153,9 +168,36 @@
             return knownAnimals;
         }
 
+        // Function to handle URL changes
+        function handleUrlChange() {
+            const animalFromUrl = getUrlParameter('animal');
+            const langFromUrl = getUrlParameter('lang');
+            
+            // Set language from URL if valid
+            if (langFromUrl && ['en', 'fr'].includes(langFromUrl)) {
+                currentLanguage = langFromUrl;
+                document.getElementById('language-select').value = currentLanguage;
+            }
+            
+            // Load animal from URL if valid
+            if (animalFromUrl && animalList.includes(animalFromUrl)) {
+                const button = document.querySelector(`.animal-button[value="${animalFromUrl}"]`);
+                if (button) {
+                    button.click();
+                }
+            }
+        }
+
+        // Initialize
+        async function initialize() {
+            animalList = await scanForAnimals();
+            handleUrlChange();
+        }
+
         // Switch language
         document.getElementById('language-select').addEventListener('change', function(e) {
             currentLanguage = e.target.value;
+            updateUrl(currentAnimal, currentLanguage);
             // Update all button texts with new language
             updateAllButtonTexts();
             // Update content if an animal is selected
@@ -163,6 +205,9 @@
                 loadAnimalData(currentAnimal);
             }
         });
+
+        // Initialize by scanning for animals
+        initialize();
 
         function loadAnimalData(animal) {
             if (animalTranslations.has(animal)) {
@@ -305,9 +350,6 @@
 
             content.innerHTML = html;
         }
-
-        // Initialize by scanning for animals
-        scanForAnimals();
     </script>
 </body>
 </html> 
