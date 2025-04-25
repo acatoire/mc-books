@@ -5,12 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naturalist Add-On</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="header">
         <h1>Naturalist Add-On</h1>
         <div class="controls">
+            <button id="prev-animal" class="nav-button" title="Previous Animal"><i class="fas fa-chevron-left"></i></button>
+            <button id="random-animal" class="nav-button" title="Random Animal"><i class="fas fa-dice"></i></button>
+            <button id="next-animal" class="nav-button" title="Next Animal"><i class="fas fa-chevron-right"></i></button>
             <select id="language-select">
                 <option value="en">English</option>
                 <option value="fr">Français</option>
@@ -18,12 +22,17 @@
         </div>
     </div>
 
+    <div class="content" id="content">
+        <p>LOADING ...</p>
+        <!-- Animal info will be dynamically added here -->
+    </div>
+
     <div class="animal-buttons" id="animal-buttons">
         <!-- Buttons will be dynamically added here -->
     </div>
 
-    <div class="content" id="content">
-        <p>Select an animal to view its information.</p>
+    <div class="footer" id="footer">
+        <!-- Footer will be dynamically added here -->
     </div>
 
     <script>
@@ -175,6 +184,58 @@
             return animalList[randomIndex];
         }
 
+        // Function to get next/previous animal
+        function getAdjacentAnimal(currentAnimal, direction) {
+            if (!currentAnimal || animalList.length === 0) return null;
+            const currentIndex = animalList.indexOf(currentAnimal);
+            if (currentIndex === -1) return null;
+            
+            let newIndex;
+            if (direction === 'next') {
+                newIndex = (currentIndex + 1) % animalList.length;
+            } else {
+                newIndex = (currentIndex - 1 + animalList.length) % animalList.length;
+            }
+            return animalList[newIndex];
+        }
+
+        // Function to handle navigation button clicks
+        function setupNavigationButtons() {
+            document.getElementById('random-animal').addEventListener('click', function() {
+                const randomAnimal = getRandomAnimal();
+                if (randomAnimal) {
+                    const button = document.querySelector(`.animal-button[value="${randomAnimal}"]`);
+                    if (button) {
+                        button.click();
+                    }
+                }
+            });
+
+            document.getElementById('prev-animal').addEventListener('click', function() {
+                if (currentAnimal) {
+                    const prevAnimal = getAdjacentAnimal(currentAnimal, 'prev');
+                    if (prevAnimal) {
+                        const button = document.querySelector(`.animal-button[value="${prevAnimal}"]`);
+                        if (button) {
+                            button.click();
+                        }
+                    }
+                }
+            });
+
+            document.getElementById('next-animal').addEventListener('click', function() {
+                if (currentAnimal) {
+                    const nextAnimal = getAdjacentAnimal(currentAnimal, 'next');
+                    if (nextAnimal) {
+                        const button = document.querySelector(`.animal-button[value="${nextAnimal}"]`);
+                        if (button) {
+                            button.click();
+                        }
+                    }
+                }
+            });
+        }
+
         // Function to handle URL changes
         function handleUrlChange() {
             const animalFromUrl = getUrlParameter('animal');
@@ -204,6 +265,7 @@
         // Initialize
         async function initialize() {
             animalList = await scanForAnimals();
+            setupNavigationButtons();
             handleUrlChange();
         }
 
