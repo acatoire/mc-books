@@ -167,11 +167,13 @@
         let currentAnimal = '';
         let animalList = [];
         let animalTranslations = new Map(); // Store translations for all animals
+        const animalPrefix = 'a_'; // Add prefix variable
+        const animalFolder = 'animal/'; // Add folder variable
 
         // Function to load animal translation
         async function loadAnimalTranslation(animal) {
             try {
-                const response = await fetch(`${animal}/${animal}.yaml`);
+                const response = await fetch(`${animalFolder}${animalPrefix}${animal}/${animal}.yaml`);
                 const yamlText = await response.text();
                 const animalData = jsyaml.load(yamlText);
                 animalTranslations.set(animal, animalData);
@@ -219,7 +221,7 @@
             // Function to check if a directory exists and contains a YAML file
             async function checkAnimalDirectory(animalName) {
                 try {
-                    const response = await fetch(`${animalName}/${animalName}.yaml`);
+                    const response = await fetch(`${animalFolder}${animalPrefix}${animalName}/${animalName}.yaml`);
                     if (response.ok) {
                         // Load the translation immediately when we find the animal
                         await loadAnimalTranslation(animalName);
@@ -302,7 +304,7 @@
                 translations = animalTranslations.get(animal);
                 updateContent();
             } else {
-                fetch(`${animal}/${animal}.yaml`)
+                fetch(`${animalFolder}${animalPrefix}${animal}/${animal}.yaml`)
                     .then(response => response.text())
                     .then(yaml => {
                         translations = jsyaml.load(yaml);
@@ -381,7 +383,7 @@
                 <div class="gallery">
                     ${translations.images.gallery.map(img => `
                         <div class="gallery-item">
-                            <img src="${currentAnimal}/${img}" alt="${translations.title[currentLanguage]}">
+                            <img src="${animalFolder}${animalPrefix}${currentAnimal}/${img}" alt="${translations.title[currentLanguage]}">
                             ${img.endsWith('.gif') ? '<div class="gif-label">GIF</div>' : ''}
                         </div>
                     `).join('')}
