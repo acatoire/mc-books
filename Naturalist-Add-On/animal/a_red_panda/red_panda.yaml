@@ -44,10 +44,11 @@ images:
   - cooked_bushmeat.png
   - fur.png
   gallery:
-  - red_panda.gif
   - red_panda.png
   - red_panda_family.png
   - red_panda_lounge.png
+  gifs:
+  - red_panda.gif
 spawning:
   title:
     en: Spawning

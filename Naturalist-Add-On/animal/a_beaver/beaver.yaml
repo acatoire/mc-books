@@ -36,10 +36,11 @@ images:
   items:
   - beaver_pelt.png
   gallery:
-  - beaver.gif
   - beaver_breed.png
   - beaver_munch.png
   - dyable_beaver_bows.png
+  gifs:
+  - beaver.gif
 spawning:
   title:
     en: Spawning

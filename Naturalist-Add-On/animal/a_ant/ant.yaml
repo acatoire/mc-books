@@ -37,10 +37,11 @@ images:
   - ant_item.png
   - queen_ant.png
   gallery:
-  - ant.gif
   - anthill.png
   - ant_ant.png
   - ant_meander.png
+  gifs:
+  - ant.gif
 spawning:
   title:
     en: Spawning

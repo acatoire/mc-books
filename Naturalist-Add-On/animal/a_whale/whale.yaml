@@ -40,9 +40,10 @@ images:
   items:
   - fat.png
   gallery:
-  - whale.gif
   - whale.png
   - whalee.png
+  gifs:
+  - whale.gif
 spawning:
   title:
     en: Spawning

@@ -5,180 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naturalist Add-On</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f5f5f5;
-        }
-        .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 20px;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        .controls {
-            display: flex;
-            gap: 20px;
-            align-items: center;
-        }
-        select, button {
-            padding: 8px 16px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            background-color: #fff;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-        button:hover {
-            background-color: #f0f0f0;
-            transform: translateY(-1px);
-        }
-        button.active {
-            background-color: #007bff;
-            color: white;
-            border-color: #0056b3;
-        }
-        .animal-buttons {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            margin-bottom: 20px;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        .animal-button {
-            position: relative;
-            padding: 8px 16px 8px 35px;  /* Added left padding for the ID */
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            background-color: #fff;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-        .animal-id {
-            position: absolute;
-            left: 10px;
-            top: 50%;
-            transform: translateY(-50%);
-            font-size: 0.8em;
-            color: #666;
-            font-weight: bold;
-        }
-        .animal-button:hover {
-            background-color: #f0f0f0;
-            transform: translateY(-1px);
-        }
-        .animal-button.active {
-            background-color: #007bff;
-            color: white;
-            border-color: #0056b3;
-        }
-        .animal-button.active .animal-id {
-            color: white;
-        }
-        .content {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        .stats-container {
-            display: flex;
-            gap: 20px;
-            margin: 20px 0;
-            align-items: start;
-        }
-        .main-image {
-            flex: 1;
-            max-width: 50%;
-        }
-        .main-image img {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        .stats {
-            flex: 1;
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 20px;
-            background-color: #f8f9fa;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        .stat-item {
-            background-color: #f8f9fa;
-            padding: 15px;
-            border-radius: 4px;
-        }
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-            margin: 20px 0;
-        }
-        .gallery img {
-            width: 100%;
-            height: auto;
-            border-radius: 4px;
-        }
-        .items-section {
-            margin: 20px 0;
-            padding: 15px;
-            background-color: #f8f9fa;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        .items-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            align-items: center;
-        }
-        img.items-gallery {
-            max-width: 64px;
-            max-height: 64px;
-            border-radius: 4px;
-        }
-        .social-links {
-            display: flex;
-            gap: 15px;
-            margin-top: 20px;
-            padding-top: 20px;
-            border-top: 1px solid #eee;
-        }
-        .social-links a {
-            color: #333;
-            text-decoration: none;
-        }
-        .social-links a:hover {
-            text-decoration: underline;
-        }
-        .gallery-item {
-            position: relative;
-        }
-        .gif-label {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            background-color: rgba(0, 0, 0, 0.7);
-            color: white;
-            padding: 2px 6px;
-            border-radius: 4px;
-            font-size: 12px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="header">
@@ -369,14 +196,26 @@
                     <div class="main-image">
                         <img src="${animalFolder}${animalPrefix}${currentAnimal}/${translations.images.main}" alt="${translations.title[currentLanguage]}">
                     </div>
-                <div class="stats">
-                    <div class="stat-item">
+                    <div class="stats">
+                        <div class="stat-item">
                             <h3>Classification: <a href="${translations.stats.classification_urls.animal}" target="_blank">${translations.stats.classification[currentLanguage]}</a></h3>
-                        <p>Health: ${translations.stats.health} ❤️</p>
-                        <p>Behavior: ${translations.stats.behavior[currentLanguage]}</p>
+                            <p>Health: ${translations.stats.health} ❤️</p>
+                            <p>Behavior: ${translations.stats.behavior[currentLanguage]}</p>
                             <p>Spawn: <a href="${translations.stats.spawn_url.overworld}" target="_blank">${translations.stats.spawn[currentLanguage]}</a></p>
                         </div>
                     </div>
+                    ${translations.images && translations.images.items ? `
+                    <div class="items-section">
+                        <h3>Items</h3>
+                        <div class="items-container">
+                            ${translations.images.items.map(img => `
+                                <div class="gallery-item">
+                                    <img class="items-gallery" src="${animalFolder}${animalPrefix}${currentAnimal}/${img}" alt="${translations.title[currentLanguage]}">
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                    ` : ''}
                 </div>`;
 
             if (translations.spawning) {
@@ -427,20 +266,20 @@
                     ${translations.images.gallery.map(img => `
                         <div class="gallery-item">
                             <img src="${animalFolder}${animalPrefix}${currentAnimal}/${img}" alt="${translations.title[currentLanguage]}">
-                            ${img.endsWith('.gif') ? '<div class="gif-label">GIF</div>' : ''}
                         </div>
                     `).join('')}
                 </div>`;
             }
 
-            if (translations.images && translations.images.items) {
+            if (translations.images && translations.images.gifs) {
                 html += `
                 <div class="items-section">
-                    <h3>Items</h3>
+                    <h3>GIFs</h3>
                     <div class="items-container">
-                        ${translations.images.items.map(img => `
+                        ${translations.images.gifs.map(img => `
                             <div class="gallery-item">
-                                <img class="items-gallery" src="${animalFolder}${animalPrefix}${currentAnimal}/${img}" alt="${translations.title[currentLanguage]}">
+                                <img class="gif-gallery" src="${animalFolder}${animalPrefix}${currentAnimal}/${img}" alt="${translations.title[currentLanguage]}">
+                                <div class="gif-label">GIF</div>
                             </div>
                         `).join('')}
                     </div>

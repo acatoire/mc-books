@@ -44,12 +44,13 @@ images:
   - goose_egg.png
   - goose_raw.png
   gallery:
+  - goose_family.png
+  - white_goose.jpeg
+  gifs:
   - baby_goose.gif
   - goose.gif
   - goose_variants.gif
   - goose_white.gif
-  - goose_family.png
-  - white_goose.jpeg
 spawning:
   title:
     en: Spawning

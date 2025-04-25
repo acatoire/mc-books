@@ -41,10 +41,11 @@ images:
   - fur.png
   - morsel.png
   gallery:
-  - raccoon.gif
   - racoon.png
   - racoon_snow.png
   - sleepy_raccoon_w_egg.png
+  gifs:
+  - raccoon.gif
 spawning:
   title:
     en: Spawning

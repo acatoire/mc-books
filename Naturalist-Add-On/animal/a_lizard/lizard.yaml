@@ -40,13 +40,14 @@ images:
   - cooked_lizard_tail.png
   - lizard_tail.png
   gallery:
+  - brown_lizard.png
+  - green_lizard.png
+  gifs:
   - beardie_lizard.gif
   - brown_lizard.gif
   - green_lizard.gif
   - lizard_spotted.gif
   - lizard_variation.gif
-  - brown_lizard.png
-  - green_lizard.png
 spawning:
   title:
     en: Spawning

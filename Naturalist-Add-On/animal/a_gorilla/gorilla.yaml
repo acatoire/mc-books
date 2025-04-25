@@ -37,11 +37,12 @@ images:
   items:
   - fur.png
   gallery:
+  - gorilla.png
+  - gorillas.png
+  gifs:
   - gorilla.gif
   - gorilla_silverback.gif
   - gorilla_variant.gif
-  - gorilla.png
-  - gorillas.png
 spawning:
   title:
     en: Spawning

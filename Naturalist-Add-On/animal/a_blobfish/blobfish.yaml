@@ -45,14 +45,15 @@ images:
   - blobfish_cooked.png
   - bucket_blobfish.png
   gallery:
-  - blobfish_gray.gif
-  - blobfish_pink 1.gif
-  - blobfish_pink.gif
   - blobfish_pink.png
   - cold_blobfish.png
   variants:
   - blobfish_pink.gif
   - blobfish_gray.gif
+  gifs:
+  - blobfish_gray.gif
+  - blobfish_pink 1.gif
+  - blobfish_pink.gif
 spawning:
   title:
     en: Spawning

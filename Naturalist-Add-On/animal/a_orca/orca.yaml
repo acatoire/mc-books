@@ -58,13 +58,14 @@ gallery:
     en: Gallery
 images:
   gallery:
-  - orca.gif
   - big_orca.png
   - orca.png
   - orcas.png
   main: orca.gif
   items:
   - fat.png
+  gifs:
+  - orca.gif
 community:
   title:
     en: Have additional questions? Want to be a part of our community?

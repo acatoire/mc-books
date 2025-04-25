@@ -40,15 +40,16 @@ images:
   - cooked_lizard_tail.png
   - lizard_tail.png
   gallery:
+  - blue_iguana.png
+  - bright_iguanas.png
+  - green_iguanas.png
+  - red_iguana.png
+  gifs:
   - iguana.gif
   - iguana_blue.gif
   - iguana_green.gif
   - iguana_variations.gif
   - iguana_yellow.gif
-  - blue_iguana.png
-  - bright_iguanas.png
-  - green_iguanas.png
-  - red_iguana.png
 spawning:
   title:
     en: Spawning

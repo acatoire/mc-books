@@ -67,28 +67,39 @@ def update_yaml_images(animal_dir):
     elif image_files:
         data['images']['main'] = image_files[0]
 
-    # Update gallery with GIFs first, then other images
-    gallery_images = gif_files + image_files
-    if gallery_images:
-        data['images']['gallery'] = gallery_images
+    # Update gallery with non-GIF images
+    if image_files:
+        data['images']['gallery'] = image_files
 
-    # Add 512x512 images to items section
+    # Add GIFs to gifs section or remove it if empty
+    if gif_files:
+        data['images']['gifs'] = gif_files
+    elif 'gifs' in data['images']:
+        del data['images']['gifs']
+
+    # Add 512x512 images to items section or remove it if empty
     if item_images:
         data['images']['items'] = item_images
+    elif 'items' in data['images']:
+        del data['images']['items']
 
     # Write back to the YAML file
     with open(yaml_file, 'w', encoding='utf-8') as f:
         yaml.dump(data, f, allow_unicode=True, sort_keys=False)
 
     print(f"Updated {yaml_file}")
-    if gallery_images:
-        print(f"Added {len(gallery_images)} images to gallery ({len(gif_files)} GIFs first)")
+    if image_files:
+        print(f"Added {len(image_files)} images to gallery")
+    if gif_files:
+        print(f"Added {len(gif_files)} GIFs to gifs section")
+    elif 'gifs' in data['images']:
+        print("Removed empty gifs section")
     if item_images:
         print(f"Added {len(item_images)} 512x512 images to items section")
+    elif 'items' in data['images']:
+        print("Removed empty items section")
     if variation_gif:
         print(f"Selected variation GIF as main image: {variation_gif}")
-    elif gif_files:
-        print(f"Selected first GIF as main image: {gif_files[0]}")
 
 def main():
     """Process all animal directories and update their YAML files with image information."""

@@ -47,6 +47,13 @@ images:
   - hamster_peach_cream.png
   - hamster_white.png
   gallery:
+  - hamster.png
+  - hamsters.png
+  - hamsterss.png
+  - meandering_hamster.png
+  - orange_hamster.png
+  - wild_hamster.png
+  gifs:
   - hamster_black.gif
   - hamster_black_and_white.gif
   - hamster_brown.gif
@@ -55,12 +62,6 @@ images:
   - hamster_peaches_and_cream.gif
   - hamster_variations.gif
   - hamster_white.gif
-  - hamster.png
-  - hamsters.png
-  - hamsterss.png
-  - meandering_hamster.png
-  - orange_hamster.png
-  - wild_hamster.png
 spawning:
   title:
     en: Spawning

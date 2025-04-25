@@ -38,10 +38,11 @@ images:
   items:
   - caterpillar.png
   gallery:
-  - caterpillar2.gif
   - caterpillars.png
   - caterpillar_cocoon.png
   - caterpillar_stage_1.png
+  gifs:
+  - caterpillar2.gif
 spawning:
   title:
     en: Spawning

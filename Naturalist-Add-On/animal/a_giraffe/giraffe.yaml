@@ -38,9 +38,10 @@ images:
   items:
   - bushmeat.png
   gallery:
-  - giraffe.gif
   - giraffe.png
   - giraffe_size.png
+  gifs:
+  - giraffe.gif
 spawning:
   title:
     en: Spawning

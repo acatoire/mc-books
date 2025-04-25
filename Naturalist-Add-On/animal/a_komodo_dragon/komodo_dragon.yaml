@@ -42,9 +42,10 @@ images:
   - cooked_bushmeat.png
   - hide.png
   gallery:
-  - komodo_dragon.gif
   - kd.png
   - on_the_prowl.png
+  gifs:
+  - komodo_dragon.gif
 spawning:
   title:
     en: Spawning

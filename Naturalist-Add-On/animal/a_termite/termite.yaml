@@ -42,8 +42,9 @@ images:
   items:
   - termite_item.png
   gallery:
-  - termite.gif
   - termite.png
+  gifs:
+  - termite.gif
 spawning:
   title:
     en: Spawning

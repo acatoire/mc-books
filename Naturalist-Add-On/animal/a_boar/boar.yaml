@@ -40,11 +40,12 @@ images:
   - fat.png
   - hide.png
   gallery:
-  - boar2.gif
   - boar.jpeg
   - boar_family.png
   - boar_stare.jpeg
   - boar_with_children.jpeg
+  gifs:
+  - boar2.gif
 spawning:
   title:
     en: Spawning

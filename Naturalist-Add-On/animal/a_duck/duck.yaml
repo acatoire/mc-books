@@ -39,12 +39,13 @@ images:
   - duck.png
   - duck_egg.png
   gallery:
-  - baby_duck.gif
-  - duck.gif
-  - duck_variant.gif
   - baby_duck.png
   - quack.png
   - swimming_duck.png
+  gifs:
+  - baby_duck.gif
+  - duck.gif
+  - duck_variant.gif
 spawning:
   title:
     en: Spawning

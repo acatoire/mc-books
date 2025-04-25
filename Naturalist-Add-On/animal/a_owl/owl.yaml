@@ -39,10 +39,11 @@ images:
   items:
   - talon.png
   gallery:
+  - owl.png
+  gifs:
   - brown_owl.gif
   - owl.gif
   - white_owl.gif
-  - owl.png
 spawning:
   title:
     en: Spawning

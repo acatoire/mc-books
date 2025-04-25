@@ -41,10 +41,11 @@ images:
   - cooked_bushmeat.png
   - hide.png
   gallery:
-  - kangaroo.gif
   - kangaroo_family.png
   - kangaroo_gazing.png
   - puncharoos.png
+  gifs:
+  - kangaroo.gif
 spawning:
   title:
     en: Spawning

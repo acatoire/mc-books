@@ -40,10 +40,11 @@ images:
   items:
   - fur.png
   gallery:
-  - otter.gif
   - otter_hold.png
   - otter_lurk.png
   - otter_swim.png
+  gifs:
+  - otter.gif
 spawning:
   title:
     en: Spawning

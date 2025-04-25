@@ -42,15 +42,16 @@ images:
   - fur.png
   - tooth.png
   gallery:
+  - black_panther.png
+  - leopard.png
+  - orange_tiger.png
+  - white_tiger_lurk.png
+  gifs:
   - black_tiger.gif
   - spotted_tiger.gif
   - tiger.gif
   - tiger_variations.gif
   - white_tiger.gif
-  - black_panther.png
-  - leopard.png
-  - orange_tiger.png
-  - white_tiger_lurk.png
 spawning:
   title:
     en: Spawning

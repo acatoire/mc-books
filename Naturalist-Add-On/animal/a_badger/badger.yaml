@@ -40,10 +40,11 @@ images:
   - cooked_bushmeat.png
   - fur.png
   gallery:
-  - badger.gif
   - badger_breeding.png
   - badger_family.png
   - badger_vs_piglin.png
+  gifs:
+  - badger.gif
 spawning:
   title:
     en: Spawning

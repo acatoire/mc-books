@@ -40,16 +40,17 @@ images:
   items:
   - bucket_brown_slug.png
   gallery:
+  - brown_slug.png
+  - red_slugg.png
+  - white_slug.png
+  - yellow_slug.png
+  gifs:
   - brown_slug.gif
   - orange_slug.gif
   - red_slug.gif
   - slug.gif
   - slug_variations.gif
   - yellow_slug.gif
-  - brown_slug.png
-  - red_slugg.png
-  - white_slug.png
-  - yellow_slug.png
 spawning:
   title:
     en: Spawning

@@ -41,8 +41,9 @@ images:
   - drumstick.png
   - peacock_feather.png
   gallery:
-  - peafowl.gif
   - pretty_peafowl.png
+  gifs:
+  - peafowl.gif
 spawning:
   title:
     en: Spawning

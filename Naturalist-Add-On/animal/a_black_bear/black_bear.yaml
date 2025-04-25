@@ -46,10 +46,11 @@ images:
   items:
   - fur.png
   gallery:
-  - black_bear2.gif
   - bears_eating_honey.png
   - bear_family.png
   - bear_napping.png
+  gifs:
+  - black_bear2.gif
 spawning:
   title:
     en: Spawning

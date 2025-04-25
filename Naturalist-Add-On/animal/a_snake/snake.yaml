@@ -43,15 +43,16 @@ images:
   - morsel.png
   - tooth.png
   gallery:
+  - cave_snake.png
+  - coral.png
+  - green_snake.png
+  - rattler.png
+  gifs:
   - cave_snake.gif
   - coral_snake.gif
   - green_snake.gif
   - rattle_snake.gif
   - snake.gif
-  - cave_snake.png
-  - coral.png
-  - green_snake.png
-  - rattler.png
 spawning:
   title:
     en: Spawning

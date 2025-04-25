@@ -41,13 +41,14 @@ images:
   - cooked_bushmeat.png
   - tooth.png
   gallery:
-  - 2hyena.gif
-  - hyena.gif
-  - rav_hyena.gif
   - hyena_look.png
   - hyena_roam.png
   - rav_hyenas.png
   - rav_rav.png
+  gifs:
+  - 2hyena.gif
+  - hyena.gif
+  - rav_hyena.gif
 spawning:
   title:
     en: Spawning

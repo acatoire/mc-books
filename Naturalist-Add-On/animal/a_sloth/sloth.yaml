@@ -40,10 +40,11 @@ images:
   - bushmeat.png
   - fur.png
   gallery:
-  - sloth.gif
   - hanging_sloths.png
   - sloths.png
   - sloth_hanging_from_tree.jpeg
+  gifs:
+  - sloth.gif
 spawning:
   title:
     en: Spawning

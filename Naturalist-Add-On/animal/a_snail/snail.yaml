@@ -40,6 +40,9 @@ images:
   items:
   - bucket_snail.png
   gallery:
+  - snails.png
+  - snail_family.png
+  gifs:
   - black_snail.gif
   - blue_snail.gif
   - brown_snail.gif
@@ -58,8 +61,6 @@ images:
   - snail_variations.gif
   - white_snail.gif
   - yellow_snail.gif
-  - snails.png
-  - snail_family.png
 spawning:
   title:
     en: Spawning

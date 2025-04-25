@@ -42,14 +42,15 @@ images:
   - rat_brown.png
   - rat_white.png
   gallery:
-  - black_rat.gif
-  - brown_rat.gif
-  - rat.gif
-  - white_rat.gif
   - black_rat.png
   - brown_rat.png
   - rat_family.png
   - white_rat.png
+  gifs:
+  - black_rat.gif
+  - brown_rat.gif
+  - rat.gif
+  - white_rat.gif
 spawning:
   title:
     en: Spawning

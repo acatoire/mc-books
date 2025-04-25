@@ -44,14 +44,15 @@ images:
   - fur.png
   - morsel.png
   gallery:
-  - black_squirrel.gif
-  - brown_squirrel.gif
-  - squirrel_variations.gif
-  - white_squirrel.gif
   - black_squirrels.png
   - brown_squirrel.png
   - squirrel.png
   - white_squirrel.png
+  gifs:
+  - black_squirrel.gif
+  - brown_squirrel.gif
+  - squirrel_variations.gif
+  - white_squirrel.gif
 spawning:
   title:
     en: Spawning

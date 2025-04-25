@@ -45,6 +45,11 @@ images:
   - dark_hedgehog.gif
   - hedgehog.gif
   - white_hedgehog.gif
+  gifs:
+  - brown_hedgehog.gif
+  - dark_hedgehog.gif
+  - hedgehog.gif
+  - white_hedgehog.gif
 spawning:
   title:
     en: Spawning

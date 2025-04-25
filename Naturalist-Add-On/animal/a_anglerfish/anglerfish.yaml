@@ -38,11 +38,12 @@ images:
   - bucket_anglerfish.png
   - bucket_glow_anglerfish.png
   gallery:
+  - Anglerfish_Hunt.png
+  - glow_angler.png
+  gifs:
   - anglerfish.gif
   - anglerfish_variants.gif
   - glow_anglerfish.gif
-  - Anglerfish_Hunt.png
-  - glow_angler.png
 spawning:
   title:
     en: Spawning

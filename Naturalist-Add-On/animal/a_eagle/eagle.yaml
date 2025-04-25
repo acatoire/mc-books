@@ -37,9 +37,10 @@ images:
   items:
   - talon.png
   gallery:
-  - eagle.gif
   - eagle_fly.png
   - eagle_log.png
+  gifs:
+  - eagle.gif
 spawning:
   title:
     en: Spawning

@@ -38,14 +38,15 @@ images:
   - cooked_lizard_tail.png
   - lizard_tail.png
   gallery:
+  - albino.png
+  - baby_giant_salamander.png
+  - brown_sally.png
+  gifs:
   - giant_salamander.gif
   - giant_salamander_brown.gif
   - giant_salamander_grey.gif
   - giant_salamander_variants.gif
   - giant_salamander_white.gif
-  - albino.png
-  - baby_giant_salamander.png
-  - brown_sally.png
 spawning:
   title:
     en: Spawning

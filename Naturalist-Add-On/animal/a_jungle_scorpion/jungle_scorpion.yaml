@@ -38,14 +38,15 @@ images:
   items:
   - scorpion_poison_gland.png
   gallery:
-  - green_jungle_scorpion.gif
-  - jungle_scorpion.gif
-  - jungle_scorpion_variants.gif
   - black_jungle_scorp.png
   - black_scorp.png
   - jungle_scorpion.png
   - jungle_scrop.png
   - two_black_scorps.png
+  gifs:
+  - green_jungle_scorpion.gif
+  - jungle_scorpion.gif
+  - jungle_scorpion_variants.gif
 spawning:
   title:
     en: Spawning

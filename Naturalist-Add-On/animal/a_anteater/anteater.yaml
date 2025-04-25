@@ -38,10 +38,11 @@ images:
   - bushmeat.png
   - cooked_bushmeat.png
   gallery:
-  - anteater.gif
   - anteater1.png
   - anteater_ant_hill.png
   - anteater_feast.png
+  gifs:
+  - anteater.gif
 spawning:
   title:
     en: Spawning

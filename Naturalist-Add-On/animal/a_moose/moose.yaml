@@ -41,10 +41,11 @@ images:
   - moose_cooked.png
   - moose_raw.png
   gallery:
-  - moose.gif
   - mooose.png
   - moose.png
   - moose_fam.png
+  gifs:
+  - moose.gif
 spawning:
   title:
     en: Spawning

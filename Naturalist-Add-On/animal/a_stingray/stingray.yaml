@@ -43,13 +43,14 @@ images:
   - bucket_stingray.png
   - stingray_stinger.png
   gallery:
+  - mobula.png
+  - ray.png
+  - sting.png
+  gifs:
   - eagle_ray.gif
   - mob_ray.gif
   - ray.gif
   - stingray.gif
-  - mobula.png
-  - ray.png
-  - sting.png
 spawning:
   title:
     en: Spawning

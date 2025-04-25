@@ -39,11 +39,12 @@ images:
   items:
   - fur.png
   gallery:
-  - bear.gif
   - grizzly_comatose.png
   - grizzly_family.png
   - grizzly_nap.png
   - grizzly_sweet_snack.png
+  gifs:
+  - bear.gif
 spawning:
   title:
     en: Spawning

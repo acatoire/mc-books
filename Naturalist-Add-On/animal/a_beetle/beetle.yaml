@@ -36,16 +36,7 @@ stats:
     jungle: /minecraft.wiki/w/Jungle
 images:
   main: beetle.gif
-  items:
-  - chitin.png
   gallery:
-  - beetle.gif
-  - beetle2.gif
-  - beetle_variants.gif
-  - brown_beetle.gif
-  - green_beetle.gif
-  - red_beetle.gif
-  - white_beetle.gif
   - beetle_black.png
   - beetle_brown.png
   - beetle_green.png
@@ -54,6 +45,14 @@ images:
   - beetle_white.png
   - beetle_yellow.png
   - white_beetle_cave.png
+  gifs:
+  - beetle.gif
+  - beetle2.gif
+  - beetle_variants.gif
+  - brown_beetle.gif
+  - green_beetle.gif
+  - red_beetle.gif
+  - white_beetle.gif
 spawning:
   title:
     en: Spawning

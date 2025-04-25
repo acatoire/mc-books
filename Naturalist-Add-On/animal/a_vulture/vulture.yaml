@@ -39,12 +39,10 @@ stats:
     savanna: /minecraft.wiki/w/Savanna
 images:
   main: vulture.gif
-  items:
-  - vulture_feather.png
-  - vulture_meat.png
   gallery:
-  - vulture.gif
   - vulture.png
+  gifs:
+  - vulture.gif
 spawning:
   title:
     en: Spawning

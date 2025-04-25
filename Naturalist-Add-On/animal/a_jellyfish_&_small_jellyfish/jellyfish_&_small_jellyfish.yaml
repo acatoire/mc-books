@@ -108,6 +108,13 @@ variants:
     image: white_small_jellyfish.gif
 images:
   gallery:
+  - green_small_jelly.png
+  - small_pink_jelly.png
+  main: small_jellyfish_variations.gif
+  items:
+  - bucket_blue_jellyfish.png
+  - bucket_blue_small_jellyfish.png
+  gifs:
   - blue_small_jellyfish.gif
   - green_small_jellyfish.gif
   - jellyfish_blue.gif
@@ -120,12 +127,6 @@ images:
   - small_jellyfish_variations.gif
   - white_small_jellyfish.gif
   - yellow_small_jellyfish.gif
-  - green_small_jelly.png
-  - small_pink_jelly.png
-  main: small_jellyfish_variations.gif
-  items:
-  - bucket_blue_jellyfish.png
-  - bucket_blue_small_jellyfish.png
 community:
   title:
     en: Have additional questions? Want to be a part of our community?

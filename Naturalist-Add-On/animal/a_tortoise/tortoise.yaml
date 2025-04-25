@@ -39,17 +39,15 @@ stats:
     savanna: /minecraft.wiki/w/Savanna
 images:
   main: black_tortoise.gif
-  items:
-  - tortoise_shell.png
-  - tortoise_meat.png
   gallery:
+  - black_tortoise.png
+  - brown_tortoise.png
+  - brown_turtle.png
+  gifs:
   - black_tortoise.gif
   - brown_tortoise.gif
   - green_tortoise.gif
   - tortoise.gif
-  - black_tortoise.png
-  - brown_tortoise.png
-  - brown_turtle.png
 spawning:
   title:
     en: Spawning

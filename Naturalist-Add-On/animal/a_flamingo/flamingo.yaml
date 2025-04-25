@@ -38,9 +38,10 @@ images:
   items:
   - pink_feather.png
   gallery:
-  - flamingo.gif
   - flamingos.png
   - Flamingo_beach.png
+  gifs:
+  - flamingo.gif
 spawning:
   title:
     en: Spawning

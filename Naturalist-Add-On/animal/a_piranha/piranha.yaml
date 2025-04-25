@@ -41,9 +41,10 @@ images:
   - piranha_cooked.png
   - piranha_raw.png
   gallery:
-  - piranha.gif
   - feesh.png
   - school.png
+  gifs:
+  - piranha.gif
 spawning:
   title:
     en: Spawning

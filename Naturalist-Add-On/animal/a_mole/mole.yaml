@@ -40,10 +40,11 @@ images:
   items:
   - fur.png
   gallery:
-  - mole.gif
   - meandering_mole.png
   - mole.png
   - mole_digging.png
+  gifs:
+  - mole.gif
 spawning:
   title:
     en: Spawning

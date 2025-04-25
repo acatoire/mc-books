@@ -39,12 +39,13 @@ images:
   - fur.png
   - morsel.png
   gallery:
-  - coyote_brown.gif
-  - coyote_variants.gif
-  - coyote_white.gif
   - brown_coyote.png
   - coyote_brown.png
   - coyote_lounge.png
+  gifs:
+  - coyote_brown.gif
+  - coyote_variants.gif
+  - coyote_white.gif
 spawning:
   title:
     en: Spawning

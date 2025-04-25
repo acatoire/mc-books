@@ -41,9 +41,10 @@ images:
   - cooked_bushmeat.png
   - fur.png
   gallery:
-  - capybara2.gif
   - capybara.png
   - capybara_joyride.png
+  gifs:
+  - capybara2.gif
 spawning:
   title:
     en: Spawning

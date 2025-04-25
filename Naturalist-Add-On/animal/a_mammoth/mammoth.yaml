@@ -42,10 +42,11 @@ images:
   - mammoth_meat_cooked.png
   - mammoth_meat_raw.png
   gallery:
-  - mammoth.gif
   - big_mammoth.png
   - large_mammoth.png
   - mammoth_hills.png
+  gifs:
+  - mammoth.gif
 spawning:
   title:
     en: Spawning

@@ -37,12 +37,10 @@ stats:
     swamp: /minecraft.wiki/w/Swamp
 images:
   main: hippo.gif
-  items:
-  - hippo_hide.png
-  - hippo_meat.png
   gallery:
-  - hippo.gif
   - hippos.png
+  gifs:
+  - hippo.gif
 spawning:
   title:
     en: Spawning

@@ -42,9 +42,10 @@ images:
   items:
   - fat.png
   gallery:
-  - walrus.gif
   - two_walrus.png
   - walrus.png
+  gifs:
+  - walrus.gif
 spawning:
   title:
     en: Spawning

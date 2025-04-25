@@ -38,15 +38,16 @@ images:
   - fur.png
   - morsel.png
   gallery:
+  - beige_foxy.png
+  - fennec_foxy.png
+  - fox.png
+  - white_fox.png
+  gifs:
   - fennec_fox_beige.gif
   - fennec_fox_creamy.gif
   - fennec_fox_pale.gif
   - fennec_fox_red.gif
   - fennec_fox_variations.gif
-  - beige_foxy.png
-  - fennec_foxy.png
-  - fox.png
-  - white_fox.png
 spawning:
   title:
     en: Spawning

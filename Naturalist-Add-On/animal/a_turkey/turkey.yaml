@@ -42,8 +42,9 @@ images:
   - drumstick.png
   - drumstick_cooked.png
   gallery:
-  - turkey.gif
   - gobble.png
+  gifs:
+  - turkey.gif
 spawning:
   title:
     en: Spawning

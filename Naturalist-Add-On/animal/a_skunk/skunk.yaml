@@ -41,13 +41,14 @@ images:
   - morsel.png
   - stinky_gland.png
   gallery:
+  - black_skunks.png
+  - brown_skunk.png
+  - white_skunks.png
+  gifs:
   - black_skunk.gif
   - brown_skunk.gif
   - skunk.gif
   - white_skunk.gif
-  - black_skunks.png
-  - brown_skunk.png
-  - white_skunks.png
 spawning:
   title:
     en: Spawning

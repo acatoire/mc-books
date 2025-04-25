@@ -40,12 +40,13 @@ images:
   items:
   - penguin_egg.png
   gallery:
-  - baby_emperor_penguin.gif
-  - emperor_penguin.gif
-  - emperor_penguin_variations.gif
   - baby_pengie.png
   - pengi_slide.png
   - penguin_family.png
+  gifs:
+  - baby_emperor_penguin.gif
+  - emperor_penguin.gif
+  - emperor_penguin_variations.gif
 spawning:
   title:
     en: Spawning

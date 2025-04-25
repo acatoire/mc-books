@@ -39,10 +39,11 @@ images:
   - firefly_item.png
   - firefly_jar.png
   gallery:
-  - firefly.gif
   - family_of_fireflies.png
   - fireflies.png
   - firefly.png
+  gifs:
+  - firefly.gif
 spawning:
   title:
     en: Spawning

@@ -34,15 +34,13 @@ stats:
     biome: /minecraft.wiki/w/Biome
 images:
   main: corvid2.gif
-  items:
-  - crow_feather.png
-  - raven_feather.png
   gallery:
+  - crow-raven_snow.png
+  - flying_birbs_hills.png
+  gifs:
   - corvid2.gif
   - crow.gif
   - raven.gif
-  - crow-raven_snow.png
-  - flying_birbs_hills.png
 spawning:
   title:
     en: Spawning

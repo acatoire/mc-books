@@ -36,16 +36,15 @@ stats:
     jungle: /minecraft.wiki/w/Jungle
 images:
   main: blue_budgie.gif
-  items:
-  - feather.png
   gallery:
+  - blue_budgies.png
+  - green_budgies.png
+  - yellow_budgies.png
+  gifs:
   - blue_budgie.gif
   - budgie.gif
   - green_budgie.gif
   - yellow_budgie.gif
-  - blue_budgies.png
-  - green_budgies.png
-  - yellow_budgies.png
 spawning:
   title:
     en: Spawning

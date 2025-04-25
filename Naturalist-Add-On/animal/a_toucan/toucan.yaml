@@ -36,16 +36,14 @@ stats:
     jungle: /minecraft.wiki/w/Jungle
 images:
   main: 2toucan.gif
-  items:
-  - toucan_feather.png
-  - toucan_meat.png
   gallery:
+  - toocan.png
+  - touucan.png
+  gifs:
   - 2toucan.gif
   - green_toucan.gif
   - toucan.gif
   - toucan_bird.gif
-  - toocan.png
-  - touucan.png
 spawning:
   title:
     en: Spawning

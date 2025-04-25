@@ -48,6 +48,11 @@ images:
   - tree_frog_white.png
   - tree_frog_yellow_dart.png
   gallery:
+  - frog.png
+  - red_eye.png
+  - red_frog.png
+  - strawb.png
+  gifs:
   - blue_tree_frog.gif
   - red_blue_tree_frog.gif
   - red_eyed_tree_frog.gif
@@ -56,10 +61,6 @@ images:
   - tree_frog_variations.gif
   - white_dart_tree_frog.gif
   - yellow_dart_tree_frog.gif
-  - frog.png
-  - red_eye.png
-  - red_frog.png
-  - strawb.png
 spawning:
   title:
     en: Spawning

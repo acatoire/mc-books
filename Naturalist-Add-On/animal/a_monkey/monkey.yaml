@@ -34,18 +34,16 @@ stats:
     jungle: /minecraft.wiki/w/Jungle
 images:
   main: black_monkey.gif
-  items:
-  - monkey_fur.png
-  - monkey_tail.png
   gallery:
-  - black_monkey.gif
-  - brown_monkey.gif
-  - lemur.gif
-  - monkey.gif
   - brown_monkey.png
   - lele.png
   - monkeying_around.png
   - protec_snack.png
+  gifs:
+  - black_monkey.gif
+  - brown_monkey.gif
+  - lemur.gif
+  - monkey.gif
 spawning:
   title:
     en: Spawning

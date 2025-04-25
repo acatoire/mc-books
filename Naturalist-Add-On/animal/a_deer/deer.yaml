@@ -40,14 +40,15 @@ images:
   - cooked_venison.png
   - venison.png
   gallery:
+  - cherry_deer.png
+  - deer_brown.png
+  - Reg_Deer.png
+  gifs:
   - deer2.gif
   - deer_red.gif
   - deer_reindeer.gif
   - deer_variations.gif
   - deer_white.gif
-  - cherry_deer.png
-  - deer_brown.png
-  - Reg_Deer.png
 spawning:
   title:
     en: Spawning

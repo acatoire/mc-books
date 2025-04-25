@@ -42,9 +42,10 @@ images:
   - bucket_bass.png
   - cooked_bass.png
   gallery:
-  - bass.gif
   - bassschool.png
   - swampbass.png
+  gifs:
+  - bass.gif
 spawning:
   title:
     en: Spawning

@@ -40,9 +40,10 @@ images:
   - bushmeat.png
   - hide.png
   gallery:
-  - rhino.gif
   - rhino_family.png
   - rhino_large.png
+  gifs:
+  - rhino.gif
 spawning:
   title:
     en: Spawning

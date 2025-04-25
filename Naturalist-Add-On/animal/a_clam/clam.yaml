@@ -38,12 +38,13 @@ images:
   - clam_meat.png
   - cooked_clam_meat.png
   gallery:
-  - clam.gif
-  - clam_variants.gif
-  - clam_white.gif
   - brown_clam.png
   - open_mouth_brown_clam.png
   - open_mouth_clam.png
+  gifs:
+  - clam.gif
+  - clam_variants.gif
+  - clam_white.gif
 spawning:
   title:
     en: Spawning

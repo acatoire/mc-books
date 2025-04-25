@@ -39,9 +39,10 @@ images:
   items:
   - morsel.png
   gallery:
-  - kakapo.gif
   - active_kakapow.png
   - kakapos.png
+  gifs:
+  - kakapo.gif
 spawning:
   title:
     en: Spawning

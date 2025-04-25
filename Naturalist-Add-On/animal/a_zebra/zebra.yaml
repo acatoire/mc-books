@@ -38,8 +38,9 @@ stats:
 images:
   main: zebra.gif
   gallery:
-  - zebra.gif
   - zebra_fam.png
+  gifs:
+  - zebra.gif
 spawning:
   title:
     en: Spawning

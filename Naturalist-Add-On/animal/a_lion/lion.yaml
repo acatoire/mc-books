@@ -41,11 +41,12 @@ images:
   - fur.png
   - tooth.png
   gallery:
+  - female_lions.png
+  - lion_couple.png
+  gifs:
   - lion 1.gif
   - lion.gif
   - lioness.gif
-  - female_lions.png
-  - lion_couple.png
 spawning:
   title:
     en: Spawning

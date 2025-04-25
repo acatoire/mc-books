@@ -36,13 +36,11 @@ stats:
     jungle: /minecraft.wiki/w/Jungle
 images:
   main: kiwi.gif
-  items:
-  - kiwi_feather.png
-  - kiwi_egg.png
   gallery:
-  - kiwi.gif
   - gazing_kiwi.png
   - lonely_kiwi.png
+  gifs:
+  - kiwi.gif
 spawning:
   title:
     en: Spawning

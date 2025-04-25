@@ -38,8 +38,9 @@ images:
   - scorpion.png
   - scorpion_poison_gland.png
   gallery:
-  - desert_scorpion.gif
   - scorp.png
+  gifs:
+  - desert_scorpion.gif
 spawning:
   title:
     en: Spawning

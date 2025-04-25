@@ -40,11 +40,12 @@ images:
   items:
   - tooth.png
   gallery:
+  - great_white.png
+  - hammerhead_shark.png
+  gifs:
   - shark1.gif
   - shark2.gif
   - shark_variants.gif
-  - great_white.png
-  - hammerhead_shark.png
 spawning:
   title:
     en: Spawning

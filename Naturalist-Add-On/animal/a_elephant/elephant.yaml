@@ -39,9 +39,10 @@ images:
   - bushmeat.png
   - hide.png
   gallery:
-  - elephant.gif
   - elephants.png
   - tamed_elephant.png
+  gifs:
+  - elephant.gif
 spawning:
   title:
     en: Spawning

@@ -41,9 +41,10 @@ images:
   - cavefish_cooked.png
   - cavefish_raw.png
   gallery:
-  - cavefish2.gif
   - cavefish.png
   - cavefishies.png
+  gifs:
+  - cavefish2.gif
 spawning:
   title:
     en: Spawning

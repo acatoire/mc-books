@@ -37,13 +37,6 @@ images:
   items:
   - bird_egg.png
   gallery:
-  - all_birds.gif
-  - bluejay_bird.gif
-  - canary_bird.gif
-  - cardinal_bird.gif
-  - finch_bird.gif
-  - robin_bird.gif
-  - sparrow_bird.gif
   - birb.png
   - bluejay.png
   - cardinal_swamp.png
@@ -51,6 +44,14 @@ images:
   - more_birbs.png
   - sparrow..png
   variants:
+  - bluejay_bird.gif
+  - canary_bird.gif
+  - cardinal_bird.gif
+  - finch_bird.gif
+  - robin_bird.gif
+  - sparrow_bird.gif
+  gifs:
+  - all_birds.gif
   - bluejay_bird.gif
   - canary_bird.gif
   - cardinal_bird.gif

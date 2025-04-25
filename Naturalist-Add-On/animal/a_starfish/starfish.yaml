@@ -40,15 +40,16 @@ images:
   - bucket_orange_starfish.png
   - starfish_orange.png
   gallery:
+  - blue_star.png
+  - orange_star.png
+  - purple_star.png
+  - red_star.png
+  gifs:
   - blue_starfish.gif
   - orange_starfish.gif
   - purple_starfish.gif
   - red_starfish.gif
   - starfish.gif
-  - blue_star.png
-  - orange_star.png
-  - purple_star.png
-  - red_star.png
 spawning:
   title:
     en: Spawning

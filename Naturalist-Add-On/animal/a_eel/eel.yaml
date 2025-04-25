@@ -39,12 +39,13 @@ images:
   - eel_cooked.png
   - eel_raw.png
   gallery:
+  - electric_eel.png
+  - spotted_eel.png
+  gifs:
   - eel.gif
   - eel_m.gif
   - eel_s.gif
   - eel_variants.gif
-  - electric_eel.png
-  - spotted_eel.png
 spawning:
   title:
     en: Spawning

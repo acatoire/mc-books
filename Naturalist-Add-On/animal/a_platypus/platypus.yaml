@@ -42,13 +42,14 @@ images:
   - bucket_blue_platypus.png
   - bucket_platypus.png
   gallery:
-  - blue_platypus.gif
-  - platypus.gif
-  - platypus_variants.gif
   - blue_brown_platy.png
   - blue_platty.png
   - brown_platy.png
   - brown_solo.png
+  gifs:
+  - blue_platypus.gif
+  - platypus.gif
+  - platypus_variants.gif
 spawning:
   title:
     en: Spawning

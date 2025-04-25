@@ -34,12 +34,13 @@ images:
   egg: alligator_egg.png
   tooth: tooth.png
   gallery:
-  - Small_Alligator.gif
   - image.png
   - image_(1).png
   items:
   - alligator_egg.png
   - tooth.png
+  gifs:
+  - Small_Alligator.gif
 spawning:
   title:
     en: Spawning

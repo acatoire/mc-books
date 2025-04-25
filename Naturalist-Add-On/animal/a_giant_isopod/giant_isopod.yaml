@@ -38,11 +38,12 @@ images:
   - bucket_blue_giant_isopod.png
   - bucket_giant_isopod.png
   gallery:
+  - isopod_family.png
+  - isopod_variations.png
+  gifs:
   - giant_isopod.gif
   - giant_isopod_blue.gif
   - giant_isopod_variants.gif
-  - isopod_family.png
-  - isopod_variations.png
 spawning:
   title:
     en: Spawning

@@ -43,9 +43,10 @@ images:
   - catfish_item.png
   - cooked_catfish.png
   gallery:
-  - catfish2.gif
   - bottom_feeder_fish.png
   - catfish.png
+  gifs:
+  - catfish2.gif
 spawning:
   title:
     en: Spawning

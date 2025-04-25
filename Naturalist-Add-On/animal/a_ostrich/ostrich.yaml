@@ -41,11 +41,12 @@ images:
   - drumstick.png
   - drumstick_cooked.png
   gallery:
+  - ostrich_2.png
+  - roaming_ostrich.png
+  gifs:
   - ostrich.gif
   - ostrich_baby.gif
   - ostrich_variations.gif
-  - ostrich_2.png
-  - roaming_ostrich.png
 spawning:
   title:
     en: Spawning

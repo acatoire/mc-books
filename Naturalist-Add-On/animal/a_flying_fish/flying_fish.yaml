@@ -37,9 +37,10 @@ images:
   items:
   - bucket_flying_fish.png
   gallery:
-  - flying_fish.gif
   - flying_ff.png
   - flying_fish.png
+  gifs:
+  - flying_fish.gif
 spawning:
   title:
     en: Spawning

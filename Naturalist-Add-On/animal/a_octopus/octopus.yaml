@@ -42,12 +42,13 @@ images:
   - bucket_purple_octopus.png
   - bucket_red_octopus.png
   gallery:
+  - purple_octopus.png
+  - red_octopi.png
+  gifs:
   - octopus.gif
   - orange_octopus.gif
   - purple_octopus.gif
   - red_octopus.gif
-  - purple_octopus.png
-  - red_octopi.png
 spawning:
   title:
     en: Spawning

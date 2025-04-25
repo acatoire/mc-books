@@ -38,15 +38,16 @@ images:
   - cooked_crab_meat.png
   - crab_meat.png
   gallery:
+  - blue_crab.png
+  - more_crab.png
+  - yellow_crab.png
+  gifs:
   - blue_crab.gif
   - brown_crab.gif
   - crab_variant.gif
   - orange_crab.gif
   - red_crab.gif
   - yellow_crab.gif
-  - blue_crab.png
-  - more_crab.png
-  - yellow_crab.png
 spawning:
   title:
     en: Spawning

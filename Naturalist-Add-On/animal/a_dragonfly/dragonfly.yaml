@@ -40,13 +40,14 @@ images:
   - dragonfly_green.png
   - dragonfly_red.png
   gallery:
+  - blue_dragonfly.png
+  - green_dragonfly.png
+  - red_dragon.png
+  gifs:
   - dragonfly.gif
   - dragonfly_blue.gif
   - dragonfly_red.gif
   - dragonfly_variants.gif
-  - blue_dragonfly.png
-  - green_dragonfly.png
-  - red_dragon.png
 spawning:
   title:
     en: Spawning

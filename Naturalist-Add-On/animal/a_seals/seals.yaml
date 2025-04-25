@@ -35,18 +35,16 @@ stats:
     ice_plains: /minecraft.wiki/w/Ice_Plains
 images:
   main: seal_variations.gif
-  items:
-  - seal_fur.png
-  - seal_meat.png
   gallery:
-  - brown_seal.gif
-  - seal_variations.gif
-  - spotted_seal.gif
-  - white_seal.gif
   - brown_seals.png
   - gray_seal_adults.png
   - seal.png
   - sneaky_seal.png
+  gifs:
+  - brown_seal.gif
+  - seal_variations.gif
+  - spotted_seal.gif
+  - white_seal.gif
 spawning:
   title:
     en: Spawning
