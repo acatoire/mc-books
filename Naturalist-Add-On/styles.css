@@ -316,4 +316,12 @@ img.gif-gallery {
 .community a:hover {
     background-color: #5b73c7;
     transform: translateY(-1px);
-} 
+}
+
+/* Add this to your existing styles */
+#generate-pdf {
+    color: #dc3545;
+}
+#generate-pdf:hover {
+    color: #c82333;
+}

@@ -1,110 +1,131 @@
 title:
   en: Jellyfish & Small Jellyfish
+  fr: Méduses et Petites Méduses
 description:
-  en: Jellyfish are aquatic creatures but are not classified as fish. They are invertebrates
-    that move gelatinously through the water. They come in many shapes and bright,
-    vibrant colors. They utilize tentacles to catch their food along with their bodies
-    that deliver stings to any creature that brushes against it.
+  en: Jellyfish are aquatic creatures but are not classified as fish. They are invertebrates that move gelatinously through the water. They come in many shapes and bright, vibrant colors. They utilize tentacles to catch their food along with their bodies that deliver stings to any creature that brushes against it.
+  fr: Les méduses sont des créatures aquatiques, mais elles ne sont pas classées comme des poissons. Ce sont des invertébrés qui se déplacent de manière gélatineuse dans l'eau. Elles existent sous de nombreuses formes et couleurs vives éclatantes. Elles utilisent leurs tentacules pour attraper leur nourriture ainsi que leurs corps qui délivrent des piqûres à toute créature les effleurant.
 stats:
   health: 10
   classification:
     en: Animal / Aquatic
+    fr: Animal / Aquatique
   classification_urls:
     animal: minecraft.fandom.com/wiki/Animal
     aquatic: minecraft.fandom.com/wiki/Aquatic
   behavior:
     en: Passive
+    fr: Passif
   spawn:
     en: 'Jellyfish: Ocean
 
-      Small Jellyfish: Warm Ocean & Lukewarm Ocean'
+Small Jellyfish: Warm Ocean & Lukewarm Ocean'
+    fr: 'Méduse : Océan
+
+Petite Méduse : Océan Chaud et Océan Tiède'
   spawn_url: minecraft.wiki/w/Ocean
 spawning:
   title:
     en: Spawning
+    fr: Apparition
   description:
     en: Jellyfish spawn between coordinates Y -20 & Y 64.
+    fr: Les méduses apparaissent entre les coordonnées Y -20 et Y 64.
   variants:
   - type:
       en: Jellyfish
+      fr: Méduse
     group: '1'
     biome:
       en: Ocean
+      fr: Océan
   - type:
       en: Small Jellyfish
+      fr: Petite Méduse
     group: 1 - 3
     biome:
       en: Warm Ocean & Lukewarm Ocean
+      fr: Océan Chaud et Océan Tiède
 drops:
   title:
     en: Drops
+    fr: Butin
   description:
     en: 'Jellyfish drops upon death:'
+    fr: "Butin relâché par les méduses à leur mort :"
   items:
   - name:
       en: Slime Ball
+      fr: Boule de Slime
     amount: '1'
   - name:
       en: Experience Orbs
+      fr: Orbes d'Expérience
     amount: 1 - 2
     condition:
       en: if killed by Player
+      fr: si tué par un joueur
   note:
     en: The slime ball has a chance to drop but is not guaranteed upon death.
+    fr: La boule de slime peut être lâchée, mais ce n'est pas garanti à leur mort.
 behavior:
   title:
     en: Behavior
+    fr: Comportement
   description:
-    en: Jellyfish move in clusters across the ocean. Their bright colors make them
-      easily identifiable, but they tend to blend in with coral reefs. Jellyfish are
-      passive aquatic creatures; however, if a player brushes up against one, they
-      will be stung. This damage mimics running into a cactus. The player may collect
-      jellyfish and small jellyfish by using a water bucket on it, which gives the
-      player a bucket of jellyfish/bucket of small jellyfish (with their variant color).
-      Jellyfish placed with buckets do not despawn naturally. When that bucket is
-      used against a block, it empties the bucket, placing water with the jellyfish
-      swimming in it.
+    en: Jellyfish move in clusters across the ocean. Their bright colors make them easily identifiable, but they tend to blend in with coral reefs. Jellyfish are passive aquatic creatures; however, if a player brushes up against one, they will be stung. This damage mimics running into a cactus. The player may collect jellyfish and small jellyfish by using a water bucket on it, which gives the player a bucket of jellyfish/bucket of small jellyfish (with their variant color). Jellyfish placed with buckets do not despawn naturally. When that bucket is used against a block, it empties the bucket, placing water with the jellyfish swimming in it.
+    fr: Les méduses se déplacent en groupes dans l'océan. Leurs couleurs vives les rendent facilement identifiables, mais elles ont tendance à se fondre dans les récifs coralliens. Les méduses sont des créatures aquatiques passives ; cependant, si un joueur les effleure, elles piquent. Ces dégâts imitent un contact avec un cactus. Le joueur peut collecter des méduses et des petites méduses en utilisant un seau d'eau, ce qui lui donne un seau de méduse/seau de petite méduse (avec leur couleur spécifique). Les méduses placées avec des seaux ne disparaissent pas naturellement. Si ce seau est utilisé contre un bloc, il vidange le seau, mettant de l'eau avec la méduse nageant dedans.
   weakness:
-    en: Jellyfish are unable to survive out of water. Outside of water, they lay with
-      tentacles splayed around them until, eventually, they start to suffocate and
-      die. Jellyfish cannot be put in a cauldron.
+    en: Jellyfish are unable to survive out of water. Outside of water, they lay with tentacles splayed around them until, eventually, they start to suffocate and die. Jellyfish cannot be put in a cauldron.
+    fr: Les méduses ne peuvent pas survivre hors de l'eau. Hors de l'eau, elles s'affaissent avec leurs tentacules étalés autour d'elles jusqu'à ce qu'elles commencent à suffoquer et meurent. Les méduses ne peuvent pas être placées dans un chaudron.
 gallery:
   title:
     en: Gallery
+    fr: Galerie
 variants:
   title:
     en: Variants
+    fr: Variantes
   jellyfish:
   - name:
       en: Blue Jellyfish
+      fr: Méduse Bleue
     image: jellyfish_blue.gif
   - name:
       en: Green Jellyfish
+      fr: Méduse Verte
     image: jellyfish_green.gif
   - name:
       en: Pink Jellyfish
+      fr: Méduse Rose
     image: jellyfish_pink.gif
   - name:
       en: Yellow Jellyfish
+      fr: Méduse Jaune
     image: jellyfish_yellow.gif
   - name:
       en: White Jellyfish
+      fr: Méduse Blanche
     image: jellyfish_white.gif
   small_jellyfish:
   - name:
       en: Small Blue Jellyfish
+      fr: Petite Méduse Bleue
     image: blue_small_jellyfish.gif
   - name:
       en: Small Green Jellyfish
+      fr: Petite Méduse Verte
     image: green_small_jellyfish.gif
   - name:
       en: Small Pink Jellyfish
+      fr: Petite Méduse Rose
     image: pink_small_jellyfish.gif
   - name:
       en: Small Yellow Jellyfish
+      fr: Petite Méduse Jaune
     image: yellow_small_jellyfish.gif
   - name:
       en: Small White Jellyfish
+      fr: Petite Méduse Blanche
     image: white_small_jellyfish.gif
 images:
   gallery:
@@ -130,8 +151,10 @@ images:
 community:
   title:
     en: Have additional questions? Want to be a part of our community?
+    fr: Vous avez d'autres questions ? Vous voulez faire partie de notre communauté ?
   join:
     en: Join our Discord!
+    fr: Rejoignez notre Discord !
   discord_url: discord.com/invite/starfishstudios
 social_links:
   Marketplace: www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios

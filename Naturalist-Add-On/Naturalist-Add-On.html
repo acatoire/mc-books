@@ -7,6 +7,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
 </head>
 <body>
     <div class="header">
@@ -15,6 +17,7 @@
             <button id="prev-animal" class="nav-button" title="Previous Animal"><i class="fas fa-chevron-left"></i></button>
             <button id="random-animal" class="nav-button" title="Random Animal"><i class="fas fa-dice"></i></button>
             <button id="next-animal" class="nav-button" title="Next Animal"><i class="fas fa-chevron-right"></i></button>
+            <button id="generate-pdf" class="nav-button" title="Generate PDF"><i class="fas fa-file-pdf"></i></button>
             <select id="language-select">
                 <option value="en">English</option>
                 <option value="fr">Français</option>
@@ -436,6 +439,171 @@
 
             footer.innerHTML = html;
         }
+
+        // PDF Generation functionality
+        async function generatePDF() {
+            const { jsPDF } = window.jspdf;
+            const pdf = new jsPDF('p', 'mm', 'a4');
+            const pageWidth = pdf.internal.pageSize.width;
+            const pageHeight = pdf.internal.pageSize.height;
+            const margin = 10;
+            pdf.setFont("helvetica");
+
+
+            // Create cover page
+            pdf.setFontSize(24);
+            pdf.text('Naturalist Add-On Guide', pageWidth/2, pageHeight/4, { align: 'center' });
+            pdf.setFontSize(14);
+            pdf.text(`Generated on ${new Date().toLocaleDateString()}`, pageWidth/2, pageHeight/4 + 20, { align: 'center' });
+            pdf.text(`Language: ${currentLanguage === 'en' ? 'English' : 'Français'}`, pageWidth/2, pageHeight/4 + 30, { align: 'center' });
+            pdf.text(`Total Animals: ${animalList.length}`, pageWidth/2, pageHeight/4 + 40, { align: 'center' });
+
+            // Load all animal translations if not already loaded
+            for (const animal of animalList) {
+                if (!animalTranslations.has(animal)) {
+                    await loadAnimalTranslation(animal);
+                }
+            }
+
+            // Process each animal
+            for (let i = 0; i < animalList.length; i++) {
+                const animal = animalList[i];
+                const animalData = animalTranslations.get(animal);
+
+                if (!animalData) {
+                    console.warn(`No data found for animal: ${animal}`);
+                    continue;
+                }
+
+                // Add a new page for each animal (except for the first one which follows the cover)
+                if (i > 0) {
+                    pdf.addPage();
+                } else {
+                    pdf.addPage(); // Add page after cover
+                }
+
+                // Always verify text exists before adding
+                console.log(`Processing animal: ${animal} in language: ${currentLanguage}`);
+                const animalNumber = `Animal ${i + 1}/${animalList.length}`;
+                const animalTitle = animalData.title?.[currentLanguage] || '';
+
+                pdf.setFontSize(12);
+                pdf.text(animalNumber, margin, margin);
+
+                const titleY = margin + 10;
+                pdf.setFontSize(20);
+                if (animalTitle) {
+                    pdf.text(animalTitle, margin, titleY);
+                } else {
+                    console.warn(`No title found for animal: ${animal}`);
+                }
+
+                // Add description
+                const dataY = margin + 20
+                if (animalData.description?.[currentLanguage]) {
+                    pdf.setFontSize(12);
+                    const description = pdf.splitTextToSize(
+                        animalData.description[currentLanguage],
+                        pageWidth - 2 * margin
+                    );
+                    pdf.text(description, margin, dataY);
+                } else {
+                    console.warn(`No description found for animal: ${animal}`);
+                }
+
+                const statsY = margin + 40
+                const statsAlign = pageWidth/2 + margin
+
+                pdf.setFontSize(14);
+                pdf.text('Stats:', statsAlign, statsY);
+                pdf.setFontSize(12);
+
+                if (animalData.stats.classification?.[currentLanguage]) {
+                    pdf.text(
+                        `Classification: ${animalData.stats.classification[currentLanguage]}`,
+                        pageWidth/2 + margin,
+                        statsY + 5
+                    );
+                } else {
+                    console.warn(`No classification found for animal: ${animal}`);
+                }
+
+                if (animalData.stats.health) {
+                    pdf.text(
+                        `Health: ${animalData.stats.health}`,
+                        pageWidth/2 + margin,
+                        statsY + 10
+                    );
+                } else {
+                    console.warn(`No health found for animal: ${animal}`);
+                }
+
+                pdf.text(`Behavior: ${animalData.stats.behavior[currentLanguage]}`, statsAlign, margin + 55);
+
+                pdf.text(`Spawn: ${animalData.stats.spawn[currentLanguage]}`, statsAlign, margin + 60);
+
+                // Try to add main image
+                try {
+                    const imgY = margin + 40
+                    const img = new Image();
+                    img.src = `${animalFolder}${animalPrefix}${animal}/${animalData.images.main}`;
+                    await new Promise((resolve, reject) => {
+                        img.onload = resolve;
+                        img.onerror = reject;
+                    });
+                    const canvas = document.createElement('canvas');
+                    const ctx = canvas.getContext('2d');
+                    canvas.width = img.width;
+                    canvas.height = img.height;
+                    ctx.drawImage(img, 0, 0);
+                    const imgData = canvas.toDataURL('image/jpeg');
+
+                    // Calculate image dimensions to fit on page
+                    const maxWidth = pageWidth / 2 - 2 * margin;
+                    const maxHeight = 80;
+                    const ratio = Math.min(maxWidth / img.width, maxHeight / img.height);
+                    const width = img.width * ratio;
+                    const height = img.height * ratio;
+
+                    // Adjust the following content position
+                    pdf.addImage(imgData, 'JPEG', margin, imgY, width, height);
+                } catch (error) {
+                    console.error(`Error adding image for ${animal}:`, error);
+                }
+
+                // Add drops information if available
+                if (animalData.drops) {
+                    const yPosition = margin + 100;
+                    pdf.setFontSize(14);
+                    pdf.text(animalData.drops.title[currentLanguage], margin, yPosition);
+                    pdf.setFontSize(12);
+                    const dropsDesc = pdf.splitTextToSize(animalData.drops.description[currentLanguage], pageWidth - 2 * margin);
+                    pdf.text(dropsDesc, margin, yPosition + 10);
+
+                    let dropsY = yPosition + 20; // Start position for drops list
+
+                    animalData.drops.items.forEach(item => {
+                        const dropText = `${item.name[currentLanguage]}: ${item.amount}${item.condition ? ` (${item.condition[currentLanguage]})` : ''}`;
+                        pdf.text(dropText, margin, dropsY);
+                        dropsY += 5; // Increment position for next drop
+                    });
+
+                    // If there's a note for drops, add it
+                    if (animalData.drops.note) {
+                        const noteY = dropsY + 5;
+                        pdf.setFontSize(10);
+                        const note = pdf.splitTextToSize(animalData.drops.note[currentLanguage], pageWidth - 2 * margin);
+                        pdf.text(note, margin, noteY);
+                    }
+                }
+            }
+
+            // Save the PDF
+            pdf.save(`naturalist-addon-guide-${currentLanguage}.pdf`);
+        }
+
+        // Add event listener for the PDF button
+        document.getElementById('generate-pdf').addEventListener('click', generatePDF);
     </script>
 </body>
 </html>

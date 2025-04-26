@@ -1,61 +1,68 @@
 title:
   en: Orca
+  fr: Orque
 description:
-  en: Orcas are the largest members of the dolphin family that navigate oceanic waters
-    with sonar called echolocation. They can swim up to 30 mph and travel 75-100 miles
-    or more per day. These unique creatures hunt in pods and consume sea creatures
-    ranging from small fish to large seals.
+  en: Orcas are the largest members of the dolphin family that navigate oceanic waters with sonar called echolocation. They can swim up to 30 mph and travel 75-100 miles or more per day. These unique creatures hunt in pods and consume sea creatures ranging from small fish to large seals.
+  fr: Les orques sont les plus grands membres de la famille des dauphins et naviguent dans les eaux océaniques grâce à un sonar appelé écholocation. Elles peuvent nager jusqu'à 30 mph et parcourir 75-100 miles ou plus par jour. Ces créatures uniques chassent en groupes et consomment des créatures marines allant des petits poissons aux grands phoques.
 stats:
   health: 40
   classification:
     en: Aquatic
+    fr: Aquatique
   classification_urls:
     animal: minecraft.fandom.com/wiki/Animal
     aquatic: minecraft.fandom.com/wiki/Aquatic
   behavior:
     en: Neutral
+    fr: Neutre
   spawn:
     en: Ocean
+    fr: Océan
   spawn_url: minecraft.wiki/w/Ocean
 spawning:
   title:
     en: Spawning
+    fr: Apparition
   description:
-    en: A pod of 1-3 orcas will spawn in the ocean biome. You can find these large
-      tooth whales between Y coordinates Y -50 & Y 64.
+    en: A pod of 1-3 orcas will spawn in the ocean biome. You can find these large tooth whales between Y coordinates Y -50 & Y 64.
+    fr: Un groupe de 1 à 3 orques apparaîtra dans le biome océan. Vous pouvez trouver ces grands cétacés entre les coordonnées Y -50 et Y 64.
 drops:
   title:
     en: Drops
+    fr: Butin
   description:
-    en: 'Ocra drops upon death:'
+    en: 'Orca drops upon death:'
+    fr: "Butin relâché par les orques à leur mort :"
   items:
   - name:
       en: Raw Cod, Raw Salmon, Raw Catfish, or Raw Bass
+      fr: Cabillaud cru, Saumon cru, Poisson-chat cru ou Perche crue
     amount: 1 - 2
   - name:
       en: Fat
+      fr: Graisse
     amount: '1'
   - name:
       en: Experience Orbs
+      fr: Orbes d'Expérience
     amount: 1 - 3
     condition:
       en: if killed by Player
+      fr: si tué par un joueur
 behavior:
   title:
     en: Behavior
+    fr: Comportement
   description:
-    en: Orcas are large aquatic beasts that roam the oceans in a pod. They are mostly
-      passive, but they feast on fish and the occasional penguin. They will not attack
-      pufferfish, though, as they are not tasty snacks! Orcas will attack a player
-      when they are provoked. They swim much faster when chasing their target and
-      are relentless until either the player is out of sight or dies.
+    en: Orcas are large aquatic beasts that roam the oceans in a pod. They are mostly passive, but they feast on fish and the occasional penguin. They will not attack pufferfish, though, as they are not tasty snacks! Orcas will attack a player when they are provoked. They swim much faster when chasing their target and are relentless until either the player is out of sight or dies.
+    fr: Les orques sont de grandes créatures aquatiques qui parcourent les océans en groupe. Elles sont généralement passives, mais se régalent de poissons et occasionnellement de pingouins. Elles n'attaquent pas les poissons-globes, car ce ne sont pas des proies savoureuses ! Les orques attaquent un joueur lorsqu'elles sont provoquées. Elles nagent beaucoup plus vite en poursuivant leur cible et sont implacables jusqu'à ce que le joueur disparaisse de leur vue ou meure.
   weakness:
-    en: Orcas are unable to survive out of water. Outside of water, they will attempt
-      to navigate back to a water source. If they are unsuccessful, they start to
-      suffocate and die.
+    en: Orcas are unable to survive out of water. Outside of water, they will attempt to navigate back to a water source. If they are unsuccessful, they start to suffocate and die.
+    fr: Les orques ne peuvent pas survivre hors de l'eau. Hors de l'eau, elles tenteront de revenir dans une source d'eau. Si elles ne réussissent pas, elles commencent à suffoquer et meurent.
 gallery:
   title:
     en: Gallery
+    fr: Galerie
 images:
   gallery:
   - big_orca.png
@@ -69,8 +76,10 @@ images:
 community:
   title:
     en: Have additional questions? Want to be a part of our community?
+    fr: Vous avez d'autres questions ? Vous voulez faire partie de notre communauté ?
   join:
     en: Join our Discord!
+    fr: Rejoignez notre Discord !
   discord_url: discord.com/invite/starfishstudios
 social_links:
   Marketplace: www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
