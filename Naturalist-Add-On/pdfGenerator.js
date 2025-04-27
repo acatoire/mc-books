@@ -36,8 +36,7 @@ async function generatePDF(animalList,
         // Title section
         const animalNumber = `Animal ${i + 1}/${animalList.length}`;
         pdf.setFontSize(12);
-        pdf.text(animalNumber, margin, currentY);
-        currentY += 10;
+        pdf.text(animalNumber, pageWidth - margin, currentY, {align: 'right'});
 
         pdf.setFontSize(20);
         const animalTitle = animalData.title?.[currentLanguage] || '';
@@ -52,12 +51,13 @@ async function generatePDF(animalList,
                 pageWidth - 2 * margin
             );
             pdf.text(description, margin, currentY);
-            currentY += description.length * 5 + 10;
+            currentY += description.length * 5  + 5;
         }
 
         // Stats and image section
         const halfPage = (pageWidth - 2 * margin) / 2;
         const statsStartY = currentY;
+        let imgHeight = 0;
 
         // Add GIF image on the left
         if (animalData.images?.main) {
@@ -72,34 +72,35 @@ async function generatePDF(animalList,
                 const canvas = document.createElement('canvas');
                 const ctx = canvas.getContext('2d');
 
-                // Calculate image dimensions
-                const maxWidth = halfPage - margin;
-                const maxHeight = 40; // Adjust this value to match stats height
-                const ratio = Math.min(maxWidth / img.width, maxHeight / img.height);
-                const width = img.width * ratio;
-                const height = img.height * ratio;
-
+                // Calculate image dimensions - increase maxHeight for better resolution
+                const imgMaxWidth = halfPage - margin;
+                const imgMaxHeight = 80; // Increased from 40 for better image quality
+                const imgRatio = Math.min(imgMaxWidth / img.width, imgMaxHeight / img.height);
+                const imgWidth = img.width * imgRatio;
+                imgHeight = img.height * imgRatio;
+                
                 // Set canvas size to include border
                 const borderWidth = 2; // Border width in pixels
-                canvas.width = width + (borderWidth * 2);
-                canvas.height = height + (borderWidth * 2);
-
+                canvas.width = imgWidth + (borderWidth * 2);
+                canvas.height = imgHeight + (borderWidth * 2);
+                
                 // Fill white background
                 ctx.fillStyle = '#FFFFFF';
                 ctx.fillRect(0, 0, canvas.width, canvas.height);
-
+                
                 // Draw border
                 ctx.strokeStyle = '#000000';
                 ctx.lineWidth = borderWidth;
                 ctx.strokeRect(borderWidth/2, borderWidth/2, canvas.width - borderWidth, canvas.height - borderWidth);
-
+                
                 // Draw image inside border
-                ctx.drawImage(img, borderWidth, borderWidth, width, height);
-
-                const imgData = canvas.toDataURL('image/jpeg', 1.0);
-
-                // Position image on the left side
-                pdf.addImage(imgData, 'JPEG', margin, currentY, canvas.width * 0.75, canvas.height * 0.75);
+                ctx.drawImage(img, borderWidth, borderWidth, imgWidth, imgHeight);
+                
+                // Use higher quality for the JPEG compression
+                const imgData = canvas.toDataURL('image/jpeg', 0.95);
+                
+                // Position image on the left side - removed scaling factor for better resolution
+                pdf.addImage(imgData, 'JPEG', margin, currentY - 5, canvas.width, canvas.height);
             } catch (error) {
                 console.error(`Error adding image for ${animal}:`, error);
             }
@@ -147,13 +148,13 @@ async function generatePDF(animalList,
         }
 
         // Add spacing after stats/image section
-        currentY = Math.max(currentY, statsStartY + 45); // Ensure enough space for both image and stats
+        currentY = Math.max(currentY, statsStartY + imgHeight) + 5; // Increased spacing to accommodate larger images
 
         // Spawning section
         if (animalData.spawning) {
             pdf.setFontSize(16);
             pdf.text(translationsPage.title.spawning[currentLanguage], margin, currentY);
-            currentY += 10;
+            currentY += 5;
 
             if (animalData.spawning.description?.[currentLanguage]) {
                 pdf.setFontSize(12);
@@ -162,7 +163,7 @@ async function generatePDF(animalList,
                     pageWidth - 2 * margin
                 );
                 pdf.text(spawnDesc, margin, currentY);
-                currentY += spawnDesc.length * 5 + 10;
+                currentY += spawnDesc.length * 5 + 5;
             }
 
             // Add variants if they exist
@@ -185,12 +186,12 @@ async function generatePDF(animalList,
         if (animalData.drops) {
             pdf.setFontSize(16);
             pdf.text(translationsPage.title.drops[currentLanguage], margin, currentY);
-            currentY += 10;
+            currentY += 5;
 
             if (animalData.drops.description?.[currentLanguage]) {
                 pdf.setFontSize(12);
                 pdf.text(animalData.drops.description[currentLanguage], margin, currentY);
-                currentY += 10;
+                currentY += 5;
             }
 
             // Add drop items
@@ -214,7 +215,7 @@ async function generatePDF(animalList,
                     pageWidth - 2 * margin
                 );
                 pdf.text(noteText, margin, currentY);
-                currentY += noteText.length * 5 + 10;
+                currentY += noteText.length * 5 + 5;
             }
         }
 
@@ -222,7 +223,7 @@ async function generatePDF(animalList,
         if (animalData.behavior) {
             pdf.setFontSize(16);
             pdf.text(translationsPage.title.behavior[currentLanguage], margin, currentY);
-            currentY += 10;
+            currentY += 5;
 
             if (animalData.behavior.description?.[currentLanguage]) {
                 pdf.setFontSize(12);
@@ -231,7 +232,7 @@ async function generatePDF(animalList,
                     pageWidth - 2 * margin
                 );
                 pdf.text(behaviorDesc, margin, currentY);
-                currentY += behaviorDesc.length * 5 + 10;
+                currentY += behaviorDesc.length * 5 + 5;
             }
 
             // Add prey information if exists
@@ -247,7 +248,7 @@ async function generatePDF(animalList,
                     pageWidth - 2 * margin
                 );
                 pdf.text(weaknessText, margin, currentY);
-                currentY += weaknessText.length * 5 + 10;
+                currentY += weaknessText.length * 5 + 5;
             }
         }
 
@@ -255,7 +256,7 @@ async function generatePDF(animalList,
         if (animalData.breeding) {
             pdf.setFontSize(16);
             pdf.text(translationsPage.title.breeding[currentLanguage], margin, currentY);
-            currentY += 10;
+            currentY += 5;
 
             if (animalData.breeding.description?.[currentLanguage]) {
                 pdf.setFontSize(12);
@@ -264,7 +265,7 @@ async function generatePDF(animalList,
                     pageWidth - 2 * margin
                 );
                 pdf.text(breedingDesc, margin, currentY);
-                currentY += breedingDesc.length * 5 + 10;
+                currentY += breedingDesc.length * 5 + 5;
             }
 
             // Add egg behavior if exists
@@ -274,7 +275,7 @@ async function generatePDF(animalList,
                     pageWidth - 2 * margin
                 );
                 pdf.text(eggBehaviorText, margin, currentY);
-                currentY += eggBehaviorText.length * 5 + 10;
+                currentY += eggBehaviorText.length * 5 + 5;
             }
         }
     }
