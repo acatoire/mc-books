@@ -584,8 +584,11 @@
                 }
 
                 if (animalData.stats.spawn?.[currentLanguage]) {
+
+                    let spawnText = `Spawn: ${animalData.stats.spawn[currentLanguage]}`
+                    spawnText = pdf.splitTextToSize(spawnText, pageWidth / 2 - 2 * margin);
                     pdf.text(
-                        `Spawn: ${animalData.stats.spawn[currentLanguage]}`,
+                        spawnText,
                         statsX,
                         currentY
                     );
@@ -610,7 +613,7 @@
             if (animalData.spawning) {
                 pdf.setFontSize(16);
                 pdf.text(translationsPage.title.spawning[currentLanguage], margin, currentY);
-                currentY += 10;
+                currentY += 5;
 
                 if (animalData.spawning.description?.[currentLanguage]) {
                     pdf.setFontSize(12);
@@ -619,7 +622,7 @@
                         pageWidth - 2 * margin
                     );
                     pdf.text(spawnDesc, margin, currentY);
-                    currentY += spawnDesc.length * 5 + 10;
+                    currentY += spawnDesc.length * 5 + 5;
                 }
 
                 // Add variants if they exist
@@ -644,12 +647,12 @@
             if (animalData.drops) {
                 pdf.setFontSize(16);
                 pdf.text(translationsPage.title.drops[currentLanguage], margin, currentY);
-                currentY += 10;
+                currentY += 5;
 
                 if (animalData.drops.description?.[currentLanguage]) {
                     pdf.setFontSize(12);
                     pdf.text(animalData.drops.description[currentLanguage], margin, currentY);
-                    currentY += 10;
+                    currentY += 5;
                 }
 
                 // Add drop items
@@ -659,8 +662,9 @@
                         if (item.condition) {
                             dropText += ` (${item.condition[currentLanguage]})`;
                         }
+                        dropText = pdf.splitTextToSize(dropText, pageWidth - 2 * margin);
                         pdf.text(dropText, margin + 5, currentY);
-                        currentY += 5;
+                        currentY += dropText.length * 5;
                     });
                     currentY += 5;
                 }
@@ -673,7 +677,7 @@
                         pageWidth - 2 * margin
                     );
                     pdf.text(noteText, margin, currentY);
-                    currentY += noteText.length * 5 + 10;
+                    currentY += noteText.length * 5 + 5;
                 }
             }
 
@@ -681,7 +685,7 @@
             if (animalData.behavior) {
                 pdf.setFontSize(16);
                 pdf.text(translationsPage.title.behavior[currentLanguage], margin, currentY);
-                currentY += 10;
+                currentY += 5;
 
                 if (animalData.behavior.description?.[currentLanguage]) {
                     pdf.setFontSize(12);
@@ -690,7 +694,7 @@
                         pageWidth - 2 * margin
                     );
                     pdf.text(behaviorDesc, margin, currentY);
-                    currentY += behaviorDesc.length * 5 + 10;
+                    currentY += behaviorDesc.length * 5 + 5;
                 }
 
                 // Add prey information if exists
@@ -706,7 +710,7 @@
                         pageWidth - 2 * margin
                     );
                     pdf.text(weaknessText, margin, currentY);
-                    currentY += weaknessText.length * 5 + 10;
+                    currentY += weaknessText.length * 5 + 5;
                 }
             }
 
@@ -714,7 +718,7 @@
             if (animalData.breeding) {
                 pdf.setFontSize(16);
                 pdf.text(translationsPage.title.breeding[currentLanguage], margin, currentY);
-                currentY += 10;
+                currentY += 5;
 
                 if (animalData.breeding.description?.[currentLanguage]) {
                     pdf.setFontSize(12);
@@ -723,7 +727,7 @@
                         pageWidth - 2 * margin
                     );
                     pdf.text(breedingDesc, margin, currentY);
-                    currentY += breedingDesc.length * 5 + 10;
+                    currentY += breedingDesc.length * 5 + 5;
                 }
 
                 // Add egg behavior if exists
@@ -733,7 +737,7 @@
                         pageWidth - 2 * margin
                     );
                     pdf.text(eggBehaviorText, margin, currentY);
-                    currentY += eggBehaviorText.length * 5 + 10;
+                    currentY += eggBehaviorText.length * 5 + 5;
                 }
             }
 
