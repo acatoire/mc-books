@@ -93,9 +93,6 @@ behavior:
       le joueur une fois apprivoisés. Lorsqu'ils sont en meute, ils gagnent des dégâts
       d'attaque et de la vitesse accrus.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Coyotes can be bred using raw meat. When bred, they will form a pack and work
       together to hunt and protect their territory. Baby coyotes will grow up to join

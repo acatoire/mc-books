@@ -97,9 +97,6 @@ behavior:
       pectorales en forme d'ailes. Elles sont connues pour leur dard venimeux sur
       leur queue, qu'elles utilisent pour se défendre. Elles ne peuvent pas être apprivoisées.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Stingrays cannot be bred but will naturally spawn in their respective biomes.
     fr: Les raies ne peuvent pas se reproduire mais apparaîtront naturellement dans

@@ -96,9 +96,6 @@ behavior:
       insectivore. Ils sont solitaires et chercheront de la nourriture la nuit. Ils
       peuvent être apprivoisés en utilisant des insectes.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Hedgehogs can be bred using insects. When bred, they will produce a baby hedgehog
       that stays close to its parents. The baby will grow into an adult over time.

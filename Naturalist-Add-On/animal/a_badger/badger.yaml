@@ -15,8 +15,8 @@ description:
     з довгими кігтями та грубою шерстю. Вони проводять більшу частину часу під землею,
     виходячи лише вночі на полювання.
   es: Los tejones son mamíferos pequeños con cuerpos planos y en forma de cuña, patas
-    anchas con garras largas y pelo grueso. Pasan la mayor parte de su tiempo bajo tierra,
-    saliendo solo de noche para cazar.
+    anchas con garras largas y pelo grueso. Pasan la mayor parte de su tiempo bajo
+    tierra, saliendo solo de noche para cazar.
 stats:
   health: 6
   classification:
@@ -44,15 +44,15 @@ stats:
 images:
   main: badger.gif
   items:
-    - bushmeat.png
-    - cooked_bushmeat.png
-    - fur.png
+  - bushmeat.png
+  - cooked_bushmeat.png
+  - fur.png
   gallery:
-    - badger_breeding.png
-    - badger_family.png
-    - badger_vs_piglin.png
+  - badger_breeding.png
+  - badger_family.png
+  - badger_vs_piglin.png
   gifs:
-    - badger.gif
+  - badger.gif
 spawning:
   description:
     en: Badgers will spawn in groups of 1-2 near cave entrances in the forest, hills,
@@ -66,8 +66,8 @@ spawning:
       тайзі та багатих печерах. Ці тварини активніші вночі та з'являтимуться при рівні
       освітленості 7 або нижче.
     es: Los tejones aparecerán en grupos de 1-2 cerca de las entradas de las cuevas
-      en los biomas de bosque, colinas, taiga y cuevas exuberantes. Estos animales son
-      más activos por la noche y aparecerán con niveles de luz de 7 o menos.
+      en los biomas de bosque, colinas, taiga y cuevas exuberantes. Estos animales
+      son más activos por la noche y aparecerán con niveles de luz de 7 o menos.
 drops:
   description:
     en: Badger drops upon death
@@ -75,75 +75,75 @@ drops:
     uk: Крапля борсука при смерті
     es: El tejón suelta al morir
   items:
-    - name:
-        en: Fur
-        fr: Fourrure
-        uk: Хутро
-        es: Piel
-      amount: 0-1
-      looting: true
-      condition:
-        en: Maximum amount increased by 1 per level of Looting, for a maximum of 0-3
-          with Looting III
-        fr: Le montant maximum est augmenté de 1 par niveau de Pillage, pour un maximum
-          de 0-3 avec Pillage III
-        uk: Максимальна кількість збільшується на 1 за кожен рівень Розграбування, до
-          максимуму 0-3 з Розграбуванням III
-        es: La cantidad máxima aumenta en 1 por nivel de Botín, hasta un máximo de 0-3
-          con Botín III
-    - name:
-        en: Raw Bushmeat
-        fr: Viande de brousse crue
-        uk: Сира м'ясна страва
-        es: Carne de monte cruda
-      amount: 0-1
-      looting: true
-      condition:
-        en: Maximum amount increased by 1 per level of Looting, for a maximum of 0-3
-          with Looting III
-        fr: Le montant maximum est augmenté de 1 par niveau de Pillage, pour un maximum
-          de 0-3 avec Pillage III
-        uk: Максимальна кількість збільшується на 1 за кожен рівень Розграбування, до
-          максимуму 0-3 з Розграбуванням III
-        es: La cantidad máxima aumenta en 1 por nivel de Botín, hasta un máximo de 0-3
-          con Botín III
-    - name:
-        en: Cooked Bushmeat
-        fr: Viande de brousse cuite
-        uk: Приготована м'ясна страва
-        es: Carne de monte cocida
-      amount: 0-1
-      condition:
-        en: Can be dropped when killed on land with Smelting or Flame enchantment. This
-          will not work when a Badger is killed while swimming.
-        fr: Peut être obtenu lorsqu'il est tué sur terre avec l'enchantement Cuisson
-          ou Flamme. Cela ne fonctionnera pas lorsqu'un blaireau est tué en nageant.
-        uk: Може випасти, якщо вбити на суші з зачаруванням Плавлення або Полум'я. Це
-          не спрацює, якщо борсука вбити під час плавання.
-        es: Puede soltarse cuando se mata en tierra con el encantamiento de Fundición
-          o Llama. Esto no funcionará cuando un tejón sea asesinado mientras nada.
-    - name:
-        en: Experience Orbs
-        fr: Orbes d'expérience
-        uk: Сфери досвіду
-        es: Orbes de experiencia
-      amount: 1-3
-      condition:
-        en: if killed by Player
-        fr: si tué par un joueur
-        uk: якщо вбито Гравцем
-        es: si es asesinado por un Jugador
-    - name:
-        en: Experience Orbs
-        fr: Orbes d'expérience
-        uk: Сфери досвіду
-        es: Orbes de experiencia
-      amount: 1-7
-      condition:
-        en: upon breeding
-        fr: lors de la reproduction
-        uk: при розмноженні
-        es: al reproducirse
+  - name:
+      en: Fur
+      fr: Fourrure
+      uk: Хутро
+      es: Piel
+    amount: 0-1
+    looting: true
+    condition:
+      en: Maximum amount increased by 1 per level of Looting, for a maximum of 0-3
+        with Looting III
+      fr: Le montant maximum est augmenté de 1 par niveau de Pillage, pour un maximum
+        de 0-3 avec Pillage III
+      uk: Максимальна кількість збільшується на 1 за кожен рівень Розграбування, до
+        максимуму 0-3 з Розграбуванням III
+      es: La cantidad máxima aumenta en 1 por nivel de Botín, hasta un máximo de 0-3
+        con Botín III
+  - name:
+      en: Raw Bushmeat
+      fr: Viande de brousse crue
+      uk: Сира м'ясна страва
+      es: Carne de monte cruda
+    amount: 0-1
+    looting: true
+    condition:
+      en: Maximum amount increased by 1 per level of Looting, for a maximum of 0-3
+        with Looting III
+      fr: Le montant maximum est augmenté de 1 par niveau de Pillage, pour un maximum
+        de 0-3 avec Pillage III
+      uk: Максимальна кількість збільшується на 1 за кожен рівень Розграбування, до
+        максимуму 0-3 з Розграбуванням III
+      es: La cantidad máxima aumenta en 1 por nivel de Botín, hasta un máximo de 0-3
+        con Botín III
+  - name:
+      en: Cooked Bushmeat
+      fr: Viande de brousse cuite
+      uk: Приготована м'ясна страва
+      es: Carne de monte cocida
+    amount: 0-1
+    condition:
+      en: Can be dropped when killed on land with Smelting or Flame enchantment. This
+        will not work when a Badger is killed while swimming.
+      fr: Peut être obtenu lorsqu'il est tué sur terre avec l'enchantement Cuisson
+        ou Flamme. Cela ne fonctionnera pas lorsqu'un blaireau est tué en nageant.
+      uk: Може випасти, якщо вбити на суші з зачаруванням Плавлення або Полум'я. Це
+        не спрацює, якщо борсука вбити під час плавання.
+      es: Puede soltarse cuando se mata en tierra con el encantamiento de Fundición
+        o Llama. Esto no funcionará cuando un tejón sea asesinado mientras nada.
+  - name:
+      en: Experience Orbs
+      fr: Orbes d'expérience
+      uk: Сфери досвіду
+      es: Orbes de experiencia
+    amount: 1-3
+    condition:
+      en: if killed by Player
+      fr: si tué par un joueur
+      uk: якщо вбито Гравцем
+      es: si es asesinado por un Jugador
+  - name:
+      en: Experience Orbs
+      fr: Orbes d'expérience
+      uk: Сфери досвіду
+      es: Orbes de experiencia
+    amount: 1-7
+    condition:
+      en: upon breeding
+      fr: lors de la reproduction
+      uk: при розмноженні
+      es: al reproducirse
   note:
     en: Cubs will not drop experience orbs when killed.
     fr: Les petits ne donnent pas d'orbes d'expérience lorsqu'ils sont tués.
@@ -165,15 +165,10 @@ behavior:
       у печерах/під землею, і якщо ви побачите одного зовні вдень, ймовірно, він робить
       денний сон!
     es: Los tejones pueden estar en un estado pasivo o hostil. Los cachorros son pasivos;
-      los tejones adultos solo se vuelven hostiles cerca de los cerdos zombis y los atacarán.
-      Los tejones prosperan en cuevas/subterráneos, ¡y si ves uno afuera durante el día,
-      es probable que esté tomando una siesta!
+      los tejones adultos solo se vuelven hostiles cerca de los cerdos zombis y los
+      atacarán. Los tejones prosperan en cuevas/subterráneos, ¡y si ves uno afuera
+      durante el día, es probable que esté tomando una siesta!
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
-    uk: Розмноження
-    es: Reproducción
   description:
     en: Adult Badgers with full health can be bred with sweet berries. There is a
       5-minute cooldown for breeding, during which the badger will not accept sweet
@@ -186,14 +181,15 @@ breeding:
       розмноження 5 хвилин, протягом якої борсук не прийме ягоди, але прийме, якщо
       отримає поранення та потребує зцілення.
     es: Los tejones adultos con salud completa se pueden reproducir con bayas dulces.
-      Hay un tiempo de reutilización de 5 minutos para la reproducción, durante el cual
-      el tejón no aceptará bayas dulces, pero lo hará si se lesiona y necesita curarse.
+      Hay un tiempo de reutilización de 5 minutos para la reproducción, durante el
+      cual el tejón no aceptará bayas dulces, pero lo hará si se lesiona y necesita
+      curarse.
   behavior:
     en: Upon successful breeding, a cub will be born. The growth of cubs can be slowly
       accelerated by using sweet berries.
     fr: Après une reproduction réussie, un petit naîtra. La croissance des petits
       peut être légèrement accélérée en utilisant des baies sucrées.
-    uk: Після успішного розмноження народиться дитинча. Ріст дитинчат можна трохи прискорити,
-      використовуючи солодкі ягоди.
-    es: Después de una reproducción exitosa, nacerá un cachorro. El crecimiento de los
-      cachorros se puede acelerar lentamente usando bayas dulces.
+    uk: Після успішного розмноження народиться дитинча. Ріст дитинчат можна трохи
+      прискорити, використовуючи солодкі ягоди.
+    es: Después de una reproducción exitosa, nacerá un cachorro. El crecimiento de
+      los cachorros se puede acelerar lentamente usando bayas dulces.

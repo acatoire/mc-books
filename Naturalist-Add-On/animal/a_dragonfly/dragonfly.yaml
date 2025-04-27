@@ -84,9 +84,6 @@ behavior:
       l'air. Elles sont attirées par les sources de lumière la nuit et se rassemblent
       souvent autour des torches ou d'autres blocs émettant de la lumière.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Dragonflies cannot be bred, but they will naturally spawn near bodies of water.
       They lay their eggs in water, and the larvae develop underwater before emerging

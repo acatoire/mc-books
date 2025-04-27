@@ -108,9 +108,6 @@ behavior:
       sensibilité aux environnements secs. Ils peuvent se rétracter dans leur coquille
       pour se protéger. Ils ne peuvent pas être apprivoisés.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Snails cannot be bred but will naturally spawn in their respective biomes.
     fr: Les escargots ne peuvent pas se reproduire mais apparaîtront naturellement

@@ -93,9 +93,6 @@ behavior:
       être entraînés à aider à récolter des fruits et peuvent être utilisés comme
       montures dans les environnements de jungle.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Monkeys can be bred using bananas. When bred, they will produce a baby monkey
       that will stay close to its parents. Baby monkeys are smaller and less powerful

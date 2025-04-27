@@ -93,9 +93,6 @@ behavior:
       souvent les menaces mais peuvent donner des coups de pied puissants si elles
       sont acculées.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Ostriches can be bred using wheat. When bred, they will produce a baby ostrich
       that stays close to its parents.

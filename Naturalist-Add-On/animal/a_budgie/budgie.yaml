@@ -80,9 +80,6 @@ behavior:
       apprivoisées avec des graines et imitent parfois les sons environnants. Lorsqu'elles
       sont menacées, elles s'envolent de manière coordonnée.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Budgies can be bred using various seeds. When bred, they will create a nest
       in nearby trees and lay eggs. The eggs will hatch into baby budgies after a

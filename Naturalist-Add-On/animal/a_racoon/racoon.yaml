@@ -91,9 +91,6 @@ behavior:
       sont nocturnes et chercheront de la nourriture. Ils peuvent être apprivoisés
       en utilisant des baies.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Raccoons can be bred using berries. When bred, they will produce a baby raccoon
       that stays close to its parents. The baby will grow into an adult over time.

@@ -94,9 +94,6 @@ behavior:
       de chasse nocturne. Ils sont nocturnes et se trouvent souvent cachés sous les
       feuilles ou dans les crevasses pendant la journée. Ils ne peuvent pas être apprivoisés.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Jungle Scorpions cannot be bred. They will naturally spawn in their respective
       biomes.

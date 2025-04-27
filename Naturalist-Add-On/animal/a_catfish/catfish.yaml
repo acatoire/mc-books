@@ -94,9 +94,6 @@ behavior:
       avec une canne à pêche et sont attirés par divers types d'appâts. Lorsqu'ils
       sont menacés, ils nagent rapidement vers des eaux plus profondes.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Catfish can be bred using various types of fish food. When bred, they will
       lay eggs in underwater structures or vegetation. The eggs will hatch into fry

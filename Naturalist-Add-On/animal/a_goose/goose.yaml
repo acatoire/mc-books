@@ -100,9 +100,6 @@ behavior:
       en V. Elles sont connues pour leur comportement territorial, surtout pendant
       la saison de nidification. Elles peuvent être apprivoisées en utilisant du blé.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Geese can be bred using wheat. When bred, they will produce a baby goose that
       stays close to its parents. The baby will grow into an adult over time.

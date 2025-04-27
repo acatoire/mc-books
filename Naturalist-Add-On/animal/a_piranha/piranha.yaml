@@ -91,9 +91,6 @@ behavior:
       bancs. Ils sont diurnes et attaqueront tout ce qui entre dans leur territoire.
       Ils ne peuvent pas être apprivoisés.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Piranhas cannot be bred. They will naturally spawn in their respective biomes.
     fr: Les piranhas ne peuvent pas se reproduire. Ils apparaîtront naturellement

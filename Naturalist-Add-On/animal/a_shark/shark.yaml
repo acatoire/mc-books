@@ -91,9 +91,6 @@ behavior:
       rapidement. Ils sont territoriaux et défendront leurs zones de chasse. Ils ne
       peuvent pas être apprivoisés.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Sharks cannot be bred but will naturally spawn in their respective biomes.
     fr: Les requins ne peuvent pas se reproduire mais apparaîtront naturellement dans

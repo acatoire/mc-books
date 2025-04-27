@@ -81,9 +81,6 @@ behavior:
       en position défensive ou tombent au sol. Après avoir mangé suffisamment, elles
       forment un cocon et se transforment finalement en papillon ou en mite.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Caterpillars cannot be bred directly, but they will naturally spawn on leaves
       in appropriate biomes. After reaching maturity, they will form a cocoon and

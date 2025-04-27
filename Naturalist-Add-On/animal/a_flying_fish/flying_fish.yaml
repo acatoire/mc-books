@@ -86,9 +86,6 @@ behavior:
       Ils le feront pour échapper aux prédateurs ou lorsqu'ils sont effrayés. Ils
       peuvent être attrapés avec un seau et gardés comme animaux de compagnie.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Flying fish cannot be bred, but they will naturally spawn in ocean biomes.
       They reproduce by laying eggs in the water, which hatch into larvae that eventually

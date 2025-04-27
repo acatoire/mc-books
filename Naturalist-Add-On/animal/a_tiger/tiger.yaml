@@ -100,9 +100,6 @@ behavior:
       pour leur comportement de chasse furtif et leurs attaques puissantes. Ils peuvent
       être apprivoisés en utilisant de la viande crue.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Tigers can be bred using raw meat. When bred, they will produce a baby tiger
       that stays close to its parents. The baby will grow into an adult over time.

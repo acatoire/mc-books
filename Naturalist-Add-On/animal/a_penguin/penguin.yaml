@@ -94,9 +94,6 @@ behavior:
       plonger profondément pour attraper des poissons. Ils glissent souvent sur leur
       ventre sur la glace et la neige.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Penguins can be bred using fish. When bred, they will produce a baby penguin
       that stays close to its parents.

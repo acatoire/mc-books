@@ -120,9 +120,6 @@ behavior:
       dans un état agressif et retournent dormir une fois qu'ils ont soit tué leur
       cible, soit perdu sa trace.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Adult black bears with full health can be bred with honeycomb, sweet berries,
       raw salmon, cooked salmon, and raw venison. There is a 5-minute cooldown for

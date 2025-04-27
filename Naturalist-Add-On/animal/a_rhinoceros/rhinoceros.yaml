@@ -104,9 +104,6 @@ behavior:
       les joueurs ou les autres animaux qui s'approchent trop près. Ils peuvent être
       apprivoisés en utilisant du blé, mais c'est un processus difficile et dangereux.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Rhinoceroses can be bred using wheat. When bred, they will produce a baby
       rhinoceros that stays close to its parents. The baby will grow into an adult

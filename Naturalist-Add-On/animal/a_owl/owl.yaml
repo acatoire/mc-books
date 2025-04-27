@@ -89,9 +89,6 @@ behavior:
       Ils sont nocturnes et chasseront les petits animaux. Ils peuvent être apprivoisés
       en utilisant de la viande crue.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Owls can be bred using raw meat. When bred, they will produce a baby owl that
       stays close to its parents. The baby will grow into an adult over time.

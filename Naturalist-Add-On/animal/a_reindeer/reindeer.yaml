@@ -93,9 +93,6 @@ behavior:
       et parcourront de longues distances à la recherche de nourriture. Ils peuvent
       être apprivoisés en utilisant du blé.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Reindeer can be bred using wheat. When bred, they will produce a baby reindeer
       that stays close to its parents.

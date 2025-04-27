@@ -87,9 +87,6 @@ behavior:
       Elles sont connues pour leur capacité à grimper sur des surfaces verticales
       et leur sensibilité aux environnements secs. Elles ne peuvent pas être apprivoisées.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Slugs cannot be bred but will naturally spawn in their respective biomes.
     fr: Les limaces ne peuvent pas se reproduire mais apparaîtront naturellement dans

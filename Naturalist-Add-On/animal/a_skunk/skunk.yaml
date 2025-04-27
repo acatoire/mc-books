@@ -96,9 +96,6 @@ behavior:
       la confrontation lorsque possible. Elles peuvent être apprivoisées en utilisant
       des baies.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Skunks can be bred using berries. When bred, they will produce a baby skunk
       that stays close to its parents. The baby will grow into an adult over time.

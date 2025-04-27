@@ -92,9 +92,6 @@ behavior:
       Ce sont d'excellents sauteurs et peuvent se déplacer rapidement sur un terrain
       ouvert. Ce sont des créatures diurnes et sont plus actives pendant la journée.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Kangaroos can be bred using wheat. When bred, they will produce a baby kangaroo
       that will stay close to its parents. Baby kangaroos are smaller and less powerful

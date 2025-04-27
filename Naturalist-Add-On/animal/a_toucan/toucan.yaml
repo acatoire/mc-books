@@ -89,9 +89,6 @@ behavior:
       la nourriture avec leur bec. Ils peuvent être apprivoisés en utilisant des fruits
       tropicaux.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Toucans can be bred using tropical fruits. When bred, they will produce a
       baby toucan that stays close to its parents. The baby will grow into an adult

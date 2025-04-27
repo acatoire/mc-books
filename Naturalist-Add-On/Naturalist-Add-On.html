@@ -428,6 +428,15 @@
                 html += `<p>Weakness: ${getTranslation(translationsAnimal.behavior, 'weakness', currentLanguage)}</p>`;
             }
         }
+
+        if (translationsAnimal.taming) {
+            html += `
+                <h3>${getTranslation(translationsPage.title, 'taming', currentLanguage)}</h3>
+                <p>${getTranslation(translationsAnimal.taming, 'description', currentLanguage)}</p>`;
+            if (translationsAnimal.taming.behavior) {
+                html += `<p>${getTranslation(translationsAnimal.taming, 'behavior', currentLanguage)}</p>`;
+            }
+        }
     
         if (translationsAnimal.breeding) {
             html += `

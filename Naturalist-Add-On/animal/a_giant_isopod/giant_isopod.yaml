@@ -91,9 +91,6 @@ behavior:
       feront lorsqu'ils sont menacés. Ils sont plus actifs pendant la nuit et sont
       souvent vus en train de chercher de la nourriture.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Giant isopods cannot be bred, but they will naturally spawn in deep ocean
       biomes. They reproduce by laying eggs in the water, which hatch into larvae

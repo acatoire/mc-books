@@ -95,9 +95,6 @@ behavior:
       se déplacer rapidement dans l'eau. Elles sont plus actives pendant la nuit et
       sont souvent vues en train de chasser pour se nourrir.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Giant salamanders can be bred using raw fish. When bred, they will produce
       a baby giant salamander that will stay close to its parents. Baby giant salamanders

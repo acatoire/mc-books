@@ -100,9 +100,6 @@ behavior:
       en train de rouler et de culbuter. Ils peuvent être apprivoisés en utilisant
       du bambou.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Red Pandas can be bred using bamboo. When bred, they will produce a baby red
       panda that stays close to its parents.

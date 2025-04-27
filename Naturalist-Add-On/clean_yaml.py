@@ -36,6 +36,16 @@ def clean_yaml_file(file_path):
         if 'title' in data['drops']:
             del data['drops']['title']
 
+    # Remove title from breeding but keep others
+    if 'breeding' in data and isinstance(data['breeding'], dict):
+        if 'title' in data['breeding']:
+            del data['breeding']['title']
+
+    # Remove title from taming but keep others
+    if 'taming' in data and isinstance(data['taming'], dict):
+        if 'title' in data['taming']:
+            del data['taming']['title']
+
     # Remove title from behavior but keep description
     if 'behavior' in data and isinstance(data['behavior'], dict):
         if 'title' in data['behavior']:

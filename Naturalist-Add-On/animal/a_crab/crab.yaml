@@ -91,9 +91,6 @@ behavior:
       ou sous les rochers lorsqu'ils sont menacés. Ils peuvent être attrapés avec
       un seau et gardés comme animaux de compagnie.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Crabs can be bred using fish or kelp. When bred, they will lay eggs in the
       sand near water. The eggs will hatch into baby crabs after a short incubation

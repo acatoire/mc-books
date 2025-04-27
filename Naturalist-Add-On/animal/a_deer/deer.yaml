@@ -96,9 +96,6 @@ behavior:
       être reproduits en utilisant du blé ou des pommes. Lorsqu'ils se reproduisent,
       ils produiront un faon qui grandira pour devenir un cerf adulte.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Deer can be bred using wheat or apples. When bred, they will produce a fawn
       that will grow into an adult deer. Fawns are smaller and more vulnerable than

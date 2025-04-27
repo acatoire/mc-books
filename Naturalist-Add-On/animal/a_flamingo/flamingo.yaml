@@ -90,9 +90,6 @@ behavior:
       ils peuvent être entraînés à aider à localiser les sources d'eau et peuvent
       être utilisés comme montures en eau peu profonde.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Flamingos can be bred using seeds. When bred, they will produce a baby flamingo
       that will stay close to its parents. Baby flamingos are smaller and less powerful

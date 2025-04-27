@@ -97,9 +97,6 @@ behavior:
       de se cacher dans les crevasses. Ils peuvent être apprivoisés en utilisant des
       insectes.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Lizards can be bred using insects. When bred, they will produce a baby lizard
       that stays close to its parents. The baby will grow into an adult over time.

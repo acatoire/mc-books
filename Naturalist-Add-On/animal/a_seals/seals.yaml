@@ -90,9 +90,6 @@ behavior:
       périodes. Ils sont diurnes et chasseront les poissons. Ils peuvent être apprivoisés
       en utilisant des poissons.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Seals can be bred using fish. When bred, they will produce a baby seal that
       stays close to its parents. The baby will grow into an adult over time.

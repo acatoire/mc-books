@@ -94,9 +94,6 @@ behavior:
       et se trouvent souvent près de la surface pendant la nuit. Elles peuvent être
       apprivoisées en utilisant des insectes.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Moles can be bred using insects. When bred, they will produce a baby mole
       that stays close to its parents. The baby will grow into an adult over time.

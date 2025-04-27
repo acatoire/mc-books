@@ -81,9 +81,6 @@ behavior:
       bouteille et gardées comme animaux de compagnie, fournissant une source de lumière
       naturelle.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Fireflies cannot be bred, but they will naturally spawn in forest and swamp
       biomes. They reproduce by laying eggs in moist soil, which hatch into larvae

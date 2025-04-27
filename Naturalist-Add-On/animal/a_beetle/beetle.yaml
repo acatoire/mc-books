@@ -89,9 +89,6 @@ behavior:
       parfois. Lorsqu'ils sont menacés, ils s'envolent ou se recroquevillent en position
       défensive.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Beetles can be bred using various flowers. When bred, they will lay eggs in
       the ground or on logs. The eggs will hatch into larvae after a short incubation

@@ -96,9 +96,6 @@ behavior:
       Elles sont plus actives pendant la nuit et sont souvent vues en train de chasser
       ou de se nourrir de charognes.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Hyenas can be bred using raw meat. When bred, they will produce a baby hyena
       that will stay close to its parents. Baby hyenas are smaller and less powerful

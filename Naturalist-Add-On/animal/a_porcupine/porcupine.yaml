@@ -91,9 +91,6 @@ behavior:
       Lorsqu'ils sont menacés, ils dressent leurs piquants et reculent vers les prédateurs.
       Leurs piquants peuvent être utilisés comme une arme défensive.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Porcupines can be bred using apples. When bred, they will produce a baby porcupine
       that stays close to its parents.

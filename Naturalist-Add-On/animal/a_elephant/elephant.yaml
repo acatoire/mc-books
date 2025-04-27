@@ -90,9 +90,6 @@ behavior:
       blocs. Ce sont des animaux sociaux qui suivront d'autres éléphants et protégeront
       leurs petits.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Elephants can be bred using hay bales. When bred, they will produce a baby
       elephant that will stay close to its parents. Baby elephants are smaller and

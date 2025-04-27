@@ -89,9 +89,6 @@ behavior:
       boiront occasionnellement de l'eau. Ce sont des créatures diurnes et sont plus
       actives pendant la journée.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Giraffes can be bred using acacia leaves. When bred, they will produce a baby
       giraffe that will stay close to its parents. Baby giraffes are smaller and less

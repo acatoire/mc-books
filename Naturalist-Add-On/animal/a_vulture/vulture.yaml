@@ -93,9 +93,6 @@ behavior:
       et leur capacité à repérer la nourriture de très loin. Ils peuvent être apprivoisés
       en utilisant de la chair putréfiée.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Vultures can be bred using rotten flesh. When bred, they will produce a baby
       vulture that stays close to its parents. The baby will grow into an adult over

@@ -93,9 +93,6 @@ behavior:
       et se trouvent souvent dans les arbres et les arbustes. Ils sont plus actifs
       pendant la journée et se retireront dans leurs terriers la nuit.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Quokkas can be bred using apples. When bred, they will produce a baby quokka
       that stays close to its parents.

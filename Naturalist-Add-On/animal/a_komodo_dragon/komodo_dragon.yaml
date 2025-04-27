@@ -93,9 +93,6 @@ behavior:
       sources d'eau. Ce sont des prédateurs furtifs qui traqueront leur proie avant
       d'attaquer.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Komodo dragons cannot be bred but will naturally spawn in their respective
       biomes.

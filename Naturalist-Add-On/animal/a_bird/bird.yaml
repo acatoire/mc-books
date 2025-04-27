@@ -1,146 +1,186 @@
 title:
   en: Bird
   fr: Oiseau
+  uk: Птах
+  es: Pájaro
 last_updated: April 22, 2025 8:47 PM
 description:
-  en: "Small birds are lightweight, agile animals that have compact bodies,\n small\
-    \ beaks, and a fast wingbeat. These birds flit between trees and the \n ground\
-    \ while singing their melodious songs. You can find them in various \n biomes\
-    \ and even befriend them!\n"
-  fr: "Les petits oiseaux sont des animaux légers et agiles qui ont des corps compacts,\
-    \ \nde petits becs et un battement d'ailes rapide. Ces oiseaux voltigent entre\
-    \ les arbres \net le sol tout en chantant leurs mélodies. Vous pouvez les trouver\
-    \ dans divers biomes et même les apprivoiser !\n"
+  en: "Small birds are lightweight, agile animals that have compact bodies, small
+    beaks, and a fast wingbeat. These birds flit between trees and the ground
+    while singing their melodious songs. You can find them in various biomes
+    and even befriend them!"
+  fr: "Les petits oiseaux sont des animaux légers et agiles qui ont des corps compacts,
+    de petits becs et un battement d'ailes rapide. Ces oiseaux voltigent entre
+    les arbres et le sol tout en chantant leurs mélodies. Vous pouvez les trouver
+    dans divers biomes et même les apprivoiser !"
+  uk: "Маленькі птахи - це легкі та спритні тварини з компактним тілом, маленьким дзьобом та швидким махом крил.
+    Ці птахи літають між деревами та землею, співаючи свої мелодійні пісні. Ви можете знайти їх у різних біомах
+    і навіть подружитися з ними!"
+  es: "Los pájaros pequeños son animales ligeros y ágiles que tienen cuerpos compactos, picos pequeños y un rápido aleteo.
+    Estos pájaros revolotean entre los árboles y el suelo mientras cantan sus melodiosas canciones. ¡Puedes encontrarlos
+    en diversos biomas e incluso hacerte amigo de ellos!"
 stats:
   health: 6
   classification:
     en: Animal
     fr: Animal
+    uk: Тварина
+    es: Animal
   classification_urls:
     animal: /minecraft.fandom.com/wiki/Animal
   behavior:
     en: Passive
     fr: Passif
+    uk: Пасивний
+    es: Pasivo
   spawn:
     en: Overworld Biomes
     fr: Biomes du monde normal
+    uk: Біоми верхнього світу
+    es: Biomas del mundo exterior
   spawn_url:
     overworld: /minecraft.wiki/w/Overworld
 images:
   main: all_birds.gif
   items:
-  - bird_egg.png
+    - bird_egg.png
   gallery:
-  - birb.png
-  - bluejay.png
-  - cardinal_swamp.png
-  - finch.png
-  - more_birbs.png
-  - sparrow..png
+    - birb.png
+    - bluejay.png
+    - cardinal_swamp.png
+    - finch.png
+    - more_birbs.png
+    - sparrow..png
   variants:
-  - bluejay_bird.gif
-  - canary_bird.gif
-  - cardinal_bird.gif
-  - finch_bird.gif
-  - robin_bird.gif
-  - sparrow_bird.gif
+    - bluejay_bird.gif
+    - canary_bird.gif
+    - cardinal_bird.gif
+    - finch_bird.gif
+    - robin_bird.gif
+    - sparrow_bird.gif
   gifs:
-  - all_birds.gif
-  - bluejay_bird.gif
-  - canary_bird.gif
-  - cardinal_bird.gif
-  - finch_bird.gif
-  - robin_bird.gif
-  - sparrow_bird.gif
+    - all_birds.gif
+    - bluejay_bird.gif
+    - canary_bird.gif
+    - cardinal_bird.gif
+    - finch_bird.gif
+    - robin_bird.gif
+    - sparrow_bird.gif
 spawning:
   description:
     en: "All bird variations will spawn in groups of 1-4 on grass, leaves, and logs.\n\
-      \ They will spawn during the daytime with light levels between 7-15.\n"
+      They will spawn during the daytime with light levels between 7-15.\n"
     fr: "Toutes les variations d'oiseaux apparaîtront en groupes de 1 à 4 sur l'herbe,\
       \ les feuilles et les bûches.\n Ils apparaîtront pendant la journée avec des\
       \ niveaux de lumière entre 7 et 15.\n"
+    uk: "Усі варіації птахів з'являтимуться групами по 1-4 особини на траві, листі та колодах.\nВони з'являтимуться вдень при рівні освітленості 7-15.\n"
+    es: "Todas las variaciones de pájaros aparecerán en grupos de 1-4 en la hierba, las hojas y los troncos.\nAparecerán durante el día con niveles de luz entre 7-15.\n"
   variants:
-  - name:
-      en: Bluejay
-      fr: Geai bleu
-    spawn_biomes:
-    - /minecraft.wiki/w/Windswept_Hills
-    - /minecraft.wiki/w/Frozen_Peaks
-    - /minecraft.wiki/w/Snowy_Plains
-    - /minecraft.wiki/w/Snowy_Slopes
-    - /minecraft.fandom.com/wiki/Taiga
-  - name:
-      en: Canary
-      fr: Canari
-    spawn_biomes:
-    - /minecraft.wiki/w/Windswept_Hills
-    - /minecraft.wiki/w/Mountains
-    not_spawn:
-    - /minecraft.wiki/w/Grove
-  - name:
-      en: Cardinal
-      fr: Cardinal
-    spawn_biomes:
-    - /minecraft.wiki/w/Birch_Forest
-    - /minecraft.wiki/w/Desert
-    - /minecraft.wiki/w/Flower_Forest
-    - /minecraft.wiki/w/Forest
-    - /minecraft.wiki/w/Grove
-    - /minecraft.wiki/w/Mangrove_Swamp
-    - /minecraft.wiki/w/Savanna
-    - /minecraft.wiki/w/Swamp
-    not_spawn:
-    - Frozen Variants
-  - name:
-      en: Finch
-      fr: Pinson
-    spawn_biomes:
-    - /minecraft.wiki/w/Forest
-    - /minecraft.wiki/w/Savanna
-  - name:
-      en: Robin
-      fr: Rouge-gorge
-    spawn_biomes:
-    - /minecraft.wiki/w/Birch_Forest
-    - /minecraft.wiki/w/Flower_Forest
-    - /minecraft.wiki/w/Forest
-    - /minecraft.wiki/w/Old_Growth_Pine_Taiga
-    - /minecraft.wiki/w/Giant_Tree_Taiga_Hills
-    - /minecraft.wiki/w/Taiga_Hills
-    - /minecraft.wiki/w/Mountains
-    not_spawn:
-    - Frozen Variants
-  - name:
-      en: Sparrow
-      fr: Moineau
-    spawn_biomes:
-    - /minecraft.wiki/w/Cherry_Grove
-    - /minecraft.wiki/w/Plains
+    - name:
+        en: Bluejay
+        fr: Geai bleu
+        uk: Сойка
+        es: Arrendajo azul
+      spawn_biomes:
+        - /minecraft.wiki/w/Windswept_Hills
+        - /minecraft.wiki/w/Frozen_Peaks
+        - /minecraft.wiki/w/Snowy_Plains
+        - /minecraft.wiki/w/Snowy_Slopes
+        - /minecraft.fandom.com/wiki/Taiga
+    - name:
+        en: Canary
+        fr: Canari
+        uk: Канарка
+        es: Canario
+      spawn_biomes:
+        - /minecraft.wiki/w/Windswept_Hills
+        - /minecraft.wiki/w/Mountains
+      not_spawn:
+        - /minecraft.wiki/w/Grove
+    - name:
+        en: Cardinal
+        fr: Cardinal
+        uk: Кардинал
+        es: Cardenal
+      spawn_biomes:
+        - /minecraft.wiki/w/Birch_Forest
+        - /minecraft.wiki/w/Desert
+        - /minecraft.wiki/w/Flower_Forest
+        - /minecraft.wiki/w/Forest
+        - /minecraft.wiki/w/Grove
+        - /minecraft.wiki/w/Mangrove_Swamp
+        - /minecraft.wiki/w/Savanna
+        - /minecraft.wiki/w/Swamp
+      not_spawn:
+        - Frozen Variants
+    - name:
+        en: Finch
+        fr: Pinson
+        uk: Щиглик
+        es: Pinzón
+      spawn_biomes:
+        - /minecraft.wiki/w/Forest
+        - /minecraft.wiki/w/Savanna
+    - name:
+        en: Robin
+        fr: Rouge-gorge
+        uk: Малинівка
+        es: Petirrojo
+      spawn_biomes:
+        - /minecraft.wiki/w/Birch_Forest
+        - /minecraft.wiki/w/Flower_Forest
+        - /minecraft.wiki/w/Forest
+        - /minecraft.wiki/w/Old_Growth_Pine_Taiga
+        - /minecraft.wiki/w/Giant_Tree_Taiga_Hills
+        - /minecraft.wiki/w/Taiga_Hills
+        - /minecraft.wiki/w/Mountains
+      not_spawn:
+        - Frozen Variants
+    - name:
+        en: Sparrow
+        fr: Moineau
+        uk: Горобець
+        es: Gorrión
+      spawn_biomes:
+        - /minecraft.wiki/w/Cherry_Grove
+        - /minecraft.wiki/w/Plains
 drops:
   description:
-    en: All bird variation drops upon death
-    fr: Toutes les variations d'oiseaux laissent tomber à leur mort
+    en: "All bird variation drops upon death"
+    fr: "Toutes les variations d'oiseaux laissent tomber à leur mort"
+    uk: "Усі варіації птахів випадають при смерті"
+    es: "Todas las variaciones de pájaros sueltan al morir"
   items:
-  - name:
-      en: Feather
-      fr: Plume
-    amount: 0-1
-    looting: true
-    condition:
-      en: Maximum amount increased by 1 per level of Looting, for a maximum of 0-3
-        with Looting III
-      fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum
-        de 0-3 avec Butin III
-  - name:
-      en: Experience Orbs
-      fr: Orbes d'expérience
-    amount: 1-3
-    condition:
-      en: if killed by Player or poisoned
-      fr: si tué par un joueur ou empoisonné
+    - name:
+        en: Feather
+        fr: Plume
+        uk: Пір'їна
+        es: Pluma
+      amount: 0-1
+      looting: true
+      condition:
+        en: "Maximum amount increased by 1 per level of Looting, for a maximum of 0-3
+          with Looting III"
+        fr: "La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum
+          de 0-3 avec Butin III"
+        uk: "Максимальна кількість збільшується на 1 за кожен рівень Розграбування, до максимуму 0-3 з Розграбуванням III"
+        es: "La cantidad máxima aumenta en 1 por nivel de Botín, hasta un máximo de 0-3 con Botín III"
+    - name:
+        en: Experience Orbs
+        fr: "Orbes d'expérience"
+        uk: Сфери досвіду
+        es: "Orbes de experiencia"
+      amount: 1-3
+      condition:
+        en: "if killed by Player or poisoned"
+        fr: "si tué par un joueur ou empoisonné"
+        uk: "якщо вбито Гравцем або отруєно"
+        es: "si es asesinado por un Jugador o envenenado"
   note:
     en: Hatchlings yield no items nor experience.
-    fr: Les oisillons ne donnent ni objets ni expérience.
+    fr: "Les oisillons ne donnent ni objets ni expérience."
+    uk: Пташенята не дають предметів чи досвіду.
+    es: Los polluelos no dan objetos ni experiencia.
 behavior:
   description:
     en: "Birds are passive animals found in the overworld. Each bird can be found\
@@ -151,6 +191,14 @@ behavior:
     fr: "Les oiseaux sont des créatures passives qui volent entre les arbres et le\
       \ sol.\n Ils chantent occasionnellement, produisant des notes musicales qui\
       \ peuvent \n être entendues à proximité.\n"
+    uk: "Птахи - це пасивні тварини, яких можна знайти у верхньому світі. Кожен птах можна знайти у своєму специфічному біомі\
+      \ та ідентифікувати за кольором. Якщо ви не можете знайти птахів на волі, прислухайтеся до їхнього щебету, щоб\
+      \ зрозуміти, що вони поруч! Птахи літають навколо та часто приземляються, щоб відпочити.\
+      \ Вони махатимуть крилами, щоб плавати та зменшити шкоду від падіння.\n"
+    es: "Los pájaros son animales pasivos que se encuentran en el mundo exterior. Cada pájaro se puede encontrar en su bioma específico\
+      \ e identificar por su color. ¡Si no puedes encontrar pájaros en la naturaleza, escucha sus trinos para\
+      \ indicar que están cerca! Los pájaros vuelan alrededor y aterrizan frecuentemente para descansar.\
+      \ Batirán sus alas para nadar y mitigar el daño por caída.\n"
   capture_net:
     en: "Birds can be caught in capture nets. If a bird is caught, \nthe bird (in\
       \ its variant) will enter the player's inventory as an item.\nIf the inventory\
@@ -170,10 +218,20 @@ behavior:
       \ surfaces des blocs sont prioritaires pour l'apparition ; \nsi aucune n'est\
       \ à portée, les créatures peuvent également apparaître dans l'eau.\nLes oiseaux\
       \ peuvent être donnés à d'autres animaux pour l'apprivoisement/reproduction.\n"
+    uk: "Птахів можна ловити в сітках для зловини. Якщо птаха спіймано, птах (у своїй варіації) потрапить в інвентар гравця як предмет.\
+      \ Якщо інвентар повний, птах впаде на землю перед гравцем.\
+      \ Птаха використовують, натискаючи \"використовувати\" на будь-якій поверхні (верхній, нижній або бічній) блоку.\
+      \ При використанні на верхній поверхні птах з'являється з ногами, безпосередньо прилеглими до поверхні.\
+      \ Ця взаємодія дуже схожа на яйце появи. Пріоритетними для появи є поверхні блоків; якщо жодної немає поруч, істоти також можуть з'явитися у воді.\
+      \ Птахів можна годувати іншими тваринами для приручення/розмноження.\n"
+    es: "Los pájaros se pueden atrapar en redes de captura. Si se atrapa un pájaro, el pájaro (en su variante) entrará en el inventario del jugador como un objeto.\
+      \ Si el inventario está lleno, el pájaro caerá al suelo frente al jugador.\
+      \ Un pájaro se usa presionando \"usar\" en cualquier superficie (superior, inferior o lateral) de un bloque.\
+      \ Cuando se usa en una superficie superior, el pájaro aparece con las patas inmediatamente adyacentes a la superficie.\
+      \ Esta interacción es muy similar a un huevo de aparición. Las superficies de los bloques tienen prioridad para la aparición;\
+      \ si no hay ninguna al alcance, las criaturas también se pueden generar en el agua.\
+      \ Los pájaros se pueden alimentar a otros animales para domesticarlos/reproducirlos.\n"
 taming:
-  title:
-    en: Taming, Healing, & Feeding
-    fr: Apprivoisement, Soins et Nourriture
   description:
     en: "Birds can be tamed with wheat seeds, pumpkin seeds, melon seeds, and beetroot\
       \ seeds.\nThere is a 33% chance of successful taming. Once they are tamed,\n\
@@ -189,6 +247,14 @@ taming:
       \ \nchoix ou utiliser des cisailles pour couper le ruban. Si vous coupez le\
       \ ruban, il peut être réappliqué \nen utilisant une couleur de teinture de votre\
       \ choix.\n"
+    uk: "Птахів можна приручити пшеничними зернами, насінням гарбуза, дині та буряка.\nЄ 33% шансів на успішне приручення.\
+      \ Після приручення ви побачите серця та стрічку на лівій нозі, що означає, що ви приручили птаха.\
+      \ Ви можете пофарбувати стрічку у колір на ваш вибір або використати ножиці, щоб відрізати стрічку.\
+      \ Якщо ви відріжете стрічку, її можна застосувати повторно, використовуючи фарбу на ваш вибір.\n"
+    es: "Los pájaros se pueden domesticar con semillas de trigo, semillas de calabaza, semillas de melón y semillas de remolacha.\nHay un 33% de posibilidades de domar con éxito.\
+      \ Una vez domesticados, verás aparecer corazones y una cinta en su pata izquierda, lo que significa que has domesticado al pájaro.\
+      \ Puedes teñir la cinta del color que elijas o usar tijeras para cortar la cinta. Si cortas la cinta, se puede volver a aplicar usando un color\
+      \ de tinte de tu elección.\n"
   behavior:
     en: "Tamed birds can be commanded to sit or to follow. Birds will teleport to\
       \ \nthe player if the player is further than 5 blocks away. Birds will not teleport\
@@ -212,10 +278,19 @@ taming:
       et ils perdront des points de santé. Le chocolat est toxique pour les oiseaux.\n\
       Note : Contrairement aux perroquets, ces oiseaux ne dansent pas lorsqu'un jukebox\
       \ joue de la musique.\n"
+    uk: "Приручені птахи можуть бути наказані сидіти або йти слідом. Птахи телепортуватимуться до гравця, якщо гравець знаходиться\
+      \ далі ніж за 5 блоків. Птахи не телепортуватимуться до гравця, якщо їх наказати сидіти. Якщо птах, якого ви приручили, отримає поранення,\
+      \ ви можете годувати його пшеничними зернами, насінням гарбуза, дині або буряка, щоб збільшити його здоров'я до максимуму.\
+      \ 1 зерно збільшує очки здоров'я птаха на 2. Поранений птах не зможе розмножуватися, доки не вилікується.\
+      \ Якщо ви нагодуєте цих птахів печивом, вони виділятимуть частинки смертельної отрути та втрачатимуть очки здоров'я. Шоколад токсичний для птахів.\n\
+      Примітка: На відміну від папуг, ці птахи не танцюють під музику з програвача.\n"
+    es: "Los pájaros domesticados se pueden ordenar que se sienten o que sigan. Los pájaros se teletransportarán al jugador\
+      \ si el jugador está a más de 5 bloques de distancia. Los pájaros no se teletransportarán al jugador si se les ordena\
+      \ que se sienten. Si un pájaro que has domesticado se lesiona, puedes alimentarlo con semillas de trigo, semillas de calabaza, semillas de melón\
+      \ o semillas de remolacha para aumentar su salud hasta el máximo. 1 semilla aumenta los puntos de salud del pájaro en 2.\
+      \ Un pájaro herido no podrá reproducirse hasta que se cure. Alimentar a estos pájaros con una galleta hará que emitan partículas de veneno fatal\
+      \ y perderán puntos de salud. El chocolate es tóxico para los pájaros.\nNota: A diferencia de los loros, estos pájaros no bailan cuando un tocadiscos está reproduciendo música.\n"
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: "Birds with full health can be bred with wheat seeds, \npumpkin seeds, melon\
       \ seeds, and beetroot seeds. Birds require the following leaves to be \nwithin\
@@ -233,6 +308,13 @@ breeding:
       \ et feuilles d'épicéa. Il y a un temps de recharge \nde 5 minutes pour la reproduction,\
       \ pendant lequel les oiseaux n'acceptent aucune graine \npour la reproduction\
       \ mais le feront s'ils sont blessés et ont besoin de guérir.\n"
+    uk: "Птахи з повним здоров'ям можуть розмножуватися пшеничними зернами, насінням гарбуза, дині та буряка. Для розмноження птахам потрібно, щоб\
+      \ наступні листки були в радіусі 5 блоків: листя акації, азалії, квітучої азалії, берези, вишні, темного дуба, джунглів, мангрових дерев, дуба та ялини.\
+      \ Є перерва на розмноження 5 хвилин, протягом якої птахи не приймуть насіння для розмноження, але приймуть, якщо отримають поранення та потребують зцілення.\n"
+    es: "Los pájaros con salud completa se pueden reproducir con semillas de trigo, semillas de calabaza, semillas de melón y semillas de remolacha.\
+      \ Para iniciar la reproducción, los pájaros necesitan que las siguientes hojas estén dentro de un radio de 5 bloques: hojas de acacia, azalea, azalea en flor,\
+      \ abedul, cerezo, roble oscuro, selva, mangle, roble y abeto. Hay un tiempo de reutilización de 5 minutos para la reproducción, durante el cual los pájaros\
+      \ no aceptarán semillas para reproducirse, pero lo harán si se lesionan y necesitan curarse.\n"
   behavior:
     en: "Upon successful breeding, the two birds will create a bird nest containing\
       \ an egg.\nIf in survival mode, the nest & egg can be broken with 1 hit, and\
@@ -243,19 +325,19 @@ breeding:
       \ of different variations will not work.\n"
     fr: 'Après une reproduction réussie, les deux oiseaux créeront un nid d''oiseau
       contenant un œuf.
-
       Si en mode survie, le nid et l''œuf peuvent être cassés en 1 coup, et il tombera
       comme un objet.
-
       Une fois l''œuf placé dans le monde, le minuteur d''éclosion de l''œuf redémarrera.
-
       Il n''y a pas de visuels pour l''éclosion de l''œuf, cependant, un son de craquement
-      sera émis lorsque
-
-      l''œuf éclot et qu''un oisillon apparaît. Note : Lors de la reproduction, les
-      oiseaux doivent être de
-
+      sera émis lorsque l''œuf éclot et qu''un oisillon apparaît. 
+      Note : Lors de la reproduction, les oiseaux doivent être de
       la même variante. Le croisement d''oiseaux de différentes variations ne fonctionnera
-      pas.
-
-      '
+      pas.'
+    uk: "Після успішного розмноження два птахи створять пташине гніздо з яйцем. Якщо ви в режимі виживання, гніздо та яйце можна зламати одним ударом,\
+      \ і воно випаде як предмет. Після розміщення яйця в світі таймер вилуплення яйця перезапуститься. Немає візуальних ефектів для вилуплення яйця,\
+      \ однак звук тріскатиметься, коли яйце вилупиться і з'явиться пташеня. Примітка: Для розмноження птахи повинні бути однієї варіації.\
+      \ Схрещування птахів різних варіацій не спрацює.\n"
+    es: "Después de una reproducción exitosa, los dos pájaros crearán un nido de pájaro que contiene un huevo. Si estás en modo supervivencia, el nido y el huevo\
+      \ se pueden romper con 1 golpe, y caerán como un objeto. Una vez que el huevo se coloca en el mundo, el temporizador de eclosión del huevo se reiniciará.\
+      \ No hay visuales para la eclosión del huevo, sin embargo, se emitirá un sonido de crujido cuando el huevo eclosione y aparezca un polluelo.\
+      \ Nota: Al reproducirse, los pájaros deben ser de la misma variante. El cruce de pájaros de diferentes variaciones no funcionará.\n"

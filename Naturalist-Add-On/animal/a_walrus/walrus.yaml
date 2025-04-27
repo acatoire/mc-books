@@ -107,9 +107,6 @@ behavior:
       agressif lorsqu'ils protègent leurs petits ou leur territoire. Ils peuvent être
       apprivoisés en utilisant du poisson.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Walruses can be bred using fish. When bred, they will produce a baby walrus
       that stays close to its parents. The baby will grow into an adult over time.

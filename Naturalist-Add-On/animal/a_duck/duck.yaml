@@ -92,9 +92,6 @@ behavior:
       leurs plumes. Ils peuvent être reproduits en utilisant des graines et produiront
       des canetons lorsqu'ils se reproduisent.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Ducks can be bred using seeds. When bred, they will produce a duckling that
       will grow into an adult duck. Ducklings are smaller and more vulnerable than

@@ -91,9 +91,6 @@ behavior:
       ! Les castors écorceront occasionnellement les bûches en bois avec leurs dents
       de devant.
 taming:
-  title:
-    en: Taming, Healing, & Feeding
-    fr: Apprivoisement, Soins et Nourriture
   description:
     en: Adult beavers can be tamed with sticks. There is a 50% chance of successful
       taming. Once they are tamed, you will see hearts appear and a bow on their tail
@@ -123,9 +120,6 @@ taming:
       jusqu'à ce qu'il soit guéri. Les castors apprivoisés apporteront des bâtons
       à leur propriétaire !
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Adult beavers with full health can be bred with sticks. There is a 5-minute
       cooldown for breeding, during which the beaver does not accept sticks for breeding

@@ -116,9 +116,6 @@ behavior:
     en: When a boar is struck by lightning, it transforms into a zoglin
     fr: Lorsqu'un sanglier est frappé par la foudre, il se transforme en zoglin
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Adult boars with full health can be bred with carrots, beetroots, and potatoes.
       There is a 5-minute cooldown for breeding, during which the boars will not accept

@@ -86,9 +86,6 @@ behavior:
       Ils sont nocturnes et passeront la plupart de leur journée dans l'eau. Ils ne
       peuvent pas être apprivoisés.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Hippos cannot be bred. They will naturally spawn in their respective biomes.
     fr: Les hippopotames ne peuvent pas se reproduire. Ils apparaîtront naturellement

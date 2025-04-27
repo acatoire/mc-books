@@ -91,9 +91,6 @@ behavior:
       ou sur le sol pendant la journée. Ils peuvent être apprivoisés en utilisant
       des fruits.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Kakapos can be bred using fruits. When bred, they will produce a baby kakapo
       that stays close to its parents. The baby will grow into an adult over time.

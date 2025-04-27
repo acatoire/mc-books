@@ -88,9 +88,6 @@ behavior:
       s'ils sont attaqués et peuvent être apprivoisés avec des graines. Une fois apprivoisés,
       ils peuvent être entraînés à rapporter des objets et à livrer des messages.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Crows and ravens can be bred using various types of seeds. When bred, they
       will build nests in trees or on structures. The eggs will hatch into baby birds

@@ -90,9 +90,6 @@ behavior:
       de leur temps à chercher de la nourriture et à se reposer. Ce sont des créatures
       diurnes et sont plus actives pendant la journée.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Gorillas can be bred using bananas. When bred, they will produce a baby gorilla
       that will stay close to its parents. Baby gorillas are smaller and less powerful

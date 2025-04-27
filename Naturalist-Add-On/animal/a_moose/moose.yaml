@@ -92,9 +92,6 @@ behavior:
       d'excellents nageurs et se trouvent souvent dans ou près de l'eau. Ils sont
       territoriaux et défendront leur espace contre les intrus.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Moose can be bred using wheat. When bred, they will produce a baby moose that
       stays close to its parents.

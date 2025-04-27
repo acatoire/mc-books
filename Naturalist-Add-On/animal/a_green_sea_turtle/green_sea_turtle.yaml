@@ -88,9 +88,6 @@ behavior:
       herbes marines. Ce sont d'excellentes nageuses et peuvent se déplacer rapidement
       dans l'eau. Ce sont des créatures diurnes et sont plus actives pendant la journée.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Green sea turtles can be bred using seagrass. When bred, they will produce
       a baby green sea turtle that will stay close to its parents. Baby green sea

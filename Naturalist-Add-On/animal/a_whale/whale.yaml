@@ -93,9 +93,6 @@ behavior:
       Ce sont d'excellentes nageuses et peuvent plonger à de grandes profondeurs.
       Elles peuvent être apprivoisées en utilisant du poisson.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Whales cannot be bred but will naturally spawn in their respective biomes.
       They are long-lived creatures that take many years to reach maturity.

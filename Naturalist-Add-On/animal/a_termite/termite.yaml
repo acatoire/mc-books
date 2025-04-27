@@ -82,9 +82,6 @@ behavior:
       rôles au sein de leur colonie, y compris des ouvriers, des soldats et une reine.
       Ils ne peuvent pas être apprivoisés.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Termites cannot be bred but will naturally spawn in their respective biomes.
     fr: Les termites ne peuvent pas se reproduire mais apparaîtront naturellement

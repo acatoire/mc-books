@@ -93,9 +93,6 @@ behavior:
       que des scarabées, des fourmis, des pépites d'or, des racines suspendues, des
       os, ou même des taupes vivantes !
 taming:
-  title:
-    en: Taming, Healing, & Feeding
-    fr: Apprivoisement, Soins et Nourriture
   description:
     en: An anteater can be tamed with termites and ants. There is a 75% chance of
       successful taming. Once they are tamed, you will see hearts appear, and a shirt
@@ -118,9 +115,6 @@ taming:
       leur mettre une laisse et les attacher à une clôture ou construire un enclos
       autour d'eux.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Adult anteaters with full health can be bred with honeycomb. There is a 5-minute
       cooldown for breeding, during which the anteaters do not accept honeycomb for

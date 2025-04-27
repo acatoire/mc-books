@@ -89,9 +89,6 @@ behavior:
       les arbres. Ils sont lents et passent la plupart de leur temps à se reposer.
       Ce sont des créatures nocturnes et sont plus actives la nuit.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Koalas can be bred using eucalyptus leaves. When bred, they will produce a
       baby koala that will stay close to its parents. Baby koalas are smaller and

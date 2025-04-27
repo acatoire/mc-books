@@ -88,9 +88,6 @@ behavior:
       avec de la viande crue et suivront le joueur une fois apprivoisés. Une fois
       apprivoisés, ils peuvent être entraînés à chasser et à rapporter des objets.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Eagles can be bred using raw meat. When bred, they will build nests in high
       places. The eggs will hatch into eaglets after a short incubation period. Eaglets

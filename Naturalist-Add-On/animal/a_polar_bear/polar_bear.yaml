@@ -93,9 +93,6 @@ behavior:
       phoques et autres animaux marins. Ils sont généralement paisibles mais peuvent
       être dangereux s'ils sont provoqués.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Polar Bears can be bred using fish. When bred, they will produce a baby polar
       bear that stays close to its parents.

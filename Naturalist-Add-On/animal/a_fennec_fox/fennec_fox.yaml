@@ -96,9 +96,6 @@ behavior:
       joueur une fois apprivoisés. Une fois apprivoisés, ils aideront à localiser
       les trésors enterrés et peuvent être entraînés à creuser pour trouver des objets.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Fennec foxes can be bred using sweet berries. When bred, they will produce
       a baby fennec fox that will stay close to its parents. Baby fennec foxes are

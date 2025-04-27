@@ -106,9 +106,6 @@ behavior:
       diurnes et se trouvent souvent en train de paître ou de se déplacer à la recherche
       de nourriture. Ils peuvent être apprivoisés en utilisant des bottes de foin.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Mammoths can be bred using hay bales. When bred, they will produce a baby
       mammoth that stays close to its parents. The baby will grow into an adult over

@@ -98,9 +98,6 @@ behavior:
       d'excellentes nageuses et peuvent se faufiler dans de petits espaces. Elles
       libéreront de l'encre lorsqu'elles sont menacées pour échapper aux prédateurs.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Octopuses cannot be bred but will naturally spawn in their respective biomes.
     fr: Les pieuvres ne peuvent pas se reproduire mais apparaîtront naturellement

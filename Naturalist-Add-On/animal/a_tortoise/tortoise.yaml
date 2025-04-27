@@ -95,9 +95,6 @@ behavior:
       leur capacité à survivre dans des conditions difficiles. Ils peuvent être apprivoisés
       en utilisant des cactus.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Tortoises can be bred using cactus. When bred, they will produce a baby tortoise
       that stays close to its parents. The baby will grow into an adult over time.

@@ -100,9 +100,6 @@ behavior:
       par électroréception. Les ornithorynques mâles ont des éperons venimeux sur
       leurs pattes arrière.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Platypuses can be bred using fish. When bred, they will produce a baby platypus
       that stays close to its parents.

@@ -91,9 +91,6 @@ behavior:
       la journée et se retireront dans leurs terriers lorsqu'ils sont menacés. Ce
       sont d'excellents creuseurs et créent des systèmes de tunnels complexes.
 breeding:
-  title:
-    en: Breeding
-    fr: Reproduction
   description:
     en: Prairie Dogs can be bred using wheat. When bred, they will produce a baby
       prairie dog that stays close to its parents.

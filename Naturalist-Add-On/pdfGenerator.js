@@ -288,6 +288,33 @@ async function generatePDF(animalList,
                 currentY += behaviorText.length * 5 + 5;
             }
         }
+
+        // taming section
+        if (animalData.taming) {
+            pdf.setFontSize(16);
+            pdf.text(translationsPage.title.taming[currentLanguage], margin, currentY);
+            currentY += 5;
+
+            if (animalData.taming.description?.[currentLanguage]) {
+                pdf.setFontSize(12);
+                const tamingDesc = pdf.splitTextToSize(
+                    animalData.taming.description[currentLanguage],
+                    pageWidth - 2 * margin
+                );
+                pdf.text(tamingDesc, margin, currentY);
+                currentY += tamingDesc.length * 5 + 5;
+            }
+
+            // Add behavior if exists
+            if (animalData.taming.behavior?.[currentLanguage]) {
+                const behaviorText = pdf.splitTextToSize(
+                    animalData.taming.behavior[currentLanguage],
+                    pageWidth - 2 * margin
+                );
+                pdf.text(behaviorText, margin, currentY);
+                currentY += behaviorText.length * 5 + 5;
+            }
+        }
     }
 
     // Save the PDF
