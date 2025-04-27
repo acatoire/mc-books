@@ -277,6 +277,16 @@ async function generatePDF(animalList,
                 pdf.text(eggBehaviorText, margin, currentY);
                 currentY += eggBehaviorText.length * 5 + 5;
             }
+
+            // Add behavior if exists
+            if (animalData.breeding.behavior?.[currentLanguage]) {
+                const behaviorText = pdf.splitTextToSize(
+                    animalData.breeding.behavior[currentLanguage],
+                    pageWidth - 2 * margin
+                );
+                pdf.text(behaviorText, margin, currentY);
+                currentY += behaviorText.length * 5 + 5;
+            }
         }
     }
 

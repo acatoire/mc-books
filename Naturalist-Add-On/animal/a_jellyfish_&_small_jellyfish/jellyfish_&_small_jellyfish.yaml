@@ -2,8 +2,15 @@ title:
   en: Jellyfish & Small Jellyfish
   fr: Méduses et Petites Méduses
 description:
-  en: Jellyfish are aquatic creatures but are not classified as fish. They are invertebrates that move gelatinously through the water. They come in many shapes and bright, vibrant colors. They utilize tentacles to catch their food along with their bodies that deliver stings to any creature that brushes against it.
-  fr: Les méduses sont des créatures aquatiques, mais elles ne sont pas classées comme des poissons. Ce sont des invertébrés qui se déplacent de manière gélatineuse dans l'eau. Elles existent sous de nombreuses formes et couleurs vives éclatantes. Elles utilisent leurs tentacules pour attraper leur nourriture ainsi que leurs corps qui délivrent des piqûres à toute créature les effleurant.
+  en: Jellyfish are aquatic creatures but are not classified as fish. They are invertebrates
+    that move gelatinously through the water. They come in many shapes and bright,
+    vibrant colors. They utilize tentacles to catch their food along with their bodies
+    that deliver stings to any creature that brushes against it.
+  fr: Les méduses sont des créatures aquatiques, mais elles ne sont pas classées comme
+    des poissons. Ce sont des invertébrés qui se déplacent de manière gélatineuse
+    dans l'eau. Elles existent sous de nombreuses formes et couleurs vives éclatantes.
+    Elles utilisent leurs tentacules pour attraper leur nourriture ainsi que leurs
+    corps qui délivrent des piqûres à toute créature les effleurant.
 stats:
   health: 10
   classification:
@@ -18,15 +25,12 @@ stats:
   spawn:
     en: 'Jellyfish: Ocean
 
-Small Jellyfish: Warm Ocean & Lukewarm Ocean'
+      Small Jellyfish: Warm Ocean & Lukewarm Ocean'
     fr: 'Méduse : Océan
 
-Petite Méduse : Océan Chaud et Océan Tiède'
+      Petite Méduse : Océan Chaud et Océan Tiède'
   spawn_url: minecraft.wiki/w/Ocean
 spawning:
-  title:
-    en: Spawning
-    fr: Apparition
   description:
     en: Jellyfish spawn between coordinates Y -20 & Y 64.
     fr: Les méduses apparaissent entre les coordonnées Y -20 et Y 64.
@@ -46,12 +50,9 @@ spawning:
       en: Warm Ocean & Lukewarm Ocean
       fr: Océan Chaud et Océan Tiède
 drops:
-  title:
-    en: Drops
-    fr: Butin
   description:
     en: 'Jellyfish drops upon death:'
-    fr: "Butin relâché par les méduses à leur mort :"
+    fr: 'Butin relâché par les méduses à leur mort :'
   items:
   - name:
       en: Slime Ball
@@ -68,19 +69,32 @@ drops:
     en: The slime ball has a chance to drop but is not guaranteed upon death.
     fr: La boule de slime peut être lâchée, mais ce n'est pas garanti à leur mort.
 behavior:
-  title:
-    en: Behavior
-    fr: Comportement
   description:
-    en: Jellyfish move in clusters across the ocean. Their bright colors make them easily identifiable, but they tend to blend in with coral reefs. Jellyfish are passive aquatic creatures; however, if a player brushes up against one, they will be stung. This damage mimics running into a cactus. The player may collect jellyfish and small jellyfish by using a water bucket on it, which gives the player a bucket of jellyfish/bucket of small jellyfish (with their variant color). Jellyfish placed with buckets do not despawn naturally. When that bucket is used against a block, it empties the bucket, placing water with the jellyfish swimming in it.
-    fr: Les méduses se déplacent en groupes dans l'océan. Leurs couleurs vives les rendent facilement identifiables, mais elles ont tendance à se fondre dans les récifs coralliens. Les méduses sont des créatures aquatiques passives ; cependant, si un joueur les effleure, elles piquent. Ces dégâts imitent un contact avec un cactus. Le joueur peut collecter des méduses et des petites méduses en utilisant un seau d'eau, ce qui lui donne un seau de méduse/seau de petite méduse (avec leur couleur spécifique). Les méduses placées avec des seaux ne disparaissent pas naturellement. Si ce seau est utilisé contre un bloc, il vidange le seau, mettant de l'eau avec la méduse nageant dedans.
+    en: Jellyfish move in clusters across the ocean. Their bright colors make them
+      easily identifiable, but they tend to blend in with coral reefs. Jellyfish are
+      passive aquatic creatures; however, if a player brushes up against one, they
+      will be stung. This damage mimics running into a cactus. The player may collect
+      jellyfish and small jellyfish by using a water bucket on it, which gives the
+      player a bucket of jellyfish/bucket of small jellyfish (with their variant color).
+      Jellyfish placed with buckets do not despawn naturally. When that bucket is
+      used against a block, it empties the bucket, placing water with the jellyfish
+      swimming in it.
+    fr: Les méduses se déplacent en groupes dans l'océan. Leurs couleurs vives les
+      rendent facilement identifiables, mais elles ont tendance à se fondre dans les
+      récifs coralliens. Les méduses sont des créatures aquatiques passives ; cependant,
+      si un joueur les effleure, elles piquent. Ces dégâts imitent un contact avec
+      un cactus. Le joueur peut collecter des méduses et des petites méduses en utilisant
+      un seau d'eau, ce qui lui donne un seau de méduse/seau de petite méduse (avec
+      leur couleur spécifique). Les méduses placées avec des seaux ne disparaissent
+      pas naturellement. Si ce seau est utilisé contre un bloc, il vidange le seau,
+      mettant de l'eau avec la méduse nageant dedans.
   weakness:
-    en: Jellyfish are unable to survive out of water. Outside of water, they lay with tentacles splayed around them until, eventually, they start to suffocate and die. Jellyfish cannot be put in a cauldron.
-    fr: Les méduses ne peuvent pas survivre hors de l'eau. Hors de l'eau, elles s'affaissent avec leurs tentacules étalés autour d'elles jusqu'à ce qu'elles commencent à suffoquer et meurent. Les méduses ne peuvent pas être placées dans un chaudron.
-gallery:
-  title:
-    en: Gallery
-    fr: Galerie
+    en: Jellyfish are unable to survive out of water. Outside of water, they lay with
+      tentacles splayed around them until, eventually, they start to suffocate and
+      die. Jellyfish cannot be put in a cauldron.
+    fr: Les méduses ne peuvent pas survivre hors de l'eau. Hors de l'eau, elles s'affaissent
+      avec leurs tentacules étalés autour d'elles jusqu'à ce qu'elles commencent à
+      suffoquer et meurent. Les méduses ne peuvent pas être placées dans un chaudron.
 variants:
   title:
     en: Variants
@@ -148,19 +162,3 @@ images:
   - small_jellyfish_variations.gif
   - white_small_jellyfish.gif
   - yellow_small_jellyfish.gif
-community:
-  title:
-    en: Have additional questions? Want to be a part of our community?
-    fr: Vous avez d'autres questions ? Vous voulez faire partie de notre communauté ?
-  join:
-    en: Join our Discord!
-    fr: Rejoignez notre Discord !
-  discord_url: discord.com/invite/starfishstudios
-social_links:
-  Marketplace: www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
-  CurseForge: www.curseforge.com/members/starfish_studios/projects
-  TikTok: www.tiktok.com/@starfishstudios
-  Instagram: www.instagram.com/starfishstudiosinc/
-  Twitter: twitter.com/starfishstudios
-  YouTube: www.youtube.com/@starfishstudios
-  Website: starfish-studios.com

@@ -77,6 +77,19 @@
         }
     }
     
+    // Utility function to safely get translations with English fallback
+    function getTranslation(obj, property, language) {
+        if (!obj || !obj[property]) return '';
+        
+        // If translation exists for the requested language, use it
+        if (obj[property][language]) {
+            return obj[property][language];
+        }
+        
+        // Otherwise fallback to English
+        return obj[property]['en'] || '';
+    }
+    
     // Function to load animal translation
     async function loadAnimalTranslation(animal) {
         try {
@@ -94,9 +107,9 @@
     // Function to update button text
     function updateButtonText(button, animal) {
         const animalData = animalTranslations.get(animal);
-        if (animalData && animalData.title && animalData.title[currentLanguage]) {
+        if (animalData && animalData.title) {
             const nameSpan = button.querySelector('span:not(.animal-id)');
-            nameSpan.textContent = animalData.title[currentLanguage];
+            nameSpan.textContent = getTranslation(animalData, 'title', currentLanguage);
         }
     }
 
@@ -355,95 +368,98 @@
 
         const content = document.getElementById('content');
         let html = `
-                <h2>${translationsAnimal.title[currentLanguage]}</h2>
-                <p>${translationsAnimal.description[currentLanguage]}</p>
+                <h2>${getTranslation(translationsAnimal, 'title', currentLanguage)}</h2>
+                <p>${getTranslation(translationsAnimal, 'description', currentLanguage)}</p>
                 
                 <div class="stats-container">
                     <div class="main-image">
-                        <img src="${animalFolder}${animalPrefix}${currentAnimal}/${translationsAnimal.images.main}" alt="${translationsAnimal.title[currentLanguage]}">
+                        <img src="${animalFolder}${animalPrefix}${currentAnimal}/${translationsAnimal.images.main}" alt="${getTranslation(translationsAnimal, 'title', currentLanguage)}">
                     </div>
                     <div class="stats">
                         <div class="stat-item">
-                            <h3>Classification: <a href="${translationsAnimal.stats.classification_urls.animal}" target="_blank">${translationsAnimal.stats.classification[currentLanguage]}</a></h3>
+                            <h3>Classification: <a href="${translationsAnimal.stats.classification_urls.animal}" target="_blank">${getTranslation(translationsAnimal.stats, 'classification', currentLanguage)}</a></h3>
                             <p>Health: ${translationsAnimal.stats.health} ❤️</p>
-                            <p>Behavior: ${translationsAnimal.stats.behavior[currentLanguage]}</p>
-                            <p>Spawn: ${translationsAnimal.stats.spawn_url ? `<a href="${translationsAnimal.stats.spawn_url.overworld}" target="_blank">${translationsAnimal.stats.spawn[currentLanguage]}</a>` : `${translationsAnimal.stats.spawn[currentLanguage]}`}</p>
+                            <p>Behavior: ${getTranslation(translationsAnimal.stats, 'behavior', currentLanguage)}</p>
+                            <p>Spawn: ${translationsAnimal.stats.spawn_url ? `<a href="${translationsAnimal.stats.spawn_url.overworld}" target="_blank">${getTranslation(translationsAnimal.stats, 'spawn', currentLanguage)}</a>` : `${getTranslation(translationsAnimal.stats, 'spawn', currentLanguage)}`}</p>
                         </div>
                     </div>
                     ${translationsAnimal.images && translationsAnimal.images.items ? `
                     <div class="items-section">
-                        <h3>${translationsPage.title.items[currentLanguage]}</h3>
+                        <h3>${getTranslation(translationsPage.title, 'items', currentLanguage)}</h3>
                         <div class="items-container">
                             ${translationsAnimal.images.items.map(img => `
                                 <div class="gallery-item">
-                                    <img class="items-gallery" src="${animalFolder}${animalPrefix}${currentAnimal}/${img}" alt="${translationsAnimal.title[currentLanguage]}">
+                                    <img class="items-gallery" src="${animalFolder}${animalPrefix}${currentAnimal}/${img}" alt="${getTranslation(translationsAnimal, 'title', currentLanguage)}">
                                 </div>
                             `).join('')}
                         </div>
                     </div>
                     ` : ''}
                 </div>`;
-
+    
         if (translationsAnimal.spawning) {
             html += `
-                <h3>${translationsPage.title.spawning[currentLanguage]}</h3>
-                <p>${translationsAnimal.spawning.description[currentLanguage]}</p>`;
+                <h3>${getTranslation(translationsPage.title, 'spawning', currentLanguage)}</h3>
+                <p>${getTranslation(translationsAnimal.spawning, 'description', currentLanguage)}</p>`;
         }
-
+    
         if (translationsAnimal.drops) {
             html += `
-                <h3>${translationsPage.title.drops[currentLanguage]}</h3>
-                <p>${translationsAnimal.drops.description[currentLanguage]}</p>
+                <h3>${getTranslation(translationsPage.title, 'drops', currentLanguage)}</h3>
+                <p>${getTranslation(translationsAnimal.drops, 'description', currentLanguage)}</p>
                 <ul>
                     ${translationsAnimal.drops.items.map(item => `
-                        <li>${item.name[currentLanguage]}: ${item.amount}${item.condition ? ` (${item.condition[currentLanguage]})` : ''}</li>
+                        <li>${getTranslation(item, 'name', currentLanguage)}: ${item.amount}${item.condition ? ` (${getTranslation(item, 'condition', currentLanguage)})` : ''}</li>
                     `).join('')}
                 </ul>`;
             if (translationsAnimal.drops.note) {
-                html += `<p>${translationsAnimal.drops.note[currentLanguage]}</p>`;
+                html += `<p>${getTranslation(translationsAnimal.drops, 'note', currentLanguage)}</p>`;
             }
         }
-
+    
         if (translationsAnimal.behavior) {
             html += `
-                <h3>${translationsPage.title.behavior[currentLanguage]}</h3>
-                <p>${translationsAnimal.behavior.description[currentLanguage]}</p>`;
+                <h3>${getTranslation(translationsPage.title, 'behavior', currentLanguage)}</h3>
+                <p>${getTranslation(translationsAnimal.behavior, 'description', currentLanguage)}</p>`;
             if (translationsAnimal.behavior.prey) {
-                html += `<p>Prey: ${translationsAnimal.behavior.prey[currentLanguage]}</p>`;
+                html += `<p>Prey: ${getTranslation(translationsAnimal.behavior, 'prey', currentLanguage)}</p>`;
             }
             if (translationsAnimal.behavior.weakness) {
-                html += `<p>Weakness: ${translationsAnimal.behavior.weakness[currentLanguage]}</p>`;
+                html += `<p>Weakness: ${getTranslation(translationsAnimal.behavior, 'weakness', currentLanguage)}</p>`;
             }
         }
-
+    
         if (translationsAnimal.breeding) {
             html += `
-                <h3>${translationsPage.title.breeding[currentLanguage]}</h3>
-                <p>${translationsAnimal.breeding.description[currentLanguage]}</p>`;
+                <h3>${getTranslation(translationsPage.title, 'breeding', currentLanguage)}</h3>
+                <p>${getTranslation(translationsAnimal.breeding, 'description', currentLanguage)}</p>`;
             if (translationsAnimal.breeding.egg_behavior) {
-                html += `<p>${translationsAnimal.breeding.egg_behavior[currentLanguage]}</p>`;
+                html += `<p>${getTranslation(translationsAnimal.breeding, 'egg_behavior', currentLanguage)}</p>`;
+            }
+            if (translationsAnimal.breeding.behavior) {
+                html += `<p>${getTranslation(translationsAnimal.breeding, 'behavior', currentLanguage)}</p>`;
             }
         }
-
+    
         if (translationsAnimal.images && translationsAnimal.images.gallery) {
             html += `
-                <h3>${translationsPage.title.gallery[currentLanguage]}</h3>
+                <h3>${getTranslation(translationsPage.title, 'gallery', currentLanguage)}</h3>
                 <div class="gallery">
                     ${translationsAnimal.images.gallery.map(img => `
                         <div class="gallery-item">
-                            <img src="${animalFolder}${animalPrefix}${currentAnimal}/${img}" alt="${translationsAnimal.title[currentLanguage]}">
+                            <img src="${animalFolder}${animalPrefix}${currentAnimal}/${img}" alt="${getTranslation(translationsAnimal, 'title', currentLanguage)}">
                         </div>
                     `).join('')}
                 </div>`;
         }
-
+    
         if (translationsAnimal.images && translationsAnimal.images.gifs) {
             html += `
                 <div class="items-section">
                     <div class="items-container">
                         ${translationsAnimal.images.gifs.map(img => `
                             <div class="gallery-item">
-                                <img class="gif-gallery" src="${animalFolder}${animalPrefix}${currentAnimal}/${img}" alt="${translationsAnimal.title[currentLanguage]}">
+                                <img class="gif-gallery" src="${animalFolder}${animalPrefix}${currentAnimal}/${img}" alt="${getTranslation(translationsAnimal, 'title', currentLanguage)}">
                                 <div class="gif-label">GIF</div>
                             </div>
                         `).join('')}
@@ -462,14 +478,14 @@
         if (translationsPage && translationsPage.community) {
             html += `
                 <div class="community">
-                    <p>${translationsPage.community.title[currentLanguage]}</p>
+                    <p>${getTranslation(translationsPage.community, 'title', currentLanguage)}</p>
                 </div>`;
         }
     
         if (translationsPage && translationsPage.social_links) {
             html += `
                 <div class="social-links">
-                <a href="${translationsPage.community.discord_url}">${translationsPage.community.join[currentLanguage]}</a>
+                <a href="${translationsPage.community.discord_url}">${getTranslation(translationsPage.community, 'join', currentLanguage)}</a>
                     ${Object.entries(translationsPage.social_links).map(([platform, url]) => `
                         <a href="${url}" target="_blank">${platform}</a>
                     `).join('')}

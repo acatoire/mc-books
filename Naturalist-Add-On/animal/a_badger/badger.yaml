@@ -1,13 +1,9 @@
 title:
   en: Badger
   fr: Blaireau
-last_updated:
-  en: April 22, 2025 8:47 PM
-  fr: 22 avril 2025 20h47
-return_link:
-  en: Naturalist Add-On Wiki
-  fr: Wiki de l'extension Naturalist
-return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
+  uk: Борсук
+  es: Tejón
+last_updated: April 22, 2025 8:47 PM
 description:
   en: Badgers are small mammals with flat, wedge-shaped bodies, broad feet with long
     claws, and coarse hair. They spend most of their time underground, only coming
@@ -15,19 +11,31 @@ description:
   fr: Les blaireaux sont de petits mammifères au corps plat et en forme de coin, avec
     de larges pieds aux longues griffes et un pelage grossier. Ils passent la plupart
     de leur temps sous terre, ne sortant que la nuit pour chasser.
+  uk: Борсуки - це невеликі ссавці з плоскими, клиноподібними тілами, широкими лапами
+    з довгими кігтями та грубою шерстю. Вони проводять більшу частину часу під землею,
+    виходячи лише вночі на полювання.
+  es: Los tejones son mamíferos pequeños con cuerpos planos y en forma de cuña, patas
+    anchas con garras largas y pelo grueso. Pasan la mayor parte de su tiempo bajo tierra,
+    saliendo solo de noche para cazar.
 stats:
   health: 6
   classification:
     en: Animal
     fr: Animal
+    uk: Тварина
+    es: Animal
   classification_urls:
     animal: /minecraft.fandom.com/wiki/Animal
   behavior:
     en: Neutral
     fr: Neutre
+    uk: Нейтральний
+    es: Neutral
   spawn:
     en: Forest, Hills, Taiga, and Lush Caves near cave entrances
     fr: Forêt, Collines, Taïga et Grottes luxuriantes près des entrées de grottes
+    uk: Ліс, Пагорби, Тайга та Багаті печери поблизу входів у печери
+    es: Bosque, Colinas, Taiga y Cuevas exuberantes cerca de las entradas de las cuevas
   spawn_url:
     forest: /minecraft.fandom.com/wiki/Forest
     hills: /minecraft.fandom.com/wiki/Biome
@@ -36,19 +44,16 @@ stats:
 images:
   main: badger.gif
   items:
-  - bushmeat.png
-  - cooked_bushmeat.png
-  - fur.png
+    - bushmeat.png
+    - cooked_bushmeat.png
+    - fur.png
   gallery:
-  - badger_breeding.png
-  - badger_family.png
-  - badger_vs_piglin.png
+    - badger_breeding.png
+    - badger_family.png
+    - badger_vs_piglin.png
   gifs:
-  - badger.gif
+    - badger.gif
 spawning:
-  title:
-    en: Spawning
-    fr: Apparition
   description:
     en: Badgers will spawn in groups of 1-2 near cave entrances in the forest, hills,
       taiga, and lush cave biomes. These animals are more active at night and will
@@ -57,64 +62,94 @@ spawning:
       dans les biomes de forêt, de collines, de taïga et de grottes luxuriantes. Ces
       animaux sont plus actifs la nuit et apparaîtront avec des niveaux de lumière
       de 7 ou moins.
+    uk: Борсуки з'являтимуться групами по 1-2 біля входів у печери в лісах, пагорбах,
+      тайзі та багатих печерах. Ці тварини активніші вночі та з'являтимуться при рівні
+      освітленості 7 або нижче.
+    es: Los tejones aparecerán en grupos de 1-2 cerca de las entradas de las cuevas
+      en los biomas de bosque, colinas, taiga y cuevas exuberantes. Estos animales son
+      más activos por la noche y aparecerán con niveles de luz de 7 o menos.
 drops:
-  title:
-    en: Drops
-    fr: Butin
   description:
     en: Badger drops upon death
     fr: Le blaireau laisse tomber à sa mort
+    uk: Крапля борсука при смерті
+    es: El tejón suelta al morir
   items:
-  - name:
-      en: Fur
-      fr: Fourrure
-    amount: 0-1
-    looting: true
-    condition:
-      en: Maximum amount increased by 1 per level of Looting, for a maximum of 0-3
-        with Looting III
-      fr: Le montant maximum est augmenté de 1 par niveau de Pillage, pour un maximum
-        de 0-3 avec Pillage III
-  - name:
-      en: Raw Bushmeat
-      fr: Viande de brousse crue
-    amount: 0-1
-    looting: true
-    condition:
-      en: Maximum amount increased by 1 per level of Looting, for a maximum of 0-3
-        with Looting III
-      fr: Le montant maximum est augmenté de 1 par niveau de Pillage, pour un maximum
-        de 0-3 avec Pillage III
-  - name:
-      en: Cooked Bushmeat
-      fr: Viande de brousse cuite
-    amount: 0-1
-    condition:
-      en: Can be dropped when killed on land with Smelting or Flame enchantment. This
-        will not work when a Badger is killed while swimming.
-      fr: Peut être obtenu lorsqu'il est tué sur terre avec l'enchantement Cuisson
-        ou Flamme. Cela ne fonctionnera pas lorsqu'un blaireau est tué en nageant.
-  - name:
-      en: Experience Orbs
-      fr: Orbes d'expérience
-    amount: 1-3
-    condition:
-      en: if killed by Player
-      fr: si tué par un joueur
-  - name:
-      en: Experience Orbs
-      fr: Orbes d'expérience
-    amount: 1-7
-    condition:
-      en: upon breeding
-      fr: lors de la reproduction
+    - name:
+        en: Fur
+        fr: Fourrure
+        uk: Хутро
+        es: Piel
+      amount: 0-1
+      looting: true
+      condition:
+        en: Maximum amount increased by 1 per level of Looting, for a maximum of 0-3
+          with Looting III
+        fr: Le montant maximum est augmenté de 1 par niveau de Pillage, pour un maximum
+          de 0-3 avec Pillage III
+        uk: Максимальна кількість збільшується на 1 за кожен рівень Розграбування, до
+          максимуму 0-3 з Розграбуванням III
+        es: La cantidad máxima aumenta en 1 por nivel de Botín, hasta un máximo de 0-3
+          con Botín III
+    - name:
+        en: Raw Bushmeat
+        fr: Viande de brousse crue
+        uk: Сира м'ясна страва
+        es: Carne de monte cruda
+      amount: 0-1
+      looting: true
+      condition:
+        en: Maximum amount increased by 1 per level of Looting, for a maximum of 0-3
+          with Looting III
+        fr: Le montant maximum est augmenté de 1 par niveau de Pillage, pour un maximum
+          de 0-3 avec Pillage III
+        uk: Максимальна кількість збільшується на 1 за кожен рівень Розграбування, до
+          максимуму 0-3 з Розграбуванням III
+        es: La cantidad máxima aumenta en 1 por nivel de Botín, hasta un máximo de 0-3
+          con Botín III
+    - name:
+        en: Cooked Bushmeat
+        fr: Viande de brousse cuite
+        uk: Приготована м'ясна страва
+        es: Carne de monte cocida
+      amount: 0-1
+      condition:
+        en: Can be dropped when killed on land with Smelting or Flame enchantment. This
+          will not work when a Badger is killed while swimming.
+        fr: Peut être obtenu lorsqu'il est tué sur terre avec l'enchantement Cuisson
+          ou Flamme. Cela ne fonctionnera pas lorsqu'un blaireau est tué en nageant.
+        uk: Може випасти, якщо вбити на суші з зачаруванням Плавлення або Полум'я. Це
+          не спрацює, якщо борсука вбити під час плавання.
+        es: Puede soltarse cuando se mata en tierra con el encantamiento de Fundición
+          o Llama. Esto no funcionará cuando un tejón sea asesinado mientras nada.
+    - name:
+        en: Experience Orbs
+        fr: Orbes d'expérience
+        uk: Сфери досвіду
+        es: Orbes de experiencia
+      amount: 1-3
+      condition:
+        en: if killed by Player
+        fr: si tué par un joueur
+        uk: якщо вбито Гравцем
+        es: si es asesinado por un Jugador
+    - name:
+        en: Experience Orbs
+        fr: Orbes d'expérience
+        uk: Сфери досвіду
+        es: Orbes de experiencia
+      amount: 1-7
+      condition:
+        en: upon breeding
+        fr: lors de la reproduction
+        uk: при розмноженні
+        es: al reproducirse
   note:
     en: Cubs will not drop experience orbs when killed.
     fr: Les petits ne donnent pas d'orbes d'expérience lorsqu'ils sont tués.
+    uk: Дитинчата не випускають сфери досвіду при вбивстві.
+    es: Los cachorros no soltarán orbes de experiencia al ser asesinados.
 behavior:
-  title:
-    en: Behavior
-    fr: Comportement
   description:
     en: Badgers can exist in a passive or hostile state. The cubs are passive; adult
       badgers only enter a hostile state near Piglins and will attack them. Badgers
@@ -125,10 +160,20 @@ behavior:
       attaqueront. Les blaireaux prospèrent dans les grottes/sous terre, et si vous
       en voyez un dehors pendant la journée, il est probablement en train de faire
       une sieste !
+    uk: Борсуки можуть бути пасивними або ворожими. Дитинчата пасивні; дорослі борсуки
+      стають ворожими лише поблизу піглінів і нападатимуть на них. Борсуки процвітають
+      у печерах/під землею, і якщо ви побачите одного зовні вдень, ймовірно, він робить
+      денний сон!
+    es: Los tejones pueden estar en un estado pasivo o hostil. Los cachorros son pasivos;
+      los tejones adultos solo se vuelven hostiles cerca de los cerdos zombis y los atacarán.
+      Los tejones prosperan en cuevas/subterráneos, ¡y si ves uno afuera durante el día,
+      es probable que esté tomando una siesta!
 breeding:
   title:
     en: Breeding
     fr: Reproduction
+    uk: Розмноження
+    es: Reproducción
   description:
     en: Adult Badgers with full health can be bred with sweet berries. There is a
       5-minute cooldown for breeding, during which the badger will not accept sweet
@@ -137,29 +182,18 @@ breeding:
       sucrées. Il y a un temps de recharge de 5 minutes pour la reproduction, pendant
       lequel le blaireau n'acceptera pas les baies sucrées mais le fera s'il est blessé
       et a besoin de guérir.
+    uk: Дорослих борсуків у повному здоров'ї можна розводити ягодами. Є перерва на
+      розмноження 5 хвилин, протягом якої борсук не прийме ягоди, але прийме, якщо
+      отримає поранення та потребує зцілення.
+    es: Los tejones adultos con salud completa se pueden reproducir con bayas dulces.
+      Hay un tiempo de reutilización de 5 minutos para la reproducción, durante el cual
+      el tejón no aceptará bayas dulces, pero lo hará si se lesiona y necesita curarse.
   behavior:
     en: Upon successful breeding, a cub will be born. The growth of cubs can be slowly
       accelerated by using sweet berries.
     fr: Après une reproduction réussie, un petit naîtra. La croissance des petits
       peut être légèrement accélérée en utilisant des baies sucrées.
-gallery:
-  title:
-    en: Gallery
-    fr: Galerie
-community:
-  title:
-    en: Have additional questions? Want to be a part of our community?
-    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté
-      ?
-  join:
-    en: Join our Discord!
-    fr: Rejoignez notre Discord !
-  discord_url: /discord.com/invite/starfishstudios
-social_links:
-  marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
-  curseforge: /www.curseforge.com/members/starfish_studios/projects
-  tiktok: /www.tiktok.com/@starfishstudios
-  instagram: /www.instagram.com/starfishstudiosinc/
-  twitter: /twitter.com/starfishstudios
-  youtube: /www.youtube.com/@starfishstudios
-  website: /starfish-studios.com/
+    uk: Після успішного розмноження народиться дитинча. Ріст дитинчат можна трохи прискорити,
+      використовуючи солодкі ягоди.
+    es: Después de una reproducción exitosa, nacerá un cachorro. El crecimiento de los
+      cachorros se puede acelerar lentamente usando bayas dulces.

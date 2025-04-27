@@ -1,20 +1,17 @@
 title:
   en: Reindeer
   fr: Renne
-
-last_updated:
-  en: April 22, 2025 8:47 PM
-  fr: 22 avril 2025 20h47
-
-return_link:
-  en: Naturalist Add-On Wiki
-  fr: Wiki de l'extension Naturalist
-return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
-
+last_updated: April 22, 2025 8:47 PM
 description:
-  en: Reindeer are large, majestic mammals known for their impressive antlers and thick fur coats. They are well-adapted to cold climates and are excellent swimmers. Both males and females grow antlers, which they shed and regrow annually. They are social animals that live in herds and are known for their long migrations.
-  fr: Les rennes sont de grands mammifères majestueux connus pour leurs bois impressionnants et leurs épais manteaux de fourrure. Ils sont bien adaptés aux climats froids et sont d'excellents nageurs. Les mâles et les femelles développent des bois, qu'ils perdent et repoussent chaque année. Ce sont des animaux sociaux qui vivent en troupeaux et sont connus pour leurs longues migrations.
-
+  en: Reindeer are large, majestic mammals known for their impressive antlers and
+    thick fur coats. They are well-adapted to cold climates and are excellent swimmers.
+    Both males and females grow antlers, which they shed and regrow annually. They
+    are social animals that live in herds and are known for their long migrations.
+  fr: Les rennes sont de grands mammifères majestueux connus pour leurs bois impressionnants
+    et leurs épais manteaux de fourrure. Ils sont bien adaptés aux climats froids
+    et sont d'excellents nageurs. Les mâles et les femelles développent des bois,
+    qu'ils perdent et repoussent chaque année. Ce sont des animaux sociaux qui vivent
+    en troupeaux et sont connus pour leurs longues migrations.
 stats:
   health: 30
   classification:
@@ -32,92 +29,75 @@ stats:
   spawn_url:
     snowy_tundra: /minecraft.wiki/w/Snowy_Tundra
     taiga: /minecraft.wiki/w/Taiga
-
 images:
   main: reindeer.gif
   items:
-    - reindeer_hide.png
-    - reindeer_meat.png
+  - reindeer_hide.png
+  - reindeer_meat.png
   gallery:
-    - reindeer.gif
-    - reindeer_herd.png
-    - reindeer_swimming.png
-
+  - reindeer.gif
+  - reindeer_herd.png
+  - reindeer_swimming.png
 spawning:
-  title:
-    en: Spawning
-    fr: Apparition
   description:
-    en: Reindeer spawn in snowy tundra and taiga biomes, typically in small herds. They prefer areas with plenty of vegetation and will often be found grazing or swimming. They are diurnal creatures and are most active during the day.
-    fr: Les rennes apparaissent dans les biomes de toundra enneigée et de taïga, généralement en petits troupeaux. Ils préfèrent les zones avec beaucoup de végétation et se trouvent souvent en train de brouter ou de nager. Ce sont des créatures diurnes et sont plus actives pendant la journée.
-
+    en: Reindeer spawn in snowy tundra and taiga biomes, typically in small herds.
+      They prefer areas with plenty of vegetation and will often be found grazing
+      or swimming. They are diurnal creatures and are most active during the day.
+    fr: Les rennes apparaissent dans les biomes de toundra enneigée et de taïga, généralement
+      en petits troupeaux. Ils préfèrent les zones avec beaucoup de végétation et
+      se trouvent souvent en train de brouter ou de nager. Ce sont des créatures diurnes
+      et sont plus actives pendant la journée.
 drops:
-  title:
-    en: Drops
-    fr: Butin
   description:
     en: Reindeer drops upon death
     fr: Le renne laisse tomber à sa mort
   items:
-    - name:
-        en: Reindeer Hide
-        fr: Peau de renne
-      amount: 1-2
-      looting: true
-      condition:
-        en: Maximum amount increased by 1 per level of Looting, for a maximum of 1-4 with Looting III
-        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 1-4 avec Butin III
-    - name:
-        en: Reindeer Meat
-        fr: Viande de renne
-      amount: 1-2
-      looting: true
-      condition:
-        en: Maximum amount increased by 1 per level of Looting, for a maximum of 1-4 with Looting III
-        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 1-4 avec Butin III
-    - name:
-        en: Experience Orbs
-        fr: Orbes d'expérience
-      amount: 1-2
-      condition:
-        en: if killed by Player
-        fr: si tué par un joueur
-
+  - name:
+      en: Reindeer Hide
+      fr: Peau de renne
+    amount: 1-2
+    looting: true
+    condition:
+      en: Maximum amount increased by 1 per level of Looting, for a maximum of 1-4
+        with Looting III
+      fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum
+        de 1-4 avec Butin III
+  - name:
+      en: Reindeer Meat
+      fr: Viande de renne
+    amount: 1-2
+    looting: true
+    condition:
+      en: Maximum amount increased by 1 per level of Looting, for a maximum of 1-4
+        with Looting III
+      fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum
+        de 1-4 avec Butin III
+  - name:
+      en: Experience Orbs
+      fr: Orbes d'expérience
+    amount: 1-2
+    condition:
+      en: if killed by Player
+      fr: si tué par un joueur
 behavior:
-  title:
-    en: Behavior
-    fr: Comportement
   description:
-    en: Reindeer are neutral creatures that will defend themselves if threatened. They are social animals that live in herds and are most active during the day. They are excellent swimmers and will often be found crossing rivers and lakes. They are known for their seasonal migrations and will travel long distances in search of food. They can be tamed using wheat.
-    fr: Les rennes sont des créatures neutres qui se défendront si elles sont menacées. Ce sont des animaux sociaux qui vivent en troupeaux et sont plus actifs pendant la journée. Ce sont d'excellents nageurs et se trouvent souvent en train de traverser des rivières et des lacs. Ils sont connus pour leurs migrations saisonnières et parcourront de longues distances à la recherche de nourriture. Ils peuvent être apprivoisés en utilisant du blé.
-
+    en: Reindeer are neutral creatures that will defend themselves if threatened.
+      They are social animals that live in herds and are most active during the day.
+      They are excellent swimmers and will often be found crossing rivers and lakes.
+      They are known for their seasonal migrations and will travel long distances
+      in search of food. They can be tamed using wheat.
+    fr: Les rennes sont des créatures neutres qui se défendront si elles sont menacées.
+      Ce sont des animaux sociaux qui vivent en troupeaux et sont plus actifs pendant
+      la journée. Ce sont d'excellents nageurs et se trouvent souvent en train de
+      traverser des rivières et des lacs. Ils sont connus pour leurs migrations saisonnières
+      et parcourront de longues distances à la recherche de nourriture. Ils peuvent
+      être apprivoisés en utilisant du blé.
 breeding:
   title:
     en: Breeding
     fr: Reproduction
   description:
-    en: Reindeer can be bred using wheat. When bred, they will produce a baby reindeer that stays close to its parents.
-    fr: Les rennes peuvent se reproduire en utilisant du blé. Lorsqu'ils se reproduisent, ils produiront un bébé renne qui reste près de ses parents.
-
-gallery:
-  title:
-    en: Gallery
-    fr: Galerie
-
-community:
-  title:
-    en: Have additional questions? Want to be a part of our community?
-    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté ?
-  join:
-    en: Join our Discord!
-    fr: Rejoignez notre Discord !
-  discord_url: /discord.com/invite/starfishstudios
-
-social_links:
-  marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
-  curseforge: /www.curseforge.com/members/starfish_studios/projects
-  tiktok: /www.tiktok.com/@starfishstudios
-  instagram: /www.instagram.com/starfishstudiosinc/
-  twitter: /twitter.com/starfishstudios
-  youtube: /www.youtube.com/@starfishstudios
-  website: /starfish-studios.com/ 
+    en: Reindeer can be bred using wheat. When bred, they will produce a baby reindeer
+      that stays close to its parents.
+    fr: Les rennes peuvent se reproduire en utilisant du blé. Lorsqu'ils se reproduisent,
+      ils produiront un bébé renne qui reste près de ses parents.

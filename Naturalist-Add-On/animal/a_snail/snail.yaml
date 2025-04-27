@@ -1,13 +1,7 @@
 title:
   en: Snail
   fr: Escargot
-last_updated:
-  en: April 22, 2025 8:47 PM
-  fr: 22 avril 2025 20h47
-return_link:
-  en: Naturalist Add-On Wiki
-  fr: Wiki de l'extension Naturalist
-return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
+last_updated: April 22, 2025 8:47 PM
 description:
   en: Snails are mollusks known for their spiral shells and slow movement. They are
     herbivorous creatures that feed on various plants and fungi. They are most active
@@ -62,9 +56,6 @@ images:
   - white_snail.gif
   - yellow_snail.gif
 spawning:
-  title:
-    en: Spawning
-    fr: Apparition
   description:
     en: Snails spawn in forest and jungle biomes, typically in moist areas. They prefer
       areas with plenty of vegetation and are most active during rainy weather or
@@ -74,9 +65,6 @@ spawning:
       et sont plus actifs pendant la pluie ou la nuit. Ils évitent la lumière directe
       du soleil et les conditions sèches.
 drops:
-  title:
-    en: Drops
-    fr: Butin
   description:
     en: Snail drops upon death
     fr: L'escargot laisse tomber à sa mort
@@ -109,9 +97,6 @@ drops:
       en: if killed by Player
       fr: si tué par un joueur
 behavior:
-  title:
-    en: Behavior
-    fr: Comportement
   description:
     en: Snails are passive creatures that move slowly and leave slimy trails. They
       are most active during wet conditions and at night. They are known for their
@@ -130,24 +115,3 @@ breeding:
     en: Snails cannot be bred but will naturally spawn in their respective biomes.
     fr: Les escargots ne peuvent pas se reproduire mais apparaîtront naturellement
       dans leurs biomes respectifs.
-gallery:
-  title:
-    en: Gallery
-    fr: Galerie
-community:
-  title:
-    en: Have additional questions? Want to be a part of our community?
-    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté
-      ?
-  join:
-    en: Join our Discord!
-    fr: Rejoignez notre Discord !
-  discord_url: /discord.com/invite/starfishstudios
-social_links:
-  marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
-  curseforge: /www.curseforge.com/members/starfish_studios/projects
-  tiktok: /www.tiktok.com/@starfishstudios
-  instagram: /www.instagram.com/starfishstudiosinc/
-  twitter: /twitter.com/starfishstudios
-  youtube: /www.youtube.com/@starfishstudios
-  website: /starfish-studios.com/

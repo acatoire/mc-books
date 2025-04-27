@@ -1,13 +1,7 @@
 title:
   en: Deer
   fr: Cerf
-last_updated:
-  en: April 22, 2025 8:47 PM
-  fr: 22 avril 2025 20h47
-return_link:
-  en: Naturalist Add-On Wiki
-  fr: Wiki de l'extension Naturalist
-return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
+last_updated: April 22, 2025 8:47 PM
 description:
   en: Deer are graceful herbivores that inhabit forests and plains. They are known
     for their antlers (in males) and their ability to jump high and run quickly. They
@@ -50,9 +44,6 @@ images:
   - deer_variations.gif
   - deer_white.gif
 spawning:
-  title:
-    en: Spawning
-    fr: Apparition
   description:
     en: Deer spawn in small groups of 2-4 in forest and plains biomes. They prefer
       areas with plenty of vegetation and will often be found near water sources.
@@ -62,9 +53,6 @@ spawning:
       souvent près des sources d'eau. Les cerfs mâles (bucks) ont des bois, tandis
       que les cerfs femelles (does) n'en ont pas.
 drops:
-  title:
-    en: Drops
-    fr: Butin
   description:
     en: Deer drops upon death
     fr: Le cerf laisse tomber à sa mort
@@ -97,9 +85,6 @@ drops:
       en: if killed by Player
       fr: si tué par un joueur
 behavior:
-  title:
-    en: Behavior
-    fr: Comportement
   description:
     en: Deer are peaceful creatures that will flee when approached by players or predators.
       They can jump high and run quickly to escape danger. They will graze on grass
@@ -122,24 +107,3 @@ breeding:
       se reproduisent, ils produiront un faon qui grandira pour devenir un cerf adulte.
       Les faons sont plus petits et plus vulnérables que les adultes, et resteront
       près de leurs parents jusqu'à ce qu'ils grandissent.
-gallery:
-  title:
-    en: Gallery
-    fr: Galerie
-community:
-  title:
-    en: Have additional questions? Want to be a part of our community?
-    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté
-      ?
-  join:
-    en: Join our Discord!
-    fr: Rejoignez notre Discord !
-  discord_url: /discord.com/invite/starfishstudios
-social_links:
-  marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
-  curseforge: /www.curseforge.com/members/starfish_studios/projects
-  tiktok: /www.tiktok.com/@starfishstudios
-  instagram: /www.instagram.com/starfishstudiosinc/
-  twitter: /twitter.com/starfishstudios
-  youtube: /www.youtube.com/@starfishstudios
-  website: /starfish-studios.com/

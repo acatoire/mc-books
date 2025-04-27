@@ -1,13 +1,7 @@
 title:
   en: Fennec Fox
   fr: Fennec
-last_updated:
-  en: April 22, 2025 8:47 PM
-  fr: 22 avril 2025 20h47
-return_link:
-  en: Naturalist Add-On Wiki
-  fr: Wiki de l'extension Naturalist
-return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
+last_updated: April 22, 2025 8:47 PM
 description:
   en: Fennec foxes are small, adorable desert-dwelling foxes known for their large
     ears and playful nature. They are nocturnal creatures that are well-adapted to
@@ -49,9 +43,6 @@ images:
   - fennec_fox_red.gif
   - fennec_fox_variations.gif
 spawning:
-  title:
-    en: Spawning
-    fr: Apparition
   description:
     en: Fennec foxes spawn in desert biomes, typically in small groups. They prefer
       areas with sand and will often be found near desert villages or oases. They
@@ -61,9 +52,6 @@ spawning:
       villages du désert ou des oasis. Ils sont nocturnes et seront plus actifs pendant
       la nuit.
 drops:
-  title:
-    en: Drops
-    fr: Butin
   description:
     en: Fennec fox drops upon death
     fr: Le fennec laisse tomber à sa mort
@@ -96,9 +84,6 @@ drops:
       en: if killed by Player
       fr: si tué par un joueur
 behavior:
-  title:
-    en: Behavior
-    fr: Comportement
   description:
     en: Fennec foxes are playful and curious creatures that will investigate nearby
       items and players. They are nocturnal and will be more active during the night.
@@ -122,24 +107,3 @@ breeding:
       se reproduisent, ils produiront un bébé fennec qui restera près de ses parents.
       Les bébés fennecs sont plus petits et moins puissants que les adultes, et grandiront
       avec le temps.
-gallery:
-  title:
-    en: Gallery
-    fr: Galerie
-community:
-  title:
-    en: Have additional questions? Want to be a part of our community?
-    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté
-      ?
-  join:
-    en: Join our Discord!
-    fr: Rejoignez notre Discord !
-  discord_url: /discord.com/invite/starfishstudios
-social_links:
-  marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
-  curseforge: /www.curseforge.com/members/starfish_studios/projects
-  tiktok: /www.tiktok.com/@starfishstudios
-  instagram: /www.instagram.com/starfishstudiosinc/
-  twitter: /twitter.com/starfishstudios
-  youtube: /www.youtube.com/@starfishstudios
-  website: /starfish-studios.com/

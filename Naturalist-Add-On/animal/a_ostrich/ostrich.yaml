@@ -1,13 +1,7 @@
 title:
   en: Ostrich
   fr: Autruche
-last_updated:
-  en: April 22, 2025 8:47 PM
-  fr: 22 avril 2025 20h47
-return_link:
-  en: Naturalist Add-On Wiki
-  fr: Wiki de l'extension Naturalist
-return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
+last_updated: April 22, 2025 8:47 PM
 description:
   en: Ostriches are the largest living birds, known for their long necks, powerful
     legs, and inability to fly. They are the fastest running birds and can reach speeds
@@ -48,9 +42,6 @@ images:
   - ostrich_baby.gif
   - ostrich_variations.gif
 spawning:
-  title:
-    en: Spawning
-    fr: Apparition
   description:
     en: Ostriches spawn in savanna and desert biomes, typically in small groups. They
       prefer open areas with plenty of space to run. They are diurnal creatures and
@@ -59,9 +50,6 @@ spawning:
       en petits groupes. Elles préfèrent les zones ouvertes avec beaucoup d'espace
       pour courir. Ce sont des créatures diurnes et sont plus actives pendant la journée.
 drops:
-  title:
-    en: Drops
-    fr: Butin
   description:
     en: Ostrich drops upon death
     fr: L'autruche laisse tomber à sa mort
@@ -94,9 +82,6 @@ drops:
       en: if killed by Player
       fr: si tué par un joueur
 behavior:
-  title:
-    en: Behavior
-    fr: Comportement
   description:
     en: Ostriches are neutral creatures that will defend themselves if threatened.
       They are social animals and are most active during the day. They are excellent
@@ -116,24 +101,3 @@ breeding:
       that stays close to its parents.
     fr: Les autruches peuvent se reproduire en utilisant du blé. Lorsqu'elles se reproduisent,
       elles produiront un bébé autruche qui reste près de ses parents.
-gallery:
-  title:
-    en: Gallery
-    fr: Galerie
-community:
-  title:
-    en: Have additional questions? Want to be a part of our community?
-    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté
-      ?
-  join:
-    en: Join our Discord!
-    fr: Rejoignez notre Discord !
-  discord_url: /discord.com/invite/starfishstudios
-social_links:
-  marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
-  curseforge: /www.curseforge.com/members/starfish_studios/projects
-  tiktok: /www.tiktok.com/@starfishstudios
-  instagram: /www.instagram.com/starfishstudiosinc/
-  twitter: /twitter.com/starfishstudios
-  youtube: /www.youtube.com/@starfishstudios
-  website: /starfish-studios.com/

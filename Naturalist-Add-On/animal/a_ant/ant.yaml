@@ -1,13 +1,12 @@
+Here is the updated YAML file with Ukrainian and Spanish translations added:
+
+  ```yaml
 title:
   en: Ant
   fr: Fourmi
-last_updated:
-  en: April 22, 2025 8:47 PM
-  fr: 22 avril 2025 20h47
-return_link:
-  en: Naturalist Add-On Wiki
-  fr: Wiki de l'extension Naturalist
-return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
+  uk: Мураха
+  es: Hormiga
+last_updated: April 22, 2025 8:47 PM
 description:
   en: Ants are fascinating arthropods with the longest lifespans. They can carry objects
     50 times their body weight and communicate using chemicals called pheromones.
@@ -18,34 +17,45 @@ description:
     en utilisant des produits chimiques appelés phéromones. Les colonies de fourmis
     sont dirigées par une seule reine, et ces fourmis construisent des nids complexes
     pour protéger leur reine.
+  uk: Мурахи - це цікаві членистоногі з найдовшим терміном життя. Вони можуть переносити
+    предмети, що в 50 разів перевищують їхню вагу, і спілкуватися за допомогою хімічних
+    речовин, які називаються феромонами. Мурашники керуються однією мурашиною маткою,
+    і ці мурахи будують складні гнізда, щоб захистити свою матку.
+  es: Las hormigas son artrópodos fascinantes con la vida más larga. Pueden llevar objetos
+    50 veces su peso corporal y comunicarse usando químicos llamados feromonas. Las colonias
+    de hormigas son dirigidas por una sola hormiga reina, y estas hormigas construyen
+    nidos complejos para proteger a su reina.
 stats:
   health: 5
   classification:
     en: Arthropod
     fr: Arthropode
+    uk: Членистоногі
+    es: Artrópodo
   classification_urls:
     arthropod: /minecraft.fandom.com/wiki/Arthropods
   behavior:
     en: Passive
     fr: Passif
+    uk: Пасивний
+    es: Pasivo
   spawn:
     en: N/A
     fr: N/A
+    uk: Н/Д
+    es: N/A
 images:
   main: ant.gif
   items:
-  - ant_item.png
-  - queen_ant.png
+    - ant_item.png
+    - queen_ant.png
   gallery:
-  - anthill.png
-  - ant_ant.png
-  - ant_meander.png
+    - anthill.png
+    - ant_ant.png
+    - ant_meander.png
   gifs:
-  - ant.gif
+    - ant.gif
 spawning:
-  title:
-    en: Spawning
-    fr: Apparition
   description:
     en: Ants do not spawn naturally in the overworld; however, their ant hills can
       be commonly found within the savanna and jungle biomes. If an ant hill block
@@ -56,10 +66,15 @@ spawning:
       et de jungle. Si un bloc de fourmilière est cassé, une fourmi en sortira ! Si
       le joueur a de la chance, il repérera une reine fourmi, qui peut être utilisée
       pour faire plus de fourmilières.
+    uk: Мурахи не з'являються природним чином у зовнішньому світі; однак їх мурашники
+      можна часто знайти у саванах і джунглях. Якщо зламати блок мурашника, звідти вискочить
+      мураха! Якщо гравцеві пощастить, він побачить мурашину матку, яку можна використовувати
+      для створення більше мурашників.
+    es: Las hormigas no aparecen de forma natural en el mundo; sin embargo, sus hormigueros
+      se pueden encontrar comúnmente en los biomas de sabanas y selvas. Si se rompe un
+      bloque de hormiguero, ¡aparecerá una hormiga! Si el jugador tiene suerte, verá
+      una hormiga reina, que se puede usar para hacer más hormigueros.
 behavior:
-  title:
-    en: Behavior
-    fr: Comportement
   description:
     en: Ants are found in new structures that spawn in the world, Ant Hills. They
       are small hills built from blocks that the Ants can go in and out of, like Bee
@@ -74,6 +89,17 @@ behavior:
       des blocs et creuseront dedans, forçant les fourmis à en sortir avant de les
       manger. Chaque fourmilière a 1 seul bloc "Reine Fourmi" qui, lorsqu'il est cassé,
       laissera tomber un objet Reine Fourmi.
+    uk: Мурахи знаходяться в нових структурах, що з'являються в світі, - Мурашниках.
+      Це невеликі пагорби, побудовані з блоків, через які мурахи можуть входити та виходити,
+      як бджолині вулики. Якщо зовні мурашників немає мурах, мурахоїди підійдуть до блоків
+      і почнуть копати їх, змушуючи мурах виходити з них, перш ніж з'їсти. Кожен мурашник
+      має один блок "Мурашина матка", який, коли ламається, скидає предмет Мурашина матка.
+    es: Las hormigas se encuentran en nuevas estructuras que aparecen en el mundo, los Hormigueros.
+      Son pequeñas colinas construidas a partir de bloques que las hormigas pueden atravesar,
+      como los panales. Si no hay hormigas fuera de los hormigueros, los osos hormigueros
+      se acercarán a los bloques y cavarán en ellos, obligando a las hormigas a salir
+      antes de comérselas. Cada hormiguero tiene 1 solo bloque de "Hormiga Reina" que,
+      al romperse, soltará un objeto de Hormiga Reina.
   capture_net:
     en: Ants can be caught in capture nets. If an ant is caught, the ant will enter
       a player's inventory as an item. If the inventory is full, the ant will drop
@@ -93,24 +119,20 @@ behavior:
       prioritaires pour l'apparition ; si aucune n'est à portée, les créatures peuvent
       également apparaître dans l'eau. Les fourmis peuvent être nourries à d'autres
       animaux pour l'apprivoisement/la reproduction.
-gallery:
-  title:
-    en: Gallery
-    fr: Galerie
-community:
-  title:
-    en: Have additional questions? Want to be a part of our community?
-    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté
-      ?
-  join:
-    en: Join our Discord!
-    fr: Rejoignez notre Discord !
-  discord_url: /discord.com/invite/starfishstudios
-social_links:
-  marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
-  curseforge: /www.curseforge.com/members/starfish_studios/projects
-  tiktok: /www.tiktok.com/@starfishstudios
-  instagram: /www.instagram.com/starfishstudiosinc/
-  twitter: /twitter.com/starfishstudios
-  youtube: /www.youtube.com/@starfishstudios
-  website: /starfish-studios.com/
+    uk: Мурах можна ловити в сітках для зловини. Якщо мураху спіймано, вона потрапить
+      в інвентар гравця як предмет. Якщо інвентар повний, мураха впаде на землю перед гравцем.
+      Мураху використовують, натискаючи "використовувати" на будь-якій поверхні (верхній,
+      нижній або бічній) блоку. При використанні на верхній поверхні мураха з'являється
+      з ногами, безпосередньо прилеглими до поверхні. Ця взаємодія дуже схожа на яйце
+      появи. Пріоритетними для появи є поверхні блоків; якщо жодної немає поруч, мобів
+      також можна породити у воді. Мурах можна годувати іншим тваринам для приручення/розмноження.
+    es: Las hormigas se pueden atrapar en redes de captura. Si se atrapa una hormiga,
+      esta entrará en el inventario del jugador como un objeto. Si el inventario está lleno,
+      la hormiga caerá al suelo frente al jugador. Una hormiga se usa presionando "usar"
+      en cualquier superficie (superior, inferior o lateral) de un bloque. Cuando se usa
+      en una superficie superior, la hormiga aparece con las patas inmediatamente adyacentes
+      a la superficie. Esta interacción es muy similar a un huevo de aparición. Las superficies
+      de los bloques tienen prioridad para la aparición; si no hay ninguna al alcance,
+      los mobs también se pueden generar en el agua. Las hormigas se pueden alimentar
+      a otros animales para domesticarlos/reproducirlos.
+  ```

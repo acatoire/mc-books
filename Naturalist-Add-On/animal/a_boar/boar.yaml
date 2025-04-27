@@ -1,13 +1,7 @@
 title:
   en: Boar
   fr: Sanglier
-last_updated:
-  en: April 22, 2025 8:47 PM
-  fr: 22 avril 2025 20h47
-return_link:
-  en: Naturalist Add-On Wiki
-  fr: Wiki de l'extension Naturalist
-return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
+last_updated: April 22, 2025 8:47 PM
 description:
   en: Wild boars are one of the most invasive species in the world. They earned this
     title because they damage crops, properties, vegetation, and soil when they are
@@ -47,9 +41,6 @@ images:
   gifs:
   - boar2.gif
 spawning:
-  title:
-    en: Spawning
-    fr: Apparition
   description:
     en: Boars will spawn in groups of 1-4 in the plains and forest biomes as long
       as grass is nearby! They will spawn in the daytime with light levels between
@@ -58,9 +49,6 @@ spawning:
       et de forêt tant qu'il y a de l'herbe à proximité ! Ils apparaîtront pendant
       la journée avec des niveaux de lumière entre 6 et 15.
 drops:
-  title:
-    en: Drops
-    fr: Butin
   description:
     en: Adult boar drops upon death
     fr: Le sanglier adulte laisse tomber à sa mort
@@ -110,9 +98,6 @@ drops:
     en: Farrows yield no items nor experience
     fr: Les marcassins ne donnent ni objets ni expérience
 behavior:
-  title:
-    en: Behavior
-    fr: Comportement
   description:
     en: Boars can exist in both passive and hostile states. Boars will avoid players
       as much as possible. If they are attacked, they will be aggressive towards their
@@ -148,24 +133,3 @@ breeding:
     fr: La croissance des marcassins peut être lentement accélérée en utilisant des
       carottes, des betteraves et des pommes de terre. Les marcassins resteront près
       de leurs parents jusqu'à ce qu'ils soient des adultes.
-gallery:
-  title:
-    en: Gallery
-    fr: Galerie
-community:
-  title:
-    en: Have additional questions? Want to be a part of our community?
-    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté
-      ?
-  join:
-    en: Join our Discord!
-    fr: Rejoignez notre Discord !
-  discord_url: /discord.com/invite/starfishstudios
-social_links:
-  marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
-  curseforge: /www.curseforge.com/members/starfish_studios/projects
-  tiktok: /www.tiktok.com/@starfishstudios
-  instagram: /www.instagram.com/starfishstudiosinc/
-  twitter: /twitter.com/starfishstudios
-  youtube: /www.youtube.com/@starfishstudios
-  website: /starfish-studios.com/

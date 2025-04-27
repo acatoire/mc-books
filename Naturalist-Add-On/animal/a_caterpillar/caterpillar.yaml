@@ -1,13 +1,7 @@
 title:
   en: Caterpillar
   fr: Chenille
-last_updated:
-  en: April 22, 2025 8:47 PM
-  fr: 22 avril 2025 20h47
-return_link:
-  en: Naturalist Add-On Wiki
-  fr: Wiki de l'extension Naturalist
-return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
+last_updated: April 22, 2025 8:47 PM
 description:
   en: Caterpillars are the larval stage of butterflies and moths. They are known for
     their voracious appetite and ability to consume large amounts of leaves. They
@@ -44,9 +38,6 @@ images:
   gifs:
   - caterpillar2.gif
 spawning:
-  title:
-    en: Spawning
-    fr: Apparition
   description:
     en: Caterpillars spawn on leaves in forest and jungle biomes. They prefer to spawn
       on specific types of leaves and will slowly crawl along them while eating. They
@@ -56,9 +47,6 @@ spawning:
       rampent lentement le long d'elles tout en mangeant. Elles sont plus actives
       pendant la journée et se cachent sous les feuilles la nuit.
 drops:
-  title:
-    en: Drops
-    fr: Butin
   description:
     en: Caterpillar drops upon death
     fr: La chenille laisse tomber à sa mort
@@ -81,9 +69,6 @@ drops:
       en: if killed by Player
       fr: si tué par un joueur
 behavior:
-  title:
-    en: Behavior
-    fr: Comportement
   description:
     en: Caterpillars are slow-moving creatures that spend most of their time eating
       leaves. They will crawl along leaves and branches, leaving small trails behind
@@ -107,24 +92,3 @@ breeding:
       naturellement sur les feuilles dans les biomes appropriés. Après avoir atteint
       la maturité, elles forment un cocon et se transforment en papillon ou en mite,
       qui peuvent ensuite être reproduits en utilisant des fleurs.
-gallery:
-  title:
-    en: Gallery
-    fr: Galerie
-community:
-  title:
-    en: Have additional questions? Want to be a part of our community?
-    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté
-      ?
-  join:
-    en: Join our Discord!
-    fr: Rejoignez notre Discord !
-  discord_url: /discord.com/invite/starfishstudios
-social_links:
-  marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
-  curseforge: /www.curseforge.com/members/starfish_studios/projects
-  tiktok: /www.tiktok.com/@starfishstudios
-  instagram: /www.instagram.com/starfishstudiosinc/
-  twitter: /twitter.com/starfishstudios
-  youtube: /www.youtube.com/@starfishstudios
-  website: /starfish-studios.com/

@@ -1,13 +1,7 @@
 title:
   en: Giant Salamander
   fr: Salamandre géante
-last_updated:
-  en: April 22, 2025 8:47 PM
-  fr: 22 avril 2025 20h47
-return_link:
-  en: Naturalist Add-On Wiki
-  fr: Wiki de l'extension Naturalist
-return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
+last_updated: April 22, 2025 8:47 PM
 description:
   en: Giant salamanders are large, aquatic amphibians known for their impressive size
     and unique appearance. They are nocturnal predators that live in freshwater environments
@@ -48,9 +42,6 @@ images:
   - giant_salamander_variants.gif
   - giant_salamander_white.gif
 spawning:
-  title:
-    en: Spawning
-    fr: Apparition
   description:
     en: Giant salamanders spawn in river and swamp biomes, typically in small groups.
       They prefer areas with plenty of water and will often be found near the bottom
@@ -61,9 +52,6 @@ spawning:
       et se trouvent souvent près du fond des rivières et des lacs. Elles sont plus
       actives pendant la nuit et sont souvent vues en train de chasser pour se nourrir.
 drops:
-  title:
-    en: Drops
-    fr: Butin
   description:
     en: Giant salamander drops upon death
     fr: La salamandre géante laisse tomber à sa mort
@@ -96,9 +84,6 @@ drops:
       en: if killed by Player
       fr: si tué par un joueur
 behavior:
-  title:
-    en: Behavior
-    fr: Comportement
   description:
     en: Giant salamanders are neutral creatures that will defend themselves if attacked.
       They are nocturnal predators and will hunt for fish and other small aquatic
@@ -121,24 +106,3 @@ breeding:
       Lorsqu'elles se reproduisent, elles produiront un bébé salamandre géante qui
       restera près de ses parents. Les bébés salamandres géantes sont plus petits
       et moins puissants que les adultes, et grandiront avec le temps.
-gallery:
-  title:
-    en: Gallery
-    fr: Galerie
-community:
-  title:
-    en: Have additional questions? Want to be a part of our community?
-    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté
-      ?
-  join:
-    en: Join our Discord!
-    fr: Rejoignez notre Discord !
-  discord_url: /discord.com/invite/starfishstudios
-social_links:
-  marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
-  curseforge: /www.curseforge.com/members/starfish_studios/projects
-  tiktok: /www.tiktok.com/@starfishstudios
-  instagram: /www.instagram.com/starfishstudiosinc/
-  twitter: /twitter.com/starfishstudios
-  youtube: /www.youtube.com/@starfishstudios
-  website: /starfish-studios.com/

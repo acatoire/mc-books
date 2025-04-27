@@ -1,13 +1,7 @@
 title:
   en: Anteater
   fr: Fourmilier
-last_updated:
-  en: April 22, 2025 8:47 PM
-  fr: 22 avril 2025 20h47
-return_link:
-  en: Naturalist Add-On Wiki
-  fr: Wiki de l'extension Naturalist
-return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
+last_updated: April 22, 2025 8:47 PM
 description:
   en: Anteaters are native to Central and South America. They have no teeth, but they
     utilize their long tongue (longer than any other mammal) to eat. Their sense of
@@ -44,9 +38,6 @@ images:
   gifs:
   - anteater.gif
 spawning:
-  title:
-    en: Spawning
-    fr: Apparition
   description:
     en: A parade of 1-2 anteaters in the jungle and savanna biomes. They will spawn
       on grass blocks during the daytime with light levels of 7-15.
@@ -54,9 +45,6 @@ spawning:
       apparaîtront sur des blocs d'herbe pendant la journée avec des niveaux de lumière
       de 7 à 15.
 drops:
-  title:
-    en: Drops
-    fr: Butin
   description:
     en: Anteaters drops upon death
     fr: Le fourmilier laisse tomber à sa mort
@@ -89,9 +77,6 @@ drops:
     en: Pups yield no items nor experience.
     fr: Les petits ne donnent ni objets ni expérience.
 behavior:
-  title:
-    en: Behavior
-    fr: Comportement
   description:
     en: Anteaters are neutral mobs that spawn near ant hills. They wander around aimlessly
       while sniffing the ground or the air. When they get hungry, they will dig into
@@ -150,24 +135,3 @@ breeding:
     fr: Les bébés fourmiliers monteront sur leurs parents jusqu'à ce qu'ils grandissent,
       moment auquel ils descendront immédiatement. La croissance des petits peut être
       légèrement accélérée en utilisant des fourmis et des reines fourmis.
-gallery:
-  title:
-    en: Gallery
-    fr: Galerie
-community:
-  title:
-    en: Have additional questions? Want to be a part of our community?
-    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté
-      ?
-  join:
-    en: Join our Discord!
-    fr: Rejoignez notre Discord !
-  discord_url: /discord.com/invite/starfishstudios
-social_links:
-  marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
-  curseforge: /www.curseforge.com/members/starfish_studios/projects
-  tiktok: /www.tiktok.com/@starfishstudios
-  instagram: /www.instagram.com/starfishstudiosinc/
-  twitter: /twitter.com/starfishstudios
-  youtube: /www.youtube.com/@starfishstudios
-  website: /starfish-studios.com/

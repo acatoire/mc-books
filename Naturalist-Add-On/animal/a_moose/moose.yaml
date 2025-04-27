@@ -1,13 +1,7 @@
 title:
   en: Moose
   fr: Élan
-last_updated:
-  en: April 22, 2025 8:47 PM
-  fr: 22 avril 2025 20h47
-return_link:
-  en: Naturalist Add-On Wiki
-  fr: Wiki de l'extension Naturalist
-return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
+last_updated: April 22, 2025 8:47 PM
 description:
   en: Moose are the largest members of the deer family, known for their massive size,
     distinctive antlers, and long legs. They are excellent swimmers and can run surprisingly
@@ -47,9 +41,6 @@ images:
   gifs:
   - moose.gif
 spawning:
-  title:
-    en: Spawning
-    fr: Apparition
   description:
     en: Moose spawn in taiga and snowy taiga biomes, typically as solitary animals.
       They prefer areas with access to water and plenty of vegetation. They are diurnal
@@ -59,9 +50,6 @@ spawning:
       beaucoup de végétation. Ce sont des créatures diurnes et sont plus actives pendant
       la journée.
 drops:
-  title:
-    en: Drops
-    fr: Butin
   description:
     en: Moose drops upon death
     fr: L'élan laisse tomber à sa mort
@@ -94,9 +82,6 @@ drops:
       en: if killed by Player
       fr: si tué par un joueur
 behavior:
-  title:
-    en: Behavior
-    fr: Comportement
   description:
     en: Moose are neutral creatures that will defend themselves if threatened. They
       are solitary animals and are most active during the day. They are excellent
@@ -115,24 +100,3 @@ breeding:
       stays close to its parents.
     fr: Les élans peuvent se reproduire en utilisant du blé. Lorsqu'ils se reproduisent,
       ils produiront un bébé élan qui reste près de ses parents.
-gallery:
-  title:
-    en: Gallery
-    fr: Galerie
-community:
-  title:
-    en: Have additional questions? Want to be a part of our community?
-    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté
-      ?
-  join:
-    en: Join our Discord!
-    fr: Rejoignez notre Discord !
-  discord_url: /discord.com/invite/starfishstudios
-social_links:
-  marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
-  curseforge: /www.curseforge.com/members/starfish_studios/projects
-  tiktok: /www.tiktok.com/@starfishstudios
-  instagram: /www.instagram.com/starfishstudiosinc/
-  twitter: /twitter.com/starfishstudios
-  youtube: /www.youtube.com/@starfishstudios
-  website: /starfish-studios.com/
