@@ -11,310 +11,310 @@
     <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
 </head>
 <body>
-    <div class="header">
-        <h1>Naturalist Add-On</h1>
-        <div class="controls">
-            <button id="prev-animal" class="nav-button" title="Previous Animal"><i class="fas fa-chevron-left"></i></button>
-            <button id="random-animal" class="nav-button" title="Random Animal"><i class="fas fa-dice"></i></button>
-            <button id="next-animal" class="nav-button" title="Next Animal"><i class="fas fa-chevron-right"></i></button>
-            <button id="generate-pdf" class="nav-button" title="Generate PDF"><i class="fas fa-file-pdf"></i></button>
-            <select id="language-select">
-                <option value="en">English</option>
-                <option value="fr">Français</option>
-            </select>
-        </div>
+<div class="header">
+    <h1>Naturalist Add-On</h1>
+    <div class="controls">
+        <button id="prev-animal" class="nav-button" title="Previous Animal"><i class="fas fa-chevron-left"></i></button>
+        <button id="random-animal" class="nav-button" title="Random Animal"><i class="fas fa-dice"></i></button>
+        <button id="next-animal" class="nav-button" title="Next Animal"><i class="fas fa-chevron-right"></i></button>
+        <button id="generate-pdf" class="nav-button" title="Generate PDF"><i class="fas fa-file-pdf"></i></button>
+        <select id="language-select">
+            <option value="en">English</option>
+            <option value="fr">Français</option>
+        </select>
     </div>
+</div>
 
-    <div class="content" id="content">
-        <p>LOADING ...</p>
-        <!-- Animal info will be dynamically added here -->
-    </div>
+<div class="content" id="content">
+    <p>LOADING ...</p>
+    <!-- Animal info will be dynamically added here -->
+</div>
 
-    <div class="animal-buttons" id="animal-buttons">
-        <!-- Buttons will be dynamically added here -->
-    </div>
+<div class="animal-buttons" id="animal-buttons">
+    <!-- Buttons will be dynamically added here -->
+</div>
 
-    <div class="footer" id="footer">
-        <!-- Footer will be dynamically added here -->
-    </div>
+<div class="footer" id="footer">
+    <!-- Footer will be dynamically added here -->
+</div>
 
-    <script>
-        let translations = {};
-        let currentLanguage = 'en';
-        let currentAnimal = '';
-        let animalList = [];
-        let animalTranslations = new Map();
-        const animalPrefix = 'a_';
-        const animalFolder = 'animal/';
+<script>
+    let translations = {};
+    let currentLanguage = 'en';
+    let currentAnimal = '';
+    let animalList = [];
+    let animalTranslations = new Map();
+    const animalPrefix = 'a_';
+    const animalFolder = 'animal/';
 
-        // Function to get URL parameters
-        function getUrlParameter(name) {
-            name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
-            const regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
-            const results = regex.exec(location.search);
-            return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+    // Function to get URL parameters
+    function getUrlParameter(name) {
+        name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+        const regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+        const results = regex.exec(location.search);
+        return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+    }
+
+    // Function to update URL with current animal and language
+    function updateUrl(animal, language) {
+        const url = new URL(window.location.href);
+        if (animal) url.searchParams.set('animal', animal);
+        if (language) url.searchParams.set('lang', language);
+        window.history.pushState({}, '', url);
+    }
+
+    // Function to load animal translation
+    async function loadAnimalTranslation(animal) {
+        try {
+            const response = await fetch(`${animalFolder}${animalPrefix}${animal}/${animal}.yaml`);
+            const yamlText = await response.text();
+            const animalData = jsyaml.load(yamlText);
+            animalTranslations.set(animal, animalData);
+            return animalData;
+        } catch (error) {
+            console.error(`Error loading translation for ${animal}:`, error);
+            return null;
+        }
+    }
+
+    // Function to update button text
+    function updateButtonText(button, animal) {
+        const animalData = animalTranslations.get(animal);
+        if (animalData && animalData.title && animalData.title[currentLanguage]) {
+            const nameSpan = button.querySelector('span:not(.animal-id)');
+            nameSpan.textContent = animalData.title[currentLanguage];
+        }
+    }
+
+    // Function to update all button texts
+    function updateAllButtonTexts() {
+        const buttons = document.querySelectorAll('#animal-buttons .animal-button');
+        buttons.forEach(button => {
+            updateButtonText(button, button.value);
+        });
+    }
+
+    // Function to scan for animals
+    async function scanForAnimals() {
+        const animalButtonsContainer = document.getElementById('animal-buttons');
+        const knownAnimals = [];
+
+        // Load potential animals from config.yaml
+        let potentialAnimals = [];
+        try {
+            const response = await fetch('config.yaml');
+            const yamlText = await response.text();
+            const config = jsyaml.load(yamlText);
+            potentialAnimals = config.potential_animals;
+        } catch (error) {
+            console.error('Error loading config.yaml:', error);
+            return [];
         }
 
-        // Function to update URL with current animal and language
-        function updateUrl(animal, language) {
-            const url = new URL(window.location.href);
-            if (animal) url.searchParams.set('animal', animal);
-            if (language) url.searchParams.set('lang', language);
-            window.history.pushState({}, '', url);
-        }
-
-        // Function to load animal translation
-        async function loadAnimalTranslation(animal) {
+        // Function to check if a directory exists and contains a YAML file
+        async function checkAnimalDirectory(animalName) {
             try {
-                const response = await fetch(`${animalFolder}${animalPrefix}${animal}/${animal}.yaml`);
-                const yamlText = await response.text();
-                const animalData = jsyaml.load(yamlText);
-                animalTranslations.set(animal, animalData);
-                return animalData;
-            } catch (error) {
-                console.error(`Error loading translation for ${animal}:`, error);
-                return null;
-            }
-        }
-
-        // Function to update button text
-        function updateButtonText(button, animal) {
-            const animalData = animalTranslations.get(animal);
-            if (animalData && animalData.title && animalData.title[currentLanguage]) {
-                const nameSpan = button.querySelector('span:not(.animal-id)');
-                nameSpan.textContent = animalData.title[currentLanguage];
-            }
-        }
-
-        // Function to update all button texts
-        function updateAllButtonTexts() {
-            const buttons = document.querySelectorAll('#animal-buttons .animal-button');
-            buttons.forEach(button => {
-                updateButtonText(button, button.value);
-            });
-        }
-
-        // Function to scan for animals
-        async function scanForAnimals() {
-            const animalButtonsContainer = document.getElementById('animal-buttons');
-            const knownAnimals = [];
-            
-            // Load potential animals from config.yaml
-            let potentialAnimals = [];
-            try {
-                const response = await fetch('config.yaml');
-                const yamlText = await response.text();
-                const config = jsyaml.load(yamlText);
-                potentialAnimals = config.potential_animals;
-            } catch (error) {
-                console.error('Error loading config.yaml:', error);
-                return [];
-            }
-
-            // Function to check if a directory exists and contains a YAML file
-            async function checkAnimalDirectory(animalName) {
-                try {
-                    const response = await fetch(`${animalFolder}${animalPrefix}${animalName}/${animalName}.yaml`);
-                    if (response.ok) {
-                        await loadAnimalTranslation(animalName);
-                        return true;
-                    }
-                    return false;
-                } catch (error) {
-                    return false;
+                const response = await fetch(`${animalFolder}${animalPrefix}${animalName}/${animalName}.yaml`);
+                if (response.ok) {
+                    await loadAnimalTranslation(animalName);
+                    return true;
                 }
+                return false;
+            } catch (error) {
+                return false;
             }
+        }
 
-            // Check each potential animal directory
-            for (const animal of potentialAnimals) {
-                //if (await checkAnimalDirectory(animal)) {
-                    knownAnimals.push(animal);
-                //}
-            }
+        // Check each potential animal directory
+        for (const animal of potentialAnimals) {
+            //if (await checkAnimalDirectory(animal)) {
+            knownAnimals.push(animal);
+            //}
+        }
 
-            // Sort animals alphabetically
-            knownAnimals.sort();
+        // Sort animals alphabetically
+        knownAnimals.sort();
 
-            // Clear existing buttons
-            animalButtonsContainer.innerHTML = '';
+        // Clear existing buttons
+        animalButtonsContainer.innerHTML = '';
 
-            // Create buttons for each animal
-            knownAnimals.forEach((animal, index) => {
-                const button = document.createElement('button');
-                button.className = 'animal-button';
-                
-                // Create ID span
-                const idSpan = document.createElement('span');
-                idSpan.className = 'animal-id';
-                idSpan.textContent = `#${(index + 1).toString().padStart(2, '0')}`;
-                
-                // Create name span
-                const nameSpan = document.createElement('span');
-                nameSpan.className = 'animal-name';
-                nameSpan.textContent = animal.split('_').map(word => 
-                    word.charAt(0).toUpperCase() + word.slice(1)
-                ).join(' ');
-                
-                button.appendChild(idSpan);
-                button.appendChild(nameSpan);
-                button.value = animal;
-                button.dataset.id = index + 1;
-                
-                button.addEventListener('click', function() {
-                    // Remove active class from all buttons
-                    document.querySelectorAll('#animal-buttons button').forEach(btn => {
-                        btn.classList.remove('active');
-                    });
-                    // Add active class to clicked button
-                    this.classList.add('active');
-                    currentAnimal = this.value;
-                    updateUrl(currentAnimal, currentLanguage);
-                    loadAnimalData(currentAnimal);
+        // Create buttons for each animal
+        knownAnimals.forEach((animal, index) => {
+            const button = document.createElement('button');
+            button.className = 'animal-button';
+
+            // Create ID span
+            const idSpan = document.createElement('span');
+            idSpan.className = 'animal-id';
+            idSpan.textContent = `#${(index + 1).toString().padStart(2, '0')}`;
+
+            // Create name span
+            const nameSpan = document.createElement('span');
+            nameSpan.className = 'animal-name';
+            nameSpan.textContent = animal.split('_').map(word =>
+                word.charAt(0).toUpperCase() + word.slice(1)
+            ).join(' ');
+
+            button.appendChild(idSpan);
+            button.appendChild(nameSpan);
+            button.value = animal;
+            button.dataset.id = index + 1;
+
+            button.addEventListener('click', function () {
+                // Remove active class from all buttons
+                document.querySelectorAll('#animal-buttons button').forEach(btn => {
+                    btn.classList.remove('active');
                 });
-                animalButtonsContainer.appendChild(button);
-                
-                // Update button text with translation if available
-                updateButtonText(button, animal);
+                // Add active class to clicked button
+                this.classList.add('active');
+                currentAnimal = this.value;
+                updateUrl(currentAnimal, currentLanguage);
+                loadAnimalData(currentAnimal);
             });
+            animalButtonsContainer.appendChild(button);
 
-            return knownAnimals;
+            // Update button text with translation if available
+            updateButtonText(button, animal);
+        });
+
+        return knownAnimals;
+    }
+
+    // Function to get a random animal from the list
+    function getRandomAnimal() {
+        if (animalList.length === 0) return null;
+        const randomIndex = Math.floor(Math.random() * animalList.length);
+        return animalList[randomIndex];
+    }
+
+    // Function to get next/previous animal
+    function getAdjacentAnimal(currentAnimal, direction) {
+        if (!currentAnimal || animalList.length === 0) return null;
+        const currentIndex = animalList.indexOf(currentAnimal);
+        if (currentIndex === -1) return null;
+
+        let newIndex;
+        if (direction === 'next') {
+            newIndex = (currentIndex + 1) % animalList.length;
+        } else {
+            newIndex = (currentIndex - 1 + animalList.length) % animalList.length;
         }
+        return animalList[newIndex];
+    }
 
-        // Function to get a random animal from the list
-        function getRandomAnimal() {
-            if (animalList.length === 0) return null;
-            const randomIndex = Math.floor(Math.random() * animalList.length);
-            return animalList[randomIndex];
-        }
-
-        // Function to get next/previous animal
-        function getAdjacentAnimal(currentAnimal, direction) {
-            if (!currentAnimal || animalList.length === 0) return null;
-            const currentIndex = animalList.indexOf(currentAnimal);
-            if (currentIndex === -1) return null;
-            
-            let newIndex;
-            if (direction === 'next') {
-                newIndex = (currentIndex + 1) % animalList.length;
-            } else {
-                newIndex = (currentIndex - 1 + animalList.length) % animalList.length;
-            }
-            return animalList[newIndex];
-        }
-
-        // Function to handle navigation button clicks
-        function setupNavigationButtons() {
-            document.getElementById('random-animal').addEventListener('click', function() {
-                const randomAnimal = getRandomAnimal();
-                if (randomAnimal) {
-                    const button = document.querySelector(`.animal-button[value="${randomAnimal}"]`);
-                    if (button) {
-                        button.click();
-                    }
-                }
-            });
-
-            document.getElementById('prev-animal').addEventListener('click', function() {
-                if (currentAnimal) {
-                    const prevAnimal = getAdjacentAnimal(currentAnimal, 'prev');
-                    if (prevAnimal) {
-                        const button = document.querySelector(`.animal-button[value="${prevAnimal}"]`);
-                        if (button) {
-                            button.click();
-                        }
-                    }
-                }
-            });
-
-            document.getElementById('next-animal').addEventListener('click', function() {
-                if (currentAnimal) {
-                    const nextAnimal = getAdjacentAnimal(currentAnimal, 'next');
-                    if (nextAnimal) {
-                        const button = document.querySelector(`.animal-button[value="${nextAnimal}"]`);
-                        if (button) {
-                            button.click();
-                        }
-                    }
-                }
-            });
-        }
-
-        // Function to handle URL changes
-        function handleUrlChange() {
-            const animalFromUrl = getUrlParameter('animal');
-            const langFromUrl = getUrlParameter('lang');
-            
-            // Set language from URL if valid
-            if (langFromUrl && ['en', 'fr'].includes(langFromUrl)) {
-                currentLanguage = langFromUrl;
-                document.getElementById('language-select').value = currentLanguage;
-            }
-            
-            // Load animal from URL if valid, otherwise select random
-            if (animalFromUrl && animalList.includes(animalFromUrl)) {
-                const button = document.querySelector(`.animal-button[value="${animalFromUrl}"]`);
-                if (button) {
-                    button.click();
-                }
-            } else if (animalList.length > 0) {
-                const randomAnimal = getRandomAnimal();
+    // Function to handle navigation button clicks
+    function setupNavigationButtons() {
+        document.getElementById('random-animal').addEventListener('click', function () {
+            const randomAnimal = getRandomAnimal();
+            if (randomAnimal) {
                 const button = document.querySelector(`.animal-button[value="${randomAnimal}"]`);
                 if (button) {
                     button.click();
                 }
             }
-        }
+        });
 
-        // Initialize
-        async function initialize() {
-            animalList = await scanForAnimals();
-            setupNavigationButtons();
-            handleUrlChange();
-        }
-
-        // Switch language
-        document.getElementById('language-select').addEventListener('change', function(e) {
-            currentLanguage = e.target.value;
-            updateUrl(currentAnimal, currentLanguage);
-            // Update all button texts with new language
-            updateAllButtonTexts();
-            // Update content if an animal is selected
+        document.getElementById('prev-animal').addEventListener('click', function () {
             if (currentAnimal) {
-                loadAnimalData(currentAnimal);
+                const prevAnimal = getAdjacentAnimal(currentAnimal, 'prev');
+                if (prevAnimal) {
+                    const button = document.querySelector(`.animal-button[value="${prevAnimal}"]`);
+                    if (button) {
+                        button.click();
+                    }
+                }
             }
         });
 
-        // Initialize by scanning for animals
-        initialize();
-
-        // Replace the existing loadAnimalData function with this one:
-        function loadAnimalData(animal) {
-            if (animalTranslations.has(animal)) {
-                translations = animalTranslations.get(animal);
-                updateContent();
-                updateFooter(); // Add this line
-            } else {
-                fetch(`${animalFolder}${animalPrefix}${animal}/${animal}.yaml`)
-                    .then(response => response.text())
-                    .then(yaml => {
-                        translations = jsyaml.load(yaml);
-                        animalTranslations.set(animal, translations);
-                        document.getElementById('language-select').value = currentLanguage;
-                        updateContent();
-                        updateFooter(); // Add this line
-                    })
-                    .catch(error => {
-                        console.error('Error loading animal data:', error);
-                        document.getElementById('content').innerHTML = '<p>Error loading animal data. Please try again.</p>';
-                    });
+        document.getElementById('next-animal').addEventListener('click', function () {
+            if (currentAnimal) {
+                const nextAnimal = getAdjacentAnimal(currentAnimal, 'next');
+                if (nextAnimal) {
+                    const button = document.querySelector(`.animal-button[value="${nextAnimal}"]`);
+                    if (button) {
+                        button.click();
+                    }
+                }
             }
+        });
+    }
+
+    // Function to handle URL changes
+    function handleUrlChange() {
+        const animalFromUrl = getUrlParameter('animal');
+        const langFromUrl = getUrlParameter('lang');
+
+        // Set language from URL if valid
+        if (langFromUrl && ['en', 'fr'].includes(langFromUrl)) {
+            currentLanguage = langFromUrl;
+            document.getElementById('language-select').value = currentLanguage;
         }
 
-        function updateContent() {
-            if (!translations) return;
+        // Load animal from URL if valid, otherwise select random
+        if (animalFromUrl && animalList.includes(animalFromUrl)) {
+            const button = document.querySelector(`.animal-button[value="${animalFromUrl}"]`);
+            if (button) {
+                button.click();
+            }
+        } else if (animalList.length > 0) {
+            const randomAnimal = getRandomAnimal();
+            const button = document.querySelector(`.animal-button[value="${randomAnimal}"]`);
+            if (button) {
+                button.click();
+            }
+        }
+    }
 
-            const content = document.getElementById('content');
-            let html = `
+    // Initialize
+    async function initialize() {
+        animalList = await scanForAnimals();
+        setupNavigationButtons();
+        handleUrlChange();
+    }
+
+    // Switch language
+    document.getElementById('language-select').addEventListener('change', function (e) {
+        currentLanguage = e.target.value;
+        updateUrl(currentAnimal, currentLanguage);
+        // Update all button texts with new language
+        updateAllButtonTexts();
+        // Update content if an animal is selected
+        if (currentAnimal) {
+            loadAnimalData(currentAnimal);
+        }
+    });
+
+    // Initialize by scanning for animals
+    initialize();
+
+    // Replace the existing loadAnimalData function with this one:
+    function loadAnimalData(animal) {
+        if (animalTranslations.has(animal)) {
+            translations = animalTranslations.get(animal);
+            updateContent();
+            updateFooter(); // Add this line
+        } else {
+            fetch(`${animalFolder}${animalPrefix}${animal}/${animal}.yaml`)
+                .then(response => response.text())
+                .then(yaml => {
+                    translations = jsyaml.load(yaml);
+                    animalTranslations.set(animal, translations);
+                    document.getElementById('language-select').value = currentLanguage;
+                    updateContent();
+                    updateFooter(); // Add this line
+                })
+                .catch(error => {
+                    console.error('Error loading animal data:', error);
+                    document.getElementById('content').innerHTML = '<p>Error loading animal data. Please try again.</p>';
+                });
+        }
+    }
+
+    function updateContent() {
+        if (!translations) return;
+
+        const content = document.getElementById('content');
+        let html = `
                 <h2>${translations.title[currentLanguage]}</h2>
                 <p>${translations.description[currentLanguage]}</p>
                 
@@ -344,14 +344,14 @@
                     ` : ''}
                 </div>`;
 
-            if (translations.spawning) {
-                html += `
+        if (translations.spawning) {
+            html += `
                 <h3>${translations.spawning.title[currentLanguage]}</h3>
                 <p>${translations.spawning.description[currentLanguage]}</p>`;
-            }
+        }
 
-            if (translations.drops) {
-                html += `
+        if (translations.drops) {
+            html += `
                 <h3>${translations.drops.title[currentLanguage]}</h3>
                 <p>${translations.drops.description[currentLanguage]}</p>
                 <ul>
@@ -359,34 +359,34 @@
                         <li>${item.name[currentLanguage]}: ${item.amount}${item.condition ? ` (${item.condition[currentLanguage]})` : ''}</li>
                     `).join('')}
                 </ul>`;
-                if (translations.drops.note) {
-                    html += `<p>${translations.drops.note[currentLanguage]}</p>`;
-                }
+            if (translations.drops.note) {
+                html += `<p>${translations.drops.note[currentLanguage]}</p>`;
             }
+        }
 
-            if (translations.behavior) {
-                html += `
+        if (translations.behavior) {
+            html += `
                 <h3>${translations.behavior.title[currentLanguage]}</h3>
                 <p>${translations.behavior.description[currentLanguage]}</p>`;
-                if (translations.behavior.prey) {
-                    html += `<p>Prey: ${translations.behavior.prey[currentLanguage]}</p>`;
-                }
-                if (translations.behavior.weakness) {
-                    html += `<p>Weakness: ${translations.behavior.weakness[currentLanguage]}</p>`;
-                }
+            if (translations.behavior.prey) {
+                html += `<p>Prey: ${translations.behavior.prey[currentLanguage]}</p>`;
             }
+            if (translations.behavior.weakness) {
+                html += `<p>Weakness: ${translations.behavior.weakness[currentLanguage]}</p>`;
+            }
+        }
 
-            if (translations.breeding) {
-                html += `
+        if (translations.breeding) {
+            html += `
                 <h3>${translations.breeding.title[currentLanguage]}</h3>
                 <p>${translations.breeding.description[currentLanguage]}</p>`;
-                if (translations.breeding.egg_behavior) {
-                    html += `<p>${translations.breeding.egg_behavior[currentLanguage]}</p>`;
-                }
+            if (translations.breeding.egg_behavior) {
+                html += `<p>${translations.breeding.egg_behavior[currentLanguage]}</p>`;
             }
+        }
 
-            if (translations.gallery && translations.images && translations.images.gallery) {
-                html += `
+        if (translations.gallery && translations.images && translations.images.gallery) {
+            html += `
                 <h3>${translations.gallery.title[currentLanguage]}</h3>
                 <div class="gallery">
                     ${translations.images.gallery.map(img => `
@@ -395,10 +395,10 @@
                         </div>
                     `).join('')}
                 </div>`;
-            }
+        }
 
-            if (translations.images && translations.images.gifs) {
-                html += `
+        if (translations.images && translations.images.gifs) {
+            html += `
                 <div class="items-section">
                     <h3>GIFs</h3>
                     <div class="items-container">
@@ -410,200 +410,341 @@
                         `).join('')}
                     </div>
                 </div>`;
-            }
-
-            content.innerHTML = html;
-            updateFooter(); // Add this call to update the footer
         }
 
-        function updateFooter() {
-            const footer = document.getElementById('footer');
-            let html = '';
+        content.innerHTML = html;
+        updateFooter(); // Add this call to update the footer
+    }
 
-            if (translations && translations.community) {
-                html += `
+    function updateFooter() {
+        const footer = document.getElementById('footer');
+        let html = '';
+
+        if (translations && translations.community) {
+            html += `
                 <div class="community">
                     <p>${translations.community.title[currentLanguage]}</p>
                 </div>`;
-            }
+        }
 
-            if (translations && translations.social_links) {
-                html += `
+        if (translations && translations.social_links) {
+            html += `
                 <div class="social-links">
                 <a href="${translations.community.discord_url}">${translations.community.join[currentLanguage]}</a>
                     ${Object.entries(translations.social_links).map(([platform, url]) => `
                         <a href="${url}" target="_blank">${platform}</a>
                     `).join('')}
                 </div>`;
-            }
-
-            footer.innerHTML = html;
         }
 
-        // PDF Generation functionality
-        async function generatePDF() {
-            const { jsPDF } = window.jspdf;
-            const pdf = new jsPDF('p', 'mm', 'a4');
-            const pageWidth = pdf.internal.pageSize.width;
-            const pageHeight = pdf.internal.pageSize.height;
-            const margin = 10;
-            pdf.setFont("helvetica");
+        footer.innerHTML = html;
+    }
+
+    // PDF Generation functionality
+    async function generatePDF() {
+        const {jsPDF} = window.jspdf;
+        const pdf = new jsPDF('p', 'mm', 'a4');
+        const pageWidth = pdf.internal.pageSize.width;
+        const pageHeight = pdf.internal.pageSize.height;
+        const margin = 10;
+        const maxY = pageHeight - margin; // Maximum Y position before needing a new page
+        pdf.setFont("helvetica");
 
 
-            // Create cover page
-            pdf.setFontSize(24);
-            pdf.text('Naturalist Add-On Guide', pageWidth/2, pageHeight/4, { align: 'center' });
-            pdf.setFontSize(14);
-            pdf.text(`Generated on ${new Date().toLocaleDateString()}`, pageWidth/2, pageHeight/4 + 20, { align: 'center' });
-            pdf.text(`Language: ${currentLanguage === 'en' ? 'English' : 'Français'}`, pageWidth/2, pageHeight/4 + 30, { align: 'center' });
-            pdf.text(`Total Animals: ${animalList.length}`, pageWidth/2, pageHeight/4 + 40, { align: 'center' });
+        // Create cover page
+        pdf.setFontSize(24);
+        pdf.text('Naturalist Add-On Guide', pageWidth / 2, pageHeight / 4, {align: 'center'});
+        pdf.setFontSize(14);
+        pdf.text(`Generated on ${new Date().toLocaleDateString()}`, pageWidth / 2, pageHeight / 4 + 20, {align: 'center'});
+        pdf.text(`Language: ${currentLanguage === 'en' ? 'English' : 'Français'}`, pageWidth / 2, pageHeight / 4 + 30, {align: 'center'});
+        pdf.text(`Total Animals: ${animalList.length}`, pageWidth / 2, pageHeight / 4 + 40, {align: 'center'});
 
-            // Load all animal translations if not already loaded
-            for (const animal of animalList) {
-                if (!animalTranslations.has(animal)) {
-                    await loadAnimalTranslation(animal);
-                }
+        // Load all animal translations if not already loaded
+        for (const animal of animalList) {
+            if (!animalTranslations.has(animal)) {
+                await loadAnimalTranslation(animal);
+            }
+        }
+
+        // Process each animal
+        for (let i = 0; i < animalList.length; i++) {
+            const animal = animalList[i];
+            const animalData = animalTranslations.get(animal);
+
+            if (!animalData) {
+                console.warn(`No data found for animal: ${animal}`);
+                continue;
             }
 
-            // Process each animal
-            for (let i = 0; i < animalList.length; i++) {
-                const animal = animalList[i];
-                const animalData = animalTranslations.get(animal);
+            pdf.addPage();
+            let currentY = 10;
 
-                if (!animalData) {
-                    console.warn(`No data found for animal: ${animal}`);
-                    continue;
-                }
+            // Title section
+            const animalNumber = `Animal ${i + 1}/${animalList.length}`;
+            pdf.setFontSize(12);
+            pdf.text(animalNumber, margin, currentY);
+            currentY += 10;
 
-                // Add a new page for each animal (except for the first one which follows the cover)
-                if (i > 0) {
-                    pdf.addPage();
-                } else {
-                    pdf.addPage(); // Add page after cover
-                }
+            pdf.setFontSize(20);
+            const animalTitle = animalData.title?.[currentLanguage] || '';
+            pdf.text(animalTitle, margin, currentY);
+            currentY += 10;
 
-                // Always verify text exists before adding
-                console.log(`Processing animal: ${animal} in language: ${currentLanguage}`);
-                const animalNumber = `Animal ${i + 1}/${animalList.length}`;
-                const animalTitle = animalData.title?.[currentLanguage] || '';
-
+            // Description section
+            if (animalData.description?.[currentLanguage]) {
                 pdf.setFontSize(12);
-                pdf.text(animalNumber, margin, margin);
+                const description = pdf.splitTextToSize(
+                    animalData.description[currentLanguage],
+                    pageWidth - 2 * margin
+                );
+                pdf.text(description, margin, currentY);
+                currentY += description.length * 5 + 10;
+            }
 
-                const titleY = margin + 10;
-                pdf.setFontSize(20);
-                if (animalTitle) {
-                    pdf.text(animalTitle, margin, titleY);
-                } else {
-                    console.warn(`No title found for animal: ${animal}`);
-                }
+            // Stats and image section
+            const halfPage = (pageWidth - 2 * margin) / 2;
+            const statsStartY = currentY;
 
-                // Add description
-                const dataY = margin + 20
-                if (animalData.description?.[currentLanguage]) {
-                    pdf.setFontSize(12);
-                    const description = pdf.splitTextToSize(
-                        animalData.description[currentLanguage],
-                        pageWidth - 2 * margin
-                    );
-                    pdf.text(description, margin, dataY);
-                } else {
-                    console.warn(`No description found for animal: ${animal}`);
-                }
-
-                const statsY = margin + 40
-                const statsAlign = pageWidth/2 + margin
-
-                pdf.setFontSize(14);
-                pdf.text('Stats:', statsAlign, statsY);
-                pdf.setFontSize(12);
-
-                if (animalData.stats.classification?.[currentLanguage]) {
-                    pdf.text(
-                        `Classification: ${animalData.stats.classification[currentLanguage]}`,
-                        pageWidth/2 + margin,
-                        statsY + 5
-                    );
-                } else {
-                    console.warn(`No classification found for animal: ${animal}`);
-                }
-
-                if (animalData.stats.health) {
-                    pdf.text(
-                        `Health: ${animalData.stats.health}`,
-                        pageWidth/2 + margin,
-                        statsY + 10
-                    );
-                } else {
-                    console.warn(`No health found for animal: ${animal}`);
-                }
-
-                pdf.text(`Behavior: ${animalData.stats.behavior[currentLanguage]}`, statsAlign, margin + 55);
-
-                pdf.text(`Spawn: ${animalData.stats.spawn[currentLanguage]}`, statsAlign, margin + 60);
-
-                // Try to add main image
+            // Add GIF image on the left
+            if (animalData.images?.main) {
                 try {
-                    const imgY = margin + 40
                     const img = new Image();
                     img.src = `${animalFolder}${animalPrefix}${animal}/${animalData.images.main}`;
                     await new Promise((resolve, reject) => {
                         img.onload = resolve;
                         img.onerror = reject;
                     });
+
                     const canvas = document.createElement('canvas');
                     const ctx = canvas.getContext('2d');
-                    canvas.width = img.width;
-                    canvas.height = img.height;
-                    ctx.drawImage(img, 0, 0);
-                    const imgData = canvas.toDataURL('image/jpeg');
 
-                    // Calculate image dimensions to fit on page
-                    const maxWidth = pageWidth / 2 - 2 * margin;
-                    const maxHeight = 80;
+                    // Calculate image dimensions
+                    const maxWidth = halfPage - margin;
+                    const maxHeight = 40; // Adjust this value to match stats height
                     const ratio = Math.min(maxWidth / img.width, maxHeight / img.height);
                     const width = img.width * ratio;
                     const height = img.height * ratio;
 
-                    // Adjust the following content position
-                    pdf.addImage(imgData, 'JPEG', margin, imgY, width, height);
+                    // Set canvas size to include border
+                    const borderWidth = 2; // Border width in pixels
+                    canvas.width = width + (borderWidth * 2);
+                    canvas.height = height + (borderWidth * 2);
+
+                    // Fill white background
+                    ctx.fillStyle = '#FFFFFF';
+                    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+                    // Draw border
+                    ctx.strokeStyle = '#000000';
+                    ctx.lineWidth = borderWidth;
+                    ctx.strokeRect(borderWidth/2, borderWidth/2, canvas.width - borderWidth, canvas.height - borderWidth);
+
+                    // Draw image inside border
+                    ctx.drawImage(img, borderWidth, borderWidth, width, height);
+
+                    const imgData = canvas.toDataURL('image/jpeg', 1.0);
+
+                    // Position image on the left side
+                    pdf.addImage(imgData, 'JPEG', margin, currentY, canvas.width * 0.75, canvas.height * 0.75);
                 } catch (error) {
                     console.error(`Error adding image for ${animal}:`, error);
                 }
+            }
 
-                // Add drops information if available
-                if (animalData.drops) {
-                    const yPosition = margin + 100;
-                    pdf.setFontSize(14);
-                    pdf.text(animalData.drops.title[currentLanguage], margin, yPosition);
-                    pdf.setFontSize(12);
-                    const dropsDesc = pdf.splitTextToSize(animalData.drops.description[currentLanguage], pageWidth - 2 * margin);
-                    pdf.text(dropsDesc, margin, yPosition + 10);
 
-                    let dropsY = yPosition + 20; // Start position for drops list
+            // Stats on the right
+            if (animalData.stats) {
+                const statsX = margin + halfPage;
+                pdf.setFontSize(14);
+                pdf.text("Stats:", statsX, currentY);
+                currentY += 5;
 
-                    animalData.drops.items.forEach(item => {
-                        const dropText = `${item.name[currentLanguage]}: ${item.amount}${item.condition ? ` (${item.condition[currentLanguage]})` : ''}`;
-                        pdf.text(dropText, margin, dropsY);
-                        dropsY += 5; // Increment position for next drop
-                    });
+                pdf.setFontSize(12);
+                if (animalData.stats.classification?.[currentLanguage]) {
+                    pdf.text(
+                        `Classification: ${animalData.stats.classification[currentLanguage]}`,
+                        statsX,
+                        currentY
+                    );
+                    currentY += 5;
+                }
 
-                    // If there's a note for drops, add it
-                    if (animalData.drops.note) {
-                        const noteY = dropsY + 5;
-                        pdf.setFontSize(10);
-                        const note = pdf.splitTextToSize(animalData.drops.note[currentLanguage], pageWidth - 2 * margin);
-                        pdf.text(note, margin, noteY);
-                    }
+                if (animalData.stats.health) {
+                    pdf.text(`Health: ${animalData.stats.health}`, statsX, currentY);
+                    currentY += 5;
+                }
+
+                if (animalData.stats.behavior?.[currentLanguage]) {
+                    pdf.text(
+                        `Behavior: ${animalData.stats.behavior[currentLanguage]}`,
+                        statsX,
+                        currentY
+                    );
+                    currentY += 5;
+                }
+
+                if (animalData.stats.spawn?.[currentLanguage]) {
+                    pdf.text(
+                        `Spawn: ${animalData.stats.spawn[currentLanguage]}`,
+                        statsX,
+                        currentY
+                    );
+                    currentY += 5;
                 }
             }
 
-            // Save the PDF
-            pdf.save(`naturalist-addon-guide-${currentLanguage}.pdf`);
+            // Add spacing after stats/image section
+            currentY = Math.max(currentY, statsStartY + 45); // Ensure enough space for both image and stats
+
+            // Helper function to check and add new page if needed
+            const checkPageBreak = (requiredSpace) => {
+                if (currentY + requiredSpace > maxY) {
+                    pdf.addPage();
+                    currentY = margin;
+                    return true;
+                }
+                return false;
+            };
+
+            // Spawning section
+            if (animalData.spawning) {
+                pdf.setFontSize(16);
+                pdf.text(animalData.spawning.title[currentLanguage], margin, currentY);
+                currentY += 10;
+
+                if (animalData.spawning.description?.[currentLanguage]) {
+                    pdf.setFontSize(12);
+                    const spawnDesc = pdf.splitTextToSize(
+                        animalData.spawning.description[currentLanguage],
+                        pageWidth - 2 * margin
+                    );
+                    pdf.text(spawnDesc, margin, currentY);
+                    currentY += spawnDesc.length * 5 + 10;
+                }
+
+                // Add variants if they exist
+                if (animalData.spawning.variants) {
+                    animalData.spawning.variants.forEach(variant => {
+                        checkPageBreak(10);
+                        let variantText = '';
+
+                        // Build variant text only if all required properties exist
+                        if (variant.type?.[currentLanguage] && variant.group && variant.biome?.[currentLanguage]) {
+                            variantText = `${variant.type[currentLanguage]}: ${variant.group} (${variant.biome[currentLanguage]})`;
+                            pdf.text(variantText, margin + 10, currentY);
+                            currentY += 5;
+                        }
+                    });
+                    currentY += 5;
+                }
+
+            }
+
+            // Drops section
+            if (animalData.drops) {
+                pdf.setFontSize(16);
+                pdf.text(animalData.drops.title[currentLanguage], margin, currentY);
+                currentY += 10;
+
+                if (animalData.drops.description?.[currentLanguage]) {
+                    pdf.setFontSize(12);
+                    pdf.text(animalData.drops.description[currentLanguage], margin, currentY);
+                    currentY += 10;
+                }
+
+                // Add drop items
+                if (animalData.drops.items) {
+                    animalData.drops.items.forEach(item => {
+                        let dropText = `• ${item.name[currentLanguage]}: ${item.amount}`;
+                        if (item.condition) {
+                            dropText += ` (${item.condition[currentLanguage]})`;
+                        }
+                        pdf.text(dropText, margin + 5, currentY);
+                        currentY += 5;
+                    });
+                    currentY += 5;
+                }
+
+                // Add drop note if exists
+                if (animalData.drops.note?.[currentLanguage]) {
+                    pdf.setFontSize(10);
+                    const noteText = pdf.splitTextToSize(
+                        `Note: ${animalData.drops.note[currentLanguage]}`,
+                        pageWidth - 2 * margin
+                    );
+                    pdf.text(noteText, margin, currentY);
+                    currentY += noteText.length * 5 + 10;
+                }
+            }
+
+            // Behavior section
+            if (animalData.behavior) {
+                pdf.setFontSize(16);
+                pdf.text(animalData.behavior.title[currentLanguage], margin, currentY);
+                currentY += 10;
+
+                if (animalData.behavior.description?.[currentLanguage]) {
+                    pdf.setFontSize(12);
+                    const behaviorDesc = pdf.splitTextToSize(
+                        animalData.behavior.description[currentLanguage],
+                        pageWidth - 2 * margin
+                    );
+                    pdf.text(behaviorDesc, margin, currentY);
+                    currentY += behaviorDesc.length * 5 + 10;
+                }
+
+                // Add prey information if exists
+                if (animalData.behavior.prey?.[currentLanguage]) {
+                    pdf.text(`Prey: ${animalData.behavior.prey[currentLanguage]}`, margin, currentY);
+                    currentY += 10;
+                }
+
+                // Add weakness information if exists
+                if (animalData.behavior.weakness?.[currentLanguage]) {
+                    const weaknessText = pdf.splitTextToSize(
+                        `Weakness: ${animalData.behavior.weakness[currentLanguage]}`,
+                        pageWidth - 2 * margin
+                    );
+                    pdf.text(weaknessText, margin, currentY);
+                    currentY += weaknessText.length * 5 + 10;
+                }
+            }
+
+            // Breeding section
+            if (animalData.breeding) {
+                pdf.setFontSize(16);
+                pdf.text(animalData.breeding.title[currentLanguage], margin, currentY);
+                currentY += 10;
+
+                if (animalData.breeding.description?.[currentLanguage]) {
+                    pdf.setFontSize(12);
+                    const breedingDesc = pdf.splitTextToSize(
+                        animalData.breeding.description[currentLanguage],
+                        pageWidth - 2 * margin
+                    );
+                    pdf.text(breedingDesc, margin, currentY);
+                    currentY += breedingDesc.length * 5 + 10;
+                }
+
+                // Add egg behavior if exists
+                if (animalData.breeding.egg_behavior?.[currentLanguage]) {
+                    const eggBehaviorText = pdf.splitTextToSize(
+                        animalData.breeding.egg_behavior[currentLanguage],
+                        pageWidth - 2 * margin
+                    );
+                    pdf.text(eggBehaviorText, margin, currentY);
+                    currentY += eggBehaviorText.length * 5 + 10;
+                }
+            }
+
         }
 
-        // Add event listener for the PDF button
-        document.getElementById('generate-pdf').addEventListener('click', generatePDF);
-    </script>
+        // Save the PDF
+        pdf.save(`naturalist_addon_guide_${currentLanguage}.pdf`);
+    }
+
+    // Add event listener for the PDF button
+    document.getElementById('generate-pdf').addEventListener('click', generatePDF);
+</script>
 </body>
 </html>
