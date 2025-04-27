@@ -1,3 +1,9 @@
+langues:
+    en: English
+    fr: Français
+    es: Español
+    uk: українська
+
 potential_animals:
   - alligator
   - anglerfish

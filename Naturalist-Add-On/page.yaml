@@ -2,47 +2,73 @@ title:
   gallery:
     en: Gallery
     fr: Galerie
+    es: Galería
+    uk: Галерея
   stats:
     health:
       en: Health
       fr: Vie
+      es: Salud
+      uk: Здоров'я
     classification:
       en: Classification
       fr: Classification
+      es: Clasificación
+      uk: Класифікація
     behavior:
       en: Behavior
       fr: Comportement
+      es: Comportamiento
+      uk: Поведінка
     spawn:
       en: Spawn
       fr: Apparition
+      es: Generación
+      uk: Поява
   spawning:
     en: Spawning
     fr: Apparition
+    es: Generación
+    uk: Поява
   drops:
     en: Drops
     fr: Butin
+    es: Botín
+    uk: Випадання
   items:
     en: Items
     fr: Objets
+    es: Objetos
+    uk: Предмети
   behavior:
     en: Behavior
     fr: Comportement
+    es: Comportamiento
+    uk: Поведінка
   breeding:
     en: Breeding
     fr: Reproduction
+    es: Reproducción
+    uk: Розмноження
 
 return_link:
   en: Naturalist Add-On Wiki
   fr: Wiki de l'extension Naturalist
+  es: Wiki del Complemento Naturalist
+  uk: Вікі додатку Naturalist
 return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
 
 community:
   title:
     en: Have additional questions? Want to be a part of our community?
     fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté ?
+    es: ¿Tienes preguntas adicionales? ¿Quieres ser parte de nuestra comunidad?
+    uk: Маєте додаткові питання? Хочете стати частиною нашої спільноти?
   join:
     en: Join our Discord!
     fr: Rejoignez notre Discord !
+    es: ¡Únete a nuestro Discord!
+    uk: Приєднуйтесь до нашого Discord!
   discord_url: /discord.com/invite/starfishstudios
 
 social_links:

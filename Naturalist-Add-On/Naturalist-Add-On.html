@@ -20,8 +20,7 @@
         <button id="next-animal" class="nav-button" title="Next Animal"><i class="fas fa-chevron-right"></i></button>
         <button id="generate-pdf" class="nav-button" title="Generate PDF"><i class="fas fa-file-pdf"></i></button>
         <select id="language-select">
-            <option value="en">English</option>
-            <option value="fr">Français</option>
+            <!-- Language options will be loaded dynamically from config.yaml -->
         </select>
     </div>
 </div>
@@ -246,9 +245,14 @@
         const langFromUrl = getUrlParameter('lang');
 
         // Set language from URL if valid
-        if (langFromUrl && ['en', 'fr'].includes(langFromUrl)) {
-            currentLanguage = langFromUrl;
-            document.getElementById('language-select').value = currentLanguage;
+        if (langFromUrl) {
+            const languageSelect = document.getElementById('language-select');
+            const availableLanguages = Array.from(languageSelect.options).map(opt => opt.value);
+            
+            if (availableLanguages.includes(langFromUrl)) {
+                currentLanguage = langFromUrl;
+                languageSelect.value = currentLanguage;
+            }
         }
 
         // Load animal from URL if valid, otherwise select random
@@ -266,9 +270,43 @@
         }
     }
 
+    // Function to populate language dropdown from config.yaml
+    async function populateLanguageDropdown() {
+        try {
+            const response = await fetch('config.yaml');
+            const yamlText = await response.text();
+            const config = jsyaml.load(yamlText);
+            
+            if (config.langues) {
+                const languageSelect = document.getElementById('language-select');
+                languageSelect.innerHTML = ''; // Clear existing options
+                
+                // Add options for each language in config
+                Object.entries(config.langues).forEach(([code, name]) => {
+                    const option = document.createElement('option');
+                    option.value = code;
+                    option.textContent = name;
+                    languageSelect.appendChild(option);
+                });
+                
+                // Set the current language if it exists in the options
+                if (Object.keys(config.langues).includes(currentLanguage)) {
+                    languageSelect.value = currentLanguage;
+                } else if (Object.keys(config.langues).length > 0) {
+                    // Default to first language if current is not available
+                    currentLanguage = Object.keys(config.langues)[0];
+                    languageSelect.value = currentLanguage;
+                }
+            }
+        } catch (error) {
+            console.error('Error loading languages from config:', error);
+        }
+    }
+    
     // Initialize
     async function initialize() {
         await loadPageTranslation();
+        await populateLanguageDropdown();
         animalList = await scanForAnimals();
         setupNavigationButtons();
         handleUrlChange();

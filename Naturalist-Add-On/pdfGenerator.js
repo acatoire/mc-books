@@ -74,7 +74,7 @@ async function generatePDF(animalList,
 
                 // Calculate image dimensions - increase maxHeight for better resolution
                 const imgMaxWidth = halfPage - margin;
-                const imgMaxHeight = 80; // Increased from 40 for better image quality
+                const imgMaxHeight = 80;
                 const imgRatio = Math.min(imgMaxWidth / img.width, imgMaxHeight / img.height);
                 const imgWidth = img.width * imgRatio;
                 imgHeight = img.height * imgRatio;
