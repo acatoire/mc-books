@@ -39,7 +39,8 @@
 </div>
 
 <script>
-    let translations = {};
+    let translationsAnimal = {};
+    let translationsPage = {};
     let currentLanguage = 'en';
     let currentAnimal = '';
     let animalList = [];
@@ -63,6 +64,19 @@
         window.history.pushState({}, '', url);
     }
 
+    // Function to load page translation
+    async function loadPageTranslation() {
+        try {
+            const response = await fetch('page.yaml');
+            const yamlText = await response.text();
+            translationsPage = jsyaml.load(yamlText);
+            return translationsPage;
+        } catch (error) {
+            console.error('Error loading page translations:', error);
+            return null;
+        }
+    }
+    
     // Function to load animal translation
     async function loadAnimalTranslation(animal) {
         try {
@@ -109,20 +123,6 @@
         } catch (error) {
             console.error('Error loading config.yaml:', error);
             return [];
-        }
-
-        // Function to check if a directory exists and contains a YAML file
-        async function checkAnimalDirectory(animalName) {
-            try {
-                const response = await fetch(`${animalFolder}${animalPrefix}${animalName}/${animalName}.yaml`);
-                if (response.ok) {
-                    await loadAnimalTranslation(animalName);
-                    return true;
-                }
-                return false;
-            } catch (error) {
-                return false;
-            }
         }
 
         // Check each potential animal directory
@@ -267,6 +267,7 @@
 
     // Initialize
     async function initialize() {
+        await loadPageTranslation();
         animalList = await scanForAnimals();
         setupNavigationButtons();
         handleUrlChange();
@@ -290,15 +291,15 @@
     // Replace the existing loadAnimalData function with this one:
     function loadAnimalData(animal) {
         if (animalTranslations.has(animal)) {
-            translations = animalTranslations.get(animal);
+            translationsAnimal = animalTranslations.get(animal);
             updateContent();
             updateFooter(); // Add this line
         } else {
             fetch(`${animalFolder}${animalPrefix}${animal}/${animal}.yaml`)
                 .then(response => response.text())
                 .then(yaml => {
-                    translations = jsyaml.load(yaml);
-                    animalTranslations.set(animal, translations);
+                    translationsAnimal = jsyaml.load(yaml);
+                    animalTranslations.set(animal, translationsAnimal);
                     document.getElementById('language-select').value = currentLanguage;
                     updateContent();
                     updateFooter(); // Add this line
@@ -311,32 +312,32 @@
     }
 
     function updateContent() {
-        if (!translations) return;
+        if (!translationsAnimal) return;
 
         const content = document.getElementById('content');
         let html = `
-                <h2>${translations.title[currentLanguage]}</h2>
-                <p>${translations.description[currentLanguage]}</p>
+                <h2>${translationsAnimal.title[currentLanguage]}</h2>
+                <p>${translationsAnimal.description[currentLanguage]}</p>
                 
                 <div class="stats-container">
                     <div class="main-image">
-                        <img src="${animalFolder}${animalPrefix}${currentAnimal}/${translations.images.main}" alt="${translations.title[currentLanguage]}">
+                        <img src="${animalFolder}${animalPrefix}${currentAnimal}/${translationsAnimal.images.main}" alt="${translationsAnimal.title[currentLanguage]}">
                     </div>
                     <div class="stats">
                         <div class="stat-item">
-                            <h3>Classification: <a href="${translations.stats.classification_urls.animal}" target="_blank">${translations.stats.classification[currentLanguage]}</a></h3>
-                            <p>Health: ${translations.stats.health} ❤️</p>
-                            <p>Behavior: ${translations.stats.behavior[currentLanguage]}</p>
-                            <p>Spawn: <a href="${translations.stats.spawn_url.overworld}" target="_blank">${translations.stats.spawn[currentLanguage]}</a></p>
+                            <h3>Classification: <a href="${translationsAnimal.stats.classification_urls.animal}" target="_blank">${translationsAnimal.stats.classification[currentLanguage]}</a></h3>
+                            <p>Health: ${translationsAnimal.stats.health} ❤️</p>
+                            <p>Behavior: ${translationsAnimal.stats.behavior[currentLanguage]}</p>
+                            <p>Spawn: <a href="${translationsAnimal.stats.spawn_url.overworld}" target="_blank">${translationsAnimal.stats.spawn[currentLanguage]}</a></p>
                         </div>
                     </div>
-                    ${translations.images && translations.images.items ? `
+                    ${translationsAnimal.images && translationsAnimal.images.items ? `
                     <div class="items-section">
-                        <h3>Items</h3>
+                        <h3>${translationsPage.title.items[currentLanguage]}</h3>
                         <div class="items-container">
-                            ${translations.images.items.map(img => `
+                            ${translationsAnimal.images.items.map(img => `
                                 <div class="gallery-item">
-                                    <img class="items-gallery" src="${animalFolder}${animalPrefix}${currentAnimal}/${img}" alt="${translations.title[currentLanguage]}">
+                                    <img class="items-gallery" src="${animalFolder}${animalPrefix}${currentAnimal}/${img}" alt="${translationsAnimal.title[currentLanguage]}">
                                 </div>
                             `).join('')}
                         </div>
@@ -344,67 +345,66 @@
                     ` : ''}
                 </div>`;
 
-        if (translations.spawning) {
+        if (translationsAnimal.spawning) {
             html += `
-                <h3>${translations.spawning.title[currentLanguage]}</h3>
-                <p>${translations.spawning.description[currentLanguage]}</p>`;
+                <h3>${translationsPage.title.spawning[currentLanguage]}</h3>
+                <p>${translationsAnimal.spawning.description[currentLanguage]}</p>`;
         }
 
-        if (translations.drops) {
+        if (translationsAnimal.drops) {
             html += `
-                <h3>${translations.drops.title[currentLanguage]}</h3>
-                <p>${translations.drops.description[currentLanguage]}</p>
+                <h3>${translationsPage.title.drops[currentLanguage]}</h3>
+                <p>${translationsAnimal.drops.description[currentLanguage]}</p>
                 <ul>
-                    ${translations.drops.items.map(item => `
+                    ${translationsAnimal.drops.items.map(item => `
                         <li>${item.name[currentLanguage]}: ${item.amount}${item.condition ? ` (${item.condition[currentLanguage]})` : ''}</li>
                     `).join('')}
                 </ul>`;
-            if (translations.drops.note) {
-                html += `<p>${translations.drops.note[currentLanguage]}</p>`;
+            if (translationsAnimal.drops.note) {
+                html += `<p>${translationsAnimal.drops.note[currentLanguage]}</p>`;
             }
         }
 
-        if (translations.behavior) {
+        if (translationsAnimal.behavior) {
             html += `
-                <h3>${translations.behavior.title[currentLanguage]}</h3>
-                <p>${translations.behavior.description[currentLanguage]}</p>`;
-            if (translations.behavior.prey) {
-                html += `<p>Prey: ${translations.behavior.prey[currentLanguage]}</p>`;
+                <h3>${translationsPage.title.behavior[currentLanguage]}</h3>
+                <p>${translationsAnimal.behavior.description[currentLanguage]}</p>`;
+            if (translationsAnimal.behavior.prey) {
+                html += `<p>Prey: ${translationsAnimal.behavior.prey[currentLanguage]}</p>`;
             }
-            if (translations.behavior.weakness) {
-                html += `<p>Weakness: ${translations.behavior.weakness[currentLanguage]}</p>`;
-            }
-        }
-
-        if (translations.breeding) {
-            html += `
-                <h3>${translations.breeding.title[currentLanguage]}</h3>
-                <p>${translations.breeding.description[currentLanguage]}</p>`;
-            if (translations.breeding.egg_behavior) {
-                html += `<p>${translations.breeding.egg_behavior[currentLanguage]}</p>`;
+            if (translationsAnimal.behavior.weakness) {
+                html += `<p>Weakness: ${translationsAnimal.behavior.weakness[currentLanguage]}</p>`;
             }
         }
 
-        if (translations.gallery && translations.images && translations.images.gallery) {
+        if (translationsAnimal.breeding) {
             html += `
-                <h3>${translations.gallery.title[currentLanguage]}</h3>
+                <h3>${translationsPage.title.breeding[currentLanguage]}</h3>
+                <p>${translationsAnimal.breeding.description[currentLanguage]}</p>`;
+            if (translationsAnimal.breeding.egg_behavior) {
+                html += `<p>${translationsAnimal.breeding.egg_behavior[currentLanguage]}</p>`;
+            }
+        }
+
+        if (translationsAnimal.images && translationsAnimal.images.gallery) {
+            html += `
+                <h3>${translationsPage.title.gallery[currentLanguage]}</h3>
                 <div class="gallery">
-                    ${translations.images.gallery.map(img => `
+                    ${translationsAnimal.images.gallery.map(img => `
                         <div class="gallery-item">
-                            <img src="${animalFolder}${animalPrefix}${currentAnimal}/${img}" alt="${translations.title[currentLanguage]}">
+                            <img src="${animalFolder}${animalPrefix}${currentAnimal}/${img}" alt="${translationsAnimal.title[currentLanguage]}">
                         </div>
                     `).join('')}
                 </div>`;
         }
 
-        if (translations.images && translations.images.gifs) {
+        if (translationsAnimal.images && translationsAnimal.images.gifs) {
             html += `
                 <div class="items-section">
-                    <h3>GIFs</h3>
                     <div class="items-container">
-                        ${translations.images.gifs.map(img => `
+                        ${translationsAnimal.images.gifs.map(img => `
                             <div class="gallery-item">
-                                <img class="gif-gallery" src="${animalFolder}${animalPrefix}${currentAnimal}/${img}" alt="${translations.title[currentLanguage]}">
+                                <img class="gif-gallery" src="${animalFolder}${animalPrefix}${currentAnimal}/${img}" alt="${translationsAnimal.title[currentLanguage]}">
                                 <div class="gif-label">GIF</div>
                             </div>
                         `).join('')}
@@ -420,18 +420,18 @@
         const footer = document.getElementById('footer');
         let html = '';
 
-        if (translations && translations.community) {
+        if (translationsPage && translationsPage.community) {
             html += `
                 <div class="community">
-                    <p>${translations.community.title[currentLanguage]}</p>
+                    <p>${translationsPage.community.title[currentLanguage]}</p>
                 </div>`;
         }
-
-        if (translations && translations.social_links) {
+    
+        if (translationsPage && translationsPage.social_links) {
             html += `
                 <div class="social-links">
-                <a href="${translations.community.discord_url}">${translations.community.join[currentLanguage]}</a>
-                    ${Object.entries(translations.social_links).map(([platform, url]) => `
+                <a href="${translationsPage.community.discord_url}">${translationsPage.community.join[currentLanguage]}</a>
+                    ${Object.entries(translationsPage.social_links).map(([platform, url]) => `
                         <a href="${url}" target="_blank">${platform}</a>
                     `).join('')}
                 </div>`;
@@ -609,7 +609,7 @@
             // Spawning section
             if (animalData.spawning) {
                 pdf.setFontSize(16);
-                pdf.text(animalData.spawning.title[currentLanguage], margin, currentY);
+                pdf.text(translationsPage.title.spawning[currentLanguage], margin, currentY);
                 currentY += 10;
 
                 if (animalData.spawning.description?.[currentLanguage]) {
@@ -643,7 +643,7 @@
             // Drops section
             if (animalData.drops) {
                 pdf.setFontSize(16);
-                pdf.text(animalData.drops.title[currentLanguage], margin, currentY);
+                pdf.text(translationsPage.title.drops[currentLanguage], margin, currentY);
                 currentY += 10;
 
                 if (animalData.drops.description?.[currentLanguage]) {
@@ -680,7 +680,7 @@
             // Behavior section
             if (animalData.behavior) {
                 pdf.setFontSize(16);
-                pdf.text(animalData.behavior.title[currentLanguage], margin, currentY);
+                pdf.text(translationsPage.title.behavior[currentLanguage], margin, currentY);
                 currentY += 10;
 
                 if (animalData.behavior.description?.[currentLanguage]) {
@@ -713,7 +713,7 @@
             // Breeding section
             if (animalData.breeding) {
                 pdf.setFontSize(16);
-                pdf.text(animalData.breeding.title[currentLanguage], margin, currentY);
+                pdf.text(translationsPage.title.breeding[currentLanguage], margin, currentY);
                 currentY += 10;
 
                 if (animalData.breeding.description?.[currentLanguage]) {

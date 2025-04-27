@@ -33,7 +33,7 @@ stats:
     fr: Océan et variantes
   spawn_url: /minecraft.fandom.com/wiki/Ocean
 images:
-  main: anglerfish.gif
+  main: anglerfish_variants.gif
   items:
   - bucket_anglerfish.png
   - bucket_glow_anglerfish.png
@@ -42,7 +42,6 @@ images:
   - glow_angler.png
   gifs:
   - anglerfish.gif
-  - anglerfish_variants.gif
   - glow_anglerfish.gif
 spawning:
   title:

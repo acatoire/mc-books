@@ -1,0 +1,55 @@
+title:
+  gallery:
+    en: Gallery
+    fr: Galerie
+  stats:
+    health:
+      en: Health
+      fr: Vie
+    classification:
+      en: Classification
+      fr: Classification
+    behavior:
+      en: Behavior
+      fr: Comportement
+    spawn:
+      en: Spawn
+      fr: Apparition
+  spawning:
+    en: Spawning
+    fr: Apparition
+  drops:
+    en: Drops
+    fr: Butin
+  items:
+    en: Items
+    fr: Objets
+  behavior:
+    en: Behavior
+    fr: Comportement
+  breeding:
+    en: Breeding
+    fr: Reproduction
+
+return_link:
+  en: Naturalist Add-On Wiki
+  fr: Wiki de l'extension Naturalist
+return_url: /www.notion.so/1a7a9a61c3f1800c8e32e893d6e7f430?pvs=21
+
+community:
+  title:
+    en: Have additional questions? Want to be a part of our community?
+    fr: Des questions supplémentaires ? Vous voulez faire partie de notre communauté ?
+  join:
+    en: Join our Discord!
+    fr: Rejoignez notre Discord !
+  discord_url: /discord.com/invite/starfishstudios
+
+social_links:
+  marketplace: /www.minecraft.net/en-us/marketplace/creator?name=Starfish%20Studios
+  curseforge: /www.curseforge.com/members/starfish_studios/projects
+  tiktok: /www.tiktok.com/@starfishstudios
+  instagram: /www.instagram.com/starfishstudiosinc/
+  twitter: /twitter.com/starfishstudios
+  youtube: /www.youtube.com/@starfishstudios
+  website: /starfish-studios.com/
