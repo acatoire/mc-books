@@ -1,4 +1,5 @@
 
+// FIXME ukrainien font with Cyrillic language issue
 
 // Add this helper function to your code
 function checkPageBreak(pdf, currentY, text, margin) {
