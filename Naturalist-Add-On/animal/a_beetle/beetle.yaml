@@ -1,29 +1,34 @@
 title:
   en: Beetle
   fr: Scarabée
+  es: Escarabajo
+  uk: Жук
 last_updated: April 22, 2025 8:47 PM
 description:
-  en: Beetles are small insects that can be found in various biomes. They are known
-    for their hard exoskeleton and diverse appearances. Some beetles are beneficial
-    to the environment, helping with decomposition and pollination.
-  fr: Les scarabées sont de petits insectes que l'on peut trouver dans divers biomes.
-    Ils sont connus pour leur exosquelette dur et leurs apparences diverses. Certains
-    scarabées sont bénéfiques pour l'environnement, aidant à la décomposition et à
-    la pollinisation.
+  en: Beetles are small insects that can be found in various biomes. They are known for their hard exoskeleton and diverse appearances. Some beetles are beneficial to the environment, helping with decomposition and pollination.
+  fr: Les scarabées sont de petits insectes que l'on peut trouver dans divers biomes. Ils sont connus pour leur exosquelette dur et leurs apparences diverses. Certains scarabées sont bénéfiques pour l'environnement, aidant à la décomposition et à la pollinisation.
+  es: Los escarabajos son pequeños insectos que se pueden encontrar en diversos biomas. Son conocidos por su exoesqueleto duro y sus diversas apariencias. Algunos escarabajos son beneficiosos para el medio ambiente, ayudando en la descomposición y la polinización.
+  uk: Жуки - це невеликі комахи, яких можна знайти в різних біомах. Вони відомі своїм твердим екзоскелетом і різноманітними зовнішніми виглядами. Деякі жуки корисні для навколишнього середовища, допомагаючи в розкладанні та запиленні.
 stats:
   health: 2
   classification:
     en: Animal / Insect
     fr: Animal / Insecte
+    es: Animal / Insecto
+    uk: Тварина / Комаха
   classification_urls:
     animal: /minecraft.fandom.com/wiki/Animal
     insect: /minecraft.fandom.com/wiki/Insect
   behavior:
     en: Passive
     fr: Passif
+    es: Pasivo
+    uk: Пасивний
   spawn:
     en: Forest, Plains, and Jungle
     fr: Forêt, Plaines et Jungle
+    es: Bosque, Llanuras y Jungla
+    uk: Ліс, Рівнини та Джунглі
   spawn_url:
     forest: /minecraft.wiki/w/Forest
     plains: /minecraft.wiki/w/Plains
@@ -31,68 +36,67 @@ stats:
 images:
   main: beetle.gif
   gallery:
-  - beetle_black.png
-  - beetle_brown.png
-  - beetle_green.png
-  - beetle_red.png
-  - beetle_variants.png
-  - beetle_white.png
-  - beetle_yellow.png
-  - white_beetle_cave.png
+    - beetle_black.png
+    - beetle_brown.png
+    - beetle_green.png
+    - beetle_red.png
+    - beetle_variants.png
+    - beetle_white.png
+    - beetle_yellow.png
+    - white_beetle_cave.png
   gifs:
-  - beetle.gif
-  - beetle2.gif
-  - beetle_variants.gif
-  - brown_beetle.gif
-  - green_beetle.gif
-  - red_beetle.gif
-  - white_beetle.gif
+    - beetle.gif
+    - beetle2.gif
+    - beetle_variants.gif
+    - brown_beetle.gif
+    - green_beetle.gif
+    - red_beetle.gif
+    - white_beetle.gif
 spawning:
   description:
-    en: Beetles spawn in small groups of 1-3 in forest, plains, and jungle biomes.
-      They prefer to spawn near logs, leaves, or flowers. They are more active during
-      the day and will hide under blocks at night.
-    fr: Les scarabées apparaissent en petits groupes de 1 à 3 dans les biomes de forêt,
-      plaines et jungle. Ils préfèrent apparaître près des bûches, des feuilles ou
-      des fleurs. Ils sont plus actifs pendant la journée et se cachent sous les blocs
-      la nuit.
+    en: Beetles spawn in small groups of 1-3 in forest, plains, and jungle biomes. They prefer to spawn near logs, leaves, or flowers. They are more active during the day and will hide under blocks at night.
+    fr: Les scarabées apparaissent en petits groupes de 1 à 3 dans les biomes de forêt, plaines et jungle. Ils préfèrent apparaître près des bûches, des feuilles ou des fleurs. Ils sont plus actifs pendant la journée et se cachent sous les blocs la nuit.
+    es: Los escarabajos aparecen en pequeños grupos de 1-3 en los biomas de bosque, llanuras y jungla. Prefieren aparecer cerca de troncos, hojas o flores. Son más activos durante el día y se esconden bajo los bloques por la noche.
+    uk: Жуки з'являються невеликими групами по 1-3 особини в біомах лісу, рівнин та джунглів. Вони воліють з'являтися поблизу колод, листя або квітів. Вони активніші вдень і ховаються під блоками вночі.
 drops:
   description:
     en: Beetle drops upon death
     fr: Le scarabée laisse tomber à sa mort
+    es: El escarabajo suelta al morir
+    uk: Жук випадає після смерті
   items:
-  - name:
-      en: Chitin
-      fr: Chitine
-    amount: 0-1
-    looting: true
-    condition:
-      en: Maximum amount increased by 1 per level of Looting, for a maximum of 0-3
-        with Looting III
-      fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum
-        de 0-3 avec Butin III
-  - name:
-      en: Experience Orbs
-      fr: Orbes d'expérience
-    amount: 1-2
-    condition:
-      en: if killed by Player
-      fr: si tué par un joueur
+    - name:
+        en: Chitin
+        fr: Chitine
+        es: Quitina
+        uk: Хітин
+      amount: 0-1
+      looting: true
+      condition:
+        en: Maximum amount increased by 1 per level of Looting, for a maximum of 0-3 with Looting III
+        fr: La quantité maximale est augmentée de 1 par niveau de Butin, pour un maximum de 0-3 avec Butin III
+        es: La cantidad máxima aumenta en 1 por nivel de Botín, con un máximo de 0-3 con Botín III
+        uk: Максимальна кількість збільшується на 1 за рівень Розграбування, до максимуму 0-3 з Розграбуванням III
+    - name:
+        en: Experience Orbs
+        fr: Orbes d'expérience
+        es: Orbes de experiencia
+        uk: Сфери досвіду
+      amount: 1-2
+      condition:
+        en: if killed by Player
+        fr: si tué par un joueur
+        es: si es asesinado por un Jugador
+        uk: якщо вбито Гравцем
 behavior:
   description:
-    en: Beetles are passive creatures that crawl on the ground and occasionally fly
-      short distances. They are attracted to flowers and will sometimes pollinate
-      them. When threatened, they will either fly away or curl up into a defensive
-      position.
-    fr: Les scarabées sont des créatures passives qui rampent sur le sol et volent
-      parfois sur de courtes distances. Ils sont attirés par les fleurs et les pollinisent
-      parfois. Lorsqu'ils sont menacés, ils s'envolent ou se recroquevillent en position
-      défensive.
+    en: Beetles are passive creatures that crawl on the ground and occasionally fly short distances. They are attracted to flowers and will sometimes pollinate them. When threatened, they will either fly away or curl up into a defensive position.
+    fr: Les scarabées sont des créatures passives qui rampent sur le sol et volent parfois sur de courtes distances. Ils sont attirés par les fleurs et les pollinisent parfois. Lorsqu'ils sont menacés, ils s'envolent ou se recroquevillent en position défensive.
+    es: Los escarabajos son criaturas pasivas que se arrastran por el suelo y vuelan cortas distancias ocasionalmente. Se sienten atraídos por las flores y a veces las polinizan. Cuando se sienten amenazados, o bien vuelan o se enroscan en una posición defensiva.
+    uk: Жуки - це пасивні істоти, які повзають по землі та іноді літають на короткі відстані. Їх приваблюють квіти, і вони іноді запилюють їх. Коли їм загрожують, вони або відлітають, або згортаються в оборонну позицію.
 breeding:
   description:
-    en: Beetles can be bred using various flowers. When bred, they will lay eggs in
-      the ground or on logs. The eggs will hatch into larvae after a short incubation
-      period.
-    fr: Les scarabées peuvent se reproduire en utilisant diverses fleurs. Lorsqu'ils
-      se reproduisent, ils pondent des œufs dans le sol ou sur des bûches. Les œufs
-      éclosent en larves après une courte période d'incubation.
+    en: Beetles can be bred using various flowers. When bred, they will lay eggs in the ground or on logs. The eggs will hatch into larvae after a short incubation period.
+    fr: Les scarabées peuvent se reproduire en utilisant diverses fleurs. Lorsqu'ils se reproduisent, ils pondent des œufs dans le sol ou sur des bûches. Les œufs éclosent en larves après une courte période d'incubation.
+    es: Los escarabajos pueden criarse usando diversas flores. Cuando se crían, pondrán huevos en el suelo o en troncos. Los huevos eclosionarán en larvas después de un corto período de incubación.
+    uk: Жуків можна розводити за допомогою різних квітів. Під час розведення вони відкладають яйця в землю або на колоди. Яйця вилуплюються в личинок після короткого періоду інкубації.
