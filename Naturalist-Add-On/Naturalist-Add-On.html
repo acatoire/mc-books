@@ -504,16 +504,159 @@
         footer.innerHTML = html;
     }
 
+    // Add inline styles for the popup to ensure they're applied
+    const popupStyles = document.createElement('style');
+    popupStyles.innerHTML = `
+        .language-popup {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+        .popup-content {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 500px;
+            width: 90%;
+        }
+        .popup-content h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        .popup-content p {
+            margin-bottom: 15px;
+        }
+        .popup-content select {
+            width: 100%;
+            padding: 8px;
+            margin: 15px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .popup-buttons {
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        .popup-buttons button {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        #confirm-language {
+            background-color: #4CAF50;
+            color: white;
+        }
+        #confirm-language:hover {
+            background-color: #3e8e41;
+        }
+        #cancel-language {
+            background-color: #f1f1f1;
+            color: #333;
+        }
+        #cancel-language:hover {
+            background-color: #ddd;
+        }
+    `;
+    document.head.appendChild(popupStyles);
+    
     // Add event listener for the PDF button
     document.getElementById('generate-pdf').addEventListener('click', async function() {
+        console.log("PDF button clicked");
+        
         // Load all animal translations if not already loaded
         for (const animal of animalList) {
             if (!animalTranslations.has(animal)) {
                 await loadAnimalTranslation(animal);
             }
         }
-        // Call the generatePDF function from the external file
-        window.generatePDF(animalList, animalTranslations, currentLanguage, animalFolder, animalPrefix);
+        
+        // Get available languages from the language select dropdown
+        const languageSelect = document.getElementById('language-select');
+        const availableLanguages = Array.from(languageSelect.options).map(opt => ({
+            code: opt.value, 
+            name: opt.textContent
+        })).filter(lang => lang.code !== currentLanguage);
+        
+        console.log("Available languages:", availableLanguages);
+        
+        // If there are additional languages available, ask the user if they want to include one
+        if (availableLanguages.length > 0) {
+            // Create HTML for language options
+            const languageOptions = availableLanguages.map(lang => 
+                `<option value="${lang.code}">${lang.name}</option>`
+            ).join('');
+            
+            // Create and show the popup
+            const popup = document.createElement('div');
+            popup.className = 'language-popup';
+            popup.style.position = 'fixed';
+            popup.style.top = '0';
+            popup.style.left = '0';
+            popup.style.width = '100%';
+            popup.style.height = '100%';
+            popup.style.backgroundColor = 'rgba(0, 0, 0, 0.5)';
+            popup.style.display = 'flex';
+            popup.style.justifyContent = 'center';
+            popup.style.alignItems = 'center';
+            popup.style.zIndex = '1000';
+            
+            popup.innerHTML = `
+                <div class="popup-content" style="background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); max-width: 500px; width: 90%;">
+                    <h3 style="margin-top: 0; color: #333;">${getTranslation(translationsPage.title, 'extra_language', currentLanguage) || 'Would you like to add a second language?'}</h3>
+                    <p style="margin-bottom: 15px;">${getTranslation(translationsPage.title, 'extra_language_desc', currentLanguage) || 'Select an additional language to include in your PDF:'}</p>
+                    <select id="second-language-select" style="width: 100%; padding: 8px; margin: 15px 0; border: 1px solid #ddd; border-radius: 4px;">
+                        <option value="">${getTranslation(translationsPage.title, 'no_extra_language', currentLanguage) || 'No extra language'}</option>
+                        ${languageOptions}
+                    </select>
+                    <div class="popup-buttons" style="display: flex; justify-content: flex-end; gap: 10px; margin-top: 15px;">
+                        <button id="confirm-language" style="padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; background-color: #4CAF50; color: white;">${getTranslation(translationsPage.title, 'confirm', currentLanguage) || 'Confirm'}</button>
+                        <button id="cancel-language" style="padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; background-color: #f1f1f1; color: #333;">${getTranslation(translationsPage.title, 'cancel', currentLanguage) || 'Cancel'}</button>
+                    </div>
+                </div>
+            `;
+            
+            // Remove any existing popups
+            const existingPopup = document.querySelector('.language-popup');
+            if (existingPopup) {
+                document.body.removeChild(existingPopup);
+            }
+            
+            // Add the popup to the body
+            document.body.appendChild(popup);
+            console.log("Popup added to body");
+            
+            // Handle popup interactions with separate functions to avoid return issues
+            document.getElementById('confirm-language').addEventListener('click', function() {
+                console.log("Confirm button clicked");
+                const secondLanguage = document.getElementById('second-language-select').value;
+                document.body.removeChild(popup);
+                // Call the generatePDF function with the selected second language
+                window.generatePDF(animalList, animalTranslations, currentLanguage, animalFolder, animalPrefix, secondLanguage);
+            });
+            
+            document.getElementById('cancel-language').addEventListener('click', function() {
+                console.log("Cancel button clicked");
+                document.body.removeChild(popup);
+                // Call the generatePDF function without a second language
+                window.generatePDF(animalList, animalTranslations, currentLanguage, animalFolder, animalPrefix);
+            });
+        } else {
+            console.log("No additional languages available, generating PDF directly");
+            // No additional languages available, proceed with PDF generation
+            window.generatePDF(animalList, animalTranslations, currentLanguage, animalFolder, animalPrefix);
+        }
     });
 </script>
 </body>

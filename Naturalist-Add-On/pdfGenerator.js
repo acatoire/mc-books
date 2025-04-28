@@ -40,11 +40,18 @@ function pdfSectionDescription(animalData, currentLanguage, pdf, pageWidth, marg
         pdf.text(description, margin, currentY);
 
         if (extraLanguage && animalData.description[extraLanguage]) {
+            currentY += description.length * 5 + 5;
             const extraDesc = pdf.splitTextToSize(
                 animalData.description[extraLanguage],
                 pageWidth - 2 * margin
             );
             currentY = checkPageBreak(pdf, currentY, extraDesc, margin);
+
+            // Draw a box around the extra description
+            const textHeight = extraDesc.length * 5;
+            pdf.setDrawColor(0); // Black border
+            pdf.rect(margin - 2, currentY - 5, pageWidth - 2 * margin + 4, textHeight + 2);
+
             pdf.text(extraDesc, margin, currentY);
         }
         currentY += description.length * 5 + 5;
