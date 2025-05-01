@@ -76,20 +76,20 @@
             return null;
         }
     }
-    
+
     // Utility function to safely get translations with English fallback
     function getTranslation(obj, property, language) {
         if (!obj || !obj[property]) return '';
-        
+
         // If translation exists for the requested language, use it
         if (obj[property][language]) {
             return obj[property][language];
         }
-        
+
         // Otherwise fallback to English
         return obj[property]['en'] || '';
     }
-    
+
     // Function to load animal translation
     async function loadAnimalTranslation(animal) {
         try {
@@ -151,6 +151,13 @@
         // Clear existing buttons
         animalButtonsContainer.innerHTML = '';
 
+        // Load translations for all animals first
+        for (const animal of knownAnimals) {
+            if (!animalTranslations.has(animal)) {
+                await loadAnimalTranslation(animal);
+            }
+        }
+
         // Create buttons for each animal
         knownAnimals.forEach((animal, index) => {
             const button = document.createElement('button');
@@ -164,9 +171,17 @@
             // Create name span
             const nameSpan = document.createElement('span');
             nameSpan.className = 'animal-name';
-            nameSpan.textContent = animal.split('_').map(word =>
-                word.charAt(0).toUpperCase() + word.slice(1)
-            ).join(' ');
+
+            // Get animal data from translations if available
+            const animalData = animalTranslations.get(animal);
+            if (animalData && animalData.title) {
+                nameSpan.textContent = getTranslation(animalData, 'title', currentLanguage);
+            } else {
+                // Fallback to formatted animal ID if translation not available
+                nameSpan.textContent = animal.split('_').map(word =>
+                    word.charAt(0).toUpperCase() + word.slice(1)
+                ).join(' ');
+            }
 
             button.appendChild(idSpan);
             button.appendChild(nameSpan);
@@ -185,9 +200,6 @@
                 loadAnimalData(currentAnimal);
             });
             animalButtonsContainer.appendChild(button);
-
-            // Update button text with translation if available
-            updateButtonText(button, animal);
         });
 
         return knownAnimals;
@@ -261,7 +273,7 @@
         if (langFromUrl) {
             const languageSelect = document.getElementById('language-select');
             const availableLanguages = Array.from(languageSelect.options).map(opt => opt.value);
-            
+
             if (availableLanguages.includes(langFromUrl)) {
                 currentLanguage = langFromUrl;
                 languageSelect.value = currentLanguage;
@@ -289,11 +301,11 @@
             const response = await fetch('config.yaml');
             const yamlText = await response.text();
             const config = jsyaml.load(yamlText);
-            
+
             if (config.langues) {
                 const languageSelect = document.getElementById('language-select');
                 languageSelect.innerHTML = ''; // Clear existing options
-                
+
                 // Add options for each language in config
                 Object.entries(config.langues).forEach(([code, name]) => {
                     const option = document.createElement('option');
@@ -301,7 +313,7 @@
                     option.textContent = name;
                     languageSelect.appendChild(option);
                 });
-                
+
                 // Set the current language if it exists in the options
                 if (Object.keys(config.langues).includes(currentLanguage)) {
                     languageSelect.value = currentLanguage;
@@ -315,7 +327,7 @@
             console.error('Error loading languages from config:', error);
         }
     }
-    
+
     // Initialize
     async function initialize() {
         await loadPageTranslation();
@@ -370,7 +382,7 @@
         let html = `
                 <h2>${getTranslation(translationsAnimal, 'title', currentLanguage)}</h2>
                 <p>${getTranslation(translationsAnimal, 'description', currentLanguage)}</p>
-                
+
                 <div class="stats-container">
                     <div class="main-image">
                         <img src="${animalFolder}${animalPrefix}${currentAnimal}/${translationsAnimal.images.main}" alt="${getTranslation(translationsAnimal, 'title', currentLanguage)}">
@@ -396,13 +408,13 @@
                     </div>
                     ` : ''}
                 </div>`;
-    
+
         if (translationsAnimal.spawning) {
             html += `
                 <h3>${getTranslation(translationsPage.title, 'spawning', currentLanguage)}</h3>
                 <p>${getTranslation(translationsAnimal.spawning, 'description', currentLanguage)}</p>`;
         }
-    
+
         if (translationsAnimal.drops) {
             html += `
                 <h3>${getTranslation(translationsPage.title, 'drops', currentLanguage)}</h3>
@@ -416,7 +428,7 @@
                 html += `<p>${getTranslation(translationsAnimal.drops, 'note', currentLanguage)}</p>`;
             }
         }
-    
+
         if (translationsAnimal.behavior) {
             html += `
                 <h3>${getTranslation(translationsPage.title, 'behavior', currentLanguage)}</h3>
@@ -437,7 +449,7 @@
                 html += `<p>${getTranslation(translationsAnimal.taming, 'behavior', currentLanguage)}</p>`;
             }
         }
-    
+
         if (translationsAnimal.breeding) {
             html += `
                 <h3>${getTranslation(translationsPage.title, 'breeding', currentLanguage)}</h3>
@@ -449,7 +461,7 @@
                 html += `<p>${getTranslation(translationsAnimal.breeding, 'behavior', currentLanguage)}</p>`;
             }
         }
-    
+
         if (translationsAnimal.images && translationsAnimal.images.gallery) {
             html += `
                 <h3>${getTranslation(translationsPage.title, 'gallery', currentLanguage)}</h3>
@@ -461,7 +473,7 @@
                     `).join('')}
                 </div>`;
         }
-    
+
         if (translationsAnimal.images && translationsAnimal.images.gifs) {
             html += `
                 <div class="items-section">
@@ -490,7 +502,7 @@
                     <p>${getTranslation(translationsPage.community, 'title', currentLanguage)}</p>
                 </div>`;
         }
-    
+
         if (translationsPage && translationsPage.social_links) {
             html += `
                 <div class="social-links">
@@ -570,34 +582,34 @@
         }
     `;
     document.head.appendChild(popupStyles);
-    
+
     // Add event listener for the PDF button
     document.getElementById('generate-pdf').addEventListener('click', async function() {
         console.log("PDF button clicked");
-        
+
         // Load all animal translations if not already loaded
         for (const animal of animalList) {
             if (!animalTranslations.has(animal)) {
                 await loadAnimalTranslation(animal);
             }
         }
-        
+
         // Get available languages from the language select dropdown
         const languageSelect = document.getElementById('language-select');
         const availableLanguages = Array.from(languageSelect.options).map(opt => ({
             code: opt.value, 
             name: opt.textContent
         })).filter(lang => lang.code !== currentLanguage);
-        
+
         console.log("Available languages:", availableLanguages);
-        
+
         // If there are additional languages available, ask the user if they want to include one
         if (availableLanguages.length > 0) {
             // Create HTML for language options
             const languageOptions = availableLanguages.map(lang => 
                 `<option value="${lang.code}">${lang.name}</option>`
             ).join('');
-            
+
             // Create and show the popup
             const popup = document.createElement('div');
             popup.className = 'language-popup';
@@ -611,7 +623,7 @@
             popup.style.justifyContent = 'center';
             popup.style.alignItems = 'center';
             popup.style.zIndex = '1000';
-            
+
             popup.innerHTML = `
                 <div class="popup-content" style="background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); max-width: 500px; width: 90%;">
                     <h3 style="margin-top: 0; color: #333;">${getTranslation(translationsPage.title, 'extra_language', currentLanguage) || 'Would you like to add a second language?'}</h3>
@@ -626,17 +638,17 @@
                     </div>
                 </div>
             `;
-            
+
             // Remove any existing popups
             const existingPopup = document.querySelector('.language-popup');
             if (existingPopup) {
                 document.body.removeChild(existingPopup);
             }
-            
+
             // Add the popup to the body
             document.body.appendChild(popup);
             console.log("Popup added to body");
-            
+
             // Handle popup interactions with separate functions to avoid return issues
             document.getElementById('confirm-language').addEventListener('click', function() {
                 console.log("Confirm button clicked");
@@ -645,7 +657,7 @@
                 // Call the generatePDF function with the selected second language
                 window.generatePDF(animalList, animalTranslations, currentLanguage, animalFolder, animalPrefix, secondLanguage);
             });
-            
+
             document.getElementById('cancel-language').addEventListener('click', function() {
                 console.log("Cancel button clicked");
                 document.body.removeChild(popup);
