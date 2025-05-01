@@ -1,4 +1,4 @@
-# Jellyfish & Small Jellyfish
+# Jellyfish
 
 Last Updated: April 22, 2025 8:47 PM
 
